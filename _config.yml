@@ -19,7 +19,7 @@ texture:
   tagline: Student
   date_format: "%b %-d, %Y"
   style: [black]
-  showNav: false
+  showNav: true
   showPicker: false
   show_excerpts: true
 
