@@ -15,7 +15,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: 围琐(Weathour)
+  title: 围琐
   tagline: 学生
   date_format: "%b %-d, %Y"
   style: black
