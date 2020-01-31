@@ -18,7 +18,7 @@ texture:
   title: Weathour
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
-  style: [blue]
+  style: [black]
   showNav: false
   showPicker: false
 
