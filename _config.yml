@@ -30,10 +30,7 @@ texture:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-texture:
-
-   header-img: "weathourlogo.png.jpg"
+  header_pages: "weathourlogo.png.jpg"
 # - about.md
 
 # Build settings
