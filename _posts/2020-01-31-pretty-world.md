@@ -2,7 +2,7 @@
 layout: post
 title: 天终究是亮的
 date: 2020-1-31
-categories: blog
+categories: 小短文
 tags: [文章]
 description: 关于之前一次班会的后感
 ---
