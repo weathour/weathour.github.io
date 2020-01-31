@@ -15,8 +15,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Weathour
-  tagline: Student
+  title: 围琐(Weathour)
+  tagline: 学生
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
