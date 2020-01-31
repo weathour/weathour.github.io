@@ -4,7 +4,7 @@ title: 天终究是亮的
 date: 2020-1-31
 categories: 小短文
 tags: [文章]
-description: 关于之前一次班会的后感
+description: 大一的时候随手写的一篇小短文
 ---
 <p>  战士怒不可遏，要杀掉这群无理之徒。<p>
   
