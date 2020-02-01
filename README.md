@@ -8,11 +8,12 @@
 
 
 **_config.yml**
-showPicker：[false|true] #这个是测试界面使用的
-disqus_shortname: games #这个是做评论区的
-analytics_id: '< YOUR ID >'#这个是写google analuticsID的
-show_excerpts: true #展示节选的
-showNav: true #home键
+
+- showPicker：[false|true] #这个是测试界面使用的
+- disqus_shortname: games #这个是做评论区的
+- analytics_id: '< YOUR ID >'#这个是写google analuticsID的
+- show_excerpts: true #展示节选的
+- showNav: true #home键
 
 额外的一些小设置
 **Layouts**
