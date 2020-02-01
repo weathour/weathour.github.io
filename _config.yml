@@ -24,7 +24,7 @@ texture:
   
   # generate social links in footer
   social_links:
-
+    github:  weathour
     rss: rss
  
 
