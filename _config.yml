@@ -21,7 +21,7 @@ texture:
   style: black
   showNav: true
   showPicker: false
-  disqus_shortname: games
+
   
   # generate social links in footer
   social_links:
