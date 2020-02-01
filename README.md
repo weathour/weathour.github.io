@@ -1,69 +1,10 @@
 # texture
 
-A configurable jekyll theme for simply beautiful blogs.
+从thelehhman那里弄来的一个结构非常简单易懂的博客模型，又简洁又好看（最重要的是这个代码也非常简洁啊，看着英语头疼的人看着非常舒服）
 
 **Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
 
-![texture theme preview](/screen1.png)
-
-
-## Installation on Github Pages
-
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/texture
-```
-
-**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "texture"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: texture
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install texture
-
-## Usage
-
-The "texture" key in _config.yml is used to customize the theme data.
-```yaml
-texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Styling**
-
-Multiple header styles are supported using the "style" property under texture in `_config.yml`.
-
-```yaml
-texture:
-  style: [yellow|red|black|blue|green|purple]
-```
-
-For example, the blue style looks like this:
-
-![texture theme blue](/screen2.png)
+这个是他的页面，想要模板的直接在github上查texture就行了。
 
 
 **Texture Picker**
