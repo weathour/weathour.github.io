@@ -2,7 +2,7 @@
 layout: post
 title: 天终究是亮的
 date: 2019-5-11
-categories: 小短文
+categories: 随笔
 tags: [文章]
 description: 大一的时候随手写的一篇小短文
 ---
