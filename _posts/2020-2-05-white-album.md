@@ -17,7 +17,7 @@ description: 从三年前就一直想写的“白学”文章
 <p>玩完之后看了下其他玩家的讨论，才知道有人戏称玩WA2的人为“白学家”，当然因为一些人喜欢瞎说话等各种原因，逐渐“白学家”成为了一个贬义词。而这个词的来源是大家称喜欢研究《红楼梦》的人为红学家，红学家们提到行文的手法和剧情的设计之类事情的时候总是会提及一些红楼，也常常大段引用书中原文来证明自己的观点，而“白学家”们类似。不算因为一些原因导致的贬义的话，就像“红学家”的感觉，我也算半个“白学家”了吧。</p>
 
 
-<img src="https://zh.moegirl.org/%E7%99%BD%E5%AD%A6#/media/File:%E7%99%BD%E5%AD%A6%E7%8E%B0%E5%9C%BA(%E5%8E%9F%E5%9B%BE).jpg" alt="白学家">
+<img src="https://cn.bing.com/images/search?view=detailV2&ccid=Jqgv57fj&id=6655B5F4F497CCC16C651192FAEE2AD0082BBACD&thid=OIP.Jqgv57fjjH0mTIy6vdCrLAHaGK&mediaurl=http%3a%2f%2fp1.ifengimg.com%2fa%2f2016_19%2f7cf2fcaf83d15d3_size237_w587_h489.jpg&exph=489&expw=587&q=%e9%b2%81%e8%bf%85+%e7%99%bd%e5%ad%a6&simid=608049020744172088&selectedIndex=18&ajaxhist=0" alt="白学家">
 
 <p>玩红学的话大家可以看脂批，读各个词曲，对联猜谜和开头的“好了歌”一个都不落下，那么白学呢？白学也有很多正文以外的东西是值得研究的，包括丸户在各周目的内容设计、电子小说、广播剧，还有各结局的歌词。当然，还有我非常喜欢的Mini After Story。 </p>
 <p>这次想写这个文章也不是为了推广白学，所以必然是不会为了没看过或者怕剧透的人而多写或者是少些一些。主要还是自己写来玩玩而已。主要分为三个部分：</p>
