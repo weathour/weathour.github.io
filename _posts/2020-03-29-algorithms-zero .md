@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 学习算法的前提大纲
+title: 学习算法的前提与大纲
 date: 2020-3-29
 categories: 算法
 tags: [笔记]
