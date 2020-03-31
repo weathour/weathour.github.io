@@ -19,6 +19,3 @@ texture:
     github:  weathour
     rss: rss
  
-plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
