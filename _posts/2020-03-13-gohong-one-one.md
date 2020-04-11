@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 牙痛汇编语言（思维篇）（一、起源）
+title: 琐（思维篇）（一、阳）
 date: 2020-03-26
 categories: 小说
 tags: []
