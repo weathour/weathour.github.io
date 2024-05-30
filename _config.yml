@@ -1,7 +1,7 @@
 # Site settings
 title: Weathour Blog
 SEOTitle: 杰哥的博客 | Hux Blog
-header-img: img/bg-name-mrweathour.png.jpg
+header-img: "img/bg-name-mrweathour.png"
 email: mrweathour@gmail.com
 description: "这里是 Weathour 的个人博客，一个轻松写作的地方 | 轻松的聊天扩散到随便的写作中来"
 keyword: "Weathour"
