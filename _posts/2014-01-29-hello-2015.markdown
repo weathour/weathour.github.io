@@ -1,13 +1,12 @@
 ---
 layout:     post
-title:      "Hello 2024"
-subtitle:   " \"Hello World, Hello Blog\""
+title:      "这个网站的起点"
+subtitle:   " \"就在这里！\""
 date:       2024-05-30 12:00:00
 author:     "Weathour"
 header-img: "img/bg-name-mrweathourw.png"
 catalog: true
 tags:
-    - Meta
     - 随笔
 ---
 
