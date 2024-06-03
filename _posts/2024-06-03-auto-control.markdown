@@ -49,7 +49,7 @@ tags:
 - **执行元件**：直接推动被控对象，使其被控量发生变化
 - **矫正元件**：结构或参数便于调整的元部件
 
-![反馈控制系统基本组成](/img/in-post/post-autocontrl/反馈控制系统基本组成.png "反馈控制系统基本组成")
+![反馈控制系统基本组成](/img/in-post/post-autocontrl/basicElement.png )
 
 ## 控制系统的分类
 
