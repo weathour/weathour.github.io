@@ -9,6 +9,7 @@ catalog: true
 tags:
     - 笔记
     - 自动控制原理
+mathjax: true
 ---
 
 之前没学过自动控制原理，补一下课。
