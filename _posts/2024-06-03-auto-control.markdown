@@ -4,7 +4,7 @@ title:      "自动控制原理笔记（1）"
 subtitle:   "一般概念和数学模型"
 date:       2024-06-03 12:00:00
 author:     "Weathour"
-header-img: "img/bg-name-mrweathourw.png"
+header-img: "img/control-engineering.png"
 catalog: true
 tags:
     - 笔记
