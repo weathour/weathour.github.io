@@ -45,6 +45,8 @@ mathjax: true
 
 以一阶微分方程作为运动方程的控制系统，成为一阶系统。
 
+![yjxt](/img/in-post/post-autocontrol/2yijiexitongtu.png)
+
 微分方程为：$T\dot{c}(t)+c(t)=r(t)$
 
 传递函数为：$\Phi(s)=\frac{C(s)}{R(s)}=\frac{1}{Ts+1}$
