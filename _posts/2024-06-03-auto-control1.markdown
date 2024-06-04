@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "自动控制原理笔记（1）"
+title:      "自动控制原理笔记（一）"
 subtitle:   "一般概念和数学模型"
 date:       2024-06-03 12:00:00
 author:     "Weathour"
