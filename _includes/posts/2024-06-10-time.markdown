@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "时间是什么？"
+subtitle:   "我对时间一路以来的认识"
+date:       2024-06-10 12:00:00
+author:     "Weathour"
+header-img: "img/control-engineering.png"
+catalog: true
+tags:
+    - 杂谈
+    - 哲学
+    - 时间
+    - 马克思
+    - 海德格尔
+    - 佛家
+    - 道家
+mathjax: true
+---
+
+想聊一下时间，这个题目有点大，慢慢写慢慢更新。
+
+
+
+<p id = "build"></p>
+
+# 语言学中的时间
+
