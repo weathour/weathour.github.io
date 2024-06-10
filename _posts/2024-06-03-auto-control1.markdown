@@ -14,6 +14,10 @@ mathjax: true
 
 之前没学过自动控制原理，补一下基本的知识点，不是为了考试，相关计算只是大致了解，不会专门去训练。
 
+参考书籍是胡寿松的《自动控制原理》和Katsuhiko Ogata的《Modern Control Engineering》，中间也参考了卢京潮的课。
+
+
+
 
 
 <p id = "build"></p>

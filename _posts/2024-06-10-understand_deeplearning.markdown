@@ -2,7 +2,7 @@
 layout:     post
 title:      "理解深度学习（一）"
 subtitle:   "Introduction"
-date:       2024-06-04 12:00:00
+date:       2024-06-10 12:00:00
 author:     "Weathour"
 header-img: "img/control-engineering.png"
 catalog: true
