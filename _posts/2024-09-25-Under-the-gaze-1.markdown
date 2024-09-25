@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "凝视之下"
-subtitle:   "关于凝视和规训的中篇小说"
+subtitle:   "关于凝视和规训的短篇小说"
 date:       2024-09-25 21:00:00
 author:     "Weathour"
 header-img: "img/foucault.png"
