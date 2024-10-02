@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "中篇小说-任务还没完成"
-subtitle:   "悲怆奏鸣曲"
-date:       2024-10-02 20:00:00
+title:      "中篇小说-实验室悲怆奏鸣曲"
+subtitle:   "本来想写中篇小说，但是水平不够，很多想表现的效果变现不出来，就改成电影剧本吧"
+date:       2024-10-02 21:00:00
 author:     "Weathour"
 header-img: "img/lonely_back.png"
 catalog: true
@@ -10,7 +10,8 @@ tags:
     - 小说
     - 电影设计
     - 大学生活
-    - 阳光开朗型文章
+    - 阳光开朗
+    - 异化
 ---
 
 > 主角的名字来自高中同学，感觉气质挺像的就这么取了。
