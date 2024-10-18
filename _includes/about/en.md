@@ -1,17 +1,8 @@
-# Yang Xingjie
+# Jia Weathour
 
 ## Personal Introduction
-Welcome to my personal homepage! I am Yang Xingjie, currently working in the intelligent transportation industry, focusing on information security, deep reinforcement learning, intelligent transportation systems, and control theory. I also apply Lacanian and Zizekian theories to analyze films, novels, and current social events.
+Welcome to my personal homepage! I am Jia Weathour, currently working in the intelligent transportation industry, focusing on information security, deep reinforcement learning, intelligent transportation systems, and control theory. I also apply Lacanian and Zizekian theories to analyze films, novels, and current social events.
 
-## Educational Background
-- **Ph.D. Candidate**  
-  Traffic Information Engineering and Control, Chang'an University, Xi'an, Shaanxi
-
-- **Master's Degree**  
-  Computer Science and Technology, Chang'an University, Xi'an, Shaanxi
-
-- **Bachelor's Degree**  
-  Information Security (Cryptography), Xi'an University of Posts and Telecommunications, Xi'an, Shaanxi
 
 ## Research Areas
 - **Intelligent Transportation Systems**  
