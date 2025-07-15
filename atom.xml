@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我的个人网站</title>
+  <icon>http://weathour.github.io/icon.png</icon>
+  <subtitle>记录</subtitle>
+  <link href="http://weathour.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://weathour.github.io/"/>
+  <updated>2025-07-15T06:52:24.733Z</updated>
+  <id>http://weathour.github.io/</id>
+  
+  <author>
+    <name>杨兴杰</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://weathour.github.io/2025/07/15/hello-world/"/>
+    <id>http://weathour.github.io/2025/07/15/hello-world/</id>
+    <published>2025-07-15T06:52:24.733Z</published>
+    <updated>2025-07-15T06:52:24.733Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电影《xxx》观后感</title>
+    <link href="http://weathour.github.io/2024/01/01/%E7%82%8E%E6%8B%B3/"/>
+    <id>http://weathour.github.io/2024/01/01/%E7%82%8E%E6%8B%B3/</id>
+    <published>2024-01-01T04:00:00.000Z</published>
+    <updated>2025-07-15T07:07:04.999Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本信息&quot;&gt;&lt;a href=&quot;#基本信息&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="影评" scheme="http://weathour.github.io/categories/%E5%BD%B1%E8%AF%84/"/>
+    
+    
+    <category term="电影" scheme="http://weathour.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+    <category term="评价" scheme="http://weathour.github.io/tags/%E8%AF%84%E4%BB%B7/"/>
+    
+  </entry>
+  
+</feed>
