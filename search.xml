@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ubuntu环境配置心得</title>
-    <url>/2024/01/15/Ubuntu%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="Ubuntu环境配置心得"><a href="#Ubuntu环境配置心得" class="headerlink" title="Ubuntu环境配置心得"></a>Ubuntu环境配置心得</h1><h2 id="系统更新"><a href="#系统更新" class="headerlink" title="系统更新"></a>系统更新</h2><p>首先更新系统包…</p>
-<h2 id="开发环境配置"><a href="#开发环境配置" class="headerlink" title="开发环境配置"></a>开发环境配置</h2><p>安装Node.js和npm…</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过这些配置，可以快速搭建开发环境。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu</tag>
-        <tag>配置</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2025/07/15/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -35,72 +19,69 @@
 ]]></content>
   </entry>
   <entry>
-    <title>春天的思考</title>
-    <url>/2024/03/20/%E6%98%A5%E5%A4%A9%E7%9A%84%E6%80%9D%E8%80%83/</url>
-    <content><![CDATA[<h1 id="春天的思考"><a href="#春天的思考" class="headerlink" title="春天的思考"></a>春天的思考</h1><p>今天走在路上，看到路边的樱花开了，忽然想起了很多事情…</p>
-<h2 id="关于时间"><a href="#关于时间" class="headerlink" title="关于时间"></a>关于时间</h2><p>时间过得真快，仿佛昨天还是冬天…</p>
-<h2 id="关于成长"><a href="#关于成长" class="headerlink" title="关于成长"></a>关于成长</h2><p>每个季节都有不同的感受…</p>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>春天总是给人希望，让人充满力量。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>感悟</tag>
-        <tag>春天</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电影《xxx》观后感</title>
-    <url>/2024/01/01/%E7%82%8E%E6%8B%B3/</url>
-    <content><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><ul>
-<li>电影名称：xxx</li>
-<li>导演：xxx</li>
-<li>主演：xxx</li>
-<li>评分：★★★★☆</li>
+    <title>基于大型语言模型的论文整理与管理系统</title>
+    <url>/2025/07/21/%E5%9F%BA%E4%BA%8E%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86%E4%B8%8E%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="基于大型语言模型的论文整理与管理系统"><a href="#基于大型语言模型的论文整理与管理系统" class="headerlink" title="基于大型语言模型的论文整理与管理系统"></a>基于大型语言模型的论文整理与管理系统</h1><p>在科研工作中，我们常常面对大量杂乱的学术文献：PDF下载、各种笔记、不同来源的文献格式。如何能高效地抓取、筛选、结构化管理这些资料，并最终做到批量查找和自动高亮，是每一位研究者都曾遇到的痛点。基于近年大模型（如DeepSeek）的发展，我尝试打造了这样一套「从LLM原生结构化到网页高效管理」的一体化论文整理系统。</p>
+<hr>
+<h2 id="一、LLM助力结构化：阅读与提取"><a href="#一、LLM助力结构化：阅读与提取" class="headerlink" title="一、LLM助力结构化：阅读与提取"></a>一、LLM助力结构化：阅读与提取</h2><p>本项目首先依赖 DeepSeek 等先进大语言模型对论文进行智能理解和结构化摘要。通过“定制化提示词”，大模型不仅可输出摘要、作者、关键词，还能进一步提取研究方法、贡献、代码位置等，并<strong>直接生成标准化的JSON结构数据</strong>，极大方便后续分析与机器处理。</p>
+<p><em>提示词示例</em>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请以如下标准JSON格式输出论文结构化信息，包括标题、作者、摘要、关键词、DOI、方法、结论等……</span><br></pre></td></tr></table></figure>
+
+<p>使用 DeepSeek 这样的大模型，可以在数秒内完成以往科研助理数小时的结构归纳，且精准度和一致性显著提升。</p>
+<hr>
+<h2 id="二、建立本地论文数据库与管理平台"><a href="#二、建立本地论文数据库与管理平台" class="headerlink" title="二、建立本地论文数据库与管理平台"></a>二、建立本地论文数据库与管理平台</h2><p>有了批量结构化的论文数据，该系统提供二次整理、去重、批量管理乃至全文检索能力：</p>
+<ul>
+<li>基于 SQLite 本地数据库，每篇论文都可标准化入库，自动处理冗余、重复DOI等问题。</li>
+<li>配套 Web 管理后台，支持<strong>批量导入、去重、关键词&#x2F;作者&#x2F;年份等多条件检索</strong>，并可对数据进行增删改查。</li>
+<li>支持文件（PDF&#x2F;JSON）校验、孤立项自动检测，保证数据完整一致。</li>
 </ul>
-<h2 id="剧情简介"><a href="#剧情简介" class="headerlink" title="剧情简介"></a>剧情简介</h2><p>…</p>
-<h2 id="个人评价"><a href="#个人评价" class="headerlink" title="个人评价"></a>个人评价</h2><p>…</p>
-]]></content>
-      <categories>
-        <category>影评</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>评价</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电影《肖申克的救赎》观后感</title>
-    <url>/2024/02/10/%E7%94%B5%E5%BD%B1%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/</url>
-    <content><![CDATA[<h1 id="电影《肖申克的救赎》观后感"><a href="#电影《肖申克的救赎》观后感" class="headerlink" title="电影《肖申克的救赎》观后感"></a>电影《肖申克的救赎》观后感</h1><h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><ul>
-<li><strong>片名</strong>: 肖申克的救赎 (The Shawshank Redemption)</li>
-<li><strong>导演</strong>: 弗兰克·德拉邦特</li>
-<li><strong>主演</strong>: 蒂姆·罗宾斯、摩根·弗里曼</li>
-<li><strong>上映年份</strong>: 1994年</li>
-<li><strong>个人评分</strong>: ★★★★★</li>
+<p>这一流程让文献管理像“知乎收藏夹”一样轻松，支持自主构建属于自己的学术知识库。</p>
+<hr>
+<h2 id="三、网页API与自动标记：让谷歌学术变成“个人知识雷达”"><a href="#三、网页API与自动标记：让谷歌学术变成“个人知识雷达”" class="headerlink" title="三、网页API与自动标记：让谷歌学术变成“个人知识雷达”"></a>三、网页API与自动标记：让谷歌学术变成“个人知识雷达”</h2><p>科研高效的最后一步，是<strong>查重和自动标记</strong>。系统通过开放的本地 API，实现了如下场景：</p>
+<ul>
+<li><strong>浏览器插件</strong>可在谷歌学术（Google Scholar）自动检测页面论文是否已在本地数据库，</li>
+<li>已收入的论文会自动高亮，并显示详细比对分数&#x2F;标记，极大提升搜索、避免重下&#x2F;重读同名论文。</li>
+<li>API 支持外部服务、自动脚本扩展，兼容性高，易于二次开发。</li>
 </ul>
-<h2 id="剧情简介"><a href="#剧情简介" class="headerlink" title="剧情简介"></a>剧情简介</h2><p>银行家安迪因为妻子和她的情人被杀而被判无期徒刑…</p>
-<h2 id="深度分析"><a href="#深度分析" class="headerlink" title="深度分析"></a>深度分析</h2><p>这部电影不仅仅是一部监狱题材的电影…</p>
-<h3 id="主题探讨"><a href="#主题探讨" class="headerlink" title="主题探讨"></a>主题探讨</h3><ul>
-<li><strong>希望与绝望</strong>: 影片的核心主题</li>
-<li><strong>友谊</strong>: 安迪与瑞德的友谊</li>
-<li><strong>自由</strong>: 身体的自由与心灵的自由</li>
+<p>这意味着，每当你在网络上遇到新论文，都能实时知道是否“已看过&#x2F;已入库&#x2F;未覆盖”，大大提升文献筛查效率。</p>
+<hr>
+<h2 id="四、结构化–管理–查重闭环带来的优势"><a href="#四、结构化–管理–查重闭环带来的优势" class="headerlink" title="四、结构化–管理–查重闭环带来的优势"></a>四、结构化–管理–查重闭环带来的优势</h2><ul>
+<li><strong>无缝衔接LLM与个人知识管理</strong>，“原生结构化”后可持久存储、机器友好检索。</li>
+<li><strong>高度自动化</strong>：批量导入-去重-校验-笔记生成一条龙。</li>
+<li><strong>对个人科研环境完全私有、安全</strong>，无需上传任何原文至云端。</li>
+<li><strong>对AI笔记功能开放</strong>：可集成OpenAI、DeepSeek等api自动生成结构化笔记。</li>
 </ul>
-<h2 id="经典台词"><a href="#经典台词" class="headerlink" title="经典台词"></a>经典台词</h2><blockquote>
-<p>“Hope is a good thing, maybe the best of things, and no good thing ever dies.”</p>
+<hr>
+<h2 id="五、部分核心界面与效果速览"><a href="#五、部分核心界面与效果速览" class="headerlink" title="五、部分核心界面与效果速览"></a>五、部分核心界面与效果速览</h2><ul>
+<li>论文web后台管理界面（批量导入、查重、统计）</li>
+<li>PDF与JSON批量校验脚本，自动孤立项提示</li>
+<li>谷歌学术插件页面自动高亮，已入库论文一目了然</li>
+<li>自动化DOI查重、去重及统计</li>
+<li>可选AI笔记、结构化摘要功能</li>
+</ul>
+<hr>
+<h2 id="六、项目地址-开源链接"><a href="#六、项目地址-开源链接" class="headerlink" title="六、项目地址&#x2F;开源链接"></a>六、项目地址&#x2F;开源链接</h2><p>该系统完全开源，你可以自由扩展和本地二次开发：</p>
+<blockquote>
+<p><a href="https://github.com/weathour/read-special-pdf">https://github.com/weathour/read-special-pdf</a></p>
 </blockquote>
-<h2 id="个人感受"><a href="#个人感受" class="headerlink" title="个人感受"></a>个人感受</h2><p>这部电影让我明白了希望的力量…</p>
-<h2 id="推荐指数"><a href="#推荐指数" class="headerlink" title="推荐指数"></a>推荐指数</h2><p>★★★★★ 强烈推荐，值得反复观看</p>
+<p>相关模块包括：</p>
+<ul>
+<li><code>paper-management-system/</code> 本地论文管理与API服务</li>
+<li><code>pdf-json-checker/</code> PDF&#x2F;JSON一致性校验&amp;整理</li>
+<li><code>pdf-note-generator/</code> AI批量笔记与摘要生成</li>
+<li><code>browser_extension/</code> 谷歌学术论文查库插件</li>
+</ul>
+<p>欢迎 Star&#x2F;Issue&#x2F;PR 或共建讨论！</p>
+<hr>
+<h2 id="☁️-写在最后"><a href="#☁️-写在最后" class="headerlink" title="☁️ 写在最后"></a>☁️ 写在最后</h2><p>大型语言模型正把“文献整理”的门槛从纯手工降为“交互+微调提示词”。只要善用结构化与管理接口，哪怕个人科研力量，也能创造属于自己的专属数字知识库。希望这套工具、这条流水线能给大家带来效率和新思路！</p>
 ]]></content>
       <categories>
-        <category>影评</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>电影</tag>
-        <tag>评价</tag>
-        <tag>经典</tag>
+        <tag>论文阅读</tag>
+        <tag>网页</tag>
+        <tag>大型语言模型</tag>
       </tags>
   </entry>
 </search>
