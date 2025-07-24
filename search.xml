@@ -38,7 +38,7 @@
 </ul>
 <h3 id="3-分布式任务执行引擎"><a href="#3-分布式任务执行引擎" class="headerlink" title="3. 分布式任务执行引擎"></a>3. 分布式任务执行引擎</h3><p>采用Python的<code>ProcessPoolExecutor</code>实现进程级并行，结合信号量机制进行资源控制：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">run_batch_with_adaptive_scaling</span>(<span class="params">self, scenarios, base_workers</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    分批次自适应执行策略</span></span><br><span class="line"><span class="string">    基于Little&#x27;s Law优化任务队列长度</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    light, medium, heavy = <span class="variable language_">self</span>.categorize_scenarios_by_complexity(scenarios)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 批次1: 高吞吐量处理轻量级场景</span></span><br><span class="line">    <span class="keyword">if</span> light:</span><br><span class="line">        light_workers = <span class="built_in">min</span>(base_workers * <span class="number">2</span>, <span class="built_in">len</span>(light))</span><br><span class="line">        <span class="variable language_">self</span>._execute_batch_with_monitoring(light, light_workers)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 批次2: 平衡处理中等复杂度场景  </span></span><br><span class="line">    <span class="keyword">if</span> medium:</span><br><span class="line">        <span class="variable language_">self</span>._execute_batch_with_monitoring(medium, base_workers)</span><br><span class="line">        </span><br><span class="line">    <span class="comment"># 批次3: 资源保守处理重量级场景</span></span><br><span class="line">    <span class="keyword">if</span> heavy:</span><br><span class="line">        heavy_workers = <span class="built_in">max</span>(base_workers // <span class="number">2</span>, <span class="number">2</span>)</span><br><span class="line">        <span class="variable language_">self</span>._execute_batch_with_monitoring(heavy, heavy_workers)</span><br></pre></td></tr></table></figure>
-
+<p><img src="/%5Cimage%5Cbatch-veins%5Cbatch-run.png" alt="运行过程"></p>
 <h2 id="性能指标体系与分析方法"><a href="#性能指标体系与分析方法" class="headerlink" title="性能指标体系与分析方法"></a>性能指标体系与分析方法</h2><h3 id="网络性能指标定义"><a href="#网络性能指标定义" class="headerlink" title="网络性能指标定义"></a>网络性能指标定义</h3><p>基于ITU-T和IEEE标准，定义了多层次的性能评估指标：</p>
 <table>
 <thead>
@@ -72,6 +72,18 @@
 <td>端到端延迟</td>
 <td>T_recv - T_send</td>
 <td>实时性指标</td>
+</tr>
+<tr>
+<td><img src="/%5Cimage%5Cbatch-veins%5CreadCSV1.png" alt="运行过程"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="/%5Cimage%5Cbatch-veins%5CreadCSV2.png" alt="运行过程"></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody></table>
 <h3 id="统计分析方法"><a href="#统计分析方法" class="headerlink" title="统计分析方法"></a>统计分析方法</h3><h4 id="1-相关性分析"><a href="#1-相关性分析" class="headerlink" title="1. 相关性分析"></a>1. 相关性分析</h4><p>采用Pearson相关系数和Spearman秩相关分析参数间的线性和非线性关系：</p>
@@ -148,12 +160,10 @@
 <li><strong>标准化</strong>：推动仿真框架标准化，提升研究可重现性  </li>
 <li><strong>跨平台集成</strong>：支持ns-3、OMNET++、SUMO的统一接口</li>
 </ol>
-<h2 id="开源生态与社区建设"><a href="#开源生态与社区建设" class="headerlink" title="开源生态与社区建设"></a>开源生态与社区建设</h2><p>项目已在GitHub开源，采用MIT许可证。设计了模块化的插件架构，便于社区贡献：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">v2x-performance-analysis/</span><br><span class="line">├── core/           # 核心框架</span><br><span class="line">├── plugins/        # 扩展插件</span><br><span class="line">├── examples/       # 使用示例</span><br><span class="line">├── benchmarks/     # 性能基准测试</span><br><span class="line">└── docs/          # 技术文档</span><br></pre></td></tr></table></figure>
 
-<p>目前已有来自清华大学、北京邮电大学等高校的研究者参与贡献。</p>
-<h2 id="总结与思考"><a href="#总结与思考" class="headerlink" title="总结与思考"></a>总结与思考</h2><p>这个框架的开发过程让我深刻认识到，<strong>工程技术的价值不仅在于解决当前问题，更在于提升整个研究领域的效率</strong>。通过自动化工具释放研究者的精力，让他们专注于算法创新和理论突破，这才是技术的真正价值所在。</p>
-<p>在V2X技术向6G演进的关键节点，我们需要更加高效和精准的性能评估工具。希望这个框架能够为车联网研究社区提供有价值的技术支撑，推动相关理论和应用的快速发展。</p>
+
+<hr>
 <p><em>项目地址：<a href="https://github.com/weathour/veins-run-analysis">https://github.com/weathour/veins-run-analysis</a></em></p>
 <hr>
 <p><strong>如果您在相关研究中使用了本框架，欢迎引用和反馈。开源项目的生命力来自于社区的参与和贡献。</strong></p>
@@ -217,15 +227,15 @@
 <p><img src="/image/paper-system/google-match.png" alt="浏览器插件"></p>
 <h2 id="用户体验设计：从研究者视角出发"><a href="#用户体验设计：从研究者视角出发" class="headerlink" title="用户体验设计：从研究者视角出发"></a>用户体验设计：从研究者视角出发</h2><h3 id="Web界面的功能模块"><a href="#Web界面的功能模块" class="headerlink" title="Web界面的功能模块"></a>Web界面的功能模块</h3><p><img src="/image/paper-system/index.png" alt="管理界面"><br>系统提供了完整的Web管理界面，主要包含：</p>
 <ol>
-<li><p><strong>搜索与浏览</strong>：多维度检索，支持按作者、期刊、年份筛选<br><img src="/../images/paper-system/search.png" alt="搜索界面"></p>
+<li><p><strong>搜索与浏览</strong>：多维度检索，支持按作者、期刊、年份筛选<br><img src="/image/paper-system/search.png" alt="搜索界面"></p>
 </li>
-<li><p><strong>论文详情</strong>：结构化展示解析结果，支持PDF在线预览<br><img src="/../images/paper-system/paper-read.png" alt="论文界面"></p>
+<li><p><strong>论文详情</strong>：结构化展示解析结果，支持PDF在线预览<br><img src="/image/paper-system/paper-read.png" alt="论文界面"></p>
 </li>
-<li><p><strong>数据管理</strong>：批量导入、去重处理、统计分析<br><img src="/../images/paper-system/statistics.png" alt="统计界面"></p>
+<li><p><strong>数据管理</strong>：批量导入、去重处理、统计分析<br><img src="/image/paper-system/statistics.png" alt="统计界面"></p>
 </li>
 <li><p><strong>系统监控</strong>：导入状态、数据质量报告</p>
 </li>
-<li><p><strong>pdf分析</strong>：批量的pdf转json模块<br><img src="/../images/paper-system/web-pdf.png" alt="pdf处理"></p>
+<li><p><strong>pdf分析</strong>：批量的pdf转json模块<br><img src="/image/paper-system/web-pdf.png" alt="pdf处理"></p>
 </li>
 </ol>
 <h3 id="浏览器扩展的便捷性"><a href="#浏览器扩展的便捷性" class="headerlink" title="浏览器扩展的便捷性"></a>浏览器扩展的便捷性</h3><p>开发的Chrome扩展实现了：</p>
@@ -238,7 +248,7 @@
 <ol>
 <li><strong>快速理解核心观点</strong>：通过结构化摘要直接把握论文要点</li>
 <li><strong>识别研究空白</strong>：通过批量分析发现研究趋势和空白领域</li>
-<li><strong>构建知识网络</strong>：通过概念框架分析建立领域知识图谱<br><img src="/../images/paper-system/terminal-pdf.png" alt="批量转换"></li>
+<li><strong>构建知识网络</strong>：通过概念框架分析建立领域知识图谱<br><img src="/image/paper-system/terminal-pdf.png" alt="批量转换"></li>
 </ol>
 <h3 id="促进创新性思维"><a href="#促进创新性思维" class="headerlink" title="促进创新性思维"></a>促进创新性思维</h3><p>系统的深度分析功能特别有助于：</p>
 <ul>
