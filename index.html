@@ -217,7 +217,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2025-07-24 17:49:08 / 修改时间：19:18:24" itemprop="dateCreated datePublished" datetime="2025-07-24T17:49:08+08:00">2025-07-24</time>
+              <time title="创建时间：2025-07-24 17:49:08 / 修改时间：19:27:54" itemprop="dateCreated datePublished" datetime="2025-07-24T17:49:08+08:00">2025-07-24</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -310,19 +310,9 @@
 <td>T_recv - T_send</td>
 <td>实时性指标</td>
 </tr>
-<tr>
-<td><img src="/%5Cimage%5Cbatch-veins%5CreadCSV1.png" alt="运行过程"></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><img src="/%5Cimage%5Cbatch-veins%5CreadCSV2.png" alt="运行过程"></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 </tbody></table>
+<hr>
+<p><img src="/%5Cimage%5Cbatch-veins%5CreadCSV1.png" alt="运行过程"><br><img src="/%5Cimage%5Cbatch-veins%5CreadCSV2.png" alt="运行过程"></p>
 <h3 id="统计分析方法"><a href="#统计分析方法" class="headerlink" title="统计分析方法"></a>统计分析方法</h3><h4 id="1-相关性分析"><a href="#1-相关性分析" class="headerlink" title="1. 相关性分析"></a>1. 相关性分析</h4><p>采用Pearson相关系数和Spearman秩相关分析参数间的线性和非线性关系：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">correlation_analysis</span>(<span class="params">self</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    多维相关性分析</span></span><br><span class="line"><span class="string">    结合参数显著性检验</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    correlation_matrix = <span class="variable language_">self</span>.df[numeric_cols].corr(method=<span class="string">&#x27;pearson&#x27;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 计算p值矩阵进行显著性检验</span></span><br><span class="line">    p_values = <span class="variable language_">self</span>._calculate_correlation_pvalues(<span class="variable language_">self</span>.df[numeric_cols])</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> correlation_matrix, p_values</span><br></pre></td></tr></table></figure>
 
@@ -333,68 +323,25 @@
 <h4 id="1-吞吐量性能"><a href="#1-吞吐量性能" class="headerlink" title="1. 吞吐量性能"></a>1. 吞吐量性能</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">场景规模     传统方法      自动化框架     性能提升</span><br><span class="line">100场景      ~8小时        1.2小时        6.7×</span><br><span class="line">500场景      ~2.5天        4.8小时        12.5×</span><br><span class="line">1000场景     ~5天          8.7小时        13.8×</span><br><span class="line">2000场景     ~10天         18.2小时       13.2×</span><br></pre></td></tr></table></figure>
 
 <h4 id="2-资源利用率分析"><a href="#2-资源利用率分析" class="headerlink" title="2. 资源利用率分析"></a>2. 资源利用率分析</h4><ul>
-<li><strong>CPU利用率</strong>：平均维持在78-85%，峰值不超过95%</li>
+<li><strong>CPU利用率</strong>：平均维持在78-85%，峰值不超过95%,当然如果希望更高效率，也可以占满</li>
 <li><strong>内存利用率</strong>：平均45-60%，有效避免了内存溢出</li>
-<li><strong>I&#x2F;O吞吐量</strong>：磁盘写入速度提升3.2倍（批量写入优化）</li>
 </ul>
 <h4 id="3-错误率和稳定性"><a href="#3-错误率和稳定性" class="headerlink" title="3. 错误率和稳定性"></a>3. 错误率和稳定性</h4><ul>
-<li><strong>仿真成功率</strong>：99.3% (2000场景测试)</li>
+<li><strong>仿真成功率</strong>：100% (2000个场景测试)</li>
 <li><strong>数据完整性</strong>：100% (checksums验证)</li>
 <li><strong>系统稳定性</strong>：连续72小时无中断运行</li>
 </ul>
-<h3 id="V2X网络性能洞察"><a href="#V2X网络性能洞察" class="headerlink" title="V2X网络性能洞察"></a>V2X网络性能洞察</h3><p>通过2000+场景的大规模仿真，获得了以下技术洞察：</p>
-<h4 id="1-车辆密度临界效应"><a href="#1-车辆密度临界效应" class="headerlink" title="1. 车辆密度临界效应"></a>1. 车辆密度临界效应</h4><p>发现了车辆密度的临界阈值现象：</p>
-<ul>
-<li><strong>线性区域</strong>：密度 &lt; 120 vehicles&#x2F;km，PDR与密度正相关</li>
-<li><strong>临界点</strong>：密度 ≈ 150 vehicles&#x2F;km，PDR开始急剧下降</li>
-<li><strong>饱和区域</strong>：密度 &gt; 200 vehicles&#x2F;km，PDR趋于稳定低值</li>
-</ul>
-<h4 id="2-功率-干扰权衡分析"><a href="#2-功率-干扰权衡分析" class="headerlink" title="2. 功率-干扰权衡分析"></a>2. 功率-干扰权衡分析</h4><p>量化了发射功率的边际效应：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">发射功率(mW)    通信范围(m)    邻居数量    信道拥塞度    最优PDR</span><br><span class="line">5              800           12.3        0.23         0.847</span><br><span class="line">10             1200          18.7        0.41         0.923</span><br><span class="line">15             1600          24.1        0.58         0.948</span><br><span class="line">20             2000          29.8        0.74         0.945</span><br><span class="line">25             2400          35.2        0.89         0.921</span><br></pre></td></tr></table></figure>
-
-<p>最优工作点：15-20mW区间，平衡了通信距离和干扰水平。</p>
-<h4 id="3-信标间隔优化窗口"><a href="#3-信标间隔优化窗口" class="headerlink" title="3. 信标间隔优化窗口"></a>3. 信标间隔优化窗口</h4><p>基于排队论分析得出最优信标间隔：</p>
-<ul>
-<li><strong>高密度场景</strong>：0.5-1.0s（避免信道拥塞）</li>
-<li><strong>中密度场景</strong>：0.2-0.5s（平衡实时性和可靠性）</li>
-<li><strong>低密度场景</strong>：0.1-0.2s（最大化信息交换频率）</li>
-</ul>
-<h2 id="技术创新点"><a href="#技术创新点" class="headerlink" title="技术创新点"></a>技术创新点</h2><h3 id="1-场景复杂度量化模型"><a href="#1-场景复杂度量化模型" class="headerlink" title="1. 场景复杂度量化模型"></a>1. 场景复杂度量化模型</h3><p>首次提出基于网络拓扑和通信负载的复杂度量化模型，相比传统的经验性分配方法，资源利用率提升了23%。</p>
-<h3 id="2-自适应并发调度算法"><a href="#2-自适应并发调度算法" class="headerlink" title="2. 自适应并发调度算法"></a>2. 自适应并发调度算法</h3><p>设计了考虑系统资源约束和任务异构性的动态调度算法，在保证系统稳定性的前提下最大化并发度。</p>
-<h3 id="3-端到端自动化pipeline"><a href="#3-端到端自动化pipeline" class="headerlink" title="3. 端到端自动化pipeline"></a>3. 端到端自动化pipeline</h3><p>实现了从参数配置到结果可视化的全流程自动化，将研究效率提升了一个数量级。</p>
-<h3 id="4-容错与恢复机制"><a href="#4-容错与恢复机制" class="headerlink" title="4. 容错与恢复机制"></a>4. 容错与恢复机制</h3><p>引入了checkpoint机制和任务状态追踪，支持长时间仿真任务的中断恢复。</p>
 <h2 id="工程实践经验"><a href="#工程实践经验" class="headerlink" title="工程实践经验"></a>工程实践经验</h2><h3 id="内存管理优化"><a href="#内存管理优化" class="headerlink" title="内存管理优化"></a>内存管理优化</h3><p>在大规模仿真中，内存管理是关键瓶颈：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">run_simulation_only</span>(<span class="params">self, scenario</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    优化内存使用的仿真执行</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 环境变量优化</span></span><br><span class="line">    env = os.environ.copy()</span><br><span class="line">    env[<span class="string">&#x27;OMP_NUM_THREADS&#x27;</span>] = <span class="string">&#x27;1&#x27;</span>  <span class="comment"># 限制OpenMP线程避免过度调度</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 禁用不必要的记录减少I/O开销</span></span><br><span class="line">    cmd.extend([</span><br><span class="line">        <span class="string">&quot;--vector-recording=false&quot;</span>,     <span class="comment"># 禁用vector记录</span></span><br><span class="line">        <span class="string">&quot;--scalar-recording=true&quot;</span>,      <span class="comment"># 只保留scalar记录</span></span><br><span class="line">        <span class="string">&quot;--cmdenv-status-frequency=10s&quot;</span> <span class="comment"># 减少状态输出频率</span></span><br><span class="line">    ])</span><br></pre></td></tr></table></figure>
 
 <h3 id="错误处理与监控"><a href="#错误处理与监控" class="headerlink" title="错误处理与监控"></a>错误处理与监控</h3><p>实现了多层次的错误处理机制：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ResourceMonitor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    系统资源实时监控</span></span><br><span class="line"><span class="string">    基于控制论的反馈调节机制</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">monitor_resources</span>(<span class="params">self, stop_event</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="keyword">not</span> stop_event.is_set():</span><br><span class="line">            cpu_percent = psutil.cpu_percent(interval=<span class="number">1</span>)</span><br><span class="line">            memory_percent = psutil.virtual_memory().percent</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 动态阈值调整</span></span><br><span class="line">            <span class="keyword">if</span> memory_percent &gt; <span class="number">85</span>:</span><br><span class="line">                <span class="variable language_">self</span>._trigger_memory_cleanup()</span><br><span class="line">            <span class="keyword">if</span> cpu_percent &gt; <span class="number">95</span>:</span><br><span class="line">                <span class="variable language_">self</span>._reduce_concurrent_workers()</span><br></pre></td></tr></table></figure>
 
-<h2 id="技术发展展望"><a href="#技术发展展望" class="headerlink" title="技术发展展望"></a>技术发展展望</h2><h3 id="近期技术路线图"><a href="#近期技术路线图" class="headerlink" title="近期技术路线图"></a>近期技术路线图</h3><ol>
-<li><p><strong>分布式集群支持</strong></p>
-<ul>
-<li>基于Celery的分布式任务队列</li>
-<li>Docker容器化部署</li>
-<li>Kubernetes集群管理</li>
-</ul>
-</li>
-<li><p><strong>AI驱动的参数优化</strong></p>
-<ul>
-<li>基于贝叶斯优化的智能参数搜索</li>
-<li>强化学习的自适应调度策略</li>
-<li>神经网络性能预测模型</li>
-</ul>
-</li>
-<li><p><strong>实时仿真支持</strong></p>
-<ul>
-<li>流式数据处理pipeline</li>
-<li>在线参数调优</li>
-<li>实时性能监控dashboard</li>
-</ul>
-</li>
-</ol>
+
+
 <h3 id="学术研究方向"><a href="#学术研究方向" class="headerlink" title="学术研究方向"></a>学术研究方向</h3><ol>
 <li><strong>理论建模</strong>：建立V2X网络性能的解析模型，减少仿真依赖</li>
-<li><strong>标准化</strong>：推动仿真框架标准化，提升研究可重现性  </li>
+<li><strong>标准化</strong>：推动仿真框架标准化，提升研究可重现性</li>
 <li><strong>跨平台集成</strong>：支持ns-3、OMNET++、SUMO的统一接口</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">v2x-performance-analysis/</span><br><span class="line">├── core/           # 核心框架</span><br><span class="line">├── plugins/        # 扩展插件</span><br><span class="line">├── examples/       # 使用示例</span><br><span class="line">├── benchmarks/     # 性能基准测试</span><br><span class="line">└── docs/          # 技术文档</span><br></pre></td></tr></table></figure>
@@ -454,7 +401,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-07-24 19:07:57" itemprop="dateModified" datetime="2025-07-24T19:07:57+08:00">2025-07-24</time>
+                <time title="修改时间：2025-07-24 19:24:25" itemprop="dateModified" datetime="2025-07-24T19:24:25+08:00">2025-07-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -521,16 +468,11 @@
 <p><img src="/image/paper-system/google-match.png" alt="浏览器插件"></p>
 <h2 id="用户体验设计：从研究者视角出发"><a href="#用户体验设计：从研究者视角出发" class="headerlink" title="用户体验设计：从研究者视角出发"></a>用户体验设计：从研究者视角出发</h2><h3 id="Web界面的功能模块"><a href="#Web界面的功能模块" class="headerlink" title="Web界面的功能模块"></a>Web界面的功能模块</h3><p><img src="/image/paper-system/index.png" alt="管理界面"><br>系统提供了完整的Web管理界面，主要包含：</p>
 <ol>
-<li><p><strong>搜索与浏览</strong>：多维度检索，支持按作者、期刊、年份筛选<br><img src="/image/paper-system/search.png" alt="搜索界面"></p>
-</li>
-<li><p><strong>论文详情</strong>：结构化展示解析结果，支持PDF在线预览<br><img src="/image/paper-system/paper-read.png" alt="论文界面"></p>
-</li>
-<li><p><strong>数据管理</strong>：批量导入、去重处理、统计分析<br><img src="/image/paper-system/statistics.png" alt="统计界面"></p>
-</li>
-<li><p><strong>系统监控</strong>：导入状态、数据质量报告</p>
-</li>
-<li><p><strong>pdf分析</strong>：批量的pdf转json模块<br><img src="/image/paper-system/web-pdf.png" alt="pdf处理"></p>
-</li>
+<li><strong>搜索与浏览</strong>：多维度检索，支持按作者、期刊、年份筛选<br><img src="/image/paper-system/search.png" alt="搜索界面"></li>
+<li><strong>论文详情</strong>：结构化展示解析结果，支持PDF在线预览<br><img src="/image/paper-system/paper-read.png" alt="论文界面"></li>
+<li><strong>数据管理</strong>：批量导入、去重处理、统计分析<br><img src="/image/paper-system/statistics.png" alt="统计界面"></li>
+<li><strong>系统监控</strong>：导入状态、数据质量报告</li>
+<li><strong>pdf分析</strong>：批量的pdf转json模块<br><img src="/image/paper-system/web-pdf.png" alt="pdf处理"></li>
 </ol>
 <h3 id="浏览器扩展的便捷性"><a href="#浏览器扩展的便捷性" class="headerlink" title="浏览器扩展的便捷性"></a>浏览器扩展的便捷性</h3><p>开发的Chrome扩展实现了：</p>
 <ul>
@@ -567,11 +509,6 @@
 <li><strong>知识图谱构建</strong>：基于论文内容自动构建领域知识图谱</li>
 <li><strong>个性化推荐</strong>：基于阅读历史的智能推荐系统</li>
 <li><strong>协作功能</strong>：支持团队共享和协作批注</li>
-</ol>
-<h3 id="学术价值拓展"><a href="#学术价值拓展" class="headerlink" title="学术价值拓展"></a>学术价值拓展</h3><ol>
-<li><strong>元研究支持</strong>：为文献计量学和科学学研究提供数据支持</li>
-<li><strong>教学辅助</strong>：为研究生论文写作提供范例分析</li>
-<li><strong>政策制定</strong>：为科研管理部门提供决策数据支持</li>
 </ol>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>PaperReader的开发实践表明，<strong>在后语言模型时代，学术工具的价值不再仅仅是信息的存储和检索，而是知识的理解、转化和创新</strong>。通过将大型语言模型的认知能力与传统的信息管理技术相结合，我们可以构建出真正促进学术创作的智能化工具。</p>
 <p>这个系统的意义不仅在于提高了论文管理的效率，更在于它为研究者提供了一种全新的知识获取和创作模式。在信息爆炸的学术环境中，如何快速而深入地理解前沿研究，如何从海量文献中发现创新机会，将成为决定研究者学术生涯成功的关键因素。</p>
