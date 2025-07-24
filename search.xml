@@ -214,7 +214,7 @@
 <li><strong>作者相似度权重</strong>：30%</li>
 </ul>
 <p>这种加权方式平衡了论文识别的准确性和召回率。</p>
-<p><img src="/images/paper-system/google-match.png" alt="浏览器插件"></p>
+<p><img src="/weathour.github.io/images/paper-system/google-match.png" alt="浏览器插件"></p>
 <h2 id="用户体验设计：从研究者视角出发"><a href="#用户体验设计：从研究者视角出发" class="headerlink" title="用户体验设计：从研究者视角出发"></a>用户体验设计：从研究者视角出发</h2><h3 id="Web界面的功能模块"><a href="#Web界面的功能模块" class="headerlink" title="Web界面的功能模块"></a>Web界面的功能模块</h3><p><img src="/../images/paper-system/index.png" alt="管理界面"><br>系统提供了完整的Web管理界面，主要包含：</p>
 <ol>
 <li><p><strong>搜索与浏览</strong>：多维度检索，支持按作者、期刊、年份筛选<br><img src="/../images/paper-system/search.png" alt="搜索界面"></p>
