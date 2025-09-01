@@ -75,7 +75,7 @@
 </tr>
 </tbody></table>
 <hr>
-<p><img src="/%5Cimage%5Cbatch-veins%5CreadCSV1.png" alt="运行过程"><br><img src="/%5Cimage%5Cbatch-veins%5CreadCSV2.png" alt="运行过程"></p>
+<p><img src="/image/batch-veins/readCSV1.png" alt="运行过程"><br><img src="/image/batch-veins/readCSV2.png" alt="运行过程"></p>
 <h3 id="统计分析方法"><a href="#统计分析方法" class="headerlink" title="统计分析方法"></a>统计分析方法</h3><h4 id="1-相关性分析"><a href="#1-相关性分析" class="headerlink" title="1. 相关性分析"></a>1. 相关性分析</h4><p>采用Pearson相关系数和Spearman秩相关分析参数间的线性和非线性关系：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">correlation_analysis</span>(<span class="params">self</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    多维相关性分析</span></span><br><span class="line"><span class="string">    结合参数显著性检验</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    correlation_matrix = <span class="variable language_">self</span>.df[numeric_cols].corr(method=<span class="string">&#x27;pearson&#x27;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 计算p值矩阵进行显著性检验</span></span><br><span class="line">    p_values = <span class="variable language_">self</span>._calculate_correlation_pvalues(<span class="variable language_">self</span>.df[numeric_cols])</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> correlation_matrix, p_values</span><br></pre></td></tr></table></figure>
 
@@ -125,6 +125,102 @@
         <tag>sumo</tag>
         <tag>V2X</tag>
         <tag>仿真</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个学习进度管理系统</title>
+    <url>/2025/09/01/%E4%B8%80%E4%B8%AA%E5%AD%A6%E4%B9%A0%E8%BF%9B%E5%BA%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="一款轻量却专业的学习进度管理系统"><a href="#一款轻量却专业的学习进度管理系统" class="headerlink" title="一款轻量却专业的学习进度管理系统"></a>一款轻量却专业的学习进度管理系统</h1><p>在复杂的教辅工具之外，我们打造了一款轻量、可扩展的学习进度管理系统。它既能帮助家长与老师精细化管理学生学习任务，也让学生以更直观的方式感知学习路径与成果。系统聚焦“学生 → 科目 → 章节 → 任务 → 步骤”的层级化设计，强调可视化、可配置和可追踪，适合家庭教育与小型教学场景快速落地。</p>
+<p>GitHub 仓库与完整文档，请前往：</p>
+<ul>
+<li>GitHub: <a href="https://github.com/weathour/education-manner">https://github.com/weathour/education-manner</a></li>
+</ul>
+<hr>
+<h2 id="为什么需要这套系统"><a href="#为什么需要这套系统" class="headerlink" title="为什么需要这套系统"></a>为什么需要这套系统</h2><ul>
+<li>传统签到式“完成与否”的记录，难以反映“学习过程”的细粒度状态。</li>
+<li>多人、多科目的任务管理容易割裂，不利于关联与阶段评估。</li>
+<li>家庭教育与小型教研需要轻量、可私有的工具，避免大系统的学习成本与复杂配置。</li>
+</ul>
+<p>本系统以“任务分解 + 步骤追踪”为核心思想，将学习拆解为一系列可执行、可回溯的小节点，并用数据结构清晰地表达依赖、时长与完成度。</p>
+<hr>
+<h2 id="核心功能概览"><a href="#核心功能概览" class="headerlink" title="核心功能概览"></a>核心功能概览</h2><ul>
+<li>学生管理<ul>
+<li>添加、编辑、删除学生</li>
+<li>为学生配置参与的科目</li>
+<li>总体进度与最近学习活动可视化</li>
+</ul>
+</li>
+<li>科目与章节<ul>
+<li>按级别（如年级）组织章节</li>
+<li>章节增删改与跨级移动</li>
+<li>支持结构自定义与快速创建默认模板</li>
+</ul>
+</li>
+<li>任务系统（专业度的核心）<ul>
+<li>任务包含：名称、类型、难度、预计用时、步骤、前置任务</li>
+<li>支持添加、编辑、删除、复制任务</li>
+<li>步骤完全自定义：不再强制“固定四步”，灵活适配不同学科</li>
+<li>步骤级别的进度操作：完成、跳过、取消完成</li>
+</ul>
+</li>
+<li>进度与统计<ul>
+<li>学生总体进度与科目进度可视化</li>
+<li>章节和任务粒度的进展跟踪</li>
+<li>管理面板统计（学生数、科目数、任务数、平均进度）</li>
+</ul>
+</li>
+<li>交互体验<ul>
+<li>清晰的导航与操作区</li>
+<li>模态表单、即时提示、异常兜底</li>
+<li>适配桌面与移动端的响应式布局</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="面向的使用场景"><a href="#面向的使用场景" class="headerlink" title="面向的使用场景"></a>面向的使用场景</h2><ul>
+<li>家庭作业计划：将周&#x2F;日学习目标拆解为任务与步骤，直观跟进进度。</li>
+<li>小组教研或家教：为不同学生配置差异化科目与章节，保留过程数据。</li>
+<li>科目知识图谱化：结合“前置任务”，形成面向能力递进的学习路径。</li>
+<li>阶段评估与复盘：通过任务的完成记录与时间估算，反向分析学习投入与产出。</li>
+</ul>
+<hr>
+<h2 id="设计亮点与实践价值"><a href="#设计亮点与实践价值" class="headerlink" title="设计亮点与实践价值"></a>设计亮点与实践价值</h2><ul>
+<li>面向结构化管理：统一的数据模型支撑“学生—科目—章节—任务—步骤”全链路管理。</li>
+<li>粒度自适应：从“一个小练习”到“一个主题单元”，粒度由你决定。</li>
+<li>数据可迁移：JSON 结构清晰，便于与现有系统对接或二次开发。</li>
+<li>上手低门槛：前端纯静态、后端 REST 接口清晰，便于快速集成到现有项目。</li>
+<li>实用为先：常用功能（复制任务、移动章节、快速创建默认结构）满足日常高频动作。</li>
+</ul>
+<hr>
+<h2 id="与同类工具的差异"><a href="#与同类工具的差异" class="headerlink" title="与同类工具的差异"></a>与同类工具的差异</h2><ul>
+<li>相比通用待办工具：它理解“学习”的语义和结构（前置关系、步骤进度、章节分组）。</li>
+<li>相比重型 LMS：它更轻、更私有、更易定制，适合家庭和小型场景，避免过度工程化。</li>
+<li>相比表格类工具：它提供前后端约定与 UI 操作，避免重复“造界面”的工作量。</li>
+</ul>
+<hr>
+<h2 id="快速上手与文档"><a href="#快速上手与文档" class="headerlink" title="快速上手与文档"></a>快速上手与文档</h2><p>部署与使用说明、数据结构定义、API 约定、常见问题等，均已在 README 中提供详尽说明。你可以直接前往 GitHub 获取完整内容，并根据需要扩展或私有化部署：</p>
+<ul>
+<li>GitHub: <a href="https://github.com/weathour/education-manner">https://github.com/weathour/education-manner</a></li>
+</ul>
+<hr>
+<h2 id="适合谁来使用或二次开发"><a href="#适合谁来使用或二次开发" class="headerlink" title="适合谁来使用或二次开发"></a>适合谁来使用或二次开发</h2><ul>
+<li>教师&#x2F;家长：作为学习计划和进度追踪工具</li>
+<li>教研团队&#x2F;机构：快速搭建私有化的轻量教学管理</li>
+<li>开发者：将“任务与步骤”模型嫁接到现有教育产品中</li>
+</ul>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>学习不是一次性的“完成”，而是由一个个可衡量的步骤累积而成。我们希望这套系统能帮助你把学习过程变得更可见、更可控、更有成就感。<br> 更多细节与源码，请访问 GitHub 仓库。</p>
+<ul>
+<li>GitHub: <a href="https://github.com/weathour/education-manner">https://github.com/weathour/education-manner</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>flask</tag>
+        <tag>管理系统</tag>
       </tags>
   </entry>
   <entry>
