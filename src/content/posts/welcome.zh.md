@@ -1,6 +1,6 @@
 ---
 title: 欢迎来到我的博客
-slug: welcome
+postSlug: welcome
 published: 2026-04-03
 description: 这是博客迁移到 Fuwari 后的中文欢迎页。
 tags: [博客, Astro, Fuwari, GitHub Pages, 双语]

@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Blog
-slug: welcome
+postSlug: welcome
 published: 2026-04-03
 description: This is the English welcome post after migrating the blog to Fuwari.
 tags: [blog, Astro, Fuwari, GitHub Pages, bilingual]

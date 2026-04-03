@@ -1,6 +1,6 @@
-﻿---
+---
 title: 'SafeRL-YK: From Offline Safe Anchors to Online Gamma Scheduling'
-slug: saferl-yk-progress
+postSlug: saferl-yk-progress
 published: 2026-04-03
 description: A progress note on the core idea, research goals, current implementation, and early results of the SafeRL-YK project.
 tags: [autonomous driving, reinforcement learning, safe control, Youla-Kucera, SAC]
@@ -108,4 +108,3 @@ If I had to summarize the current state of `SafeRL-YK` in one sentence, it would
 > The project has moved past the “idea-only” stage and entered the stage where the offline safety backbone is mostly in place and the online scheduler is being tested against strict baselines.
 
 The next step is to keep pushing both sides at once: make the offline anchors more reliable, and make RL learn a genuinely useful scheduling behavior instead of merely reproducing a strong static default.
-

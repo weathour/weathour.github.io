@@ -1,6 +1,6 @@
-﻿---
+---
 title: 'SafeRL-YK：从离线安全锚点到在线 γ 调度'
-slug: saferl-yk-progress
+postSlug: saferl-yk-progress
 published: 2026-04-03
 description: 记录 SafeRL-YK 项目的核心思路、阶段目标、当前主线实现，以及截至 2026 年 4 月初的阶段性效果。
 tags: [自动驾驶, 强化学习, 安全控制, Youla-Kucera, SAC]
@@ -108,4 +108,3 @@ lang: zh_CN
 > 它已经走过了“只讲思路”的阶段，进入了“离线安全底座基本成型，在线调度策略开始接受严格基线检验”的阶段。
 
 我接下来会继续把这条线往前推：一边让离线锚点更可靠，一边让 RL 真正学会在真实交通模态之间做有意义的调度，而不是仅仅复现一个静态好用的默认解。
-

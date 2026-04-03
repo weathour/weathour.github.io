@@ -23,11 +23,11 @@ export async function getSortedPosts(locale?: SiteLocale) {
 	const sorted = await getRawSortedPosts(locale);
 
 	for (let i = 1; i < sorted.length; i++) {
-		sorted[i].data.nextSlug = sorted[i - 1].slug;
+		sorted[i].data.nextSlug = sorted[i - 1].data.postSlug;
 		sorted[i].data.nextTitle = sorted[i - 1].data.title;
 	}
 	for (let i = 0; i < sorted.length - 1; i++) {
-		sorted[i].data.prevSlug = sorted[i + 1].slug;
+		sorted[i].data.prevSlug = sorted[i + 1].data.postSlug;
 		sorted[i].data.prevTitle = sorted[i + 1].data.title;
 	}
 
@@ -42,7 +42,7 @@ export async function getSortedPostsList(locale?: SiteLocale): Promise<PostForLi
 
 	// delete post.body
 	const sortedPostsList = sortedFullPosts.map((post) => ({
-		slug: post.slug,
+		slug: post.data.postSlug,
 		data: post.data,
 	}));
 
