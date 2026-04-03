@@ -8,15 +8,33 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <p class="site-description">{{ site.description }}</p>
-      </div>
-    </header>
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <div>
+            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          <nav class="site-nav">
+            {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </nav>
+        </div>
+      </header>
 
-    <main class="container content">
-      {{ content }}
-    </main>
+      <main class="container content">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© {{ "now" | date: "%Y" }} {{ site.author.name }}</p>
+          <p>{{ site.description }}</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   </body>
 </html>

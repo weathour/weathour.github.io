@@ -1,6 +1,21 @@
-title: 我的 GitHub 博客
-description: 一个部署在 GitHub Pages 上的 Jekyll 博客
+title: Weathour
+description: 记录技术、研究、工具与日常思考
 theme: null
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 timezone: Asia/Shanghai
+
+author:
+  name: Weathour
+  title: Researcher · Builder · Writer
+  bio: 喜欢把研究、写作和工具链整理成清晰可复用的经验。
+  email: hello@weathour.com
+  location: Shanghai, China
+
+nav:
+  - title: 首页
+    url: /
+  - title: 文章
+    url: /posts/
+  - title: 关于
+    url: /about/
