@@ -1,7 +1,7 @@
 # About Me
 
-Hi, I’m **Weathour**, a PhD student based in **Xi’an, Shaanxi, China**.  
-I am simultaneously a **student, researcher, and developer**.
+Hi, I'm **Weathour**, a PhD student based in **Xi'an, Shaanxi, China**.  
+I am a **student, researcher, and developer**.
 
 My current work is mainly related to **autonomous driving**, while my broader interests include:
 
@@ -10,8 +10,8 @@ My current work is mainly related to **autonomous driving**, while my broader in
 - tool building and automation
 - films, notebooks, and reflections
 
-Intellectually, I am influenced by **Lacanian psychoanalysis, Slavoj Žižek, and Marx**.  
-These influences shape not only my reading, but also how I think about technology, society, subjectivity, and everyday life.
+I also enjoy doing **ideological analysis of films and social phenomena**,  
+and I am trying to build **communities around new modes of distribution and collaboration**.
 
 ## What I write here
 
@@ -20,7 +20,7 @@ This blog may include:
 - autonomous driving and research-related posts
 - development tools and workflows
 - study notes and methodological reflections
-- films, texts, and personal insights
+- films, social observations, and personal insights
 
 ## Contact
 

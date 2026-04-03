@@ -36,3 +36,9 @@ export function switchLocalePath(
 		? `${getLocalePrefix(targetLocale)}${normalized}`.replace(/\/+/g, "/")
 		: normalized;
 }
+
+export function getLocaleSubtitle(locale: SiteLocale): string {
+	return locale === EN_LOCALE
+		? "PhD Student / Researcher / Developer"
+		: "博士生 · 研究者 · 开发者";
+}
