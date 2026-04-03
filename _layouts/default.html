@@ -15,11 +15,14 @@
             <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
             <p class="site-description">{{ site.description }}</p>
           </div>
-          <nav class="site-nav">
-            {% for item in site.nav %}
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endfor %}
-          </nav>
+          <div class="header-actions">
+            <nav class="site-nav">
+              {% for item in site.nav %}
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endfor %}
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换主题">🌙</button>
+          </div>
         </div>
       </header>
 
@@ -35,6 +38,7 @@
       </footer>
     </div>
 
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   </body>
 </html>

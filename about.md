@@ -6,6 +6,7 @@ title: 关于
 <section class="about-page">
   <p class="eyebrow">ABOUT</p>
   <h1>{{ site.author.name }}</h1>
+  <img class="avatar avatar-large" src="{{ site.author.avatar }}" alt="{{ site.author.name }} avatar" />
   <p>{{ site.author.title }}</p>
 
   <p>
@@ -22,4 +23,5 @@ title: 关于
   <h2>联系我</h2>
   <p>邮箱：{{ site.author.email }}</p>
   <p>位置：{{ site.author.location }}</p>
+  <p>GitHub：<a href="{{ site.author.github }}">{{ site.author.github }}</a></p>
 </section>

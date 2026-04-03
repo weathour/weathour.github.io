@@ -16,9 +16,11 @@ title: 首页
   </div>
   <div class="hero-panel">
     <div class="profile-card">
+      <img class="avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }} avatar" />
       <h2>个人主页</h2>
       <p><strong>地点：</strong>{{ site.author.location }}</p>
       <p><strong>邮箱：</strong>{{ site.author.email }}</p>
+      <p><strong>GitHub：</strong><a href="{{ site.author.github }}">@weathour</a></p>
       <p>这里适合放个人介绍、项目方向、研究兴趣和近期计划。</p>
     </div>
   </div>
