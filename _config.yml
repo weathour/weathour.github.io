@@ -1,0 +1,6 @@
+title: 我的 GitHub 博客
+description: 一个部署在 GitHub Pages 上的 Jekyll 博客
+theme: null
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Shanghai
