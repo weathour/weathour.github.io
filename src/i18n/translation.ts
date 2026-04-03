@@ -1,4 +1,5 @@
 import { siteConfig } from "../config";
+import { getLocaleFromPath, normalizeLocale } from "./locale";
 import type I18nKey from "./i18nKey";
 import { en } from "./languages/en";
 import { es } from "./languages/es";
@@ -42,7 +43,14 @@ export function getTranslation(lang: string): Translation {
 	return map[lang.toLowerCase()] || defaultTranslation;
 }
 
-export function i18n(key: I18nKey): string {
-	const lang = siteConfig.lang || "en";
-	return getTranslation(lang)[key];
+function getCurrentLang() {
+	if (typeof window !== "undefined") {
+		return getLocaleFromPath(window.location.pathname);
+	}
+	return normalizeLocale(siteConfig.lang || "en");
+}
+
+export function i18n(key: I18nKey, lang?: string): string {
+	const currentLang = lang || getCurrentLang();
+	return getTranslation(currentLang)[key];
 }
