@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "Weathour",
-	subtitle: "研究、写作与工具工作流",
+	subtitle: "博士生 · 研究者 · 开发者 | PhD Student · Researcher · Developer",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 220, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -59,7 +59,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/48754808?v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Weathour",
-	bio: "记录科研、写作、知识管理和自动化工作流。",
+	bio: "西安在读博士，关注无人驾驶、研究写作、工具开发，也写电影、笔记与思考。",
 	links: [
 		{
 			name: "GitHub",
@@ -69,7 +69,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa6-regular:envelope",
-			url: "mailto:hello@weathour.com",
+			url: "mailto:mr.weathour@gmail.com",
 		},
 	],
 };
