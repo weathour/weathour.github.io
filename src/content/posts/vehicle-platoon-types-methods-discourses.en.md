@@ -1,8 +1,8 @@
 ---
-title: 'From Longitudinal Control to Networked CPS: Research Types, Methods, and Discourses in Vehicle Platooning'
+title: 'From Longitudinal Control to Networked CPS: Types, Methods, Field Layers, and Discourse Rotation in Vehicle Platooning'
 postSlug: vehicle-platoon-types-methods-discourses
 published: 2026-04-09
-description: 'A refined analysis of 2025–2026 vehicle platooning literature, extending the article with the dynamic rotation of Lacan’s four discourses and arguing that the field is expanding from a longitudinal control problem into a networked CPS problem organized by communication, computation, control, and deployment constraints.'
+description: 'A layered reading of 2025–2026 vehicle platooning literature through research types, method families, field/ontology/epistemology/teleology, and the dynamic rotation of Lacan’s four discourses, arguing that the field is expanding from a longitudinal control problem into a networked CPS problem.'
 tags: [vehicle platooning, literature review, control theory, V2X, CPS]
 category: Research
 draft: false
@@ -86,6 +86,31 @@ This point matters. The more valuable learning papers are not those that merely 
 ### Validation has become a method problem
 
 Validation used to look like an auxiliary stage. Newer papers show that it is now part of the method itself. Bench tests, scaled experiments, real-world datasets, human-in-the-loop settings, and mixed digital twin platforms are no longer just “more evidence.” They are redefining what counts as adequate evidence for deployment claims [12](#ref-12)[13](#ref-13)[15](#ref-15)[16](#ref-16).
+
+## Field, ontology, epistemology, and teleology: how the field is rewriting itself
+
+If research types and method families answer “what is being done” and “how it is being done,” this four-layer stack answers a different question: **what world the field believes it inhabits, what it takes to be its real object, how that object can be known, and what ends organize the whole enterprise.** At that level, vehicle platooning can no longer be treated as a narrow subtopic internal to control theory. It increasingly appears as a composite field at the intersection of control, traffic engineering, vehicular networking, V2X, cloud coordination, digital-twin experimentation, and CPS language [1](#ref-1)[2](#ref-2)[12](#ref-12)[13](#ref-13)[14](#ref-14).
+
+| Layer | Current shift | Typical manifestation |
+| --- | --- | --- |
+| Field | From a control-only subfield toward a cross-domain space linking control, traffic, communication, computation, and infrastructure | Surveys now place modeling, communication, control, and system prospects in one frame; V2X and cloud-control work enters the core agenda [1](#ref-1)[2](#ref-2) |
+| Ontology | From a linear vehicle string toward a heterogeneous vehicle-road-cloud-human coordination system | Mixed platoons, heterogeneous vehicle groups, human-in-the-loop digital twins, and coupled risk objects [12](#ref-12)[13](#ref-13)[14](#ref-14) |
+| Epistemology | From “model + stability proof” toward a hybrid evidence structure of proof, prediction, data, distillation, and platform validation | Lyapunov/MPC, Koopman-based predictive control, knowledge-guided learning, and digital-twin validation [3](#ref-3)[6](#ref-6)[8](#ref-8)[9](#ref-9)[13](#ref-13) |
+| Teleology | From maintaining spacing and string stability toward deployable safety, cooperative intelligence, eco-efficiency, and system-level risk governance | Eco-safe control, cooperative safety intelligence, risk entropy, and deployment-oriented validation [2](#ref-2)[7](#ref-7)[14](#ref-14) |
+
+Start with the field layer. Vehicle platooning no longer circulates only inside control theory. It is being renamed inside a shared vocabulary of intelligent transportation, V2X, cloud coordination, cooperative perception, and CPS. In other words, the field’s location is shifting: researchers increasingly have to speak control, communication, sensing, computation, and deployment together rather than controller design alone.
+
+Then consider ontology. The classical object was a line of vehicles and their longitudinal spacing. The newer object is much broader: heterogeneous vehicle groups, vehicle-road cooperative systems, cloud-coordinated group trajectories, and even human-vehicle-road risk couplings [12](#ref-12)[13](#ref-13)[14](#ref-14). The object is no longer simply “how a few vehicles follow each other,” but “how multiple actors coordinate under informational, control, and infrastructure constraints.”
+
+The epistemic layer is shifting as well. Provability still matters, but analytical stability proof no longer monopolizes the truth position. What we now see is a hybrid evidence structure: control theory provides a normative center; data-driven prediction and knowledge distillation compensate for the limits of idealized models; and testbeds plus experimental platforms redefine what counts as credible evidence for deployment claims [6](#ref-6)[8](#ref-8)[9](#ref-9)[13](#ref-13).
+
+Teleology perhaps makes the expansion most visible. If the goal were only gap keeping and string stability, many peripheral materials could remain peripheral. But once the goal becomes deployable safety, cooperative intelligence, eco-efficiency, and system-level risk governance, then V2X, cloud control, risk entropy, human-in-the-loop settings, and digital twins stop looking supplementary and become part of the main line [2](#ref-2)[7](#ref-7)[14](#ref-14).
+
+### Why this layered reading is already a “University-style” frontier interpretation
+
+One thing should be made explicit: this field/ontology/epistemology/teleology map is itself already a surface scientific reading. Its strength is that it turns a complicated field into a map that experts can recognize, compare, and extend. Its risk is that it can temporarily freeze living contradictions and symptoms into neat classificatory boxes.
+
+That is why I describe this step as a **University-style frontier interpretation**. It first organizes object, method, evidence, and goal into a teachable knowledge plane, allowing us to see how the field presents itself on the surface. But if we stop there, we still miss who sets the agenda, what cracks keep returning, and why new anchors repeatedly emerge. That is precisely why the next step has to move into a deeper four-discourse diagnosis.
 
 ## Reading the field through Lacan’s four discourses
 
