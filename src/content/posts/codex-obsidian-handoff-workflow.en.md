@@ -1,246 +1,141 @@
 ---
-title: 'My Long-Horizon Codex × Obsidian Handoff Workflow'
+title: 'Long-Horizon AI Handoff Workflow: Migrated from Obsidian to Hermes/Codex/OMX'
 postSlug: codex-obsidian-handoff-workflow
 published: 2026-04-08
-description: A long-horizon workflow built on project hub notes, four project handoff files, daily logs, and session archives maintained with Codex.
-tags: [Codex, Obsidian, workflow, project management, AI collaboration]
+description: An updated workflow using personal-llm-wiki project cards, repository status artifacts, and OMX session handoff for reliable long-horizon context recovery.
+tags: [Hermes, Codex, OMX, workflow, project management, AI collaboration]
 category: Workflow
 draft: false
 lang: en
 ---
 
-I now keep my long-horizon workflow in a very simple structure: **a project hub note + four project handoff files + a daily log + a session archive**.
+Short version first: this article was originally written around Obsidian handoff folders, but the current default stack is different.
 
-The goal is not to make project management more sophisticated. It is to make one thing reliably true:
+The goal is still the same:
 
-> when I start the next work session, I should only need to give Codex one short instruction, and Codex should be able to reconnect the context by itself.
+> with one short command, continue exactly where the previous session left off.
 
-This works especially well for long-running work such as papers, reviews, research direction exploration, engineering projects, and experiment retrospectives.
+What changed is **where truth is stored** and **who is responsible for which layer**.
 
-## The core idea
+Current division of labor:
 
-The workflow is built on three principles.
+- **Hermes**: orchestrates tasks, boundaries, and cross-session memory organization.
+- **Codex**: local implementation, build, and verification.
+- **OMX**: execution management (persistence, workers, Ralph/planning flow).
+- **personal-llm-wiki**: long-cycle project management source of truth.
+- **Project repos**: source-of-truth for execution state (`PROJECT_STATUS.md`, `HANDOFF.md`, etc.).
 
-### 1. Long-lived memory, daily execution, and cross-session handoff must be separated
+This update is about replacing the handoff model, not discarding previous learnings.
 
-The real problem in many systems is not a lack of documentation. It is that different layers of information get mixed together.
+## Core principles (updated)
 
-- long-lived information belongs in project memory
-- execution that only matters today belongs in the daily log
-- continuation hints for the next conversation belong in the session archive
+### 1. Separate management, execution, and handoff layers
 
-If these layers are not separated, the workflow becomes heavier over time and less effective at restoring context.
+Past failures usually came from mixing different time scales.
 
-### 2. Every project needs one real linkable anchor
+- **Management layer (long-cycle)** lives at `personal-llm-wiki/wiki/projects/<project>.md`.
+  - current stage, risks, and next moves
+  - it is a stable anchor, not the full execution transcript
+- **Execution layer (short-cycle truth)** lives in the project repository.
+  - `PROJECT_STATUS.md`, `HANDOFF.md`, `NEXT-SESSION-START.md`
+  - plus factual notes under `analysis/`, `docs/`, plans, and outputs
+- **Handoff layer** records transition points.
+  - repo handoff docs + OMX session logs
 
-In Obsidian, the real backlink object is a **note file**, not a folder.
+### 2. Keep one canonical project entry, now in personal wiki
 
-So every project needs one canonical entry point:
+Each project still has one stable entry:
 
-- `project-name.md`
+- `personal-llm-wiki/wiki/projects/<slug>.md`
 
-That is the object I actually link to:
+This entry contains:
 
-- `[[project-name]]`
+- canonical repo path (for example `/home/weathour/文档/CPS-Papers/papers/vehicle-platoon-review`)
+- stage, constraints, and next-step definition
+- risk summary and status checkpoints
 
-For example:
+If a project already has a strong repo status system, we do not force the old `Prompt/Plan/Implement/Documentation` file set.
 
-- `[[YK-RL]]`
-- `[[车辆队列中文综述]]`
-- `[[重庆重点研发]]`
+### 3. “Daily log” becomes “executable snapshot” for today’s todo
 
-The folder is only a container. It is not the backlink target. Once that rule is fixed, links between daily logs, session notes, and related project notes become much more stable.
+Long-running handoff now relies on:
 
-### 3. Codex should reconstruct context instead of making me repeat it
+- `personal-llm-wiki/wiki/_meta/maintenance/daily-todo-registry.md`
+- periodic `personal-daily-todo` cron push
 
-I do not want to manually rewrite project background every time I start a new conversation.
+Its role is to decide today’s priorities, not to host authoritative execution truth.
 
-The better model is:
+## New operating structure
 
-- I give a short instruction
-- Codex reads the project's long-lived memory
-- Codex reads the latest relevant session archive
-- Codex reads today's daily log
-- Codex starts executing
+### 1) Management page (personal wiki)
 
-That is the user experience this workflow is designed for.
+- Location: `personal-llm-wiki/wiki/projects/<slug>.md`
+- Why it exists:
+  - quickly recover scope for Hermes and humans
+  - drive daily todo generation
+  - prevent cross-session path confusion
 
-## The structure
+### 2) Execution truth layer (repo)
 
-### 1. The project hub note
+Inside the project repo, read in this order:
 
-Each project has one canonical entry note:
+1. `PROJECT_STATUS.md`
+2. `HANDOFF.md`
+3. `NEXT-SESSION-START.md` (if present)
+4. `docs/CURRENT_PLAN.md` (if present)
 
-- `project-name.md`
+### 3) Session handoff layer (traceable)
 
-It serves four purposes:
+When ending a session, keep entries minimal and precise:
 
-- it is the single backlink anchor for the project
-- it links to the four handoff files
-- it exposes one-line status
-- it shows recent daily logs and recent sessions
+- what was decided and changed
+- changed files / validation results
+- 1–3 highest-priority next steps
+- unresolved risks and verification assumptions
 
-I treat the hub note as a real navigation layer, not as a giant archive page.
+Also keep OMX session records (for example `.omx/wiki/session-log-*.md`) for global traceability.
 
-### 2. The four project handoff files
+## Start / stop protocol
 
-Each project keeps four long-lived files:
+### Start (context recovery)
 
-- `project-name - Prompt.md`
-- `project-name - Plan.md`
-- `project-name - Implement.md`
-- `project-name - Documentation.md`
+You can now say:
 
-Each one has a clear role.
+- `Continue vehicle-platoon-review`
+- `Continue security-state-aware-mixed-platoon`
+- `Handle yxj-wiki maintenance`
 
-#### `Prompt.md`
+Then follow:
 
-This stores stable information:
+1. read `personal-llm-wiki/wiki/projects/<slug>.md`
+2. read repo `PROJECT_STATUS.md` and `HANDOFF.md`
+3. read `NEXT-SESSION-START.md` when available
+4. check recent related `.omx/wiki/session-log-*.md`
 
-- project goal
-- key constraints
-- non-goals
-- done definition
+### End (handoff)
 
-#### `Plan.md`
+You can now say:
 
-This stores stage-level execution structure:
+- `Let’s stop here and add handoff`
+- `Record the state and risks before you stop`
 
-- current phase
-- milestones
-- current 1–3 next actions
-- validation rules
-- stop rules
+Then update:
 
-#### `Implement.md`
+1. `HANDOFF.md` (done items + next actions)
+2. `PROJECT_STATUS.md` (status evolution)
+3. project page in `personal-llm-wiki` (key direction/risk update)
+4. local session log for cross-session retrieval
 
-This stores the operating contract for Codex:
+## Why this update
 
-- what to read first
-- what to update at the end
-- what kind of information belongs in which file
-- what should not be mixed together
+This change is mainly for stability:
 
-#### `Documentation.md`
+- less confusion between planning records and execution facts
+- fewer stale notes treated as current state
+- fewer handoff mismatches between layers
 
-This is the main working-memory page for the project.
+In short, the new flow is now:
 
-It keeps:
+**(wiki entry) -> (repo truth) -> (handoff log)**
 
-- current status
-- known facts
-- key judgments
-- current risks
-- recent progress
-- the exact next step
-
-If I want Codex to recover a project quickly, this is the file I want it to read first.
-
-### 3. The daily log
-
-The daily log only tracks today's execution. It is no longer the place for long-term project definition.
-
-It usually contains:
-
-- my top three priorities today
-- which projects I pushed today
-- what I actually did today
-- key judgments, blockers, and reflections from today
-- what I should do tomorrow
-- what Codex should continue next time
-
-In other words, it is the execution view for today, not the long-term memory layer.
-
-### 4. The session archive
-
-I also keep a lightweight cross-session handoff layer:
-
-- `YYYY-MM-DD-会话NN.md`
-
-Its only job is to help the next conversation continue smoothly.
-
-Each session note records:
-
-- what this conversation completed
-- which files were modified
-- what key judgments were made
-- what remains unresolved
-- where the next session should resume
-
-It is not the main project notebook. It is the bridge to the next conversation.
-
-## Naming and linking rules
-
-To keep the whole system stable, I fixed the rules like this:
-
-- the project entry is always `project-name.md`
-- project links are always written as `[[project-name]]`
-- the four handoff files are always `project-name - Prompt/Plan/Implement/Documentation.md`
-- project folders are containers only, not backlink targets
-- project hub notes should directly expose recent logs and sessions through Dataview whenever practical
-
-These rules look simple, but they determine whether the Obsidian graph, backlinks, and Codex handoff behavior remain stable over time.
-
-## How I actually use it
-
-### When starting work
-
-I only need to say something like:
-
-- `Continue YK-RL`
-- `Switch to the Chinese platoon review`
-- `Continue yesterday's direction exploration`
-
-Then Codex reads, in order:
-
-1. the project's `Documentation.md`
-2. the project's `Plan.md`
-3. the latest relevant session archive
-4. today's daily log
-5. `Prompt.md` if needed
-
-That means I do not have to manually reconstruct project background every time.
-
-### When ending work
-
-I only need to say something like:
-
-- `Let's stop here, leave a handoff`
-- `Write a session summary`
-- `Record today's state`
-
-Then Codex handles the rest:
-
-1. update the project's `Documentation.md`
-2. update `Plan.md` if needed
-3. update today's daily log
-4. write a new session archive
-
-If I only want a lightweight handoff, I can say:
-
-- `$agent-session-archiver`
-
-If I want Codex to finish the whole closing routine — project docs, daily log, and session archive together — I say:
-
-- `$project-log-manager`
-
-## Why this works well for long-horizon work
-
-Most of my work is not a short isolated task. It spans many days and many conversations.
-
-This workflow fits that reality because:
-
-- every project now has a stable backlink anchor
-- long-lived memory is separated from daily execution
-- cross-session continuation has its own dedicated layer
-- Codex can actively reconstruct context instead of waiting for me to explain it again
-
-At its core, this is not about documenting more. It is about improving the **speed and reliability of context recovery**.
-
-## Closing
-
-If I had to summarize the workflow in one sentence, it would be this:
-
-> I turned project management into a project-memory structure that Codex can actively read, link, and continue.
-
-For me, the real value is not that the system looks cleaner. The real value is that the next time I start work, I can say one short sentence and the project can pick up from there.
+If needed, I can provide a compact set of copy-paste templates for `PROJECT_STATUS.md`, `NEXT-SESSION-START.md`, and `HANDOFF.md` for your active projects.
