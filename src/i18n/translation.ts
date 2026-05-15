@@ -1,5 +1,4 @@
 import { siteConfig } from "../config";
-import { getLocaleFromPath, normalizeLocale } from "./locale";
 import type I18nKey from "./i18nKey";
 import { en } from "./languages/en";
 import { es } from "./languages/es";
@@ -11,6 +10,7 @@ import { tr } from "./languages/tr";
 import { vi } from "./languages/vi";
 import { zh_CN } from "./languages/zh_CN";
 import { zh_TW } from "./languages/zh_TW";
+import { getLocaleFromPath, normalizeLocale } from "./locale";
 
 export type Translation = {
 	[K in I18nKey]: string;

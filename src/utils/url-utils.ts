@@ -14,23 +14,36 @@ function joinUrl(...parts: string[]): string {
 	return joined.replace(/\/+/g, "/");
 }
 
-export function getPostUrlBySlug(slug: string, locale: SiteLocale = DEFAULT_LOCALE): string {
+export function getPostUrlBySlug(
+	slug: string,
+	locale: SiteLocale = DEFAULT_LOCALE,
+): string {
 	return url(`/posts/${slug}/`, locale);
 }
 
-export function getTagUrl(tag: string, locale: SiteLocale = DEFAULT_LOCALE): string {
+export function getTagUrl(
+	tag: string,
+	locale: SiteLocale = DEFAULT_LOCALE,
+): string {
 	if (!tag) return url("/archive/", locale);
 	return url(`/archive/?tag=${encodeURIComponent(tag.trim())}`, locale);
 }
 
-export function getCategoryUrl(category: string | null, locale: SiteLocale = DEFAULT_LOCALE): string {
+export function getCategoryUrl(
+	category: string | null,
+	locale: SiteLocale = DEFAULT_LOCALE,
+): string {
 	if (
 		!category ||
 		category.trim() === "" ||
-		category.trim().toLowerCase() === i18n(I18nKey.uncategorized, locale).toLowerCase()
+		category.trim().toLowerCase() ===
+			i18n(I18nKey.uncategorized, locale).toLowerCase()
 	)
 		return url("/archive/?uncategorized=true", locale);
-	return url(`/archive/?category=${encodeURIComponent(category.trim())}`, locale);
+	return url(
+		`/archive/?category=${encodeURIComponent(category.trim())}`,
+		locale,
+	);
 }
 
 export function getDir(path: string): string {

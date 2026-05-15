@@ -1,8 +1,8 @@
 import I18nKey from "@i18n/i18nKey";
-import { i18n } from "@i18n/translation";
 import type { SiteLocale } from "@i18n/locale";
-import { LinkPreset, type NavBarLink } from "@/types/config";
+import { i18n } from "@i18n/translation";
 import { url } from "@utils/url-utils";
+import { LinkPreset, type NavBarLink } from "@/types/config";
 
 export function getLinkPresets(locale: SiteLocale): {
 	[key in LinkPreset]: NavBarLink;

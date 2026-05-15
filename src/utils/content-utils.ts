@@ -1,6 +1,6 @@
 import { type CollectionEntry, getCollection } from "astro:content";
-import type { SiteLocale } from "@i18n/locale";
 import I18nKey from "@i18n/i18nKey";
+import type { SiteLocale } from "@i18n/locale";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
 
@@ -37,7 +37,9 @@ export type PostForList = {
 	slug: string;
 	data: CollectionEntry<"posts">["data"];
 };
-export async function getSortedPostsList(locale?: SiteLocale): Promise<PostForList[]> {
+export async function getSortedPostsList(
+	locale?: SiteLocale,
+): Promise<PostForList[]> {
 	const sortedFullPosts = await getRawSortedPosts(locale);
 
 	// delete post.body
@@ -81,7 +83,9 @@ export type Category = {
 	url: string;
 };
 
-export async function getCategoryList(locale?: SiteLocale): Promise<Category[]> {
+export async function getCategoryList(
+	locale?: SiteLocale,
+): Promise<Category[]> {
 	const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
 		const matchedLocale = locale ? data.lang === locale : true;
 		return (import.meta.env.PROD ? data.draft !== true : true) && matchedLocale;

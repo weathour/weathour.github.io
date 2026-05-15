@@ -1,13 +1,12 @@
 <script lang="ts">
 import { onMount } from "svelte";
-
-import { getLocaleFromPath } from "../i18n/locale";
 import I18nKey from "../i18n/i18nKey";
+import { getLocaleFromPath } from "../i18n/locale";
 import { i18n } from "../i18n/translation";
 import { getPostUrlBySlug } from "../utils/url-utils";
 
-export let tags: string[];
-export let categories: string[];
+export let tags: string[] = [];
+export let categories: string[] = [];
 export let sortedPosts: Post[] = [];
 export let locale = getLocaleFromPath(window.location.pathname);
 
@@ -21,7 +20,7 @@ interface Post {
 	data: {
 		title: string;
 		tags: string[];
-		category?: string;
+		category?: string | null;
 		published: Date;
 	};
 }

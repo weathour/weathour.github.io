@@ -1,6 +1,6 @@
 <script lang="ts">
-import { getLocaleFromPath } from "@i18n/locale";
 import I18nKey from "@i18n/i18nKey";
+import { getLocaleFromPath } from "@i18n/locale";
 import { i18n } from "@i18n/translation";
 import Icon from "@iconify/svelte";
 import { url } from "@utils/url-utils.ts";
