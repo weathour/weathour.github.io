@@ -1,0 +1,994 @@
+import { ArticleShell } from "@/components/site/article-shell";
+
+<ArticleShell
+  locale="zh"
+  eyebrow="Writing / 理论长文"
+  title="五维和基元：我理解交通过程计算化的一套坐标系"
+  description="这是一套认识论工具。它帮助我在面对交通问题时，先判断问题属于对象、动力学、目标、架构、算法，还是中尺度抽象。"
+  date="2026-06-15"
+  tags={["交通过程", "CPS", "数学建模", "计算建模", "基元化", "认识论"]}
+>
+
+我写这篇不是为了提出一个新模型。交通领域已经有足够多模型名：IDM、OVM、MPC、CACC、HMM、GNN、Transformer、Diffusion、World Model。每个名字都能打开一条技术路线，但它们也会制造一种错觉，好像研究问题只是在这些工具之间做选择。
+
+我真正想解决的是更前面的事情。面对一个交通过程，我希望先知道自己究竟在看什么。是车辆？是车与车之间的跟驰边？是路网中的密度场？是通信时延影响下的闭环控制系统？是自然驾驶数据中的长尾场景？还是一段可以被抽象出来、复用和验证的中尺度交互片段？
+
+如果这些问题没有说清楚，直接问“用什么模型”通常会把问题带偏。一个车辆队列纵向跟驰问题，可以被写成控制系统，也可以被写成图上传播的扰动，也可以被写成通信退化下的安全关键 CPS，还可以被切成一组局部基元来诊断哪一段放大了扰动。这些表述都不是同义词。它们改变对象，也改变目标。
+
+所以我需要一套坐标系。它不是模型库，也不是算法清单。它更像一张研究地图，用来在方法之前定位问题。
+
+我暂时把它写成：
+
+$$
+\mathfrak T_\Pi=
+\big((\mathcal X,\mathcal G,\mu),\mathcal D,\mathcal F,\mathcal A,\mathcal I;\Pi\big)
+$$
+
+其中 $(\mathcal X,\mathcal G,\mu)$ 是对象维，$\mathcal D$ 是动力学维，$\mathcal F$ 是目标或泛函维，$\mathcal A$ 是架构维，$\mathcal I$ 是算法和计算维。$\Pi$ 是可选的基元化算子，它把长时序的交通过程切成中尺度片段。
+
+这套记法背后的判断是：交通过程是道路、车辆、驾驶人、通信、控制、环境和数据分布共同构成的 CPS 过程。它可以被投影成轨迹，也可以被投影成图、场、隐状态、控制闭环、基元链或基元场。不同投影给出不同问题。
+
+## 一、为什么不能直接从模型开始
+
+我以前也会从模型名开始想问题。比如看到交通预测，就想时序模型和图神经网络。看到车队控制，就想 CACC、MPC 和串稳定性。看到自动驾驶测试，就想场景生成和复杂度评分。这些联想并没有错，但它们过早。
+
+模型名把几个本来不同的问题压到一起。以 HMM 为例，它首先是一种状态空间架构：存在观测序列和隐状态序列，隐状态按照 Markov 转移。Viterbi 是推断算法，不是 HMM 本身。HDP-HMM 又把隐状态数量交给贝叶斯非参数机制。它们都可以用于交通基元抽取，但“抽取基元”不是 HMM 的全部意义。
+
+MPC 也是类似。它是一种滚动优化控制架构，但具体对象可以是单车，也可以是车队；目标可以是跟踪误差，也可以加入安全距离、舒适性、能耗和通信成本；约束可以是车辆动力学，也可以是控制输入、碰撞约束、通信延迟、fallback 模式。仅说“我用 MPC”，并没有说清楚交通过程被怎样理解。
+
+Transformer 更容易造成这种混淆。它是一种架构参数化方式，擅长处理序列和关系，但它不会自动知道道路几何、通信因果、安全约束和车辆动力学。如果把交通过程直接展平成 token 序列，它也能训练；问题是这种训练出来的关系是否符合交通过程的物理合法性。
+
+所以我需要把“模型”拆开。一个模型至少要回答五类问题：对象活在哪里，对象如何演化，什么演化被认为是好的，用什么结构表达，实际如何计算。
+
+写成符号就是：
+
+$$
+\mathfrak M=
+\big((\mathcal X,\mathcal G,\mu),\mathcal D,\mathcal F,\mathcal A,\mathcal I\big)
+$$
+
+这不是为了显得形式化，而是为了防止我把算法当模型，把架构当目标，把数据分布当真理。
+
+## 二、对象维：交通过程到底由什么组成
+
+对象维回答最基本的问题：我把什么当作交通过程中的对象？
+
+我把对象维写成：
+
+$$
+\mathcal O=(\mathcal X,\mathcal G,\mu)
+$$
+
+$\mathcal X$ 是状态空间，$\mathcal G$ 是几何、拓扑和关系结构，$\mu$ 是数据分布、场景分布或任务分布。这三个东西要放在一起看。只有状态空间，没有几何结构，模型不知道变量之间怎样连接；只有几何结构，没有测度，模型不知道自己面对的是哪一类世界。
+
+### 1. 单车状态不是唯一对象
+
+最常见的交通对象是车辆状态。对第 $i$ 辆车，可以写：
+
+$$
+x_i(t)=
+[p_i(t),v_i(t),a_i(t),\psi_i(t),u_i(t),m_i(t)]^\top
+$$
+
+这里 $p_i$ 是位置，$v_i$ 是速度，$a_i$ 是加速度，$\psi_i$ 是航向角，$u_i$ 是控制输入，$m_i$ 是控制模式。控制模式可以是 manual、ACC、CACC、fallback、emergency。
+
+在纵向跟驰里，我们常把它简化为：
+
+$$
+x_i(t)=[p_i(t),v_i(t),a_i(t)]^\top
+$$
+
+这个简化很有用，但它也容易遮住一个事实：在车辆队列里，很多关键现象不发生在单车内部，而发生在前后车之间。
+
+### 2. 跟驰边是车辆队列的自然对象
+
+对纵向车队来说，我更愿意把前后车关系当作基本对象。第 $i$ 条跟驰边连接 $(i-1,i)$。定义：
+
+$$
+d_i(t)=p_{i-1}(t)-p_i(t)-L_{i-1}
+$$
+
+$$
+\Delta v_i(t)=v_{i-1}(t)-v_i(t)
+$$
+
+$$
+d_i^\star(t)=d_0+h v_i(t)
+$$
+
+$$
+e_i(t)=d_i(t)-d_i^\star(t)
+$$
+
+于是跟驰边状态可以写成：
+
+$$
+r_i(t)=
+[d_i(t),\Delta v_i(t),e_i(t),a_{i-1}(t),a_i(t),u_i(t)]
+$$
+
+串稳定性讨论的不是某一辆车“稳不稳”，而是扰动沿着队列传播时有没有被放大：
+
+$$
+e_{i-1}\rightarrow e_i
+$$
+
+因此，车辆队列最自然的对象不是 $\{x_i(t)\}$，而是：
+
+$$
+\{r_i(t)\}_{i=1}^{N-1}
+$$
+
+这一步很关键。对象变成边以后，车队不再只是车辆集合，而是一组可传播、可放大、可衰减的关系过程。
+
+### 3. 多车交互是关系状态
+
+在自动驾驶场景中，ego vehicle 和 background vehicles 共同形成交互状态：
+
+$$
+Y_t=[x_t^{EV},x_t^{BV_1},\ldots,x_t^{BV_n}]
+$$
+
+两车之间的关系可以写成：
+
+$$
+r_{ij}(t)=\phi(x_i(t),x_j(t))
+$$
+
+其中可以包括距离、相对速度、TTC、THW、车道关系、优先权、视野关系和意图推断：
+
+$$
+r_{ij}(t)=
+[d_{ij}(t),\Delta v_{ij}(t),TTC_{ij}(t),THW_{ij}(t),
+\text{lane}_{ij},\text{right-of-way}_{ij}]
+$$
+
+如果只看每辆车自己的轨迹，就会漏掉“谁影响谁”。而交通场景最难的地方往往正是关系本身。
+
+### 4. 宏观交通不是车辆列表，而是场
+
+宏观交通流把对象从车辆变成场：
+
+$$
+\rho(x,t),\quad q(x,t),\quad v(x,t)
+$$
+
+它们分别表示密度、流量和平均速度。在道路网络上，也可以把状态写成图信号：
+
+$$
+X_t=(\rho_e(t),q_e(t),v_e(t))_{e\in E_{\text{road}}}
+$$
+
+这时对象空间变成函数空间或图信号空间：
+
+$$
+\mathcal X_{\text{flow}}=\{u:\Omega\rightarrow \mathbb R^m\}
+$$
+
+$$
+\mathcal X_{\text{graph}}=\mathbb R^{|V|\times d}
+$$
+
+同一条道路上，微观车辆和宏观流场是两种不同对象。它们之间不是简单替换关系，而是尺度变换关系。
+
+### 5. 车联网让通信状态进入对象空间
+
+CACC 和车路协同系统不能把通信当作外部注释。通信状态本身就是对象的一部分。
+
+对车辆 $j$ 到车辆 $i$ 的通信边，可以写：
+
+$$
+c_{ji}(t)=[\tau_{ji}(t),\gamma_{ji}(t),AoI_{ji}(t),q_{ji}(t),\alpha_{ji}(t)]
+$$
+
+$\tau$ 是时延，$\gamma$ 是丢包，$AoI$ 是信息年龄，$q$ 是信道质量，$\alpha$ 可以表示攻击、篡改、干扰或异常。
+
+所以一个更完整的车队对象空间应写成：
+
+$$
+\mathcal X_{\text{platoon}}=
+\mathcal X_{\text{veh}}^N
+\times
+\mathcal X_{\text{edge}}^{N-1}
+\times
+\mathcal X_{\text{comm}}
+\times
+\mathcal X_{\text{ctrl}}
+\times
+\mathcal X_{\text{env}}
+$$
+
+这比“$N$ 辆车的状态集合”更接近真实研究对象。
+
+### 6. 几何和关系结构决定模型怎样连接变量
+
+交通系统的几何不只是 $(x,y)$ 坐标。它至少包括道路几何、车辆交互图、队列顺序图、通信图和因果图。
+
+道路几何可以用 Frenet 坐标表示：
+
+$$
+(s,l)
+$$
+
+$s$ 是沿道路中心线的纵向位置，$l$ 是横向偏移。
+
+车辆交互图可以写成：
+
+$$
+G_{\text{veh}}(t)=(V,E_{\text{int}}(t))
+$$
+
+车辆队列是有向链：
+
+$$
+0\rightarrow 1\rightarrow 2\rightarrow \cdots \rightarrow N
+$$
+
+通信图可以是 predecessor following、leader-predecessor following、multi-predecessor、bidirectional、broadcast 或 V2I/I2V：
+
+$$
+G_c(t)=(V,E_c(t))
+$$
+
+物理跟驰图和通信图不必相同：
+
+$$
+G_{\text{veh}}\neq G_c
+$$
+
+这正是 CACC 的 CPS 特征。物理车距沿队列传播，信息却可能通过通信图跳跃传播。两个图错位时，控制器看到的世界和物理世界就不同步。
+
+因果图还要显式写出时间滞后：
+
+$$
+a_{i-1}(t-\tau)\rightarrow u_i(t)\rightarrow a_i(t)\rightarrow e_i(t+\Delta)
+$$
+
+在通信延迟存在时，因果边必须带时间：
+
+$$
+x_j(t-\tau_{ji})\rightarrow u_i(t)
+$$
+
+没有因果结构，注意力机制很容易学出“看起来相关但物理上不合法”的关系。
+
+### 7. 测度决定研究的是哪一个交通世界
+
+$\mu$ 是对象维里最容易被忽略的一项。它表示研究对象来自哪一类世界。
+
+可以有自然驾驶分布：
+
+$$
+\mu_{\text{NDD}}
+$$
+
+可以有测试场景分布：
+
+$$
+\mu_{\text{scenario}}
+$$
+
+可以有运行设计域分布：
+
+$$
+\mu_{\text{ODD}}
+$$
+
+也可以有通信时延分布、驾驶人分布、车辆异质性分布、攻击分布、天气扰动分布。
+
+不同测度对应不同研究问题。$\mu_{\text{normal}}$ 关注平均性能，$\mu_{\text{long-tail}}$ 关注极端风险，$\mu_{\text{adversarial}}$ 关注最坏情况，$\mu_{\text{deployment}}$ 关注真实部署泛化。
+
+如果一个模型只在仿真分布里成立，它不能自动声明自己能覆盖真实部署分布：
+
+$$
+\mu_{\text{sim}}\neq \mu_{\text{real}}
+$$
+
+很多交通模型失败，并不是公式写错，而是对象分布没有被说清楚。
+
+## 三、动力学维：交通过程怎样变化
+
+动力学维回答对象如何随时间演化。我把它写成 $\mathcal D$。
+
+交通系统里没有单一动力学。它有车辆物理动力学、跟驰动力学、控制闭环动力学、通信网络动力学、多智能体互动动力学、宏观交通流动力学，以及基元切换动力学。
+
+### 1. 车辆物理动力学
+
+最简纵向模型可以写成：
+
+$$
+\dot p_i=v_i
+$$
+
+$$
+\dot v_i=a_i
+$$
+
+$$
+\tau_i\dot a_i=-a_i+u_i
+$$
+
+更完整时，还要考虑驱动力、制动力、空气阻力、滚阻和坡度：
+
+$$
+m_i\dot v_i=F_{\text{drive}}-F_{\text{brake}}-F_{\text{drag}}-F_{\text{roll}}-m_i g\sin\theta
+$$
+
+这层动力学决定运动可行性。任何高层基元、轨迹 token 或生成模型，最后都不能违背这一层。
+
+### 2. 跟驰动力学
+
+经典跟驰模型把后车加速度写成间距、相对速度和自身速度的函数：
+
+$$
+\dot v_i=f(d_i,\Delta v_i,v_i;\theta)
+$$
+
+IDM、OVM、FVDM、GHR 都属于这一类。它们不一定能表达复杂交互，但它们给出了交通领域最基础的物理语法：车距、速度差、反应和加速度。
+
+### 3. 队列控制动力学
+
+CACC 的控制律可以写成：
+
+$$
+u_i(t)=\pi_i(x_i(t),\hat x_{i-1}(t),\hat x_0(t),c_i(t))
+$$
+
+典型形式是：
+
+$$
+u_i=K_e e_i+K_v\Delta v_i+K_a\hat a_{i-1}+K_0\hat a_0
+$$
+
+MPC 形式则是：
+
+$$
+u_i^\star=\arg\min_{u_{i,0:H}}\sum_{k=0}^{H}\ell_i(x_{i,k},u_{i,k})
+$$
+
+subject to:
+
+$$
+x_{i,k+1}=f_i(x_{i,k},u_{i,k})
+$$
+
+$$
+d_i(k)\ge d_{\min},\qquad u_i(k)\in \mathcal U_i
+$$
+
+这里动力学、目标和约束已经缠在一起。控制问题从来不是单纯“预测下一步”。它要在未来一段时间内满足物理、安全和性能约束。
+
+### 4. 通信动力学进入闭环
+
+车联网控制里的观测状态可以写成：
+
+$$
+\hat x_j(t)=\gamma_{ji}(t)x_j(t-\tau_{ji}(t))+\alpha_{ji}(t)
+$$
+
+控制器实际使用的是：
+
+$$
+u_i(t)=\pi_i(x_i(t),\hat x_j(t))
+$$
+
+不是：
+
+$$
+u_i(t)=\pi_i(x_i(t),x_j(t))
+$$
+
+这个差别很大。通信不是控制器外面的噪声，而是闭环动力学的一部分。时延、丢包、AoI、攻击会改变系统的因果结构。
+
+### 5. 多智能体互动动力学
+
+合流、换道、交叉口、无保护左转都不能只靠物理跟驰解释。车辆之间存在策略互动：
+
+$$
+a_i(t)\sim \pi_i(a_i\mid o_i,\theta_i)
+$$
+
+也可以写成博弈：
+
+$$
+u_i^\star=\arg\max_{u_i}J_i(u_i,u_{-i})
+$$
+
+这种动力学关心意图、让行、竞争、协作和风险感知。它不是单车动力学的自然延伸，而是另一层交互结构。
+
+### 6. 宏观交通流动力学
+
+宏观交通流使用守恒律：
+
+$$
+\partial_t\rho+\partial_x q(\rho)=0
+$$
+
+拥堵波、容量下降、瓶颈和交通振荡属于这一层。它不直接关心每辆车的控制输入，而关心密度、流量和速度场如何传播。
+
+### 7. 基元切换动力学
+
+如果引入基元，则动力学可以写成切换系统：
+
+$$
+z_k\in\mathcal Z
+$$
+
+$$
+x_{t+1}=f_{z_k}(x_t,u_t,w_t),\quad t\in I_k
+$$
+
+基元之间也有转移：
+
+$$
+z_{k+1}\sim P(z_{k+1}\mid z_k,c_k)
+$$
+
+或者自动机约束：
+
+$$
+z_k\rightarrow z_{k+1}\quad \text{only if}\quad R(z_k,z_{k+1})=1
+$$
+
+HMM、HSMM、SLDS、hybrid automata、options、motion token 都可以被放到这一类里。它们把连续过程切成局部模式，然后研究模式之间怎样连接。
+
+## 四、目标维：什么叫好的交通过程
+
+目标维写作 $\mathcal F$。它回答什么叫“好”。这个问题比模型选择更基础。
+
+预测任务关心误差：
+
+$$
+\mathcal F_{\text{pred}}=\mathbb E\left[\|\hat x_{t+H}-x_{t+H}\|^2\right]
+$$
+
+也可以关心负对数似然：
+
+$$
+\mathcal F_{\text{NLL}}=-\log p_\theta(x_{t+1:t+H}\mid x_{\le t})
+$$
+
+控制任务关心跟踪、输入和舒适性：
+
+$$
+\mathcal F_{\text{ctrl}}=
+\int_0^T
+\left(
+\|e(t)\|_Q^2+\|u(t)\|_R^2+\|\dot u(t)\|_S^2
+\right)dt
+$$
+
+安全任务关心硬约束：
+
+$$
+d_i(t)\ge d_{\min}
+$$
+
+$$
+TTC_i(t)\ge TTC_{\min}
+$$
+
+CBF 里可以写成：
+
+$$
+\dot h(x)+\alpha(h(x))\ge 0
+$$
+
+串稳定性关心扰动传播。频域形式是：
+
+$$
+\left|\frac{E_i(j\omega)}{E_{i-1}(j\omega)}\right|\le 1,\quad \forall\omega
+$$
+
+时域形式可以写成：
+
+$$
+\|e_i\|_{L_p}\le \|e_{i-1}\|_{L_p}
+$$
+
+队列长度一致性还要求：
+
+$$
+\sup_N\max_i\|e_i\|_{L_p}<\infty
+$$
+
+如果引入基元，可以定义基元级传播增益：
+
+$$
+G_{i,k}=\frac{\|e_i\|_{I_k}}{\|e_{i-1}\|_{I_k}+\epsilon}
+$$
+
+当 $G_{i,k}>1$，这一段就可以被标记为放大型扰动基元。
+
+交通系统还要考虑舒适性和能耗：
+
+$$
+J_{\text{comfort}}=\int(a_i^2+\lambda \dot a_i^2)dt
+$$
+
+$$
+J_{\text{energy}}=\int P_i(t)dt
+$$
+
+车联网系统还要考虑通信资源：
+
+$$
+J_{\text{comm}}=\sum_{(i,j)}\int \mathbf 1_{\text{transmit}_{ij}(t)}dt
+$$
+
+目标维提醒我一件事：预测准确不等于安全，安全不等于舒适，舒适不等于串稳定。一个模型的意义由它服务的泛函决定。泛函没有写清楚，模型只是一个能跑的程序。
+
+## 五、架构维：用什么结构表达交通过程
+
+架构维写作 $\mathcal A$。它回答用什么结构承载对象、动力学和目标。
+
+解析模型是最传统的架构。IDM、OVM、FVDM、CTM、LWR、车辆动力学模型都属于这一类。它们可解释、可分析、可控制，但表达复杂行为的能力有限。
+
+状态空间模型把系统写成：
+
+$$
+x_{t+1}=Ax_t+Bu_t+w_t
+$$
+
+$$
+y_t=Cx_t+v_t
+$$
+
+Kalman filter、Particle filter、HMM、HSMM、SLDS、switching state-space model 都可以放到这里。
+
+图神经网络适合交通系统，因为道路、车辆交互、通信拓扑和队列链本来就是图：
+
+$$
+G=(V,E)
+$$
+
+消息传递可以写成：
+
+$$
+h_i^{\ell+1}=\phi\left(h_i^\ell,\sum_{j\in\mathcal N(i)}\psi(h_i^\ell,h_j^\ell,e_{ij})\right)
+$$
+
+时间序列模型直接处理轨迹、速度、加速度、通信状态序列。TCN、RNN、LSTM、GRU、Transformer、State Space Model、Mamba-like sequence model 都属于这一类。
+
+注意力机制可以回答谁影响谁、哪个历史片段重要、哪个车辆或基元关键：
+
+$$
+\alpha_{ij}=\operatorname{softmax}\left(\frac{q_i^\top k_j}{\sqrt d}\right)
+$$
+
+但交通 attention 不能完全自由。它应当加入时间、道路、通信、因果和安全偏置：
+
+$$
+\alpha_{ij}=\operatorname{softmax}\left(
+\frac{q_i^\top k_j}{\sqrt d}
++b_{ij}^{\text{time}}
++b_{ij}^{\text{road}}
++b_{ij}^{\text{comm}}
++b_{ij}^{\text{causal}}
+\right)
+$$
+
+这就是我说“注意力要物理化”的原因。
+
+基元抽取器也是一种架构：
+
+$$
+\Pi_\psi:Y_{1:T}\mapsto(p_1,\ldots,p_M)
+$$
+
+它可以由 HMM、HDP-HMM、HSMM、HDP-HSMM、SLDS、change-point detection、temporal segmentation network、VQ tokenizer、motion bank retrieval 或 primitive encoder 实现。
+
+自动机和混合系统适合控制模式切换：
+
+$$
+q_t:\text{CACC-normal}\rightarrow\text{delay-compensated}\rightarrow\text{ACC-fallback}\rightarrow\text{emergency}
+$$
+
+控制架构包括 PID、LQR、$H_\infty$、MPC、DMPC、CBF、CLF、robust control、adaptive control、RL controller。
+
+生成模型架构用于场景生成、长尾测试和仿真，包括 VAE、GAN、Diffusion、Flow Matching、autoregressive motion token model、world model。
+
+数字孪生和仿真架构则包括 SUMO、CARLA、PreScan、CarSim、Veins、NS-3、HIL、SIL、VIL 和 co-simulation。
+
+这些架构不是同一层级的东西，但它们都回答“用什么结构表达”。
+
+## 六、算法维：交通模型怎样被计算出来
+
+算法维写作 $\mathcal I$。它回答怎样推断、训练、优化、搜索、验证和部署。
+
+推断算法用于估计隐藏状态、意图、通信质量和基元状态，包括 Kalman filter、particle filter、Viterbi、forward-backward、Gibbs sampling、variational inference、belief propagation。
+
+优化算法包括 gradient descent、SQP、QP、NLP、convex optimization、mixed-integer optimization、dynamic programming、optimal control。
+
+控制综合算法包括 pole placement、LQR、$H_\infty$、LMI、MPC、CBF-QP、robust synthesis、adaptive synthesis。
+
+规划算法包括 A*、RRT、RRT*、lattice planning、MCTS、beam search、trajectory optimization。MCTS 在车辆队列中更适合高层决策，例如 platoon forming、merging、splitting、多车换道，而不是直接替代低层纵向控制。
+
+机器学习训练算法包括 supervised learning、self-supervised learning、contrastive learning、imitation learning、reinforcement learning、offline RL、multi-agent RL。
+
+验证与测试算法包括 reachability analysis、model checking、temporal logic verification、falsification、Monte Carlo simulation、importance sampling、scenario coverage analysis、adversarial scenario generation。
+
+实时部署还涉及 real-time scheduling、embedded control、edge computing、V2X protocol scheduling、latency-aware control、runtime monitoring。
+
+我把算法维单独列出来，是为了提醒自己：可计算性不是模型之后的工程细节。现代交通模型如果不能训练、不能实时推断、不能验证、不能部署，它的知识形态就是不完整的。
+
+## 七、基元：物理过程是否必须收敛成片段
+
+现在回到 $\Pi$。
+
+我最开始的问题是：复杂物理过程是否必须被收敛成基元来处理？直接用时间序列卷积、循环网络、状态空间模型、图神经网络或注意力机制不行吗？
+
+我的判断是：物理过程几乎必然需要某种中尺度压缩，但不必然需要显式命名为 primitive、token 或 segment。
+
+更准确地写：
+
+$$
+\boxed{\text{必然的是多尺度压缩、状态抽象、局部结构化。}}
+$$
+
+$$
+\boxed{\text{不必然的是一定采用显式基元序列。}}
+$$
+
+直接时序模型可以处理原始序列：
+
+$$
+f_\theta:Y_{1:T}\mapsto \hat Y_{T+1:T+H}
+$$
+
+这种方式适合短期预测、端到端拟合和大规模数据训练。它的问题是：模型学到的局部模式可能是隐式的，难解释、难约束，也难用于局部诊断。
+
+基元模型先做一层中尺度抽象：
+
+$$
+Y_{1:T}\xrightarrow{\Pi}(p_1,p_2,\ldots,p_M)
+$$
+
+再在基元链上做预测、评价、检索、控制或验证。
+
+二者的差别不在于哪个更高级，而在于研究目标不同。若目标是短期数值预测，直接时序模型可能足够。若目标变成解释、测试覆盖、控制模式切换、通信控制耦合诊断、串稳定性局部归因、安全验证和场景复用，显式或半显式基元化就很自然。
+
+### 1. 基元不是文本 token
+
+交通基元不能按文本 token 理解。文本 token 不需要满足车辆动力学，不需要保持边界连续，不需要尊重通信因果，也不会撞车。
+
+一个交通基元至少应包含：
+
+$$
+p_k=(I_k,z_k,e_k,x_k^-,x_k^+,f_{z_k},\mathcal C_{z_k},R_k)
+$$
+
+$ I_k=[t_k,t_{k+1}] $ 是时间区间，$z_k$ 是离散模式，$e_k$ 是 embedding，$x_k^-$ 和 $x_k^+$ 是起止边界状态，$f_{z_k}$ 是局部动力学，$\mathcal C_{z_k}$ 是约束，$R_k$ 是可连接关系。
+
+因此，交通基元是带持续时间、边界条件、局部动力学和约束的中尺度过程对象。
+
+### 2. 基元链是一种带物理约束的过程语法
+
+一个交通过程可以写成：
+
+$$
+P=(p_1,p_2,\ldots,p_M)
+$$
+
+但这个序列不能任意拼接。它必须满足边界连续：
+
+$$
+x_k^+\approx x_{k+1}^-
+$$
+
+必须满足运动学：
+
+$$
+\dot p=v,\qquad \dot v=a
+$$
+
+必须满足控制和安全约束：
+
+$$
+a_{\min}\le a\le a_{\max},\qquad d(t)\ge d_{\min}
+$$
+
+若涉及通信，还要满足因果约束。一个基元不能使用还没到达的信息。
+
+所以交通基元链确实像语法，但它不是语言模型语法。它是带物理合法性的过程语法。
+
+### 3. 基元场比基元链更适合车辆队列
+
+车辆队列不是一条基元链，而是时空基元场：
+
+$$
+P=\{p_{i,k}\}_{i=1,\ldots,N-1;\ k=1,\ldots,M_i}
+$$
+
+$p_{i,k}$ 表示第 $i$ 条跟驰边在第 $k$ 个时间段内的局部过程。
+
+这样可以描述：leader braking primitive、following compression primitive、string amplification primitive、recovery primitive。
+
+也可以描述通信控制耦合：delay spike primitive、controller lag primitive、spacing error amplification primitive。
+
+这种表示让串稳定性从一个全局频域指标，变成可诊断的时空传播过程。
+
+## 八、七种处理范式及其边界
+
+为了避免把“基元”神圣化，我需要把它放在更宽的处理范式里。
+
+第一种是物理方程范式。它把交通过程写成 ODE、PDE、delay differential equation 或 differential inclusion。它可解释、可证明，但需要强建模假设。
+
+第二种是直接时间序列范式。它把轨迹、速度、加速度、通信状态当成序列，用 TCN、RNN、Transformer、SSM 学习映射。它适合预测，但结构解释弱。
+
+第三种是时空图范式。它把交通对象放到图上，用消息传递、图卷积或图注意力处理交互。它适合道路网络、车车关系、通信拓扑和车辆队列。
+
+第四种是潜状态或状态空间范式。它假设观测背后有隐状态，用 HMM、Kalman filter、particle filter、SLDS 等估计隐藏过程。
+
+第五种是混合系统和基元范式。它承认系统存在连续状态和离散模式，适合控制模式切换、行为阶段、场景片段和局部动力学。
+
+第六种是运动 token 和语言模型化范式。它把运动片段离散成 token，再用序列模型预测未来片段。它可以吸收大模型技术，但必须补上物理约束。
+
+第七种是层级混合范式。它把连续控制、离散模式、图关系、注意力和基元库组合起来。真实交通 CPS 很可能需要这种混合方式。
+
+我倾向于把基元放在第五到第七种范式里。它不是唯一道路，但它解决了直接序列模型不擅长的几个问题：解释、局部归因、模式切换、可复用、可验证。
+
+## 九、用五维重新理解车辆队列纵向跟驰
+
+我的核心研究对象是车辆队列纵向跟驰。它特别适合用这套五维框架来整理，因为它不是单纯控制器问题，而是车辆物理、车间通信、分布式控制、交通流稳定性、安全规范和工程实现耦合在一起的 CPS。
+
+可以写成：
+
+$$
+\mathfrak P_N=
+\big((\mathcal X_{\text{platoon}},\mathcal G_{\text{chain+comm}},\mu),
+\mathcal D_{\text{veh+comm+ctrl}},
+\mathcal F_{\text{string+safety+perf}},
+\mathcal A_{\text{CACC+MPC+primitive+attention}},
+\mathcal I_{\text{analysis+synthesis+verification}}\big)
+$$
+
+### 1. 对象维
+
+对象是：
+
+$$
+\mathcal X_{\text{platoon}}=\{x_i,r_i,c_{ij},m_i\}
+$$
+
+几何结构是：
+
+$$
+\mathcal G=G_{\text{chain}}+G_{\text{comm}}+G_{\text{causal}}
+$$
+
+测度是：
+
+$$
+\mu=\mu_{\text{delay}}+\mu_{\text{loss}}+\mu_{\text{vehicle}}+\mu_{\text{driver}}+\mu_{\text{disturbance}}
+$$
+
+这说明我研究的不是某个确定车队，而是一族车队过程。
+
+### 2. 动力学维
+
+车辆纵向动力学：
+
+$$
+\dot p_i=v_i,\qquad \dot v_i=a_i,\qquad \tau_i\dot a_i=-a_i+u_i
+$$
+
+通信退化：
+
+$$
+\hat a_{i-1}(t)=\gamma a_{i-1}(t-\tau)
+$$
+
+控制律：
+
+$$
+u_i=\pi_i(e_i,\Delta v_i,\hat a_{i-1},\hat a_0)
+$$
+
+这三个动力学耦合后，才是 CACC 队列的真实动力学。
+
+### 3. 目标维
+
+最核心的目标是串稳定性：
+
+$$
+\|e_i\|\le \|e_{i-1}\|
+$$
+
+但真实系统还要考虑安全、舒适、能耗、效率和通信负载：
+
+$$
+J=J_{\text{track}}+
+\lambda_sJ_{\text{string}}+
+\lambda_cJ_{\text{comfort}}+
+\lambda_eJ_{\text{energy}}+
+\lambda_mJ_{\text{comm}}
+$$
+
+这说明车队控制不能只追求“跟得紧”。跟得紧可能提高通行能力，也可能增加通信压力和安全风险。
+
+### 4. 架构维
+
+可以使用 CACC、DMPC、CBF safety filter、HDP-HSMM primitive extractor、GNN over platoon chain、physics-constrained attention、fallback automaton。
+
+它们不互相排斥。一个真实系统可以同时有低层控制器、上层 fallback 自动机、在线监测器、离线基元分析器和仿真验证平台。
+
+### 5. 算法维
+
+算法包括 $H_\infty$ 分析、LMI、MPC-QP、Viterbi/Gibbs、Monte Carlo、reachability、HIL 和实车测试。
+
+这也说明“研究车辆队列”不是只做一个仿真曲线。证明、综合、仿真、验证和实验都是算法维的一部分。
+
+## 十、基元化车辆队列：从轨迹片段到扰动传播片段
+
+如果把基元落到车辆队列，我不会把它定义成单车轨迹片段，而会定义成跟驰边基元：
+
+$$
+p_{i,k}=\{r_i(t),c_i(t),m_i(t)\}_{t\in I_{i,k}}
+$$
+
+典型类别可以包括 steady-following、closing-in、braking-response、recovery、string-amplifying、communication-degraded、control-saturated、fallback-transition。
+
+串稳定性可以转成基元传播问题：
+
+$$
+p_{1,k_1}\rightarrow p_{2,k_2}\rightarrow \cdots \rightarrow p_{N-1,k_{N-1}}
+$$
+
+如果某个边上的某个基元满足：
+
+$$
+G_{i,k}>1
+$$
+
+它就是放大型扰动基元。
+
+这样处理以后，串稳定性不再只是一个频域不等式。它变成一组可以定位的局部事件：哪一辆车，哪一条边，哪一个时间段，哪一种通信条件，哪一种控制模式，导致扰动放大。
+
+这对工程诊断很重要。全局指标告诉我系统是否坏了，基元场告诉我坏在哪里。
+
+## 十一、数学理论地图
+
+这套体系会不断调用基础数学。不是为了炫耀，而是为了让每种交通问题都有对应语言。
+
+集合论和映射给出最基本的状态空间语言：
+
+$$
+x\in\mathcal X,\qquad f:\mathcal X\rightarrow\mathcal Y
+$$
+
+线性代数支撑状态空间模型、Kalman filter、图拉普拉斯、PCA、Koopman/DMD 和神经网络：
+
+$$
+x_{t+1}=Ax_t+Bu_t
+$$
+
+$$
+L=D-A
+$$
+
+微分方程支撑车辆动力学、交通流和控制系统：
+
+$$
+\dot x=f(x,u,t)
+$$
+
+$$
+\partial_t\rho+\partial_x q(\rho)=0
+$$
+
+动力系统理论讨论平衡点、稳定性、吸引域、分岔和扰动传播。车辆队列的串稳定性就是其中一类特殊问题。
+
+Lyapunov 稳定性和 ISS 给出安全关键控制系统的证明语言：
+
+$$
+V(x)>0,\qquad \dot V(x)<0
+$$
+
+$$
+\|x(t)\|\le \beta(\|x(0)\|,t)+\gamma(\|w\|)
+$$
+
+优化理论支撑 MPC、轨迹规划、信号控制、队列调度和多目标权衡。
+
+概率论和随机过程支撑自然驾驶数据、通信退化、驾驶人行为、HMM、HSMM、SDE 和 Bayesian inference：
+
+$$
+P(X_{t+1}\mid X_t)
+$$
+
+$$
+P(z_t\mid y_{1:t})
+$$
+
+信息论可以描述不确定性、可压缩性、场景复杂度、基元压缩和通信约束：
+
+$$
+H(X),\qquad I(X;Y),\qquad D_{\text{KL}}(P\|Q)
+$$
+
+图论支撑道路网络、车车交互图、通信图、队列链和 GNN。博弈论支撑合流、交叉口、换道和多智能体协作。混合系统和自动机理论支撑 CACC、ACC、fallback 和基元切换。形式逻辑和形式验证支撑安全规范：
+
+$$
+\Box(d_i\ge d_{\min})
+$$
+
+几何和拓扑支撑 Frenet frame、配置空间、碰撞检测和可达集。泛函分析和算子理论支撑交通流、神经算子和 Koopman 表示。
+
+这些理论不需要一次性全部用上。它们像工具架。具体问题会决定拿哪一组。
+
+## 十二、计算机理论地图
+
+交通过程被计算机处理时，还会进入另一套理论。
+
+算法设计处理路径规划、调度、搜索和场景生成。A*、Dijkstra、RRT、MCTS、branch and bound 都属于这里。
+
+计算复杂性提醒我：多智能体规划、场景生成、混合整数控制、覆盖优化往往不是“算力够就能暴力解决”的问题。需要 approximation、sampling complexity 和 real-time constraint。
+
+数据结构与时空索引处理轨迹数据库、地图匹配、R-tree、KD-tree、spatio-temporal indexing、primitive retrieval、motion bank 和 scenario similarity search。
+
+数据库和知识图谱处理道路网络、HD map、事故库、场景库、基元字典和交通知识图谱。
+
+分布式系统与通信网络处理 V2V、V2I、edge computing、cloud control、latency、packet loss、QoS。它们直接进入 $\mathcal D$、$\mathcal F$ 和 $\mathcal A$。
+
+实时系统处理 deadline、jitter、worst-case execution time 和 runtime monitoring。车辆控制系统不能只在离线测试中跑得好，它必须在采样周期内完成计算：
+
+$$
+T_{\text{compute}}<T_s
+$$
+
+软件工程和安全工程处理 requirements engineering、hazard analysis、STPA、FMEA、ISO 26262、SOTIF、V&V。
+
+机器学习理论处理 generalization、domain shift、OOD detection、uncertainty estimation、calibration、interpretability、robustness。
+
+交通模型特别怕训练场景和部署场景分布不一致。这个问题不能只靠换网络结构解决。
+
+## 十三、九问法
+
+以后遇到任何交通问题，我希望先问九个问题。
+
+第一，研究对象是什么？是单车、车车交互、车辆队列、混合交通流、路网、自动驾驶测试场景、通信控制 CPS，还是车路云一体化系统？
+
+第二，状态空间是什么？是 $x_i=[p_i,v_i,a_i]$，还是 $r_i=[d_i,\Delta v_i,e_i]$，还是 $G_t=(V,E_t,X_t)$，还是 $\rho(x,t),q(x,t)$，还是 $p_k=(I_k,z_k,e_k,x_k^-,x_k^+)$？
+
+第三，几何结构是什么？道路几何、车辆链、车车交互图、通信图、因果图、时空图、ODD 区域，各自是否被写出来？
+
+第四，数据分布是什么？自然驾驶、仿真、极端场景、对抗场景、真实部署、车队实验、通信退化、混合交通，它们不能混成一个“数据集”。
+
+第五，动力学是什么？连续车辆动力学、跟驰模型、图传播、Markov 模型、HMM/HSMM、控制闭环、通信时延、交通流 PDE、博弈，它们属于不同层。
+
+第六，目标是什么？预测准、控制稳、安全、串稳定、低能耗、高通行能力、低通信负载、测试覆盖、风险最大化、场景难度分级，目标变了，模型含义也变。
+
+第七，架构是什么？物理模型、MPC、HMM、GNN、Transformer、primitive encoder、hybrid automaton、diffusion model、digital twin，各自承载不同假设。
+
+第八，算法是什么？滤波、优化、搜索、采样、训练、验证、场景生成、仿真、HIL、实车测试，它们决定模型如何落地。
+
+第九，是否需要基元？如果问题涉及解释、场景覆盖、局部风险归因、控制模式切换、串稳定性局部诊断、长尾场景挖掘、安全验证，那么基元很可能有价值。如果只是短期数值预测，直接时序模型、图模型或状态空间模型可能足够。
+
+## 十四、这套框架对我的意义
+
+这套框架最终不是给别人看的分类表。它首先是给我自己用的。
+
+以后我面对一个交通问题，不能先被模型名牵走。我要先把它放到五维坐标里：对象是什么，动力学是什么，目标是什么，架构是什么，算法是什么。再判断是否需要 $\Pi$，也就是是否需要把长时序过程切成中尺度基元。
+
+如果研究车辆队列，我不能只说“做 CACC 控制”。我至少要说明自己研究的是哪一种队列对象，哪一种通信图，哪一种时延分布，哪一种控制目标，哪一种串稳定定义，哪一种仿真或实车验证。
+
+如果研究自动驾驶测试，我不能只说“生成复杂场景”。我至少要说明场景对象是什么，长尾测度是什么，复杂度泛函是什么，基元是否被显式抽取，生成场景是否满足道路几何和物理约束。
+
+如果研究交通预测，我不能只说“用 Transformer”。我至少要说明它处理的是轨迹、图信号还是交通流场；它看到的是自然驾驶分布还是部署分布；它学到的 attention 是否尊重道路几何、因果结构和安全约束。
+
+这就是这套框架的作用。它不替代具体模型。它给具体模型定位。
+
+我现在可以把它压缩成一句话：
+
+$$
+\boxed{\text{交通过程是定义在道路、车辆、通信和控制复合空间上的多主体随机混合动力过程。}}
+$$
+
+它可以在不同尺度上被表示为连续状态、图信号、隐状态、基元链或基元场。建模时必须同时说明对象、动力学、目标、架构和算法，并在任务需要时引入带物理约束的中尺度基元抽象。
+
+更短一点：五维模型提供坐标，基元提供中尺度对象，物理约束提供合法性，算法架构提供可计算性。
+
+这篇文章仍然只是第一版。它不是终点，更像我给自己立下的一条工作纪律：以后不再把交通问题理解成方法拼盘，而要先还原它作为过程的结构。
+
+</ArticleShell>
