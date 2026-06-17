@@ -140,23 +140,23 @@ function SurfaceStack() {
   return (
     <div className="relative mx-auto min-h-[330px] w-full max-w-[540px] lg:min-h-[540px] lg:max-w-[640px]">
       <Link
-        href="/zh/writing/traffic-process-framework"
+        href="/zh/writing/koi-wa-ameagari-rain-shelter"
         hrefLang="zh-CN"
         className="absolute right-4 top-0 block w-[58%] rounded-2xl border border-primary/35 bg-[#0d1715]/92 p-4 panel-edge backdrop-blur transition hover:-translate-y-1 hover:border-primary/60"
       >
         <div className="flex items-center justify-between font-mono text-[11px] text-primary/80">
-          <span>Long essay</span>
+          <span>Cultural essay</span>
           <span>···</span>
         </div>
         <h2 className="mt-4 font-display text-3xl font-semibold leading-[0.98] text-pretty">
-          Five dimensions and primitives
+          After the Rain
         </h2>
         <p className="mt-4 max-w-sm text-xs leading-6 text-muted-foreground">
-          A coordinate system for traffic-process computation.
+          This romance is waiting for the rain to stop.
         </p>
         <div className="mt-5 flex justify-between font-mono text-[11px] text-muted-foreground">
-          <span>~25 min</span>
-          <span>Jun 15, 2026</span>
+          <span>~8 min</span>
+          <span>Jun 17, 2026</span>
         </div>
       </Link>
 

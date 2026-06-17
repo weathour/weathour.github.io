@@ -2,16 +2,30 @@ import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { PageFrame } from "@/components/site/site-shell";
 
-const featuredEssay = {
-  title: "Five dimensions and primitives: a coordinate system for traffic-process computation",
-  body: "The first long essay is published in Chinese. It treats traffic modeling as an epistemological framework across objects, dynamics, objectives, architectures, algorithms, and mesoscopic primitives.",
-  href: "/zh/writing/traffic-process-framework",
-  kind: "Long essay",
-  series: "Traffic-process computation",
-  date: "2026-06-15",
-  readingTime: "~25 min",
-  tags: ["traffic process", "CPS", "mathematical modeling", "computational modeling", "primitives", "epistemology"],
-} as const;
+const essays = [
+  {
+    title: "After the Rain: this romance is waiting for the rain to stop",
+    body: "A Chinese essay on the rain-shelter structure in After the Rain: rain creates temporary intimacy between two suspended lives, but also marks why the shelter cannot become home.",
+    href: "/zh/writing/koi-wa-ameagari-rain-shelter",
+    kind: "Cultural essay",
+    series: "Psychoanalysis and form",
+    date: "Jun 17, 2026",
+    readingTime: "~8 min",
+    tags: ["After the Rain", "anime criticism", "psychoanalysis", "rain shelter", "Chinese"],
+  },
+  {
+    title: "Five dimensions and primitives: a coordinate system for traffic-process computation",
+    body: "The first long essay is published in Chinese. It treats traffic modeling as an epistemological framework across objects, dynamics, objectives, architectures, algorithms, and mesoscopic primitives.",
+    href: "/zh/writing/traffic-process-framework",
+    kind: "Long essay",
+    series: "Traffic-process computation",
+    date: "Jun 15, 2026",
+    readingTime: "~25 min",
+    tags: ["traffic process", "CPS", "mathematical modeling", "computational modeling", "primitives", "epistemology"],
+  },
+] as const;
+
+const [featuredEssay, ...archiveEssays] = essays;
 
 const writingLanes = [
   ["Essays", "Long-form arguments, public explanations, and conceptual work with a durable thesis."],
@@ -45,6 +59,32 @@ export default function WritingPage() {
             <ArrowRight className="size-4 transition group-hover:translate-x-1" />
           </div>
         </Link>
+      </section>
+
+      <section className="mt-12 grid gap-8 lg:grid-cols-[0.34fr_0.66fr]">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-[0.18em] text-primary/90">Index</p>
+          <h2 className="mt-4 font-display text-4xl font-semibold tracking-[-0.02em]">Essays are registered explicitly; newest entries appear first.</h2>
+        </div>
+        <div className="divide-y divide-white/10 border-y border-white/12">
+          {archiveEssays.map((essay) => (
+            <Link key={essay.href} href={essay.href} hrefLang="zh-CN" className="group grid gap-4 py-6 transition hover:text-primary sm:grid-cols-[0.18fr_0.62fr_0.2fr] sm:items-start">
+              <div className="font-mono text-xs uppercase tracking-[0.16em] text-primary/80">
+                <p>{essay.kind}</p>
+                <p className="mt-2 text-muted-foreground">{essay.date}</p>
+              </div>
+              <div>
+                <h3 className="font-display text-3xl font-semibold tracking-[-0.02em] text-foreground transition group-hover:text-primary">{essay.title}</h3>
+                <p className="mt-3 leading-7 text-muted-foreground">{essay.body}</p>
+                <p className="mt-3 text-sm leading-7 text-muted-foreground">{essay.tags.join(" / ")}</p>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-primary sm:justify-end">
+                <span>{essay.readingTime}</span>
+                <ArrowRight className="size-4 transition group-hover:translate-x-1" />
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="mt-12 grid gap-8 lg:grid-cols-[0.34fr_0.66fr]">

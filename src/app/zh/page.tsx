@@ -140,22 +140,22 @@ function SurfaceStack() {
   return (
     <div className="relative mx-auto min-h-[330px] w-full max-w-[540px] lg:min-h-[540px] lg:max-w-[640px]">
       <Link
-        href="/zh/writing/traffic-process-framework"
+        href="/zh/writing/koi-wa-ameagari-rain-shelter"
         className="absolute right-4 top-0 block w-[58%] rounded-2xl border border-primary/35 bg-[#0d1715]/92 p-4 panel-edge backdrop-blur transition hover:-translate-y-1 hover:border-primary/60"
       >
         <div className="flex items-center justify-between font-mono text-[11px] text-primary/80">
-          <span>理论长文</span>
+          <span>文艺评论</span>
           <span>···</span>
         </div>
         <h2 className="mt-4 font-display text-3xl font-semibold leading-[0.98] text-pretty">
-          五维和基元
+          恋如雨止
         </h2>
         <p className="mt-4 max-w-sm text-xs leading-6 text-muted-foreground">
-          我理解交通过程计算化的一套坐标系。
+          这场恋从一开始就等着雨停。
         </p>
         <div className="mt-5 flex justify-between font-mono text-[11px] text-muted-foreground">
-          <span>约 25 分钟</span>
-          <span>2026-06-15</span>
+          <span>约 8 分钟</span>
+          <span>2026-06-17</span>
         </div>
       </Link>
 
