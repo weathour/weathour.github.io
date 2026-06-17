@@ -69,6 +69,11 @@ This repository is prepared for GitHub Pages static deployment.
 - `public/.nojekyll` is included so exported `_next` assets remain safe for Pages-style static hosting.
 - The About portrait is sourced from `https://github.com/weathour.png?size=512` and stored at `public/images/avatar.png`.
 
+
+## Writing publishing protocol
+
+Writing posts are published through a file route plus explicit index registration. A `page.mdx` creates a direct route, but it does not automatically appear in `/zh/writing` or `/writing`. See `docs/WRITING_PUBLISHING.md` before publishing or syncing a new article.
+
 ## Writing math in MDX
 
 Mathematical writing is enabled for MDX pages. Use:
