@@ -1,0 +1,175 @@
+import Link from "next/link";
+import { PageFrame } from "@/components/site/site-shell";
+
+export const metadata = {
+  title: "不是第二大脑，而是证据后端：我为什么做 yxj-wiki",
+  description: "yxj-wiki 是一个 source/citation + truth/ontology + library/absorption backend，用来让资料、引用、证据、真值和 agent 任务各归其位。",
+};
+
+<PageFrame
+  locale="zh"
+  currentPath="/work"
+  kicker="Work / Knowledge Infrastructure"
+  title="不是第二大脑，而是证据后端。"
+  description="yxj-wiki 是一个 source/citation + truth/ontology + library/absorption backend。它不负责替我写文章，也不宣布外部发布状态；它负责让资料在进入写作、论文和 agent 工作流之前，先经过可追踪的边界。"
+>
+  <article className="max-w-4xl text-pretty text-[1.02rem] leading-8 text-foreground/82">
+    <div className="grid gap-4 border-y border-white/12 py-6 md:grid-cols-4">
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Type</p>
+        <p className="mt-2 text-sm text-foreground">Knowledge backend</p>
+      </div>
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Status</p>
+        <p className="mt-2 text-sm text-foreground">Daily use / evolving</p>
+      </div>
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Snapshot</p>
+        <p className="mt-2 text-sm text-foreground">2026-06-16T07:25:35Z</p>
+      </div>
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Role</p>
+        <p className="mt-2 text-sm text-foreground">source / truth / absorption</p>
+      </div>
+    </div>
+
+    <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.035] p-6 panel-edge">
+      <p className="font-mono text-xs uppercase tracking-[0.16em] text-primary/90">Artifact boundary</p>
+      <ul className="mt-4 grid gap-3 text-sm leading-7 text-muted-foreground md:grid-cols-2">
+        <li><span className="text-foreground">对象：</span>一个长期运行的文献与证据后端。</li>
+        <li><span className="text-foreground">核心层：</span><code>refs/</code>、<code>raw/</code>、<code>truth/</code>、P20、P26、P27、P28、P31。</li>
+        <li><span className="text-foreground">当前可公开部分：</span>设计边界、状态快照和吸收原则。</li>
+        <li><span className="text-foreground">暂不声称：</span>公开仓库、线上 demo、外部采用或 truth 完成。</li>
+      </ul>
+    </div>
+
+    <p className="mt-10">很多人做知识库，是为了记住更多东西。</p>
+
+    <p>我后来越来越觉得，研究里更危险的东西叫误用。</p>
+
+    <p>把读过当成理解过，把摘录当成证据，把二手总结当成原文，把一个 source-card 当成 reviewed claim，再让 agent 去一堆文件里翻，然后相信它给出的整理。真正危险的地方往往不在资料太少，而在每一层状态被混在一起。</p>
+
+    <p>所以 yxj-wiki 不能按普通笔记库来理解。“第二大脑”这个词也太轻了，好像问题只是记忆容量不够。yxj-wiki 更像一个证据后端：它把原始材料、引用身份、可复用理解、reviewed truth、派生导航和 agent 任务拆开，让每一层都知道自己能做什么，不能做什么。</p>
+
+    <h2>先给资料上户口</h2>
+
+    <p>一篇 paper 进入系统时，第一件事先问它是谁，再问它有什么观点。</p>
+
+    <p>标题、作者、年份、venue、DOI、citekey、BibTeX、collection，这些东西先站稳。没有这个户口，后面所有理解都会漂。你以为你在谈一篇文献，其实可能是在谈一个下载文件、一个摘要、一个重命名过的 PDF，或者一个 agent 临时拼出来的印象。</p>
+
+    <p>这就是 <code>refs/</code> 的作用。它是 source identity 和 citation authority。<code>refs/registry.jsonl</code> 和 <code>refs/library.bib</code> 决定一个 source 在系统里如何被识别、引用、重建和审查。</p>
+
+    <p><code>raw/</code> 则是原件库。原件当然重要，但它不向 agent 开放随手翻找。yxj-wiki 的规则很清楚：不能 blind raw scanning。先走 context、registry、source-card、truth、cache。只有带着明确 locator 或 intake reason，才回到 raw。</p>
+
+    <p>这条规则看起来麻烦，实际是在保护系统。因为“能翻到”不等于“能支持”。如果没有检索理由，raw 很容易变成幻觉的燃料。</p>
+
+    <h2>source-card 不是 evidence</h2>
+
+    <p>很多知识系统会在这里偷懒。</p>
+
+    <p>读完一篇文献，写了摘要，打了标签，放进 cluster，于是它看起来已经被吸收了。可 yxj-wiki 故意把这一步降级处理：source-card 和 cluster 属于 analysis / reuse surfaces，还没有进入 reviewed evidence。</p>
+
+    <p>source-card 的价值，是让一篇资料重新可读。它帮我记住这篇文献讲了什么，属于哪个主题，可能连接到哪些问题。它能帮助规划阅读、安排吸收、做 cluster synthesis。</p>
+
+    <p>但它不能替那篇资料作证。</p>
+
+    <p>这一区分很重要。读懂一篇文献，不等于它已经可以支撑一个强 claim。你可以从 source-card 知道某个方向值得查，但不能直接把它写成“证据显示”。中间还缺 locator、evidence review、claim review，以及 schema 和 validator。</p>
+
+    <p>换句话说，yxj-wiki 把“可复用理解”和“可引用真值”拆开了。</p>
+
+    <h2>truth 层只收 reviewed objects</h2>
+
+    <p><code>truth/</code> 是更硬的一层。</p>
+
+    <p>这里放的是 reviewed concepts、evidence、claims、conflicts、terminology、relations、measurement models、Toulmin objects，以及 downstream-use compatibility handles。</p>
+
+    <p>我不希望 truth 层变成“我当时觉得很有道理”的堆积。能进去的东西，至少要知道它从哪里来，支撑什么，边界在哪里。live truth 也不能直接手改。候选证据和候选 claim 要走 patches、review、gate，再接受 schema 和 validator 检查。</p>
+
+    <p>这带来一种很慢的好处：系统不会因为某次写作冲动，把一个还没审查过的理解偷偷升格成真值。</p>
+
+    <h2>给人和 agent 的不同界面</h2>
+
+    <p>yxj-wiki 同时面向人和 agent。</p>
+
+    <div className="my-8 grid gap-3 md:grid-cols-5">
+      <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4">
+        <p className="font-mono text-xs text-primary/90">P20</p>
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">给人看的 source-centric library frontend。</p>
+      </div>
+      <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4">
+        <p className="font-mono text-xs text-primary/90">P26</p>
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">给 agent 的 retrieval capsule。</p>
+      </div>
+      <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4">
+        <p className="font-mono text-xs text-primary/90">P27</p>
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">给 agent 的受控 absorption packet。</p>
+      </div>
+      <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4">
+        <p className="font-mono text-xs text-primary/90">P28</p>
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">显示 source 吸收到哪一步。</p>
+      </div>
+      <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4">
+        <p className="font-mono text-xs text-primary/90">P31</p>
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">把多 agent 吸收封进 sealed round。</p>
+      </div>
+    </div>
+
+    <p>P20 从 search / filter sources 进入。找到 source，再跳到作者、tag、collection、source-card、cluster、evidence、claim、concept、relation、downstream-use claim、review task。</p>
+
+    <p>P26 是给 agent 的小检索包。普通 agent 不该每次都读完整 app data，也不该手动 join registry、source-card、cluster、truth、status。P26 给它 status、query、source、support、validation 这些小包。</p>
+
+    <p>P27 让 agent 可以做 source、card、cluster、locator absorption，但工作被包在 schema-validated packet 里。agent 不该全库乱翻，也不能把候选分析直接写成 live truth。</p>
+
+    <p>P28 告诉系统吸收到哪一步。一个 source 不能只用成熟或不成熟概括，它有多条状态轴：source identity、source-card、cluster、locator、evidence、claim、downstream use、truth promotion、next work。</p>
+
+    <p>P31 则把多 agent 或 subagent 的吸收工作封进 sealed round。worker 只能处理显式 source set，只能产出 candidate observations、locator 或 truth-candidate outputs，最后还要 closeout review。</p>
+
+    <p>一句话说：P20 给人看，P26 给 agent 查，P27 给 agent 做受控吸收，P28 告诉系统哪里还没吸收好，P31 保证多 agent 不会全库乱跑。</p>
+
+    <h2>pass 不是完成</h2>
+
+    <p>截至 <code>status/yxj-status.json</code> 在 <code>2026-06-16T07:25:35Z</code> 生成的快照，yxj-wiki 的状态是 <code>pass</code>，没有 stale artifacts。</p>
+
+    <div className="my-8 rounded-3xl border border-white/10 bg-white/[0.035] p-6 panel-edge">
+      <p className="font-mono text-xs uppercase tracking-[0.16em] text-primary/90">Snapshot facts</p>
+      <ul className="mt-4 grid gap-2 text-sm leading-7 text-muted-foreground md:grid-cols-2">
+        <li>751 canonical sources</li>
+        <li>821 registry rows</li>
+        <li>751 BibTeX entries</li>
+        <li>414 source cards</li>
+        <li>62 clusters / 60 collections</li>
+        <li>8 evidence files / 8 claim files / 8 concept files</li>
+        <li>1 pending truth patch</li>
+        <li>87 locator queue total</li>
+      </ul>
+    </div>
+
+    <p>这些数字说明系统已经有规模，也说明结构和派生面当前是健康的。</p>
+
+    <p>但 pass 不是完成。</p>
+
+    <p>同一份状态里也写得很清楚：primary bottleneck 是 <code>locator_to_reviewed_evidence_conversion</code>。locator queue total 是 87，其中 <code>locator_found</code> 16，<code>locator_partial</code> 5，<code>raw_available</code> 66。</p>
+
+    <p>这意味着下一阶段最重要的工作，是把 locator-backed material 变成 reviewed evidence。raw_available 只是机会，还没形成证据。source-card ready 只是可复用理解，还没形成 claim approval。</p>
+
+    <p>我喜欢这个状态，因为它没有把系统包装成已经完成的知识神殿。它承认自己在哪里健康，也承认自己卡在哪里。</p>
+
+    <h2>让 AI 知道不能说什么</h2>
+
+    <p>yxj-wiki 最终服务的是写作、论文、研究和 agent 工作流。但它不负责替我做仓库外发布决定，也不维护外部采用、写回、批准状态。</p>
+
+    <p>它更像一个边界系统。</p>
+
+    <p>当 agent 来查资料，它应该知道自己拿到的是 source identity、source-card、reviewed evidence、claim，还是 downstream-use handle。当它只能拿到 source-card，就不能说自己拿到了证据。当状态是 pass，它不能把 truth 层说成已经收束。当 raw 只是 available，它不能说 claim 已经被支持。</p>
+
+    <p>对我来说，一个知识系统成熟的标志，是它能在证据不够的时候停下来。</p>
+
+    <div className="mt-12 rounded-3xl border border-white/10 bg-white/[0.035] p-6">
+      <p className="font-mono text-xs uppercase tracking-[0.16em] text-muted-foreground">Continue</p>
+      <p className="mt-3 text-sm leading-7 text-muted-foreground">这篇页面记录 yxj-wiki 的当前设计原则。后续如果公开 P20 前端、source library 截图或具体 absorption round，我会把它们作为 Work 的后续 artifact 加到这里。</p>
+      <Link href="/zh/work" className="mt-5 inline-flex rounded-full border border-white/12 px-4 py-2 text-sm text-muted-foreground transition hover:border-primary/45 hover:text-foreground">
+        返回作品列表
+      </Link>
+    </div>
+  </article>
+</PageFrame>

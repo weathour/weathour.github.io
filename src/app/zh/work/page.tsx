@@ -1,6 +1,24 @@
+import Link from "next/link";
 import { PageFrame } from "@/components/site/site-shell";
 
-const work = [
+type WorkItem = {
+  title: string;
+  body: string;
+  type: string;
+  status: string;
+  tags: string[];
+  href?: `/zh/work/${string}`;
+};
+
+const work: WorkItem[] = [
+  {
+    title: "yxj-wiki",
+    body: "一个 source/citation + truth/ontology + library/absorption backend，用来让资料、引用、证据与 Agent 任务各归其位。",
+    type: "知识基础设施",
+    status: "日常使用",
+    tags: ["资料库", "证据后端", "Agent"],
+    href: "/zh/work/yxj-wiki",
+  },
   {
     title: "CPS-Papers",
     body: "面向 CPS 与混合车队研究的论文写作和仿真工作空间。",
@@ -29,7 +47,7 @@ const work = [
     status: "实验沉淀",
     tags: ["交通", "控制", "安全评估"],
   },
-] as const;
+];
 
 export default function ZhWorkPage() {
   return (
@@ -61,18 +79,36 @@ export default function ZhWorkPage() {
         </div>
         <div className="divide-y divide-white/10">
           {work.map((item) => (
-            <article key={item.title} className="grid gap-4 py-7 md:grid-cols-[0.18fr_0.32fr_0.22fr_0.28fr] md:items-start">
-              <p className="font-mono text-xs uppercase tracking-[0.14em] text-primary/80">{item.type}</p>
-              <div>
-                <h2 className="font-display text-3xl font-semibold tracking-[-0.02em]">{item.title}</h2>
-                <p className="mt-3 max-w-xl leading-7 text-muted-foreground">{item.body}</p>
-              </div>
-              <p className="font-mono text-xs text-muted-foreground">{item.status}</p>
-              <p className="text-sm leading-7 text-muted-foreground">{item.tags.join(" / ")}</p>
-            </article>
+            <WorkRow key={item.title} item={item} />
           ))}
         </div>
       </section>
     </PageFrame>
   );
+}
+
+function WorkRow({ item }: { item: WorkItem }) {
+  const row = (
+    <>
+      <p className="font-mono text-xs uppercase tracking-[0.14em] text-primary/80">{item.type}</p>
+      <div>
+        <h2 className="font-display text-3xl font-semibold tracking-[-0.02em]">{item.title}</h2>
+        <p className="mt-3 max-w-xl leading-7 text-muted-foreground">{item.body}</p>
+      </div>
+      <p className="font-mono text-xs text-muted-foreground">{item.status}</p>
+      <p className="text-sm leading-7 text-muted-foreground">{item.tags.join(" / ")}</p>
+    </>
+  );
+
+  const className = "grid gap-4 py-7 transition hover:bg-white/[0.025] md:grid-cols-[0.18fr_0.32fr_0.22fr_0.28fr] md:items-start";
+
+  if (item.href) {
+    return (
+      <Link href={item.href} className={className}>
+        {row}
+      </Link>
+    );
+  }
+
+  return <article className={className}>{row}</article>;
 }
