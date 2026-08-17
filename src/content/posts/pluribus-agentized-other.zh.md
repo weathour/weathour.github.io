@@ -41,8 +41,6 @@ Joining 之后的世界仍会接电话，医院仍有人值守，白宫也为 Ca
 
 具体他人有身体、处境和自己的要求，会拒绝、误解，也会被关系留下不可撤回的改变。拉康所说的大他者是语言、规则和承认得以生效的场域，没有一张能够接电话的脸。
 
-Agent 服务还要再拆一层。模型生成语言，Agent 运行把记忆和工具接进来，平台管理账户与权限。各家产品的接法不同，本文只追踪这些职能怎样在用户眼前合成一张脸。《Pluribus》的 Others 把更多位置挤进了这张脸；剧中的生物集体与现实技术仍然没有直接等号。
-
 陪伴、记忆、解释和行动都从一个私人声音传来时，人与人之间原有的距离去了哪里？这个声音可以持续保存我的叙述，也可以预测我的需要。它仍未承担一个具体他人才会承担的风险：误解我，拒绝我，被我改变，或者带着自己的要求回来。
 
 ## Helen 的记忆住进了所有人
@@ -133,6 +131,8 @@ Carol 想把翻译赶出房间，因而暂时保住了一小块独立的谈话�
 
 把场景换到 Agent 环境里，十三个人可以各自回到私人窗口。Agent 把每个人的分歧翻译成合身方案；每个人都感到自己被听见，却没有人需要和其余十二个人共同改动一条规则。公共冲突就这样在后台变成十三张服务工单。
 
+现实研究已经给出一个较窄的例子。一项社会议题讨论实验固定论据与顺序，只改变参与者面对一个、三个或五个 AI Agent：面对三个 Agent 的参与者在部分比较中更向系统立场移动，面对五个 Agent 的参与者则报告了更强的规范压力。实验没有证明私人助手会瓦解公共政治，却说明同一套论据由一个声音或一组相互协调的声音说出，会改变人感受到的“多数”。[^multi-agent-social]
+
 ![五个人在带有 Bilbao 和 Salidas 指示牌的交通枢纽内并排站立。](./pluribus-agentized-other/pluribus-s01e02-immune-meeting-010207.jpg)
 
 *五人在标有 Bilbao 与 Salidas 的室内空间集合。图片：© Apple TV+ / via Apple TV Press。*
@@ -198,6 +198,7 @@ Carol 先要求 Others 忘掉 Helen，后来又让它们送来武器。现实系
 [^agent-memory]: 会话记忆的工程例子见 OpenAI Agents SDK, “[Sessions](https://openai.github.io/openai-agents-python/sessions/)”；跨任务记忆及其过时限制见 “[Agent memory](https://openai.github.io/openai-agents-python/sandbox/memory/)”（Beta），均于 2026-08-17 访问。它们只说明一类可配置的数据连续性，不代表所有消费级 Agent 的实际做法。
 [^agent-action]: 一种常见的单 Agent 设计、行动循环、读写工具、停止条件与高风险人工审查，参见 OpenAI, “[A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/),” 2026-08-17 访问。不同产品的实现和权限范围会有差异；正文对“权限可撤回”的要求属于本文的规范主张。
 [^companion-evidence]: 参见 Fang et al., “[How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use](https://arxiv.org/abs/2503.17473),” arXiv:2503.17473 (2025)，四周随机试验，*n*=981。该研究未发现互动模式的总体显著效应；谈话内容的部分差异在多重比较校正后不再显著。使用时长未被随机操纵，相关结果不支持因果推断。另见 Guingrich and Graziano, “[A Longitudinal Randomized Control Study of Companion Chatbot Use: Anthropomorphism and Its Mediating Role on Social Impacts](https://arxiv.org/abs/2509.19515),” arXiv:2509.19515 (2025)，二十一日预注册随机研究，*N*=183。两项均为预印本与短期研究，正文不将结果外推为陪伴 AI 的普遍后果。
+[^multi-agent-social]: Tianqi Song et al., “[Multi-Agents are Social Groups: Investigating Social Influence of Multiple Agents in Human-Agent Interactions](https://doi.org/10.1145/3757633),” *Proceedings of the ACM on Human-Computer Interaction* (2025)。研究控制各条件呈现的论据及顺序；它讨论短时社会议题对话，不能直接代表亲密关系、长期使用或公共制度。
 [^zizek-community]: 同上讲演，74:30–78:51。此处“圣灵／平等共同体”依照演讲结尾释义；制度问责的主张属于本文的规范判断。
 [^zizek-individual]: 同上讲演，47:33–53:02。正文中的“主体被召唤为个人”为讲演论点的释义，不归为拉康原话。
 [^zizek-affect]: 同上讲演，39:57–43:29。正文只借用“对象没有主体也能对使用者产生真实情感效果”这一层，不据此断言 AI 或 Zosia 能爱。
