@@ -9,10 +9,14 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "type-check": "tsc --noEmit --isolatedDeclarations",
+    "type-check": "tsc --noEmit",
+    "typecheck": "pnpm check && pnpm type-check",
     "new-post": "node scripts/new-post.js",
     "format": "biome format --write ./src",
-    "lint": "biome check --write ./src",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check --write ./src",
+    "verify": "pnpm lint && pnpm typecheck && pnpm build",
+    "verify:push": "bash scripts/verify-push.sh",
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {

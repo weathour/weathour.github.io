@@ -15,4 +15,17 @@ pnpm dev
 
 ## 发布
 
-推送到 `main` 后，GitHub Actions 会自动构建并部署到 Pages。
+发布前只使用仓库统一门禁：
+
+```bash
+pnpm verify
+```
+
+经明确授权推送到 `main` 后，按提交 SHA 等待 GitHub Pages 工作流完成：
+
+```bash
+git push origin main
+pnpm verify:push
+```
+
+`git push` 返回成功只说明远端接收了提交；`pnpm verify:push` 成功后，才可宣布发布完成。故障分类、恢复命令与历史事故见 [`docs/WRITING_PUBLISHING.md`](docs/WRITING_PUBLISHING.md)。
