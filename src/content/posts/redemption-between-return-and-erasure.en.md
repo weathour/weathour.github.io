@@ -4,6 +4,7 @@ postSlug: redemption-between-return-and-erasure
 published: 2026-08-18
 updated: 2026-08-20
 description: 'Sha Gen says there are no thieves in the world, and an entire train carriage turns his sentence into one lived fact. Chan Wing-yan says he is a cop, and Lau Kin-ming deletes the file that gives those words institutional force. The films ask who makes a sentence hold and who bears its cost.'
+image: './redemption-between-return-and-erasure/chan-holds-lau.jpg'
 tags: [A World Without Thieves, Infernal Affairs, film, belief, responsibility]
 category: 'Film Criticism'
 draft: false
@@ -12,7 +13,7 @@ lang: en
 
 > **Spoiler warning:** This essay discusses the complete plots of *A World Without Thieves* and the *Infernal Affairs* trilogy. It follows the Hong Kong ending of the first *Infernal Affairs* and the continuation of that ending in *Infernal Affairs III*.
 >
-> **Image note:** Stills come from 1905.com and M+. Rights remain with their respective owners; this site uses them for internal, non-commercial critical reading.
+> **Image note:** Stills come from 1905.com and M+. Copyright remains with the respective rights holders. This site publishes them for non-commercial criticism.
 
 ## Three Sentences, Three Opposite Fates
 
@@ -48,37 +49,35 @@ Sha Gen also remains outside his own experience. When the money first disappears
 
 Wang Bo earlier worries that hiding all danger from Sha Gen will harm him. Later he asks the officer to continue the deception. Once the bag reaches Sha Gen’s chest, he can understand the journey only through the ending others have prepared. The officer knows where the real money is and when the arrests will begin. He also chooses which account Sha Gen receives after waking. Feng Xiaogang later said that the police in early versions resembled ordinary passengers. Censorship demands strengthened their role and reduced the display of theft techniques.[^thieves] In the finished film, the officer controls both knowledge and narration. He directs the arrests and decides how the protected man will remember the trip.
 
-Feng also photographs crime with startling beauty. Wang Bo peels an eggshell without tearing its membrane, removes an ice cube from a glass at a distance and fights for the bag on the roof. These revelations rank the thieves by skill and let a punished craft retain its thrill. Wang Bo uses the same hands to return the money. The new purpose preserves his mastery and the pleasures of the genre. Sha Gen recovers sixty thousand yuan; the rest of Wang Bo’s past never returns with the bag for inspection.
+Feng also photographs crime with startling beauty. Wang Bo peels an eggshell without tearing its membrane, removes an ice cube from a glass at a distance and fights for the bag on the roof. These revelations rank the thieves by skill and let a punished craft retain its thrill. Wang Bo uses the same hands to return the money. The new purpose preserves his mastery and the pleasures of the genre.
 
 The officer presses send for Wang Bo and leaves Sha Gen inside the thief-free version. Lau presses delete and strips Chan of recognition by the police. In both cases, a police officer presses the button. With the second keystroke, Lau begins to control another man’s name and authority.
 
 ## Who Makes Lau Kin-ming Look More Like a Cop Than Chan Wing-yan?
 
-Lau has no need to repeat “I’m a cop” when he walks through police headquarters. His colleagues call him Inspector Lau. The system accepts his queries, while his warrant card and firearms authority make his orders binding on other people. He has a settled career and the face of a respectable life. Hon Sam sent him into the police academy years earlier. Their hidden tie uses police resources to locate targets and trades leaked intelligence for Lau’s safety inside the organization.
+Lau has no need to repeat “I’m a cop” when he walks through police headquarters. His colleagues call him Inspector Lau. The system accepts his queries, while his warrant card and firearms authority make his orders binding on other people. He has a settled career and the face of a respectable life. Hon Sam sent him into the police academy years earlier. Lau later uses police systems to find targets for Hon Sam, then builds his standing in the force with intelligence from Hon Sam.
 
 Chan travels in the other direction. He performs police work while his public record comes to resemble a criminal’s. Superintendent Wong and Principal Yip become the few people who can prove who he is. The police load ten years of secret service onto a small number of witnesses and one record. After Wong falls to his death, Chan returns to headquarters and finds Hon Sam’s file bag on Lau’s desk. He recognizes his own handwriting and understands who sits before him, then leaves the office. Lau turns to the police database and deletes Chan’s undercover record, keeping the file that could restore the identity on his own computer.[^infernal]
 
-Hon Sam sends Lau into the academy, and the force later gives him power to search records and deploy officers. Lau uses that power to inform Hon Sam, while his casework earns his colleagues’ trust. Their obedience gives him more police resources with which to protect himself. In *The Parallax View*, Žižek examines the relation between public law and the unwritten supplement it cannot acknowledge.[^law] Lau joins them in a single chain of acts. Public authority lets him erase Chan’s record and then preside over the search for a mole. The man who deletes the file keeps the power to decide who qualifies as a police officer.
+The force gives Lau power to search records and deploy officers, which he uses to inform Hon Sam. Hon Sam feeds him intelligence that wins the confidence of his colleagues. In *The Parallax View*, Žižek examines the relation between public law and the unwritten supplement it cannot acknowledge.[^law] Lau joins the two rules in his own conduct. Public authority lets him erase Chan’s record and then preside over the search for a mole. The man who deletes the file keeps the power to decide who qualifies as a police officer.
 
 ![Lau Kin-ming holds up his police identification in Infernal Affairs.](./redemption-between-return-and-erasure/lau-police-id.jpg)
 
 *Lau Kin-ming presents his police identification. Image: © Media Asia Film Distribution (HK) Limited / via M+.*
 
-The police have concentrated proof of Chan’s identity in two witnesses and one record, while Lau receives authority through his visible career. He uses those arrangements. Chan pays with ten years of his life, then loses his registration to one deletion. After Lau is exposed, the police still have to confront the weakness they created: an officer with access can wipe away the existence of an undercover operative with one keystroke.
-
 Actions on the train preserve Sha Gen’s money. Obedience at headquarters allows Lau to keep deploying guns and files. Chan says “I’m a cop” in his own voice and still cannot recover the identity by himself. The handcuffs on the rooftop demand that Lau give up the power sustained by his colleagues’ obedience.
 
 ## Who Pays for a Sentence, and Who Can Reclaim Judgment?
 
-Lau says, “I had no choice before. Now I want to be a good person.” Chan answers, “Fine. Tell that to the judge. See if he lets you be a good person.” The exchange often reads as two men declaring their positions on good and evil. Chan’s next act makes it a transfer of power. He takes out his handcuffs and orders Lau to leave the position from which he can erase files. That position also lets him carry a gun and issue commands.[^rooftop]
+Lau says, “I had no choice before. Now I want to be a good person.” Chan answers, “Fine. Tell that to the judge. See if he lets you be a good person.” Chan takes out his handcuffs and orders Lau to leave the position from which he can erase files, carry a gun and issue commands.[^rooftop]
 
-Lau wants Chan to certify his change in private. Hon Sam, his former master, is dead, and Chan stands before him knowing both men’s histories. If Chan accepts “I want to be a good person,” Lau can enter a new life without surrendering his police status. Chan refuses to make the sentence effective. He sends Lau’s wish to a judge and returns his own identity to public verification. The two men may understand each other on the rooftop. That understanding cannot reinstate Lau on behalf of the dead, the force or those Lau will later deceive.
+Lau wants Chan to certify his change in private. Hon Sam, his former master, is dead, and Chan stands before him knowing both men’s histories. If Chan accepts “I want to be a good person,” Lau can enter a new life without surrendering his police status. Chan refuses to act for the sentence. He sends Lau’s wish to a judge and first orders him into handcuffs. Their mutual understanding reaches its limit on the rooftop. Lau must surrender his position.
 
 ![Chan Wing-yan aims his gun at Lau Kin-ming on the rooftop in Infernal Affairs.](./redemption-between-return-and-erasure/rooftop-confrontation.jpg)
 
 *Chan Wing-yan confronts Lau Kin-ming on the rooftop. Image: © Media Asia Film Distribution (HK) Limited / via M+.*
 
-The train invites the same question about Wang Bo’s protection. Sha Gen gets his sixty thousand yuan back, with Wang Bo carrying most of the risk. Wang Bo and the officer continue to hide the events, depriving Sha Gen of a chance to recognize danger through this experience. A later account could still allow him to interpret the journey anew. Permanent secrecy keeps control of the explanation with those who know.
+Back on the train, Sha Gen gets his sixty thousand yuan while Wang Bo carries most of the risk. Wang Bo and the officer hide what happened. Sha Gen wakes to the bag on his chest, unaware of the hand that reached for it or the hands that kept the next thief away.
 
 Lau seals each route of revision. He deletes the record and refuses the handcuffs. After Officer Lam Kwok-ping shoots Chan in the elevator, Lau kills Lam and leaves a dead man to carry all the blame for the mole inside the force. In the third film he keeps using the Internal Affairs Division to pursue those he identifies as moles, while rewriting evidence that threatens his identity. Each rescue requires another person’s silence.
 
@@ -87,8 +86,6 @@ Both narratives put settlement on the body. Wang Bo dies from the wound he recei
 *Infernal Affairs II* repeats the line “You come out to play, you have to pay” four times. The rule counts death and prison as the price of entering the underworld; punishment can even make a character seem worthier of that life. Ngai Wing-hau takes up the purges left by Ngai Kwun, and Hon Sam later takes Ngai Wing-hau’s place. Lau continues to destroy evidence. Payment leaves the old methods running.[^repayment]
 
 Temples and “Continuous Hell” connect both narratives to popular images of karmic retribution. *A World Without Thieves* cross-cuts Wang Li praying at a temple with Wang Bo stealing a mobile phone. *Infernal Affairs* names an unrelenting prison of the self after the Avīci hell. Early Buddhist texts locate karma in intentional action and reject the calculation that pain alone can wear away the effects of former deeds.[^buddhism] Wang Bo uses his old skill to protect another person’s money for the first time. Lau keeps suffering while the practice of erasing evidence and silencing people continues.
-
-Chan bears the greatest pain. The identity later restored is his. Lau deletes his record, then Lam kills him. Other people can verify both identities only through records that have escaped Lau’s control.
 
 ## A Recording Gives the Sentence a New Listener
 
@@ -106,11 +103,7 @@ In the third film, Lau recovers a recording and surrenders control with his own 
 
 Another record takes a slower route. Six months after Chan’s death, Dr Lee finds his undercover file among Principal Yip’s effects. The police restore Chan’s identity from it and bury him with the honours due to an officer. The document acts on Chan’s side alone. It reconnects “I’m a cop” to the institution and gives a dead man his public name.
 
-Restoration has a firm limit. The file can restore Chan’s name to the police, and the recording can establish Lau’s link to Hon Sam. Neither returns ten years spent undercover or reverses the gunshots in the elevator. Evidence creates the conditions for verification. Listeners and procedures still have to decide how to act on it; a record delivers no verdict by itself.
-
-The same police force that concentrated Chan’s proof among a few people restores his identity. Once Lau’s colleagues hear the tape, they turn their guns on him and demand his arrest. Chan receives an honourable burial. The funeral leaves unsettled how the force benefited from Lau’s achievements while treating Chan’s identity as expendable.
-
-Wang Bo returns one bag to one victim, and the restitution ends there. The disc in Lau’s home drives Mary to leave; a different tape at headquarters turns his colleagues’ guns toward him. Lau’s deletion leaves the copied voices untouched and beyond his control.
+Principal Yip’s file restores Chan’s name. The tape turns the guns away from Yeung Kam-wing and back toward Lau. Both records reach new listeners. Chan receives an honourable burial and Lau loses the obedience of his colleagues; Chan’s ten years undercover and the gunshots in the elevator remain where they fell.
 
 ## Whose Belief Does the Audience Carry to the End?
 
@@ -130,9 +123,7 @@ The Hong Kong ending of *Infernal Affairs* resists that kind of closure. Chan di
 
 Wang Li keeps eating at the table and must live with an unborn child. Mary leaves Lau after hearing the recording, ending a marriage held together by secrecy. If the audience stops with Wang Bo’s sacrifice or Lau’s punishment, tragedy settles the judgment for them. Wang Li’s eating and Mary’s departure return judgment to the consequences borne by the living.
 
-A group makes Sha Gen’s false sentence hold for one journey. Chan’s true sentence needs a file and listeners before the police will recognize it again. Lau’s wish never leaves the rooftop because he refuses the handcuffs and asks other people to pay for his old identity.
-
-No one can close the case alone. A sentence has lodged its force in other people’s obedience, in records, and in the lives that continue afterward. Any change has to be tested at those same sites. Wang Bo completes one bounded restitution, and death cannot close every further question. Every time Lau protects his account, he creates another piece of evidence that someone else will have to play. A wish begins to carry the weight of a new life only when its speaker stops asking others to testify for the old one.
+Wang Bo places the bag back on Sha Gen’s chest. Lau deletes Chan Wing-yan’s file from the screen. The first act carries Sha Gen’s sentence through one journey; the second strips Chan’s true sentence of its proof inside the force. Wang Li still sits at the table, and Mary has heard the recording. They inherit lives that continue after the men have finished speaking for themselves.
 
 [^films]: The movement and final return of the money in *A World Without Thieves*, including the officer sending Wang Bo’s message, were checked against the [CCTV-authorized stream](https://tv.cctv.com/2015/08/12/VIDERjCJ3w7f1pkS6UfO459b150812.shtml). The double-undercover premise and Hong Kong ending of the first *Infernal Affairs* appear on [Media Asia’s official film page](https://www.mediaasia.com/En/Movies/Info/86/) and the [Hong Kong Film Archive programme page](https://www.filmarchive.gov.hk/tc/web/hkfa/pe-event-2020-7-1-3.html).
 [^thieves]: Sha Gen’s sixty thousand yuan, his faith in wolves and the disagreement between Wang Bo and Wang Li over protecting him appear in Feng Xiaogang’s [2004 interview with the film’s creators](https://ent.sina.com.cn/m/c/2004-06-16/1135419159.html) and [CCTV’s plot summary](https://news.cctv.com/special/gzzg/20090918/105376.shtml). In a [long 2005 interview](https://ent.sina.com.cn/m/c/2005-01-13/1702629895.html), Feng explains that censorship demands strengthened the police role and discusses the final contest of honour among thieves.
