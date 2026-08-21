@@ -41,9 +41,17 @@ Fang Hongjian spends several years studying in Europe without completing a degre
 
 Fang knows the degree is fraudulent. He even maintains a private rule against listing it formally when applying for work. His distance from the credential does not undo the photograph, the newspaper report or the conduct of relatives and friends. Once other people possess the title, its social effects no longer remain under the holder’s control. Fang’s shame shows that he does not fully coincide with the role. Those around him can still use the degree to picture his respectable career and marriage prospects ahead of time.
 
+![In a 1930s ship cabin, a blank doctorate lies on a desk while a young Chinese returnee adjusts his tie in a mirror.](./when-credentials-live-for-us/fortress-besieged-blank-diploma.webp)
+
+*Original conceptual illustration: the diploma takes finished form on the desk while its holder prepares the role he will be expected to play. Not an archival image or a reconstruction of a scene from the novel.*
+
 *The Castle* carries the same structure from credential to appointment. K arrives in the village late at night and, when threatened with expulsion, says that the Count has summoned him to serve as land surveyor. A telephone call first denies that the village has any such surveyor, then recognizes the earlier answer as a mistake. The novel never gives the reader an original contract capable of settling the dispute. Administrative procedures nonetheless begin to move around the role. K ties his claims to lodging, employment and admission to the castle to the name “land surveyor.”[^castle-role]
 
 The role first gives him a timeline. A present refusal can mean that the paperwork remains incomplete. Today’s humiliation can be exchanged for future recognition. Anyone with a connection may become the next point of entry. K sees the contradictions in the village procedures and still devotes much of his energy to proving that he has always had the right to enter. He resists by demanding that the castle honor the role in full.
+
+![A pale blue clothbound copy of the 1926 German first edition of Franz Kafka’s The Castle, with a red title label at its center.](./when-credentials-live-for-us/das-schloss-1926-first-edition.webp)
+
+*A copy of the 1926 first edition of Kafka’s “The Castle.” Photograph by Zassen, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Franz_Kafka_Das_Schloss.jpg); converted to WebP.*
 
 Barnabas lives a quieter version of the same arrangement. Trained in shoemaking, he can help his father complete orders. Olga places the family’s hope of restored standing in his role as a castle messenger. The office-issued outfit promised to him has yet to arrive, and neither the status nor the route of the assignment is clear. Barnabas has grave doubts. Amalia disapproves of the work and may even despise it. Olga continues to read every contact he has with an official as a chance for the family to approach the castle.[^castle-barnabas]
 
@@ -66,6 +74,10 @@ Serving as an examiner, Zhou Jin reads Fan Jin’s essay once and cannot make se
 Neither discernment nor favoritism can dispose of this scene by itself. The novel supplies no independent standard with which a reader outside the examination hall could issue a final judgment on the essay. Zhou Jin’s impulse to compensate Fan Jin for old injuries does not cancel the care of his repeated reading. The third reading ends the dispute because the examiner’s authority writes it into the roll. Everyone who comes later need only read the result.
 
 *The Castle* breaks the examiner with a face into a series of offices. The village head explains the origin of K’s appointment. The village had already replied that it needed no surveyor, yet the papers went to the wrong department. The relevant file may have remained in the village or vanished in transit. The department handling the mistaken delivery eventually received nothing but an empty file cover. The inquiry into this mistake produced still more documents. No official has the whole sequence in view, and no one will declare the entire procedure void. Each office confirms only what it received and what it sent onward.[^castle-files]
+
+![In a village office filled with files, an official shows an empty file cover to a surveyor seen from behind while hands at the frame’s edges continue to pass in papers.](./when-credentials-live-for-us/castle-empty-file-cover.webp)
+
+*Original conceptual illustration: the mistake in the appointment is dispersed among files and offices, leaving each custodian with only one part. Not a still from an adaptation of “The Castle.”*
 
 This dispersal increases the interpretive labor required of those caught in the procedure, and it enlarges authority. The reversal over the telephone may come from a higher office. A missing document may already belong to another review. The ignorance of the clerk at hand can mean that knowledge resides farther inside. The harder the procedure becomes to recount, the harder it is for one contradiction to end it. K and the villagers must keep guessing which sheet of paper lies closer to the castle’s intention.
 
@@ -154,6 +166,10 @@ K has long known that telephone calls are unreliable, files disappear and superi
 When Barnabas delivers another letter attributed to Klamm, K asks about the private message he had previously entrusted to him. Barnabas says that on the day after receiving K’s message he did not go to the castle. His father had too much shoemaking to finish and needed his help. K is furious. In his ordering of work, a message that might reach Klamm outranks the father’s craft. The conversation compresses two schedules. One leads toward castle messages whose source and force remain unstable. The other stays with the orders waiting in a shoemaker’s hands.[^castle-barnabas]
 
 Shoemaking offers none of the castle’s glory. An order eventually encounters leather, measurements and use. A title cannot complete it. The object retains a voice inside this circuit. The messenger’s work has yet to acquire the promised office-issued outfit or defined rights, yet Olga reads each ambiguous contact as another step toward recognition.
+
+![In a winter shoemaker’s workshop, a father and adult son measure a shoe at the bench while leather and tools lie before them and a sealed letter rests to one side.](./when-credentials-live-for-us/castle-shoemaker-order.webp)
+
+*Original conceptual illustration: a messenger post can remain suspended, but leather, fit and use demand an answer from the craft at hand. Not a still from an adaptation of “The Castle.”*
 
 K and Frieda enter the other circuit while cleaning the school. Pupils and the teacher already fill the room. K sweeps and changes the water while Frieda scrubs the floor. Everyone can see who did the work and what happened to the dirt and dirty water. A division of labor does not dissolve responsibility by itself, and low-status work still has a structure of production. K treats the caretaker’s duties as a temporary demotion. Feedback from an object can correct a task without reorganizing someone’s desire.
 
