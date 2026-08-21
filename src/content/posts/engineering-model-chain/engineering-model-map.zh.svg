@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1320" viewBox="0 0 720 1320" role="img" aria-labelledby="title desc">
+  <title id="title">工程模型链的八类节点与两条使用路径</title>
+  <desc id="desc">上半部分显示目的、规范、参照系统、数据、语义模型、操作判据和计算制品的关系；下半部分区分结果返回决策的离线路径与计算制品进入部署系统的嵌入路径。资格化作为证据标签，生命周期作为图外版本轨。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#34424f"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3567c8"/>
+    </marker>
+    <marker id="arrowCoral" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c95c4d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #5f6872; }
+    .panel-title { font-size: 25px; font-weight: 700; }
+    .band-label { font-size: 17px; font-weight: 700; fill: #68727c; letter-spacing: .5px; }
+    .node-symbol { font-size: 22px; font-weight: 800; }
+    .node-label { font-size: 20px; font-weight: 700; }
+    .edge-label { font-size: 16px; font-weight: 600; fill: #4e5964; }
+    .small { font-size: 16px; fill: #5f6872; }
+    .node { stroke-width: 2; }
+    .edge { fill: none; stroke: #34424f; stroke-width: 2.5; marker-end: url(#arrow); }
+    .offline { fill: none; stroke: #3567c8; stroke-width: 3; stroke-dasharray: 9 7; marker-end: url(#arrowBlue); }
+    .embedded { fill: none; stroke: #34424f; stroke-width: 3.2; marker-end: url(#arrow); }
+  </style>
+
+  <rect width="720" height="1320" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="40" y="58">工程模型链：对象、关系与使用</text>
+  <text class="subtitle" x="40" y="91">箭头表示有类型的依赖，不表示固定阶段或时间顺序</text>
+
+  <g id="panel-a">
+    <rect x="28" y="122" width="664" height="720" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="164">A　问题怎样成为可执行计算</text>
+
+    <rect x="48" y="190" width="624" height="150" rx="18" fill="#fff6e8"/>
+    <text class="band-label" x="64" y="218">意图—规范</text>
+    <rect class="node" x="74" y="242" width="188" height="70" rx="16" fill="#fff0d7" stroke="#c27919"/>
+    <text class="node-symbol" x="94" y="284" fill="#a85f0b">P</text>
+    <text class="node-label" x="130" y="284">目的与决策</text>
+    <rect class="node" x="458" y="242" width="188" height="70" rx="16" fill="#f3f1ee" stroke="#817a72"/>
+    <text class="node-symbol" x="478" y="284" fill="#625d57">S</text>
+    <text class="node-label" x="514" y="284">规范与要求</text>
+
+    <rect x="48" y="356" width="624" height="236" rx="18" fill="#eef6f7"/>
+    <text class="band-label" x="64" y="384">参照—语义</text>
+    <rect class="node" x="66" y="420" width="174" height="74" rx="16" fill="#e2f4f1" stroke="#16877d"/>
+    <text class="node-symbol" x="84" y="464" fill="#0d6f67">W</text>
+    <text class="node-label" x="124" y="464">参照系统</text>
+    <rect class="node" x="274" y="420" width="174" height="74" rx="16" fill="#f3f1ee" stroke="#817a72"/>
+    <text class="node-symbol" x="294" y="464" fill="#625d57">Z</text>
+    <text class="node-label" x="332" y="464">观测数据</text>
+    <rect class="node" x="482" y="420" width="174" height="74" rx="16" fill="#e8efff" stroke="#3b6fd8"/>
+    <text class="node-symbol" x="502" y="464" fill="#285dbb">M</text>
+    <text class="node-label" x="540" y="464">语义模型</text>
+
+    <rect x="48" y="608" width="624" height="202" rx="18" fill="#f5f0fb"/>
+    <text class="band-label" x="64" y="636">实现—使用</text>
+    <rect class="node" x="176" y="674" width="174" height="74" rx="16" fill="#f3f1ee" stroke="#817a72"/>
+    <text class="node-symbol" x="196" y="718" fill="#625d57">J</text>
+    <text class="node-label" x="234" y="718">操作判据</text>
+    <rect class="node" x="470" y="674" width="174" height="74" rx="16" fill="#f0e9fb" stroke="#7b4ab5"/>
+    <text class="node-symbol" x="490" y="718" fill="#65379c">C</text>
+    <text class="node-label" x="528" y="718">计算制品</text>
+
+    <path class="edge" d="M262 277 H446"/>
+    <text class="edge-label" x="354" y="266" text-anchor="middle">提取要求</text>
+
+    <path class="edge" d="M136 312 C128 350 130 384 142 408"/>
+    <text class="edge-label" x="93" y="361">划界</text>
+
+    <path class="edge" d="M240 457 H262"/>
+    <text class="edge-label" x="251" y="445" text-anchor="middle">观测</text>
+
+    <path class="edge" d="M448 457 H470"/>
+    <text class="edge-label" x="459" y="445" text-anchor="middle">识别</text>
+
+    <path class="edge" d="M153 420 C224 382 496 382 569 420"/>
+    <rect x="306" y="382" width="102" height="28" rx="14" fill="#ffffff"/>
+    <text class="edge-label" x="357" y="402" text-anchor="middle">抽象</text>
+
+    <path class="edge" d="M600 312 C680 380 684 530 620 610 C544 646 400 650 292 664"/>
+    <rect x="574" y="524" width="86" height="28" rx="14" fill="#ffffff"/>
+    <text class="edge-label" x="617" y="544" text-anchor="middle">操作化</text>
+
+    <path class="edge" d="M568 494 V662"/>
+    <text class="edge-label" x="581" y="585">实现</text>
+
+    <path class="edge" d="M350 711 H458"/>
+    <text class="edge-label" x="404" y="700" text-anchor="middle">指导计算</text>
+  </g>
+
+  <g id="panel-b">
+    <rect x="28" y="866" width="664" height="398" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="908">B　计算进入两种使用情境</text>
+
+    <rect class="node" x="270" y="938" width="180" height="70" rx="16" fill="#f0e9fb" stroke="#7b4ab5"/>
+    <text class="node-symbol" x="292" y="980" fill="#65379c">C</text>
+    <text class="node-label" x="330" y="980">计算制品</text>
+
+    <rect class="node" x="56" y="1082" width="188" height="70" rx="16" fill="#fff0d7" stroke="#c27919"/>
+    <text class="node-symbol" x="76" y="1124" fill="#a85f0b">P</text>
+    <text class="node-label" x="112" y="1124">目的与决策</text>
+
+    <rect class="node" x="488" y="1018" width="174" height="70" rx="16" fill="#fff0d7" stroke="#c27919"/>
+    <text class="node-symbol" x="508" y="1060" fill="#a85f0b">O</text>
+    <text class="node-label" x="546" y="1060">部署系统</text>
+    <rect class="node" x="488" y="1124" width="174" height="70" rx="16" fill="#e2f4f1" stroke="#16877d"/>
+    <text class="node-symbol" x="508" y="1166" fill="#0d6f67">W</text>
+    <text class="node-label" x="546" y="1166">参照系统</text>
+
+    <path class="offline" d="M286 997 C238 1019 194 1048 166 1072"/>
+    <text class="edge-label" x="228" y="1044" text-anchor="middle" fill="#3567c8">离线结果返回</text>
+    <rect x="62" y="1005" width="108" height="34" rx="17" fill="#e8efff" stroke="#3567c8" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="116" y="1028" text-anchor="middle" font-size="16px" font-weight="700" fill="#285dbb">Q · 证据标签</text>
+    <path d="M170 1022 L202 1032" fill="none" stroke="#3567c8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+    <path class="embedded" d="M450 974 C484 978 519 993 545 1008"/>
+    <text class="edge-label" x="509" y="970" text-anchor="middle">集成</text>
+    <path class="embedded" d="M575 1088 V1112"/>
+    <text class="edge-label" x="590" y="1110">行动</text>
+
+    <path d="M105 1082 C104 978 188 948 260 962" fill="none" stroke="#c95c4d" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrowCoral)"/>
+    <text x="70" y="962" font-size="16px" font-weight="700" fill="#b44b3e">可触发修订 / 复验</text>
+
+    <line x1="66" y1="1224" x2="648" y2="1224" stroke="#7c858e" stroke-width="2" stroke-dasharray="3 8"/>
+    <circle cx="106" cy="1224" r="7" fill="#7c858e"/>
+    <circle cx="606" cy="1224" r="7" fill="#7c858e"/>
+    <text class="small" x="74" y="1210" font-family="STIX Two Math, Times New Roman, serif">𝒢<tspan baseline-shift="sub" font-size="12px">t</tspan></text>
+    <text class="small" x="574" y="1210" font-family="STIX Two Math, Times New Roman, serif">𝒢<tspan baseline-shift="sub" font-size="12px">t+1</tspan></text>
+    <rect x="234" y="1200" width="254" height="48" rx="24" fill="#f3f1ee"/>
+    <text x="361" y="1230" text-anchor="middle" font-size="16px" font-weight="700" fill="#5f6872">L · 版本、监测、更新与复验</text>
+  </g>
+
+  <text class="small" x="360" y="1298" text-anchor="middle">Q 与 L 横切关系图；它们不是第九、第十个节点</text>
+</svg>
