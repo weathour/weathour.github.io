@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1160" viewBox="0 0 720 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Formal semantics and empirical representation are two different gates</title>
+  <desc id="desc">Within a model, formal interpretation maps a presentation to a semantic structure in which a demonstration is performed. A model user establishes denotation between model and referent system for a purpose, then interprets model results back into claims about reality. Observed data and model predictions are compared through common observables.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#596570"/>
+    </marker>
+    <marker id="orange-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#b06d1d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 24px; font-weight: 700; }
+    .formula { font-size: 22px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 18px; fill: #45515d; }
+    .small { font-size: 16px; fill: #5f6872; }
+    .label { font-size: 17px; font-weight: 700; }
+    .compact { font-size: 15px; font-weight: 700; }
+    .compact-body { font-size: 16px; fill: #45515d; }
+    .inverse { fill: #ffffff; }
+  </style>
+
+  <rect width="720" height="1160" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">Two gates connect a model to the world</text>
+  <text class="subtitle" x="44" y="96">Formal validity alone does not establish a reliable claim about reality</text>
+
+  <g transform="translate(130 126)">
+    <rect width="460" height="92" rx="46" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="card-title" x="230" y="38" text-anchor="middle">Model user a · purpose P</text>
+    <text class="small" x="230" y="68" text-anchor="middle">Select target aspects, observables, and adequacy criteria</text>
+  </g>
+
+  <path d="M238 218 C188 248 174 276 169 316" fill="none" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <path d="M482 218 C532 248 546 276 551 316" fill="none" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+
+  <g transform="translate(44 326)">
+    <rect width="250" height="250" rx="24" fill="#fff3e2" stroke="#c27919" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#a85f0b">REFERENT SYSTEM W</text>
+    <text class="card-title" x="24" y="68">Roads, vehicles</text>
+    <text class="card-title" x="24" y="94">and congestion</text>
+    <g transform="translate(24 108)">
+      <path d="M0 18 H202 M0 58 H202" stroke="#c27919" stroke-width="3"/>
+      <path d="M5 38 H197" stroke="#c27919" stroke-width="2" stroke-dasharray="12 10"/>
+      <g fill="#c27919">
+        <rect x="24" y="6" width="44" height="23" rx="6"/>
+        <rect x="79" y="27" width="44" height="23" rx="6"/>
+        <rect x="148" y="6" width="44" height="23" rx="6"/>
+      </g>
+    </g>
+    <text class="compact-body" x="24" y="200">A model selects some aspects;</text>
+    <text class="compact-body" x="24" y="223">it does not copy the whole</text>
+    <text class="compact-body" x="24" y="246">world.</text>
+  </g>
+
+  <g transform="translate(426 326)">
+    <rect width="250" height="250" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="compact" x="24" y="34" fill="#285dbb">FORMAL PRESENTATION p</text>
+    <text class="formula" x="24" y="76">q = φ(k)</text>
+    <path d="M125 94 V126" stroke="#596570" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="128" y="116" font-size="11" fill="#5f6872">formal interpretation</text>
+    <rect x="24" y="138" width="202" height="86" rx="16" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="1.5"/>
+    <text x="36" y="169" font-size="14" font-weight="700" fill="#65379c">SEMANTIC STRUCTURE M</text>
+    <text x="36" y="202" font-size="19" font-family="STIX Two Math, Cambria Math, serif">Rφ = {(k,q): q=φ(k)}</text>
+  </g>
+
+  <path d="M294 484 H450" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <text x="372" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#a85f0b">DENOTATION Dρ</text>
+  <path d="M450 536 H294" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <text x="372" y="551" text-anchor="middle" font-size="12" font-weight="700" fill="#a85f0b">Iρ · EMPIRICAL</text>
+  <text x="372" y="567" text-anchor="middle" font-size="12" font-weight="700" fill="#a85f0b">INTERPRETATION</text>
+
+  <g transform="translate(426 622)">
+    <rect width="250" height="156" rx="22" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="compact" x="24" y="32" fill="#0d6f67">MODEL-INTERNAL</text>
+    <text class="compact" x="24" y="52" fill="#0d6f67">DEMONSTRATION</text>
+    <text class="formula" x="24" y="87">Demoℛ(M) = Ẑ</text>
+    <text class="compact-body" x="24" y="118">Apply the model's relations</text>
+    <text class="compact-body" x="24" y="142">to derive an internal result Ẑ</text>
+  </g>
+  <path d="M551 576 V616" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="563" y="605">demonstration</text>
+
+  <g transform="translate(44 622)">
+    <rect width="250" height="156" rx="22" fill="#fff3e2" stroke="#c27919" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#a85f0b">OBSERVATION PROCESS</text>
+    <text class="formula" x="24" y="76">W ⟶ Z</text>
+    <text class="compact-body" x="24" y="104">Sensing, sampling,</text>
+    <text class="compact-body" x="24" y="126">and processing produce</text>
+    <text class="compact-body" x="24" y="148">a comparable data model Z</text>
+  </g>
+  <path d="M169 576 V616" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+
+  <path d="M294 700 H426" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="360" y="683" text-anchor="middle" font-size="14" fill="#5f6872">compare observables</text>
+
+  <g transform="translate(84 832)">
+    <rect width="552" height="126" rx="24" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="card-title" x="276" y="42" text-anchor="middle">Empirical adequacy is a relational claim</text>
+    <text class="formula" x="276" y="78" text-anchor="middle">ρ = ⟨a, M, W, P, Dρ, Iρ⟩</text>
+    <text class="small" x="276" y="106" text-anchor="middle">It also requires data, errors, a validity domain, and task thresholds</text>
+  </g>
+
+  <g transform="translate(84 994)">
+    <rect width="552" height="104" rx="20" fill="#17212b"/>
+    <text class="inverse" x="276" y="41" text-anchor="middle" font-size="20" font-weight="700">GATE 1: SYMBOLS ACQUIRE FORMAL SEMANTICS</text>
+    <text class="inverse" x="276" y="76" text-anchor="middle" font-size="18" font-weight="700">GATE 2: STRUCTURE ACQUIRES EMPIRICAL REFERENCE</text>
+  </g>
+
+  <text class="small" x="360" y="1134" text-anchor="middle">Passing the first gate does not imply that the second has been passed.</text>
+</svg>

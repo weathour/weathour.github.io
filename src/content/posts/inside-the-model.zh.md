@@ -358,9 +358,9 @@ $$
 
 三个例子说明，投影结果无法恢复原生语义。跨时间系统还需保存执行结构：混合系统的连续流、守卫、不变量和重置共同生成允许执行，一条仿真曲线只是其中一个选择。[^hybrid]
 
-![六个全宽卡片分别展示关系、解与执行、概率权重、优化排序、因果查询和开放闭环语义，说明不同模型类型必须保留不同信息。](./inside-the-model/semantic-kinds-stress-test.zh.svg)
+![六个全宽卡片分别展示关系、解与执行、概率权重、优化排序、因果查询和 agent—环境闭环语义，说明不同模型类型必须保留不同信息。](./inside-the-model/semantic-kinds-stress-test.zh.svg)
 
-*图 4　六类语义对象并列显示各自不可丢失的结构：概率权重、优化排序、因果查询、跨时间执行与开放闭环。*
+*图 4　六类语义对象并列显示各自不可丢失的结构：概率权重、优化排序、因果查询、跨时间执行与 agent—环境闭环行为。*
 
 统一发生在有类型的呈现—语义映射层。辨认模型的原生语义以后，下一步才是判断网格、损失和求解器在近似它还是改写它。
 
@@ -593,7 +593,7 @@ $\rho$ 无法由变量名自动生成。把 $k$ 叫作“密度”，没有说�
 
 ![主体为用途选择参照系统和模型。模型内部由形式呈现得到语义结构并完成推演；外部通过指称和经验回译连接现实，观测数据与模型预测在共同观察量上比较。](./inside-the-model/model-world-two-bridges.zh.svg)
 
-*图 5　左侧由形式结构、满足关系与语义映射给呈现确定数学内容；右侧由指称和经验回译连接现实，底部在共同观察量上比较数据与预测。*
+*图 5　左侧由指称和经验回译把模型接到参照系统，并在共同观察量上比较数据与预测；右侧由形式结构解释符号、由语义映射给呈现确定数学内容，并在模型内完成推演。*
 
 经验表征还要接受数据质量、误差范围、有效域和用途阈值的检验。主体、用途或操作定义变化以后，即使模型文件与参数保持不动，$\operatorname{Rep}$ 关系也已经改变。
 
@@ -631,7 +631,7 @@ Lighthill 与 Whitham 的构成关系面向大量车辆和足够长的拥挤道�
 
 [^pinn]: Maziar Raissi, Paris Perdikaris and George Karniadakis, “[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/j.jcp.2018.10.045),” *Journal of Computational Physics* 378, 2019, Sections 2.1–2.2；Aditi Krishnapriyan et al., “[Characterizing Possible Failure Modes in Physics-Informed Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html),” *NeurIPS 2021*, Sections 3–4.1。
 
-[^abm-schedule]: Volker Grimm et al., “[A Standard Protocol for Describing Individual-Based and Agent-Based Models](https://doi.org/10.1016/j.ecolmodel.2006.04.023),” *Ecological Modelling* 198, 2006, Sections 2.1–2.7, especially Section 2.3, pp. 118–119；NetLogo, “[Life](https://ccl.northwestern.edu/netlogo/models/Life),” HOW IT WORKS。
+[^abm-schedule]: Volker Grimm et al., “[A Standard Protocol for Describing Individual-Based and Agent-Based Models](https://doi.org/10.1016/j.ecolmodel.2006.04.023),” *Ecological Modelling* 198, 2006, Sections 2.1–2.7, especially Section 2.3, pp. 118–119；Uri Wilensky, “[NetLogo Life model](https://ccl.northwestern.edu/netlogo/models/Life),” 1998, HOW IT WORKS。
 
 [^react]: Shunyu Yao et al., “[ReAct: Synergizing Reasoning and Acting in Language Models](https://openreview.net/forum?id=WE_vluYUL-X),” *ICLR 2023*, Section 2, p. 3；Sections 3.1–3.2, pp. 4–5。
 

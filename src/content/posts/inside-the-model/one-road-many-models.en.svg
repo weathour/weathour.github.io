@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180" role="img" aria-labelledby="title desc">
+  <title id="title">One road can give rise to four different models</title>
+  <desc id="desc">The same congested road can be presented as a flow-density relation, a conservation partial differential equation, a probabilistic state-transition kernel, or a control optimization problem. Sharing a physical site does not make the models identical.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#65717d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 24px; font-weight: 700; }
+    .formula { font-size: 25px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 19px; fill: #45515d; }
+    .small { font-size: 17px; fill: #5f6872; }
+    .tag { font-size: 16px; font-weight: 700; fill: #ffffff; }
+    .card { stroke-width: 2; }
+  </style>
+
+  <rect width="720" height="1180" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">One road, four mathematical questions</text>
+  <text class="subtitle" x="44" y="96">The site stays fixed; signature, query, and semantic kind change</text>
+
+  <g transform="translate(52 126)">
+    <rect width="616" height="146" rx="24" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text x="30" y="38" font-size="18" font-weight="700" fill="#a85f0b">REFERENT SYSTEM W</text>
+    <text x="30" y="70" class="body">A sufficiently long, congested road carrying many vehicles</text>
+    <g transform="translate(30 88)">
+      <path d="M0 17 H556 M0 47 H556" stroke="#c27919" stroke-width="3"/>
+      <path d="M6 32 H550" stroke="#c27919" stroke-width="2" stroke-dasharray="14 12"/>
+      <g fill="#c27919">
+        <rect x="44" y="4" width="52" height="24" rx="7"/>
+        <rect x="142" y="22" width="52" height="24" rx="7"/>
+        <rect x="258" y="4" width="52" height="24" rx="7"/>
+        <rect x="376" y="22" width="52" height="24" rx="7"/>
+        <rect x="476" y="4" width="52" height="24" rx="7"/>
+      </g>
+    </g>
+  </g>
+
+  <path d="M360 272 V314" stroke="#65717d" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="380" y="302">Which question comes first?</text>
+
+  <g transform="translate(52 326)">
+    <rect class="card" width="616" height="166" rx="22" fill="#e8efff" stroke="#3b6fd8"/>
+    <rect x="22" y="22" width="138" height="34" rx="17" fill="#285dbb"/>
+    <text class="tag" x="91" y="45" text-anchor="middle" fill="#ffffff">STATIC RELATION</text>
+    <text class="card-title" x="180" y="47">How are flow and density related?</text>
+    <text class="formula" x="38" y="98">q = φ(k)</text>
+    <text class="body" x="206" y="98">Semantics: Rφ = {(k,q) : q = φ(k)}</text>
+    <text class="small" x="38" y="136">No time evolution is implied. This is already a complete</text>
+    <text class="small" x="38" y="157">constitutive relation.</text>
+  </g>
+
+  <g transform="translate(52 514)">
+    <rect class="card" width="616" height="166" rx="22" fill="#e2f4f1" stroke="#16877d"/>
+    <rect x="22" y="22" width="138" height="34" rx="17" fill="#0d6f67"/>
+    <text class="tag" x="91" y="45" text-anchor="middle" fill="#ffffff">CONSERVATION</text>
+    <text class="card-title" x="180" y="47">How does congestion propagate?</text>
+    <text class="formula" x="38" y="99">∂ₜk + ∂ₓφ(k) = 0</text>
+    <text class="body" x="342" y="98">Semantics: solution fields</text>
+    <text class="small" x="38" y="136">Domain, initial and boundary data, and a solution concept are still</text>
+    <text class="small" x="38" y="157">required; a unique solution operator does not follow automatically.</text>
+  </g>
+
+  <g transform="translate(52 702)">
+    <rect class="card" width="616" height="166" rx="22" fill="#f0e9fb" stroke="#7b4ab5"/>
+    <rect x="22" y="22" width="164" height="34" rx="17" fill="#65379c"/>
+    <text class="tag" x="104" y="45" text-anchor="middle" fill="#ffffff">NEXT: PROBABILITY</text>
+    <text class="card-title" x="206" y="47">How likely is the next state in A?</text>
+    <text class="formula" x="38" y="99">Kθ((x,u),A) = Pr{Xₜ₊₁ ∈ A | x,u}</text>
+    <text class="small" x="38" y="136">The semantics carries event probabilities. Keeping only “possible</text>
+    <text class="small" x="38" y="157">states” discards part of the model.</text>
+  </g>
+
+  <g transform="translate(52 890)">
+    <rect class="card" width="616" height="166" rx="22" fill="#fff3e2" stroke="#c27919"/>
+    <rect x="22" y="22" width="176" height="34" rx="17" fill="#8d570e"/>
+    <text class="tag" x="110" y="45" text-anchor="middle" fill="#ffffff">NEXT: OPTIMIZATION</text>
+    <text class="card-title" x="218" y="47">Which feasible control is best?</text>
+    <text class="formula" x="38" y="99">uθ∗(x) = arg min  Jθ(x,u)</text>
+    <text class="body" x="371" y="98">u ∈ Fθ(x)</text>
+    <text class="small" x="38" y="136">The semantics retains feasibility, objective ordering, and values.</text>
+    <text class="small" x="38" y="157">A solver returns only one candidate solution.</text>
+  </g>
+
+  <path d="M32 408 V974" stroke="#9aa3ab" stroke-width="2" stroke-dasharray="7 8"/>
+  <path d="M32 408 H48 M32 596 H48 M32 784 H48 M32 972 H48" stroke="#9aa3ab" stroke-width="2"/>
+  <text class="small" x="360" y="1114" text-anchor="middle">The first two set up the problem; the next section returns to the last two.</text>
+</svg>

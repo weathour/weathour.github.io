@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1660" viewBox="0 0 720 1660" role="img" aria-labelledby="title desc">
+  <title id="title">Stress-testing six semantic kinds of model</title>
+  <desc id="desc">Relations, solution fields, probability kernels, optimization problems, causal models, and closed-loop agents share a passage from typed presentation to formal semantics. Each must retain different information, so they cannot all be reduced to deterministic functions or unweighted behavior sets.</desc>
+  <style>
+    text { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .formula { font-size: 22px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 18px; fill: #45515d; }
+    .small { font-size: 17px; fill: #5f6872; }
+    .tag { font-size: 16px; font-weight: 700; fill: #ffffff; }
+  </style>
+
+  <rect width="720" height="1660" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">One pattern, different semantic objects</text>
+  <text class="subtitle" x="44" y="96">pτ ∈ Presτ(Στ)　⟼　Semτ = ⟦pτ⟧</text>
+
+  <g transform="translate(44 132)">
+    <rect width="632" height="218" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#285dbb"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">RELATION</text>
+    <text class="card-title" x="152" y="45">Static / algebraic model</text>
+    <text class="formula" x="28" y="92">F(x,y;θ)=0　↦　Rθ ⊆ X × Y</text>
+    <text class="body" x="28" y="132">A relation can be undirected; it need not specify input and output.</text>
+    <text class="small" x="28" y="174">Retain: admissible pairs and variable types</text>
+    <text class="small" x="28" y="201">Failure: forced direction can invent a unique solution that does not exist.</text>
+  </g>
+
+  <g transform="translate(44 372)">
+    <rect width="632" height="218" rx="24" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#0d6f67"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">SOLUTIONS</text>
+    <text class="card-title" x="152" y="45">PDE / hybrid system</text>
+    <text class="formula" x="28" y="92">Fθ[u]=0, C[u]=0　↦　admissible fields / executions</text>
+    <text class="body" x="28" y="126">Semantics may be set-valued; guards and invariants preserve</text>
+    <text class="body" x="28" y="149">nondeterminism when the problem is not well posed.</text>
+    <text class="small" x="28" y="181">Retain: domain, initial/boundary data, solution concept, transitions</text>
+    <text class="small" x="28" y="205">Failure: one simulation trajectory is not the full behavior.</text>
+  </g>
+
+  <g transform="translate(44 612)">
+    <rect width="632" height="218" rx="24" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#65379c"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">WEIGHTS</text>
+    <text class="card-title" x="152" y="45">Probability model / stochastic process</text>
+    <text class="formula" x="28" y="92">Kθ(x,A)=Prθ(Y∈A | x)</text>
+    <text class="body" x="28" y="126">Each input assigns probabilities to events instead of selecting</text>
+    <text class="body" x="28" y="149">one output.</text>
+    <text class="small" x="28" y="181">Retain: probability weights, σ-algebra, conditional structure</text>
+    <text class="small" x="28" y="205">Failure: distributions with equal support can still differ throughout.</text>
+  </g>
+
+  <g transform="translate(44 852)">
+    <rect width="632" height="218" rx="24" fill="#fff3e2" stroke="#c27919" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#8d570e"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">ORDERING</text>
+    <text class="card-title" x="152" y="45">Optimization model</text>
+    <text class="formula" x="28" y="92">(Fθ,Jθ)　↦　(vθ, arg min Jθ)</text>
+    <text class="body" x="28" y="126">The solution correspondence may be empty or set-valued;</text>
+    <text class="body" x="28" y="149">an algorithm searches for one candidate.</text>
+    <text class="small" x="28" y="181">Retain: feasible set, objective ordering, value function</text>
+    <text class="small" x="28" y="205">Failure: equal argmin sets do not make two objectives identical.</text>
+  </g>
+
+  <g transform="translate(44 1092)">
+    <rect width="632" height="218" rx="24" fill="#f7e9ec" stroke="#b65468" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#914052"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">QUERY</text>
+    <text class="card-title" x="152" y="45">Structural causal model</text>
+    <text class="formula" x="28" y="92">M=(U,V,F,PU)　↦　P(y | do(x))</text>
+    <text class="body" x="28" y="126">An intervention replaces a generating mechanism; ordinary</text>
+    <text class="body" x="28" y="149">conditioning cannot supply do-semantics.</text>
+    <text class="small" x="28" y="181">Retain: mechanism direction, exogenous law, query type</text>
+    <text class="small" x="28" y="205">Failure: equal observations can yield different intervention answers.</text>
+  </g>
+
+  <g transform="translate(44 1332)">
+    <rect width="632" height="218" rx="24" fill="#edf0f2" stroke="#66717b" stroke-width="2"/>
+    <rect x="22" y="20" width="108" height="34" rx="17" fill="#4f5a64"/>
+    <text class="tag" x="76" y="43" text-anchor="middle" fill="#ffffff">CLOSED LOOP</text>
+    <text class="card-title" x="152" y="45">ABM / agent-environment loop</text>
+    <text class="formula" x="28" y="92">Close(Aθ,E)　↦　closed-loop trajectory distribution</text>
+    <text class="body" x="28" y="126">Separate agent rules from formal environment transitions before</text>
+    <text class="body" x="28" y="149">analyzing their composite trajectories.</text>
+    <text class="small" x="28" y="181">Retain: context update, environment transition, stopping semantics</text>
+    <text class="small" x="28" y="205">Failure: one set of LLM weights can form different agents.</text>
+  </g>
+
+  <text class="small" x="360" y="1615" text-anchor="middle">Typed presentation and formal semantics are shared; the retained information is not.</text>
+</svg>

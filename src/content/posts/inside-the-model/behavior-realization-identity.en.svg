@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Different tank realizations can be behaviorally equivalent under a specified observation</title>
+  <desc id="desc">The same tank can use liquid level or volume as its internal state. The equations differ, but observation maps produce the same external liquid-level relation. Five identity, equivalence, and substitutability criteria appear below; none implies the others automatically.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#596570"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 23px; font-weight: 700; }
+    .formula { font-size: 22px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 18px; fill: #45515d; }
+    .small { font-size: 17px; fill: #5f6872; }
+    .step { font-size: 18px; font-weight: 700; }
+    .inverse { fill: #ffffff; }
+  </style>
+
+  <rect width="720" height="1180" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">State is not a model's identity card</text>
+  <text class="subtitle" x="44" y="96">“The same model” depends on which relation must be preserved</text>
+
+  <g transform="translate(44 132)">
+    <rect width="298" height="262" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="card-title" x="24" y="42">A · liquid-level state h</text>
+    <g transform="translate(96 62)">
+      <path d="M0 0 V80 Q0 106 26 106 H80 Q106 106 106 80 V0" fill="#ffffff" stroke="#3b6fd8" stroke-width="3"/>
+      <rect x="4" y="43" width="98" height="59" fill="#9ec0ff" opacity=".65"/>
+      <path d="M-28 20 H0 M106 79 H136" stroke="#3b6fd8" stroke-width="4"/>
+      <text x="44" y="78" font-size="22" font-weight="700" fill="#285dbb">h</text>
+    </g>
+    <text class="formula" x="24" y="205">ḣ = (qᵢₙ − qₒᵤₜ) / A</text>
+    <text class="formula" x="24" y="236">y = h</text>
+  </g>
+
+  <g transform="translate(378 132)">
+    <rect width="298" height="262" rx="24" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="24" y="42">B · volume state V</text>
+    <g transform="translate(96 62)">
+      <path d="M0 0 V80 Q0 106 26 106 H80 Q106 106 106 80 V0" fill="#ffffff" stroke="#7b4ab5" stroke-width="3"/>
+      <rect x="4" y="43" width="98" height="59" fill="#cdb3eb" opacity=".75"/>
+      <path d="M-28 20 H0 M106 79 H136" stroke="#7b4ab5" stroke-width="4"/>
+      <text x="43" y="78" font-size="22" font-weight="700" fill="#65379c">V</text>
+    </g>
+    <text class="formula" x="24" y="205">V̇ = qᵢₙ − qₒᵤₜ</text>
+    <text class="formula" x="24" y="236">y = V / A</text>
+  </g>
+
+  <path d="M193 394 C193 438 270 442 318 476" fill="none" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M527 394 C527 438 450 442 402 476" fill="none" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="104" y="407" width="230" height="46" rx="10" fill="#f7f5f0"/>
+  <rect x="412" y="407" width="216" height="46" rx="10" fill="#f7f5f0"/>
+  <text class="small" x="116" y="427">ΩA,v: project to</text>
+  <text class="small" x="116" y="447">qᵢₙ, qₒᵤₜ, and y</text>
+  <text class="small" x="424" y="427">ΩB,v: project to</text>
+  <text class="small" x="424" y="447">the same boundary</text>
+
+  <g transform="translate(98 484)">
+    <rect width="524" height="150" rx="75" fill="#17212b"/>
+    <text class="inverse" x="262" y="46" text-anchor="middle" font-size="20">The same external behavior</text>
+    <text x="262" y="84" text-anchor="middle" class="formula inverse">Aẏ = qᵢₙ − qₒᵤₜ</text>
+    <text class="inverse" x="262" y="120" text-anchor="middle" font-size="19">M<tspan baseline-shift="sub" font-size="15">A</tspan> ≡<tspan baseline-shift="sub" font-size="15">v</tspan> M<tspan baseline-shift="sub" font-size="15">B</tspan></text>
+  </g>
+
+  <text class="card-title" x="44" y="704">Model identity has more than one criterion</text>
+  <text class="small" x="44" y="736">These five relations form no hierarchy and imply none of the others by themselves</text>
+
+  <g transform="translate(44 766)">
+    <rect width="632" height="64" rx="16" fill="#e8efff" stroke="#3b6fd8" stroke-width="1.5"/>
+    <text class="step" x="22" y="39">1  Textual identity</text>
+    <text class="body" x="238" y="39">Same file, graph, or formula string</text>
+  </g>
+  <g transform="translate(44 842)">
+    <rect width="632" height="64" rx="16" fill="#e9effa" stroke="#557cc7" stroke-width="1.5"/>
+    <text class="step" x="22" y="39">2  Structural isomorphism</text>
+    <text class="body" x="276" y="39">Renaming or invertible coordinates</text>
+  </g>
+  <g transform="translate(44 918)">
+    <rect width="632" height="64" rx="16" fill="#eeeafa" stroke="#7b4ab5" stroke-width="1.5"/>
+    <text class="step" x="22" y="39">3  Same theory class</text>
+    <text class="body" x="238" y="39">One theory; possibly different objects</text>
+  </g>
+  <g transform="translate(44 994)">
+    <rect width="632" height="64" rx="16" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="1.5"/>
+    <text class="step" x="22" y="39">4  Behavioral equivalence</text>
+    <text class="body" x="270" y="39">Same exposed behavior under Ω</text>
+  </g>
+  <g transform="translate(44 1070)">
+    <rect width="632" height="64" rx="16" fill="#fff0d7" stroke="#c27919" stroke-width="1.5"/>
+    <text class="step" x="22" y="39">5  Task substitutability</text>
+    <text class="body" x="252" y="39">Requires domain, error, and threshold</text>
+  </g>
+
+  <text class="small" x="360" y="1161" text-anchor="middle">Agreement on one test trajectory establishes no general equivalence above.</text>
+</svg>

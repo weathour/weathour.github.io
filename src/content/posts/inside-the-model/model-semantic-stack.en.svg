@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080" role="img" aria-labelledby="title desc">
+  <title id="title">The semantic stack from modeling formalism to observed behavior</title>
+  <desc id="desc">A modeling formalism specifies valid signatures, presentations, and interpretation rules. A parameterized family of formal presentations carries a semantic kind, signature, parameter space, and presentation. Formal interpretation produces an interpreted model family and semantic instances; an observation map retains selected visible behavior. Empirical representation lies outside the model boundary.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#56616c"/>
+    </marker>
+    <marker id="dash-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#a56b22"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .band-title { font-size: 22px; font-weight: 700; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .formula { font-size: 23px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 19px; fill: #45515d; }
+    .compact-body { font-size: 17px; fill: #45515d; }
+    .small { font-size: 17px; fill: #5f6872; }
+    .tiny { font-size: 16px; fill: #5f6872; }
+  </style>
+
+  <rect width="720" height="1080" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">A model is not a flat tuple</text>
+  <text class="subtitle" x="44" y="96">Separate the meta-level, presentation, semantics, and observed identity</text>
+
+  <g transform="translate(44 126)">
+    <rect width="632" height="122" rx="22" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="band-title" x="24" y="38">META-LEVEL · MODELING FORMALISM Fτ</text>
+    <text class="formula" x="24" y="76">Sig · Presτ · Semτ · ⟦−⟧τ,Σ</text>
+    <text class="tiny" x="24" y="105">Defines valid expressions and interpretation; not stored in every model file</text>
+  </g>
+
+  <path d="M360 248 V286" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="273">within this formalism</text>
+
+  <g transform="translate(82 296)">
+    <rect width="556" height="150" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="card-title" x="28" y="42">Parameterized presentation family</text>
+    <text class="formula" x="28" y="82">SpecΘ = (τ, Σ, Θ, p)</text>
+    <text class="body" x="28" y="117">semantic kind · signature · parameters · presentation</text>
+    <text class="small" x="28" y="140">For an unparameterized model, take Θ = {∗}</text>
+  </g>
+
+  <path d="M360 446 V494" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="476">formal interpretation</text>
+
+  <g transform="translate(82 504)">
+    <rect width="556" height="184" rx="24" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="28" y="36">Interpreted model family</text>
+    <text class="formula" x="28" y="70">MΘ = (SpecΘ, SemΘ)</text>
+    <text class="formula" x="28" y="100">Semθ = ⟦p(θ)⟧τ,Σ</text>
+    <text class="tiny" x="28" y="126">relations · solutions · functions · kernels</text>
+    <text class="tiny" x="28" y="148">executions · orderings · query families</text>
+    <text class="tiny" x="28" y="174">One equation set may define a model class rather than one object</text>
+  </g>
+
+  <path d="M360 688 V736" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="718">select exposed variables and queries</text>
+
+  <g transform="translate(82 746)">
+    <rect width="556" height="142" rx="24" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="card-title" x="28" y="42">Observed behavior</text>
+    <text class="formula" x="28" y="82">Bθ,v = Ωv(Semθ)</text>
+    <text class="compact-body" x="28" y="116">Identity depends on ports, time scale, and admissible queries</text>
+  </g>
+
+  <path d="M44 930 H676" stroke="#9a6b2e" stroke-width="2" stroke-dasharray="9 8"/>
+  <path d="M360 888 V962" stroke="#a56b22" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#dash-arrow)"/>
+  <g transform="translate(82 964)">
+    <rect width="556" height="86" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="278" y="34" text-anchor="middle" font-size="20" font-weight="700">OUTSIDE THE MODEL: EMPIRICAL REPRESENTATION</text>
+    <text class="small" x="278" y="64" text-anchor="middle">Who uses it, for what purpose, to refer to which part of reality?</text>
+  </g>
+
+  <text class="small" x="58" y="955">inside mathematics</text>
+  <text class="small" x="523" y="955" fill="#a56b22">model-world relation</text>
+</svg>
