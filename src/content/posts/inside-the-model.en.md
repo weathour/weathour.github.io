@@ -2,7 +2,7 @@
 title: 'What Is Inside a Model? Common Structure Across Equations, Probability Distributions, and Neural Networks'
 postSlug: inside-the-model
 published: 2026-08-21
-updated: 2026-08-21
+updated: 2026-08-22
 description: 'Starting with a traffic-flow curve, this essay separates formal presentation, mathematical semantics, computational realization, and empirical representation, then tests what "the same model" must preserve across probabilistic, optimization, causal, and agent models.'
 tags: [mathematical models, formal semantics, model theory, neural networks, causal models, philosophy of science]
 category: 'Theoretical Analysis'
@@ -602,6 +602,12 @@ Lighthill and Whitham's constitutive relation addresses large numbers of vehicle
 The reverse variation also occurs. Researchers can build a probabilistic transition kernel for the same road, while a traffic-control team can add a feasible set and objective function to a model of road evolution. These models share a referent system but use different $\rho$ packages to select different aspects of the road. In practice, the questions use different signatures and semantic kinds, so they produce different formal models. Even if the formal model remains fixed, a changed purpose produces a new representation case.
 
 The previous essay followed the engineering chain through data, code, deployment, and qualification. This essay has unpacked that $M$. The two views reconnect at the realization and representation relations: a computational artifact must preserve the declared formal semantics, while an application claim must state how the model refers to reality. Evidence can then attach to particular relations and versions.
+
+## Three Views of Engineering Models
+
+This essay opens one model and examines its signature, formal presentation, semantic structure, observation map, and identity criteria. [*From Model to Engineering System*](/en/posts/engineering-model-chain/) follows the engineering relation chain into computation, deployment, and evidence. [*How a Model Becomes a Component*](/en/posts/model-as-open-component/) fixes open boundaries and studies how modeled components are wired, assigned responsibilities through contracts, and replaced.
+
+The three views can overlap and recur within a model, among system components, or across deployed modules; they are neither levels nor mutually exclusive axes. Behavioral equivalence here compares models under a declared observation map. Even approximate behavioral agreement over a finite domain, together with a task threshold, does not establish contextual substitutability. We must also declare the admissible contexts and show that error propagation remains within the decision margin and that the preservation relation survives composition.
 
 ### What We Must Specify When We Say "the Same Model"
 

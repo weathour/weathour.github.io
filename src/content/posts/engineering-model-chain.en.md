@@ -2,7 +2,7 @@
 title: 'From Model to Engineering System: The Chain Linking Reality, Requirements, Computation, Deployment, and Evidence'
 postSlug: engineering-model-chain
 published: 2026-08-21
-updated: 2026-08-21
+updated: 2026-08-22
 description: 'Using vehicle platoon control as its running case, this essay traces how engineers build a semantic model from a real problem, realize it as a computational artifact, integrate it into a deployed system, and bound engineering claims by evidence and version.'
 tags: [engineering models, mathematical models, traffic control, control theory, model validation, VVUQ]
 category: 'Theoretical Analysis'
@@ -555,6 +555,12 @@ Data, objective functions, field deployment, and online feedback are conditional
 Structurally, this view contains three responsibility layers, eight candidate roles, two cross-cutting mechanisms, two paths of use, and four common referents. The intent-specification layer holds $P,S$; the referent-semantics layer holds $W,Z,M$; and the implementation-use layer holds $J,C,O$. Qualification $Q$ and lifecycle trace $L$ cross the whole graph. Offline results return to a decision context, while embedded artifacts enter an operational system. Model family, fixed-parameter instance, computational artifact, and deployed instance retain distinct identities. These counts describe different aspects of the view, not dimensions that can be added together.
 
 The precise name for this structure is the **layered-relational-qualification framework for engineering model systems**. The main text calls it the **engineering model chain**. "Chain" here means a chain of reasons. It can be followed from purpose to result, or backward from an anomaly through versions, interfaces, and assumptions.
+
+## Three Views of Engineering Models
+
+This essay follows the engineering relation chain, tracing how a model relates to reality, requirements, computation, deployment, evidence, and versions. [*What Is Inside a Model?*](/en/posts/inside-the-model/) opens the semantic model and examines its signature, formal presentation, semantics, and observations. [*How a Model Becomes a Component*](/en/posts/model-as-open-component/) fixes several open boundaries and studies ports, behavior, contracts, wiring, and replacement.
+
+These views are three ways of changing scale around the same object, not levels or mutually exclusive axes. They can overlap and recur as a boundary moves. Behavioral equivalence under a declared observation does not by itself establish contextual substitutability: new wiring, environmental assumptions, or feedback can expose distinctions that the observation discarded.
 
 ## Five Questions to Ask About Your Model
 

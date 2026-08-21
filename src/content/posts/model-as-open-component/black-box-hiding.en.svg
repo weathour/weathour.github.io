@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1120" viewBox="0 0 720 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Hiding yields boundary behavior</title>
+  <desc id="desc">The top panel shows two open components, their local behaviors, and their internal wiring. Intersecting the wiring relation with the lifted local behaviors yields complete compatible histories. The middle panel hides internal ports by projection and existential quantification, leaving exposed boundary behavior. The bottom panel shows that two internal realizations can induce the same black-box relation at a fixed exposed boundary without having identical interiors.</desc>
+  <defs>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3b6fd8"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 32px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #5f6872; }
+    .panel-title { font-size: 22px; font-weight: 700; }
+    .card-title { font-size: 21px; font-weight: 700; }
+    .body { font-size: 19px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .formula { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 23px; }
+    .formula-large { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 25px; }
+  </style>
+
+  <rect width="720" height="1120" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="60">Hiding yields boundary behavior</text>
+  <text class="subtitle" x="44" y="94">Black-boxing forgets information while declaring what is retained</text>
+
+  <!-- A: white-box composition -->
+  <g>
+    <rect x="30" y="122" width="660" height="390" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="160">A  White box: local behaviors meet wiring constraints</text>
+
+    <rect x="82" y="190" width="556" height="196" rx="22" fill="#f3f1ee" stroke="#817a72" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="small" x="102" y="220">Internal boundary I<tspan baseline-shift="sub" font-size="18">int</tspan></text>
+
+    <rect x="112" y="238" width="188" height="116" rx="20" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="206" y="276" text-anchor="middle">Component m₁</text>
+    <text class="formula" x="206" y="310" text-anchor="middle">B₁ ⊆ Tr(I₁)</text>
+    <text class="small" x="206" y="338" text-anchor="middle">Internal state z₁</text>
+
+    <rect x="420" y="238" width="188" height="116" rx="20" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="514" y="276" text-anchor="middle">Component m₂</text>
+    <text class="formula" x="514" y="310" text-anchor="middle">B₂ ⊆ Tr(I₂)</text>
+    <text class="small" x="514" y="338" text-anchor="middle">Internal state z₂</text>
+
+    <rect x="46" y="267" width="58" height="58" rx="17" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="formula" x="75" y="303" text-anchor="middle">w<tspan baseline-shift="sub" font-size="18">L</tspan></text>
+    <line x1="104" y1="296" x2="106" y2="296" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+
+    <line x1="300" y1="296" x2="412" y2="296" stroke="#7b4ab5" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#arrow-dark)"/>
+    <rect x="319" y="262" width="82" height="29" rx="14" fill="#ffffff"/>
+    <text class="small" x="360" y="283" text-anchor="middle">w<tspan baseline-shift="sub" font-size="18">int</tspan></text>
+
+    <rect x="616" y="267" width="58" height="58" rx="17" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="formula" x="645" y="303" text-anchor="middle">w<tspan baseline-shift="sub" font-size="18">R</tspan></text>
+    <line x1="608" y1="296" x2="610" y2="296" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+
+    <rect x="72" y="410" width="576" height="76" rx="18" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="formula-large" x="360" y="440" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">full</tspan> = R<tspan baseline-shift="sub" font-size="18">ω</tspan> ∩ ⋂<tspan baseline-shift="sub" font-size="18">i</tspan> r<tspan baseline-shift="sub" font-size="18">i</tspan>⁻¹(B<tspan baseline-shift="sub" font-size="18">i</tspan>)</text>
+    <text class="small" x="360" y="475" text-anchor="middle">The intersection enforces local behavior and wiring together</text>
+  </g>
+
+  <path d="M360 512 V548" stroke="#3b6fd8" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="391" y="518" width="220" height="32" rx="16" fill="#e8efff"/>
+  <text x="501" y="540" text-anchor="middle" font-size="18" font-weight="700" fill="#285dbb">hide w<tspan baseline-shift="sub" font-size="18">int</tspan>; keep w<tspan baseline-shift="sub" font-size="18">ext</tspan></text>
+
+  <!-- B: projection -->
+  <g>
+    <rect x="30" y="558" width="660" height="276" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="596">B  Projection hides internal histories existentially</text>
+
+    <rect x="72" y="624" width="576" height="154" rx="22" fill="#e8efff" stroke="#3b6fd8" stroke-width="2.5"/>
+    <text class="formula-large" x="360" y="669" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">∂</tspan> = proj<tspan baseline-shift="sub" font-size="18">Iext</tspan>(B<tspan baseline-shift="sub" font-size="18">full</tspan>)</text>
+    <text class="formula" x="360" y="713" text-anchor="middle">= { w<tspan baseline-shift="sub" font-size="18">ext</tspan> | ∃ w<tspan baseline-shift="sub" font-size="18">int</tspan> : (w<tspan baseline-shift="sub" font-size="18">ext</tspan>, w<tspan baseline-shift="sub" font-size="18">int</tspan>) ∈ B<tspan baseline-shift="sub" font-size="18">full</tspan> }</text>
+    <text class="body" x="360" y="749" text-anchor="middle">Does some internal history support this boundary history?</text>
+    <text class="small" x="360" y="810" text-anchor="middle">Invisible is not absent: hiding follows a chosen boundary</text>
+  </g>
+
+  <!-- C: equal black boxes -->
+  <g>
+    <rect x="30" y="856" width="660" height="214" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="894">C  Different white boxes can yield one boundary relation</text>
+
+    <rect x="58" y="922" width="174" height="62" rx="17" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="body" x="145" y="949" text-anchor="middle">Realization α</text>
+    <text class="small" x="145" y="975" text-anchor="middle">internal z<tspan baseline-shift="sub" font-size="18">α</tspan></text>
+    <rect x="58" y="994" width="174" height="62" rx="17" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="body" x="145" y="1021" text-anchor="middle">Realization β</text>
+    <text class="small" x="145" y="1047" text-anchor="middle">internal z<tspan baseline-shift="sub" font-size="18">β</tspan></text>
+
+    <line x1="232" y1="953" x2="330" y2="977" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <line x1="232" y1="1025" x2="330" y2="991" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+
+    <rect x="338" y="931" width="308" height="106" rx="20" fill="#e8efff" stroke="#3b6fd8" stroke-width="2.5"/>
+    <text class="card-title" x="492" y="970" text-anchor="middle">Fixed-boundary black box</text>
+    <text class="formula-large" x="492" y="1007" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">∂</tspan>(α) = B<tspan baseline-shift="sub" font-size="18">∂</tspan>(β)</text>
+    <text class="small" x="492" y="1030" text-anchor="middle">same behavior ⇏ same interior</text>
+  </g>
+
+  <text class="small" x="360" y="1100" text-anchor="middle">Black-box equivalence is relative to exposed ports, time scale, and query</text>
+</svg>

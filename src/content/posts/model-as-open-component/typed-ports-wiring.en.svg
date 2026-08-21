@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
+  <title id="title">Typed ports authorize wiring</title>
+  <desc id="desc">The top panel types the open ports of a controlled-vehicle component by value domain, unit, role, and clock. The middle panel shows that type-compatible ports permit a valid wiring expression. Two counterexamples below show that a shared plug or numerical dimension is insufficient: units and clocks must match. Even compatible ports do not establish existence of a solution, stability, or substitutability.</desc>
+  <defs>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16877d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 31px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #5f6872; }
+    .panel-title { font-size: 22px; font-weight: 700; }
+    .card-title { font-size: 21px; font-weight: 700; }
+    .body { font-size: 19px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .formula { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 22px; }
+    .formula-large { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 25px; }
+  </style>
+
+  <rect width="720" height="980" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="60">Typed ports authorize wiring</text>
+  <text class="subtitle" x="44" y="94">A shared plug, API, or output dimension is not a substitution proof</text>
+
+  <!-- A: typed open boundary -->
+  <g>
+    <rect x="30" y="122" width="660" height="342" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="160">A  Type the open boundary first</text>
+
+    <rect x="72" y="180" width="576" height="56" rx="18" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="formula-large" x="360" y="217" text-anchor="middle">I = (P, type, role, clock)</text>
+
+    <rect x="244" y="258" width="232" height="116" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2.5"/>
+    <text class="card-title" x="360" y="301" text-anchor="middle">Vehicle component c</text>
+    <text class="body" x="360" y="337" text-anchor="middle">equations · state · logic</text>
+
+    <rect x="50" y="258" width="174" height="48" rx="15" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="body" x="137" y="289" text-anchor="middle">Upstream msg</text>
+    <line x1="224" y1="282" x2="238" y2="282" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <circle cx="244" cy="282" r="6" fill="#ffffff" stroke="#34424f" stroke-width="2"/>
+
+    <rect x="50" y="326" width="174" height="48" rx="15" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="body" x="137" y="357" text-anchor="middle">Ego observation</text>
+    <line x1="224" y1="350" x2="238" y2="350" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <circle cx="244" cy="350" r="6" fill="#ffffff" stroke="#34424f" stroke-width="2"/>
+
+    <rect x="496" y="258" width="174" height="48" rx="15" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="body" x="583" y="289" text-anchor="middle">Actuator cmd</text>
+    <line x1="482" y1="282" x2="496" y2="282" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <circle cx="476" cy="282" r="6" fill="#ffffff" stroke="#34424f" stroke-width="2"/>
+
+    <rect x="496" y="326" width="174" height="48" rx="15" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="body" x="583" y="357" text-anchor="middle">Follower msg</text>
+    <line x1="482" y1="350" x2="496" y2="350" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <circle cx="476" cy="350" r="6" fill="#ffffff" stroke="#34424f" stroke-width="2"/>
+
+    <g>
+      <rect x="52" y="398" width="142" height="42" rx="14" fill="#f3f1ee" stroke="#817a72"/>
+      <text class="small" x="123" y="425" text-anchor="middle">Value / shape</text>
+      <rect x="210" y="398" width="142" height="42" rx="14" fill="#f3f1ee" stroke="#817a72"/>
+      <text class="small" x="281" y="425" text-anchor="middle">Units / dims.</text>
+      <rect x="368" y="398" width="142" height="42" rx="14" fill="#f3f1ee" stroke="#817a72"/>
+      <text class="small" x="439" y="425" text-anchor="middle">Input / output</text>
+      <rect x="526" y="398" width="142" height="42" rx="14" fill="#f3f1ee" stroke="#817a72"/>
+      <text class="small" x="597" y="425" text-anchor="middle">Clock / protocol</text>
+    </g>
+  </g>
+
+  <!-- B: valid wiring -->
+  <g>
+    <rect x="30" y="486" width="660" height="194" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="524">B  Matching types: ω(c₁,c₂) is defined</text>
+
+    <rect x="64" y="550" width="178" height="72" rx="18" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="153" y="594" text-anchor="middle">Component c₁</text>
+    <rect x="478" y="550" width="178" height="72" rx="18" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="567" y="594" text-anchor="middle">Component c₂</text>
+
+    <line x1="242" y1="586" x2="254" y2="586" stroke="#16877d" stroke-width="3"/>
+    <rect x="254" y="558" width="212" height="56" rx="17" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="formula" x="360" y="581" text-anchor="middle">a : ℝ [m/s²]</text>
+    <text class="small" x="360" y="603" text-anchor="middle">out → in · 10 Hz</text>
+    <line x1="466" y1="586" x2="470" y2="586" stroke="#16877d" stroke-width="3" marker-end="url(#arrow-teal)"/>
+
+    <rect x="205" y="636" width="310" height="32" rx="16" fill="#e2f4f1"/>
+    <text x="360" y="658" text-anchor="middle" font-size="18" font-weight="700" fill="#0d6f67">✓ Valid wiring: connection only</text>
+  </g>
+
+  <!-- C: mismatches -->
+  <g>
+    <rect x="30" y="702" width="660" height="220" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="740">C  Similar shapes do not override type mismatches</text>
+
+    <rect x="52" y="762" width="616" height="62" rx="17" fill="#fff1ee" stroke="#c95c4d" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="formula" x="78" y="794">v<tspan baseline-shift="sub" font-size="18">out</tspan> : ℝ [km/h]</text>
+    <line x1="288" y1="793" x2="360" y2="793" stroke="#c95c4d" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="324" y="801" text-anchor="middle" font-size="24" font-weight="700" fill="#a94236">×</text>
+    <text class="formula" x="378" y="794">a<tspan baseline-shift="sub" font-size="18">in</tspan> : ℝ [m/s²]</text>
+    <text class="small" x="642" y="818" text-anchor="end" fill="#a94236">units differ</text>
+
+    <rect x="52" y="842" width="616" height="62" rx="17" fill="#fff1ee" stroke="#c95c4d" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="body" x="78" y="881">Event message</text>
+    <line x1="214" y1="874" x2="350" y2="874" stroke="#c95c4d" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="282" y="882" text-anchor="middle" font-size="24" font-weight="700" fill="#a94236">×</text>
+    <text class="body" x="370" y="881">Periodic sample · 10 Hz</text>
+  </g>
+
+  <text x="360" y="948" text-anchor="middle" font-size="18" font-weight="700" fill="#34424f">Compatible ports ⇒ the wiring can be written;</text>
+  <text x="360" y="972" text-anchor="middle" font-size="18" font-weight="700" fill="#34424f">compatible ports ⇏ a solution, stability, or substitution</text>
+</svg>

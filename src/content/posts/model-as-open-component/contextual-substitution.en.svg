@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1500" viewBox="0 0 720 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Local refinement supports replacement only when admissible contexts preserve it</title>
+  <desc id="desc">The top panel places an old controlled-vehicle component c in an admissible platoon context and records that the original composition is well-defined and satisfies every required property in Ψ_req. The middle panel first gives a strong sufficient check: the candidate accepts at least the old environment and permits no more behavior under the old guarantee. It then requires local refinement to be a precongruence of admissible wiring and explicitly checks well-definedness and required-property preservation. The bottom panel shows why a same-port candidate can still fail by adding boundary behavior, narrowing its environment assumption, or making feedback ill-posed.</desc>
+  <defs>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16877d"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3b6fd8"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 31px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #5f6872; }
+    .panel-title { font-size: 21px; font-weight: 700; }
+    .card-title { font-size: 20px; font-weight: 700; }
+    .body { font-size: 19px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .formula { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 22px; }
+    .formula-large { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 25px; }
+  </style>
+
+  <rect width="720" height="1500" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="60">When can local refinement replace?</text>
+  <text class="subtitle" x="44" y="94">Substitutability names admissible contexts and properties to preserve</text>
+
+  <!-- A: baseline context -->
+  <g>
+    <rect x="30" y="122" width="660" height="330" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="160">A  Baseline: old c in an admissible platoon context</text>
+
+    <rect x="52" y="184" width="616" height="196" rx="22" fill="#e2f4f1" stroke="#16877d" stroke-width="2.5" stroke-dasharray="9 7"/>
+    <text class="small" x="72" y="214" fill="#0d6f67">Context E[−]: upstream, channel, host vehicle, and followers</text>
+
+    <rect x="76" y="240" width="142" height="76" rx="18" fill="#ffffff" stroke="#16877d" stroke-width="2"/>
+    <text x="147" y="273" text-anchor="middle" font-size="18" font-weight="700">Upstream + env.</text>
+    <text class="small" x="147" y="300" text-anchor="middle">input history</text>
+
+    <rect x="289" y="228" width="142" height="100" rx="20" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="3"/>
+    <text class="card-title" x="360" y="267" text-anchor="middle">Old c</text>
+    <text class="formula" x="360" y="303" text-anchor="middle">(I, B<tspan baseline-shift="sub" font-size="18">c</tspan>, K<tspan baseline-shift="sub" font-size="18">old</tspan>)</text>
+
+    <rect x="502" y="240" width="142" height="76" rx="18" fill="#ffffff" stroke="#16877d" stroke-width="2"/>
+    <text class="card-title" x="573" y="273" text-anchor="middle">Downstream</text>
+    <text class="small" x="573" y="300" text-anchor="middle">feedback + flow</text>
+
+    <line x1="218" y1="278" x2="281" y2="278" stroke="#34424f" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <line x1="431" y1="278" x2="494" y2="278" stroke="#34424f" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <path d="M573 316 C573 356,147 356,147 316" fill="none" stroke="#16877d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#arrow-teal)"/>
+
+    <rect x="158" y="394" width="404" height="40" rx="18" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="formula-large" x="360" y="422" text-anchor="middle">E[c] ↓  and  E[c] ⊨ ψ  (ψ ∈ Ψ<tspan baseline-shift="sub" font-size="18">req</tspan>)</text>
+  </g>
+
+  <!-- B: valid substitution -->
+  <g>
+    <rect x="30" y="478" width="660" height="466" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="516">B  Strong sufficient check, then a compositional proof</text>
+
+    <rect x="54" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="card-title" x="200" y="579" text-anchor="middle">No narrower assumption</text>
+    <text class="formula-large" x="200" y="620" text-anchor="middle">A<tspan baseline-shift="sub" font-size="18">old</tspan> ⊆ A<tspan baseline-shift="sub" font-size="18">new</tspan></text>
+
+    <rect x="374" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="card-title" x="520" y="579" text-anchor="middle">No wider guarantee</text>
+    <text class="formula-large" x="520" y="620" text-anchor="middle">G<tspan baseline-shift="sub" font-size="18">new</tspan> ⊆ G<tspan baseline-shift="sub" font-size="18">old</tspan></text>
+
+    <rect x="66" y="670" width="588" height="106" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2.5"/>
+    <text class="card-title" x="360" y="704" text-anchor="middle">Precongruence: wiring preserves local refinement</text>
+    <text class="formula-large" x="360" y="748" text-anchor="middle">c′ ≼loc c ⇒ ω(…,c′,…) ≼loc ω(…,c,…)</text>
+
+    <line x1="360" y1="776" x2="360" y2="806" stroke="#3b6fd8" stroke-width="3" marker-end="url(#arrow-blue)"/>
+
+    <rect x="66" y="816" width="588" height="88" rx="22" fill="#e8efff" stroke="#3b6fd8" stroke-width="2.5"/>
+    <text class="formula" x="360" y="851" text-anchor="middle">∀ E[−] ∈ C<tspan baseline-shift="sub" font-size="18">adm</tspan>:  E[c] ↓ ⇒ E[c′] ↓</text>
+    <text class="formula-large" x="360" y="886" text-anchor="middle">E[c] ⊨ ψ ⇒ E[c′] ⊨ ψ  (ψ ∈ Ψ<tspan baseline-shift="sub" font-size="18">req</tspan>)</text>
+
+    <rect x="72" y="916" width="268" height="30" rx="15" fill="#e2f4f1"/>
+    <text x="206" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#0d6f67">✓ Contextually replaceable</text>
+    <rect x="352" y="916" width="296" height="30" rx="15" fill="#edf0f2"/>
+    <text x="500" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#45515d">also: well-posedness + scope</text>
+  </g>
+
+  <!-- C: same ports, failed substitution -->
+  <g>
+    <rect x="30" y="970" width="660" height="452" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="1008">C  Same-port c″ can still invalidate the system claim</text>
+
+    <rect x="190" y="1034" width="340" height="58" rx="18" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="formula-large" x="360" y="1071" text-anchor="middle">✓  I(c″) = I(c)  —  it can be connected</text>
+
+    <rect x="54" y="1116" width="612" height="68" rx="18" fill="#fff1ee" stroke="#c95c4d" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="card-title" x="78" y="1145" fill="#a94236">1  New boundary behaviors</text>
+    <text class="formula" x="642" y="1147" text-anchor="end">B<tspan baseline-shift="sub" font-size="18">c″</tspan> ⊈ B<tspan baseline-shift="sub" font-size="18">c</tspan></text>
+    <text class="small" x="78" y="1172">Delay, saturation, or faults enter the closed-loop history</text>
+
+    <rect x="54" y="1200" width="612" height="68" rx="18" fill="#fff1ee" stroke="#c95c4d" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="card-title" x="78" y="1229" fill="#a94236">2  Narrower environment assumption</text>
+    <text class="formula" x="642" y="1231" text-anchor="end">A<tspan baseline-shift="sub" font-size="18">old</tspan> ⊈ A<tspan baseline-shift="sub" font-size="18">new</tspan></text>
+    <text class="small" x="78" y="1256">The candidate demands lower delay or a new upstream signal</text>
+
+    <rect x="54" y="1284" width="612" height="68" rx="18" fill="#fff1ee" stroke="#c95c4d" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="card-title" x="78" y="1313" fill="#a94236">3  Ill-posed feedback</text>
+    <text class="formula" x="642" y="1315" text-anchor="end">∄ unique causal solution</text>
+    <text class="small" x="78" y="1340">Legal wiring can have zero/many solutions or a noncausal loop</text>
+
+    <rect x="90" y="1372" width="540" height="36" rx="18" fill="#fff1ee" stroke="#c95c4d" stroke-width="2.5"/>
+    <text x="360" y="1397" text-anchor="middle" font-size="21" font-weight="700" fill="#a94236">E[c] ⊨ ψ  ⇏  E[c″] ⊨ ψ</text>
+  </g>
+
+  <text class="small" x="360" y="1448" text-anchor="middle">Substitution preserves declared contexts and properties,</text>
+  <text class="small" x="360" y="1468" text-anchor="middle">not an application-free “better” score</text>
+  <text class="small" x="360" y="1488" text-anchor="middle">Artifact and deployment evidence still need separate impact analysis</text>
+</svg>

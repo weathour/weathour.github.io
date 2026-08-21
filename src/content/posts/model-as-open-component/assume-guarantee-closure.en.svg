@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1260" viewBox="0 0 720 1260" role="img" aria-labelledby="title desc">
+  <title id="title">Guarantees enter the system conditionally</title>
+  <desc id="desc">For one component, the environment must satisfy assumption A and the component must guarantee G under A before G follows for their composition. For two components, the external assumption, wiring relation, and established peer guarantees must discharge every local assumption before the local guarantees can support the system guarantee. These entailments are proof obligations, not a circular proof rule. The bottom panel shows that compatible ports and individually consistent local contracts still do not imply a system guarantee when an assumption remains open.</desc>
+  <defs>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16877d"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c27919"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 32px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #5f6872; }
+    .panel-title { font-size: 22px; font-weight: 700; }
+    .card-title { font-size: 21px; font-weight: 700; }
+    .body { font-size: 19px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .formula { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 22px; }
+    .formula-large { font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif; font-size: 25px; }
+  </style>
+
+  <rect width="720" height="1260" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="60">Guarantees enter the system conditionally</text>
+  <text class="subtitle" x="44" y="94">A contract states a conditional commitment, not an unconditional capability</text>
+
+  <!-- A: one component -->
+  <g>
+    <rect x="30" y="122" width="660" height="350" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="160">A  One component: both premises are required</text>
+
+    <rect x="58" y="194" width="198" height="104" rx="20" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="card-title" x="157" y="232" text-anchor="middle">Environment E</text>
+    <text class="formula" x="157" y="271" text-anchor="middle">E ⊨ A</text>
+
+    <rect x="464" y="194" width="198" height="104" rx="20" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="563" y="232" text-anchor="middle">Component m</text>
+    <text class="formula" x="563" y="271" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">m</tspan> ∩ A ⊆ G</text>
+
+    <line x1="256" y1="246" x2="456" y2="246" stroke="#c27919" stroke-width="3" marker-end="url(#arrow-amber)"/>
+    <rect x="290" y="208" width="132" height="31" rx="15" fill="#fff0d7"/>
+    <text x="356" y="230" text-anchor="middle" font-size="18" font-weight="700" fill="#a85f0b">discharges A</text>
+
+    <rect x="86" y="326" width="548" height="88" rx="20" fill="#e8efff" stroke="#3b6fd8" stroke-width="2.5"/>
+    <text class="formula-large" x="360" y="361" text-anchor="middle">E ⊨ A  ∧  m ⊨ (A ⇒ G)</text>
+    <text class="formula-large" x="360" y="397" text-anchor="middle">⇒  E ∥ m ⊨ G</text>
+
+    <text class="small" x="360" y="448" text-anchor="middle">G is usable only for environmental histories inside A</text>
+  </g>
+
+  <!-- B: assumption closure in composition -->
+  <g>
+    <rect x="30" y="496" width="660" height="526" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="534">B  Environment and peers must close local assumptions</text>
+
+    <rect x="236" y="562" width="248" height="66" rx="19" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="card-title" x="360" y="590" text-anchor="middle">External environment</text>
+    <text class="formula" x="360" y="616" text-anchor="middle">A<tspan baseline-shift="sub" font-size="18">ext</tspan></text>
+
+    <rect x="62" y="674" width="250" height="142" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="187" y="710" text-anchor="middle">Component m₁</text>
+    <rect x="84" y="731" width="88" height="48" rx="14" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="formula" x="128" y="762" text-anchor="middle">A₁</text>
+    <rect x="202" y="731" width="88" height="48" rx="14" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="formula" x="246" y="762" text-anchor="middle">G₁</text>
+    <text class="small" x="187" y="802" text-anchor="middle">assumption → guarantee</text>
+
+    <rect x="408" y="674" width="250" height="142" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="533" y="710" text-anchor="middle">Component m₂</text>
+    <rect x="430" y="731" width="88" height="48" rx="14" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="formula" x="474" y="762" text-anchor="middle">A₂</text>
+    <rect x="548" y="731" width="88" height="48" rx="14" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="formula" x="592" y="762" text-anchor="middle">G₂</text>
+    <text class="small" x="533" y="802" text-anchor="middle">assumption → guarantee</text>
+
+    <path d="M310 756 C350 716, 370 716, 410 756" fill="none" stroke="#c27919" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+    <path d="M548 786 C490 842, 230 842, 172 786" fill="none" stroke="#c27919" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+    <line x1="314" y1="756" x2="404" y2="756" stroke="#34424f" stroke-width="2" stroke-dasharray="7 5"/>
+    <text class="small" x="360" y="662" text-anchor="middle">R<tspan baseline-shift="sub" font-size="18">ω</tspan> selects histories shared through the wiring</text>
+
+    <rect x="62" y="850" width="596" height="72" rx="18" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="formula" x="360" y="880" text-anchor="middle">R<tspan baseline-shift="sub" font-size="18">ω</tspan> ∧ A<tspan baseline-shift="sub" font-size="18">ext</tspan> ∧ ⋀<tspan baseline-shift="sub" font-size="18">j≠i</tspan> G<tspan baseline-shift="sub" font-size="18">j</tspan> ⊨ A<tspan baseline-shift="sub" font-size="18">i</tspan></text>
+    <text class="small" x="360" y="908" text-anchor="middle">A proof obligation for each component, not a circular proof rule</text>
+
+    <rect x="92" y="940" width="536" height="62" rx="18" fill="#e8efff" stroke="#3b6fd8" stroke-width="2.5"/>
+    <text class="formula" x="360" y="968" text-anchor="middle">R<tspan baseline-shift="sub" font-size="18">ω</tspan> ∧ A<tspan baseline-shift="sub" font-size="18">ext</tspan> ∧ ⋀<tspan baseline-shift="sub" font-size="18">i</tspan> G<tspan baseline-shift="sub" font-size="18">i</tspan> ⊨ G<tspan baseline-shift="sub" font-size="18">sys</tspan></text>
+    <text class="small" x="360" y="992" text-anchor="middle">Local guarantees + wiring imply G<tspan baseline-shift="sub" font-size="18">sys</tspan></text>
+  </g>
+
+  <!-- C: failure -->
+  <g>
+    <rect x="30" y="1046" width="660" height="164" rx="24" fill="#fff1ee" stroke="#c95c4d" stroke-width="2.5"/>
+    <text class="panel-title" x="52" y="1084" fill="#a94236">C  One assumption has no source: inference stops here</text>
+    <rect x="62" y="1104" width="226" height="54" rx="16" fill="#ffffff" stroke="#c95c4d" stroke-width="2" stroke-dasharray="7 5"/>
+    <text class="formula" x="175" y="1138" text-anchor="middle">G₂ ⊭ A₁</text>
+    <line x1="300" y1="1131" x2="386" y2="1131" stroke="#c95c4d" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="343" y="1140" text-anchor="middle" font-size="26" font-weight="700" fill="#a94236">×</text>
+    <rect x="402" y="1104" width="226" height="54" rx="16" fill="#ffffff" stroke="#c95c4d" stroke-width="2" stroke-dasharray="7 5"/>
+    <text class="body" x="515" y="1138" text-anchor="middle">A₁ remains open</text>
+    <text class="small" x="360" y="1190" text-anchor="middle" fill="#a94236">ports + local consistency ⇏ system guarantee</text>
+  </g>
+
+  <text class="small" x="360" y="1229" text-anchor="middle">Feedback needs a time-progressing rule or a separate closure lemma</text>
+  <text class="small" x="360" y="1249" text-anchor="middle">Algebraic/noncausal loops need fixed-point and well-posedness checks</text>
+</svg>
