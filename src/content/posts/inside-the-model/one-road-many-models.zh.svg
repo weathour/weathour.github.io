@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180" role="img" aria-labelledby="title desc">
+  <title id="title">同一段道路可以形成四种不同模型</title>
+  <desc id="desc">同一段拥挤道路在不同问题下，可以被写成流量浓度关系、守恒偏微分方程、概率状态转移核或控制优化问题。物理地点相同不表示模型相同。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#65717d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .formula { font-size: 25px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 20px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .tag { font-size: 18px; font-weight: 700; fill: #ffffff; }
+    .card { stroke-width: 2; }
+  </style>
+
+  <rect width="720" height="1180" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">同一段道路，四种数学问题</text>
+  <text class="subtitle" x="44" y="96">地点没有变；签名、问题和语义类型已经变了</text>
+
+  <g transform="translate(52 126)">
+    <rect width="616" height="146" rx="24" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text x="30" y="38" font-size="19" font-weight="700" fill="#a85f0b">参照场景 W</text>
+    <text x="30" y="70" class="body">一段足够长、车辆足够多的拥挤道路</text>
+    <g transform="translate(30 88)">
+      <path d="M0 17 H556 M0 47 H556" stroke="#c27919" stroke-width="3"/>
+      <path d="M6 32 H550" stroke="#c27919" stroke-width="2" stroke-dasharray="14 12"/>
+      <g fill="#c27919">
+        <rect x="44" y="4" width="52" height="24" rx="7"/>
+        <rect x="142" y="22" width="52" height="24" rx="7"/>
+        <rect x="258" y="4" width="52" height="24" rx="7"/>
+        <rect x="376" y="22" width="52" height="24" rx="7"/>
+        <rect x="476" y="4" width="52" height="24" rx="7"/>
+      </g>
+    </g>
+  </g>
+
+  <path d="M360 272 V314" stroke="#65717d" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="380" y="302">先问什么？</text>
+
+  <g transform="translate(52 326)">
+    <rect class="card" width="616" height="166" rx="22" fill="#e8efff" stroke="#3b6fd8"/>
+    <rect x="22" y="22" width="104" height="34" rx="17" fill="#285dbb"/>
+    <text class="tag" x="74" y="45" text-anchor="middle" fill="#ffffff">静态关系</text>
+    <text class="card-title" x="148" y="47">流量与浓度怎样对应？</text>
+    <text class="formula" x="38" y="98">q = φ(k)</text>
+    <text class="body" x="206" y="98">语义：Rφ = {(k,q) : q = φ(k)}</text>
+    <text class="small" x="38" y="138">没有时间演化；它已经可以是一项完整的构成关系。</text>
+  </g>
+
+  <g transform="translate(52 514)">
+    <rect class="card" width="616" height="166" rx="22" fill="#e2f4f1" stroke="#16877d"/>
+    <rect x="22" y="22" width="104" height="34" rx="17" fill="#0d6f67"/>
+    <text class="tag" x="74" y="45" text-anchor="middle" fill="#ffffff">守恒模型</text>
+    <text class="card-title" x="148" y="47">拥堵波怎样在时空中传播？</text>
+    <text class="formula" x="38" y="99">∂ₜk + ∂ₓφ(k) = 0</text>
+    <text class="body" x="342" y="98">语义：允许的解场</text>
+    <text class="small" x="38" y="138">还需定义域、初边值条件和解概念；不自动得到唯一解算子。</text>
+  </g>
+
+  <g transform="translate(52 702)">
+    <rect class="card" width="616" height="166" rx="22" fill="#f0e9fb" stroke="#7b4ab5"/>
+    <rect x="22" y="22" width="104" height="34" rx="17" fill="#65379c"/>
+    <text class="tag" x="74" y="45" text-anchor="middle" fill="#ffffff">预告·概率</text>
+    <text class="card-title" x="148" y="47">下一状态落入 A 的概率多大？</text>
+    <text class="formula" x="38" y="99">Kθ((x,u),A) = Pr{Xₜ₊₁ ∈ A | x,u}</text>
+    <text class="small" x="38" y="138">语义携带事件概率；只留下“可能状态”会丢失模型的一部分。</text>
+  </g>
+
+  <g transform="translate(52 890)">
+    <rect class="card" width="616" height="166" rx="22" fill="#fff3e2" stroke="#c27919"/>
+    <rect x="22" y="22" width="104" height="34" rx="17" fill="#8d570e"/>
+    <text class="tag" x="74" y="45" text-anchor="middle" fill="#ffffff">预告·优化</text>
+    <text class="card-title" x="148" y="47">在约束下选择哪项控制？</text>
+    <text class="formula" x="38" y="99">uθ∗(x) = arg min  Jθ(x,u)</text>
+    <text class="body" x="371" y="98">u ∈ Fθ(x)</text>
+    <text class="small" x="38" y="138">语义还保留可行集、目标排序和值；求解器只产生一次候选解。</text>
+  </g>
+
+  <path d="M32 408 V974" stroke="#9aa3ab" stroke-width="2" stroke-dasharray="7 8"/>
+  <path d="M32 408 H48 M32 596 H48 M32 784 H48 M32 972 H48" stroke="#9aa3ab" stroke-width="2"/>
+  <text class="small" x="360" y="1114" text-anchor="middle">上两卡建立问题；下两卡留待“信息遗忘”一节回收。</text>
+</svg>

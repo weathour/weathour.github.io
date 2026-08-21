@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080" role="img" aria-labelledby="title desc">
+  <title id="title">从形式系统到模型行为的语义栈</title>
+  <desc id="desc">建模形式系统规定合法签名、呈现和解释规则；参数化形式呈现族包含语义类型、签名、参数空间和形式呈现，经形式解释形成解释后的模型族与语义实例；观察映射再保留选定的可见行为。经验表征位于模型边界之外。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#56616c"/>
+    </marker>
+    <marker id="dash-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#a56b22"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .band-title { font-size: 22px; font-weight: 700; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .formula { font-size: 23px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 20px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+  </style>
+
+  <rect width="720" height="1080" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">模型内部不是一个扁平元组</text>
+  <text class="subtitle" x="44" y="96">先分开元层、形式呈现、语义模型与观察身份</text>
+
+  <g transform="translate(44 126)">
+    <rect width="632" height="122" rx="22" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="band-title" x="24" y="38">元层 · 建模形式系统 𝔉τ</text>
+    <text class="formula" x="24" y="76">Sig · Presτ · Semτ · ⟦−⟧τ,Σ</text>
+    <text class="small" x="24" y="105">规定什么表达合法、怎样解释；不是每个模型文件重复保存的字段</text>
+  </g>
+
+  <path d="M360 248 V286" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="273">在此形式系统中</text>
+
+  <g transform="translate(82 296)">
+    <rect width="556" height="150" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="card-title" x="28" y="42">参数化呈现族</text>
+    <text class="formula" x="28" y="82">SpecΘ = (τ, Σ, Θ, p)</text>
+    <text class="body" x="28" y="117">语义类型 · 有类型签名 · 参数空间 · 形式呈现</text>
+    <text class="small" x="28" y="140">无参数模型可令 Θ = {∗}</text>
+  </g>
+
+  <path d="M360 446 V494" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="476">形式解释</text>
+
+  <g transform="translate(82 504)">
+    <rect width="556" height="164" rx="24" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2"/>
+    <text class="card-title" x="28" y="36">解释后的模型族</text>
+    <text class="formula" x="28" y="70">MΘ = (SpecΘ, SemΘ)</text>
+    <text class="formula" x="28" y="100">Semθ = ⟦p(θ)⟧τ,Σ</text>
+    <text class="body" x="28" y="128">关系 · 解集 · 函数 · 概率核 · 执行 · 排序 · 查询族</text>
+    <text class="small" x="28" y="153">一组方程可以定义一个模型类，而不是唯一对象</text>
+  </g>
+
+  <path d="M360 668 V716" stroke="#56616c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="382" y="698">选择外露变量与查询</text>
+
+  <g transform="translate(82 726)">
+    <rect width="556" height="142" rx="24" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="card-title" x="28" y="42">观察行为</text>
+    <text class="formula" x="28" y="82">Bθ,v = Ωv(Semθ)</text>
+    <text class="body" x="28" y="116">模型身份随端口、时间尺度和允许查询而定</text>
+  </g>
+
+  <path d="M44 910 H676" stroke="#9a6b2e" stroke-width="2" stroke-dasharray="9 8"/>
+  <path d="M360 868 V942" stroke="#a56b22" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#dash-arrow)"/>
+  <g transform="translate(82 944)">
+    <rect width="556" height="86" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="band-title" x="278" y="34" text-anchor="middle">模型边界之外：经验表征</text>
+    <text class="small" x="278" y="64" text-anchor="middle">谁为哪项用途，用它指向哪段现实？</text>
+  </g>
+
+  <text class="small" x="58" y="935">数学内部</text>
+  <text class="small" x="552" y="935" fill="#a56b22">模型—世界关系</text>
+</svg>

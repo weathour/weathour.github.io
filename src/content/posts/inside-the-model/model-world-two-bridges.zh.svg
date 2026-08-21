@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1160" viewBox="0 0 720 1160" role="img" aria-labelledby="title desc">
+  <title id="title">模型的形式语义与经验表征是两道不同的门</title>
+  <desc id="desc">模型内部由形式呈现经过形式解释得到语义结构，并在结构中完成推演。主体为特定用途建立模型与参照系统之间的指称关系，再把模型结果回译为关于现实的主张。观测数据与模型预测在共同观察量上比较。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#596570"/>
+    </marker>
+    <marker id="orange-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#b06d1d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #5f6872; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .formula { font-size: 22px; font-family: "STIX Two Math", "Cambria Math", serif; }
+    .body { font-size: 20px; fill: #45515d; }
+    .small { font-size: 18px; fill: #5f6872; }
+    .label { font-size: 18px; font-weight: 700; }
+    .inverse { fill: #ffffff; }
+  </style>
+
+  <rect width="720" height="1160" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="44" y="62">模型的语义有两道门</text>
+  <text class="subtitle" x="44" y="96">形式上成立，不会自动变成关于现实的可靠主张</text>
+
+  <g transform="translate(130 126)">
+    <rect width="460" height="92" rx="46" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
+    <text class="card-title" x="230" y="38" text-anchor="middle">主体 a · 用途 P</text>
+    <text class="small" x="230" y="68" text-anchor="middle">选择目标方面、观察量与充分性标准</text>
+  </g>
+
+  <path d="M238 218 C188 248 164 276 154 316" fill="none" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <path d="M482 218 C532 248 556 276 566 316" fill="none" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+
+  <g transform="translate(44 326)">
+    <rect width="276" height="250" rx="24" fill="#fff3e2" stroke="#c27919" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#a85f0b">参照系统 W</text>
+    <text class="card-title" x="24" y="72">道路、车辆与拥堵</text>
+    <g transform="translate(24 96)">
+      <path d="M0 18 H228 M0 58 H228" stroke="#c27919" stroke-width="3"/>
+      <path d="M5 38 H223" stroke="#c27919" stroke-width="2" stroke-dasharray="12 10"/>
+      <g fill="#c27919">
+        <rect x="24" y="6" width="44" height="23" rx="6"/>
+        <rect x="90" y="27" width="44" height="23" rx="6"/>
+        <rect x="164" y="6" width="44" height="23" rx="6"/>
+      </g>
+    </g>
+    <text class="body" x="24" y="190">模型选择其中某些方面，</text>
+    <text class="body" x="24" y="220">不会复制整个世界。</text>
+  </g>
+
+  <g transform="translate(400 326)">
+    <rect width="276" height="250" rx="24" fill="#e8efff" stroke="#3b6fd8" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#285dbb">形式呈现 p</text>
+    <text class="formula" x="24" y="76">q = φ(k)</text>
+    <path d="M138 94 V126" stroke="#596570" stroke-width="2" marker-end="url(#arrow)"/>
+    <text class="small" x="156" y="116">形式解释</text>
+    <rect x="24" y="138" width="228" height="86" rx="16" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="1.5"/>
+    <text class="label" x="42" y="169" fill="#65379c">语义结构 M</text>
+    <text class="formula" x="42" y="202">Rφ = {(k,q): q=φ(k)}</text>
+  </g>
+
+  <path d="M320 484 H424" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <text class="label" x="372" y="466" text-anchor="middle" fill="#a85f0b">指称 Dρ</text>
+  <path d="M424 536 H320" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+  <text class="label" x="372" y="563" text-anchor="middle" fill="#a85f0b">经验回译 Iρ</text>
+
+  <g transform="translate(400 622)">
+    <rect width="276" height="156" rx="22" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#0d6f67">模型内推演</text>
+    <text class="formula" x="24" y="76">Demoℛ(M) = Ẑ</text>
+    <text class="body" x="24" y="112">按模型关系与数学操作</text>
+    <text class="body" x="24" y="139">得到模型内结论 Ẑ</text>
+  </g>
+  <path d="M538 576 V616" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="558" y="605">内部推演</text>
+
+  <g transform="translate(44 622)">
+    <rect width="276" height="156" rx="22" fill="#fff3e2" stroke="#c27919" stroke-width="2"/>
+    <text class="label" x="24" y="34" fill="#a85f0b">观测过程</text>
+    <text class="formula" x="24" y="76">W ⟶ Z</text>
+    <text class="body" x="24" y="112">传感、采样和处理留下</text>
+    <text class="body" x="24" y="139">可比较的数据模型 Z</text>
+  </g>
+  <path d="M182 576 V616" stroke="#b06d1d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#orange-arrow)"/>
+
+  <path d="M320 700 H400" stroke="#596570" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="360" y="683" text-anchor="middle">共同观察量上比较</text>
+
+  <g transform="translate(84 832)">
+    <rect width="552" height="126" rx="24" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
+    <text class="card-title" x="276" y="42" text-anchor="middle">经验充分性是一条关系主张</text>
+    <text class="formula" x="276" y="78" text-anchor="middle">ρ = ⟨a, M, W, P, Dρ, Iρ⟩</text>
+    <text class="small" x="276" y="106" text-anchor="middle">需另有数据、误差、有效域与用途阈值</text>
+  </g>
+
+  <g transform="translate(84 994)">
+    <rect width="552" height="104" rx="20" fill="#17212b"/>
+    <text class="inverse" x="276" y="41" text-anchor="middle" font-size="21" font-weight="700">第一道门：符号获得形式语义</text>
+    <text class="inverse" x="276" y="76" text-anchor="middle" font-size="21" font-weight="700">第二道门：结构获得经验指向</text>
+  </g>
+
+  <text class="small" x="360" y="1134" text-anchor="middle">通过第一道门，不表示第二道门已经通过。</text>
+</svg>
