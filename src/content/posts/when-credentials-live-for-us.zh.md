@@ -6,7 +6,7 @@ updated: 2026-08-21
 description: '范进的榜帖、方鸿渐的博士证和K的测量员任命，怎样把一次评价变成身份与未来岗位，又怎样让公共问题缩进个人路线。'
 image: './when-credentials-live-for-us/when-credentials-live-for-us-hero.webp'
 tags: [资格, 应试教育, 城堡, 儒林外史, 围城, 政治冷感]
-category: '社会批评'
+category: '社会现象'
 draft: false
 lang: zh_CN
 ---

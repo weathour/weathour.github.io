@@ -5,7 +5,7 @@ published: 2026-08-22
 updated: 2026-08-22
 description: 'Starting with the replacement of one controlled vehicle in a heterogeneous platoon, this essay explains how a model acquires an open boundary, how wiring produces system behavior, and which forms of contract refinement can justify substitution in context.'
 tags: [engineering models, model composition, contract theory, formal methods, traffic control, systems engineering]
-category: 'Theoretical Analysis'
+category: 'Engineering Practice'
 draft: false
 lang: en
 ---

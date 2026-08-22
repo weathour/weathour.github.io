@@ -6,7 +6,7 @@ updated: 2026-08-21
 description: 'Fan Jin’s examination notice, Fang Hongjian’s doctorate and K’s appointment as a land surveyor turn a judgment into an identity and a promised position. In the process, public questions contract into personal routes.'
 image: './when-credentials-live-for-us/when-credentials-live-for-us-hero.webp'
 tags: [credentials, exam education, The Castle, The Scholars, Fortress Besieged, political detachment]
-category: 'Social Criticism'
+category: 'Social Phenomena'
 draft: false
 lang: en
 ---

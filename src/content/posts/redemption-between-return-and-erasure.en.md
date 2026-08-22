@@ -6,7 +6,7 @@ updated: 2026-08-20
 description: 'Sha Gen says there are no thieves in the world, and an entire train carriage turns his sentence into one lived fact. Chan Wing-yan says he is a cop, and Lau Kin-ming deletes the file that gives those words institutional force. The films ask who makes a sentence hold and who bears its cost.'
 image: './redemption-between-return-and-erasure/chan-holds-lau.jpg'
 tags: [A World Without Thieves, Infernal Affairs, film, belief, responsibility]
-category: 'Film Criticism'
+category: 'Arts and Literature Criticism'
 draft: false
 lang: en
 ---

@@ -6,7 +6,7 @@ updated: 2026-08-20
 description: '傻根说“天下无贼”，整节车厢替他把这句话做成一次事实。陈永仁说“我是警察”，刘健明删掉了支撑这句话的档案。两组电影追问一句话靠谁生效，代价又落在谁身上。'
 image: './redemption-between-return-and-erasure/chan-holds-lau.jpg'
 tags: [天下无贼, 无间道, 电影, 信念, 责任]
-category: '电影评论'
+category: '文艺作品评论'
 draft: false
 lang: zh_CN
 ---

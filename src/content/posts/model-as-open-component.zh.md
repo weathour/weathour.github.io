@@ -6,7 +6,7 @@ published: 2026-08-22
 updated: 2026-08-22
 draft: false
 lang: zh_CN
-category: '理论分析'
+category: '工程实践'
 tags: [工程模型, 模型组合, 契约理论, 形式方法, 交通控制, 系统工程]
 ---
 

@@ -6,7 +6,7 @@ updated: 2026-08-20
 description: "以《Pluribus》的共享心智、Zosia、Bilbao 会议与原子弹配送为线索，讨论记忆、权限和亲密如何在 Agent 服务中被压进同一个私人声音。"
 image: "./pluribus-agentized-other/pluribus-first-look-carol-20250725.jpg"
 tags: [Pluribus, AI Agent, 拉康, 齐泽克, 亲密关系, 科技文化]
-category: "理论分析"
+category: "文艺作品评论"
 draft: false
 lang: zh_CN
 ---

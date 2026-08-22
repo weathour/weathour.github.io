@@ -6,7 +6,7 @@ updated: 2026-08-20
 description: "Using Pluribus's shared mind, Zosia, the Bilbao meeting, and the delivery of an atomic bomb, this essay examines how memory, authorization, and intimacy collapse into one private voice in agent services."
 image: "./pluribus-agentized-other/pluribus-first-look-carol-20250725.jpg"
 tags: [Pluribus, AI Agents, Lacan, Žižek, Intimacy, Technology Culture]
-category: "Theoretical Analysis"
+category: "Arts and Literature Criticism"
 draft: false
 lang: en
 ---

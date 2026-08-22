@@ -5,7 +5,7 @@ published: 2026-08-21
 updated: 2026-08-22
 description: 'Starting with a traffic-flow curve, this essay separates formal presentation, mathematical semantics, computational realization, and empirical representation, then tests what "the same model" must preserve across probabilistic, optimization, causal, and agent models.'
 tags: [mathematical models, formal semantics, model theory, neural networks, causal models, philosophy of science]
-category: 'Theoretical Analysis'
+category: 'Engineering Practice'
 draft: false
 lang: en
 ---

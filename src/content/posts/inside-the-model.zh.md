@@ -5,7 +5,7 @@ published: 2026-08-21
 updated: 2026-08-22
 description: '从交通流曲线出发，区分模型的形式呈现、数学语义、计算实现与经验表征，并用概率、优化、因果模型和 agent 检验“同一个模型”究竟需要保持什么。'
 tags: [数学模型, 形式语义, 模型论, 神经网络, 因果模型, 科学哲学]
-category: '理论分析'
+category: '工程实践'
 draft: false
 lang: zh_CN
 ---

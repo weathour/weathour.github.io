@@ -5,7 +5,7 @@ published: 2026-08-21
 updated: 2026-08-22
 description: 'Using vehicle platoon control as its running case, this essay traces how engineers build a semantic model from a real problem, realize it as a computational artifact, integrate it into a deployed system, and bound engineering claims by evidence and version.'
 tags: [engineering models, mathematical models, traffic control, control theory, model validation, VVUQ]
-category: 'Theoretical Analysis'
+category: 'Engineering Practice'
 draft: false
 lang: en
 ---

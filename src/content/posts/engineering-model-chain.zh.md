@@ -5,7 +5,7 @@ published: 2026-08-21
 updated: 2026-08-22
 description: '以车队控制为主线，追踪工程团队怎样从现实问题建立语义模型、形成计算制品并接入部署系统，以及证据和版本怎样限定工程结论。'
 tags: [工程模型, 数学模型, 交通控制, 控制理论, 模型验证, VVUQ]
-category: '理论分析'
+category: '工程实践'
 draft: false
 lang: zh_CN
 ---
