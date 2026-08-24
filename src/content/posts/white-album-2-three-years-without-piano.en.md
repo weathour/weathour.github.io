@@ -1,5 +1,5 @@
 ---
-title: 'Three Years Without a Piano: How Closing Chapter Repairs and Restages Introductory Chapter Through Absence'
+title: 'WHITE ALBUM 2: Relational Readings (II) | Three Years Without a Piano: How Closing Chapter Repairs and Restages Introductory Chapter Through Absence'
 postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
 updated: 2026-08-24
@@ -82,7 +82,7 @@ Mari never studies the festival recording. She reads the past first in Haruki's 
 
 Haruki tells Mari that she resembles Kazusa. Mari immediately asks whether she is only a substitute. Haruki understands the question and first pretends not to. Each later comparison forces Mari to decide whether he sees the woman before him or an old love.
 
-Mari's later career decision, her invitation to follow and the negotiations over life in New York gradually establish conditions specific to this relationship. The proof cannot come from one assurance that "you are different from her." The person before Haruki must be able to make demands, refuse his arrangements and carry the choice into her own work and daily life. Otherwise he compresses her into a template left by the former lover.
+Mari's later career decision, her invitation to follow and the negotiations over life in New York gradually establish conditions specific to this relationship. Haruki's earlier claim that the two women cannot be compared and each has her own strengths does not settle the problem. The person before Haruki must be able to make demands, refuse his arrangements and carry the choice into her own work and daily life. Otherwise he compresses her into a template left by the former lover.
 
 Each kind of material preserves something different. The recording retains actions. The actress gives conflict another voice. Comparison projects the past onto a present body. All three help a later arrival understand Haruki, and all three leave someone's answer out. Koharu misses the full triangle, Chiaki cannot authorize speech on behalf of Setsuna and Kazusa, and Mari should not have to accept comparison as Kazusa's stand-in.
 
@@ -93,6 +93,8 @@ All three later move from observer to participant. The consequences of their int
 ## After a New Relationship Forms, Who Remains in *Yasashii Uso*?
 
 The completed routes for Koharu and Mari, together with Chiaki True, all close with *Yasashii Uso* ("Gentle Lie"). The routes exclude one another; they are not lessons that one Haruki experiences in succession. Players can place the three outcomes side by side from outside the branches, while each character lives through only one. The shared song groups the routes without declaring any of their new lives a failure.
+
+### Koharu: She Cannot Decide the Ending for Her Friends
 
 Koharu has barely promised Mihoko that she will never lie again when she preserves the most important omission with a technical distinction: "I didn't lie. I just can't tell you." She wants to help her friend win Haruki back, and she falls in love with him herself. Her sense of justice remains, while desire refuses to wait for justice to withdraw in good order. To keep both, she leaves Mihoko to decide with too little information.
 
@@ -105,6 +107,8 @@ Setsuna acts in this route as well. She makes Haruki set aside conscience and gu
 Setsuna eventually takes Koharu to Haruki herself. After sending her off, she asks under her breath, "As her big sister, and as the ex-girlfriend, I've finished my job, haven't I?" Then she cries. The script cuts back to their parting two weeks earlier, allowing Haruki at another point in time to read her smile through the window as forgiveness. The smile, the arrangement and the tears are all real. "She forgave everything" is the limited understanding Haruki needs to carry away.
 
 Koharu's restored correspondence with her friends gives this route a future of its own. *Yasashii Uso* preserves another layer of time. Protective delay carries them across the examinations and the farewell, while the same delay makes the injury appear later. Gentleness and deceit perform the same act here.
+
+### Chiaki: One Performer Cannot Supply Two Answers
 
 Chiaki's route moves from authority over interpretation to the stage. She has already written the triangle's conflict with great accuracy, yet Haruki still asks why someone who understands another person's pain so well refuses to let that knowledge restrain her. Chiaki's answer never settles into one final line of candid dialogue. She keeps acting through roles, and Setsuna keeps refusing the position written for her.
 
@@ -126,6 +130,8 @@ Setsuna refuses Haruki's coat and his embrace. She admits her jealousy, hatred a
 
 After the credits, Haruki still cannot locate a Chiaki who never performs. He wonders whether they have returned to a "false healing," while Chiaki decides in an unspoken thought to keep playing the clown. Living together does not strip the roles away one by one. They can only learn when the other is acting, when care is needed, and allow each judgment to remain open to challenge.
 
+### Mari: Only After the Chase Does Life Begin
+
 Mari's route submits decision to another scale. She first tells Haruki that lovers should discuss a transfer. When her own move to New York arrives, she describes a transfer she requested and could refuse at great professional cost as an irresistible personnel order. She wants to go and wants someone to stop her. Compressing both desires into "I had no choice" is the lie she tells herself.
 
 Before giving chase, Haruki keeps his appointment with Setsuna. He tells her about Mari, the physical betrayal and the love he refuses to relinquish. He also admits that he delayed disclosure by repeating "I'm happy now" and "telling her would only hurt her." The confession ends the omission and gives them no gentle farewell.
@@ -136,7 +142,9 @@ Elsewhere, Mari does not want to leave alone as completely as she claims. She co
 
 The flight gives those opposing desires a deadline. Mari can go to New York and hope Haruki follows. The damage begins when she first describes a negotiable career choice as an order, then hands the private answer to the weather. She has the resources of a supervisor, senior colleague and older partner. Haruki controls whether he follows and how he arranges his life. Neither can let "fate" answer for the other.
 
-*Yasashii Uso* enters at this point. The credits first let the farewell stand; only the epilogue reveals that Haruki reached New York by another route. He secured a visa, called on contacts from his editorial work, and rerouted through Nagoya and Detroit until he carried his desire into the same physical space. Once he arrives, his enrollment, income, housing and work all remain unsettled. The two have only begun to discuss them. The transatlantic journey ends the delay, and daily life begins to demand responsibility from them both.
+*Yasashii Uso* enters at this point. The credits first let the farewell stand; only the epilogue reveals that Haruki reached New York by another route. He secured a visa, called on contacts from his editorial work, and rerouted through Nagoya and Detroit until he arrived ahead of Mari and stood waiting for her. His enrollment, income, housing and work all remain unsettled. The two have only begun to discuss them. The transatlantic journey ends the delay, and daily life begins to demand responsibility from them both.
+
+### One Ending Theme, Three Things Left Unsaid
 
 Koharu resumes contact with her friends. Chiaki and Haruki begin living together. Mari and Haruki start reorganizing a life across borders. Rena Uehara sings *Yasashii Uso*, whose first person has no name; official releases later gave the song separate character covers by Setsuna and Kazusa. Across these three routes, Setsuna most consistently occupies the position of the person left behind. Mari briefly joins the same voice when she believes Haruki has not followed.[^ending]
 
@@ -148,7 +156,7 @@ In all three routes, Setsuna performs the final relational act herself. She send
 
 The New Year's call first changes the way Haruki tells the truth. He admits that he has not forgotten Kazusa and probably never will. Before the next sentence, he remembers the impetus Mari, Chiaki and Koharu gave him during their encounters on the common route. Mari gave him courage to act. Chiaki forced him to concede that he could not give up while he still cared. Koharu made him believe that moving forward would not necessarily earn rejection. These are meetings before the branches diverge; Haruki has not lived through three mutually exclusive endings.
 
-He then tells Setsuna that he still loves her very much. Remove either the admission that he remembers Kazusa or the renewed confession, and they return to the shared forgetting attempted on Christmas Eve. Together, the sentences can begin repair. Setsuna breaks down after hearing them and does not declare that they are a couple again.[^newyear]
+He then tells Setsuna that he still loves her very much. The two statements need each other. Without the first, Haruki would pretend that Kazusa had been forgotten; without the second, he would give Setsuna no answer in the present. Said together, they offer a way out of the shared forgetting attempted on Christmas Eve. Setsuna breaks down after hearing them and does not declare that they are a couple again.[^newyear]
 
 A few days later, she says she can chase Haruki when he runs from her, but cannot face him when he approaches of his own will. Takeya and Io can create an opportunity to talk; they cannot turn fear into consent for her. Haruki does not ask them to answer in her place. He calls each day and arrives with his guitar, giving contact a repeatable place in time.
 
@@ -190,13 +198,13 @@ Haruki and Setsuna finally send *Todokanai Koi* to Kazusa far away. Setsuna tell
 
 Setsuna speaks with restraint onstage. She reduces the breakup of the trio to "many things happened." She does not disclose the betrayal to the audience or explain on Kazusa's behalf why Kazusa left. Setsuna takes responsibility for her own silence, admits that it hurt many people, and says that she will keep singing. Public action does not require turning every private truth into material for spectators. It requires enough truth to sustain the song that follows and to expose her future singing to the listeners' response.
 
-Setsuna's route uses *Aisuru Kokoro* as its ending song and does not return to the voice of separation shared by the other three routes. It organizes a common future that Haruki and Setsuna have already begun. Setsuna re-enters her relationships with family and friends, while Haruki places his proposal on a concrete schedule. The future still has one condition: they can address Kazusa, but for now she cannot revise their arrangements.
+Setsuna's route uses *Aisuru Kokoro* as its ending song and does not return to the voice of separation shared by the other three routes. It organizes a common future that Haruki and Setsuna have already begun. Setsuna re-enters her relationships with family and friends, while Haruki places his proposal on a concrete schedule. The future still has one limit: they can send a song to Kazusa, but cannot yet hear her answer, much less let her participate in their plans.
 
 The epilogue changes the old promise one last time. Haruki travels to Strasbourg for work, and the couple agree to meet within a week. Setsuna does not wait in Japan; she follows him to Europe. On the phone, she says that she came there to chase him. Haruki once promised never to leave while Setsuna guarded the place he had left. Now both are in motion, fitting the promise into train times, hotels and the schedule of Christmas Mass.[^strasbourg]
 
-Setsuna is still aboard the shuttle into the city when Haruki walks alone through Strasbourg. He does not know that Kazusa comes here on holiday at this time every year. A voice behind him calls "Haruki" first. He turns and sees her. The encounter comes from Kazusa's holiday; the work email he opens next gives the two a formal reason to speak again, since she is his interview subject the following day.
+Setsuna is still aboard the shuttle into the city when Haruki walks alone through Strasbourg. He does not know that Kazusa comes here on holiday at this time every year. A voice behind him calls "Haruki" first. He turns and sees her. They happen to meet because Kazusa is here on holiday; the work email he opens next gives the two a formal reason to speak again, since she is his interview subject the following day.
 
-Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna once played a message to her in the distance. Neither message received an answer on the spot. Now the person who for three years could only be watched, performed, compared and addressed speaks first. Haruki already has an engagement ring, and Setsuna is on her way. The conditions that sustained the empty seat have ended.
+Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna once played a message to her in the distance. Neither message received an answer on the spot. Now the person who for three years could only be watched, performed, compared and addressed speaks first. Haruki already has an engagement ring, and Setsuna is on her way. The empty chair had confined communication among the three to one-way greetings; now Kazusa has stopped Haruki face to face.
 
 "Haruki."
 
@@ -209,7 +217,7 @@ Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna o
 [^interface]: The missed New Year's encounter in Setsuna's route: `wa2:cc:2024:51–218`. The same disabled choice and missed encounter in Mari's route: `wa2:cc:2503:67–170`.
 [^flag]: The [AQUAPLUS system page](https://aquaplus.jp/wa2/system03.html) explains that darkened choices are unavailable and may open with progress. For Maruto's comments, see Yuichi Murakami, "[社会に全力で立ち向かいたい人のための，PS3『WHITE ALBUM2』インタビュー](https://www.4gamer.net/games/186/G018635/20121215001/index_2.html)." The menu state after completing the console release appears in the route record cited above.
 [^materials]: Koharu watches the recording at `wa2:cc:2012:95–136`, then judges the situation after hearing Haruki's account at `wa2:cc:2303:114–190`. Chiaki reconstructs the triangle and designs the roles at `wa2:cc:2402:859–1051`; `wa2:cc:2406:248–371`. Mari reads Haruki's working habits and asks whether she is a substitute at `wa2:cc:2011:114–156`; `wa2:cc:2504:365–445`.
-[^koharu]: Koharu's omission, self-punishment and later correspondence: `wa2:cc:2308:78–141`; `wa2:cc:2313:405–453`; `wa2:cc:2315:72–140`; `wa2:cc:2316:330–430`; `wa2:cc:2320:139–235`; `wa2:cc:2322:101–125`. Setsuna's farewell and the intercut chronology: `wa2:cc:2321:209–363`.
+[^koharu]: Koharu's omission, self-punishment and later correspondence: `wa2:cc:2308:78–141`; `wa2:cc:2313:405–453`; `wa2:cc:2315:72–140`; `wa2:cc:2316:330–430`; `wa2:cc:2320:139–235`; `wa2:cc:2322:101–125`. Setsuna's farewell and the intercut chronology: `wa2:cc:2321:209–384`.
 [^chiaki]: Setsuna's refusal of Chiaki's script, the play and the farewell: `wa2:cc:2407:592–749`; `wa2:cc:2408:127–308`; `wa2:cc:2411:612–900,1100–1218`. Chiaki's unspoken thoughts after she and Haruki begin living together: `wa2:cc:2412:46–107`.
 [^mari]: Mari's transfer, Setsuna's farewell and the New York epilogue: `wa2:cc:2507:361–405`; `wa2:cc:2513:542–599`; `wa2:cc:2516:572–814,930–1012`; `wa2:cc:2517:1–123`.
 [^ending]: The F.I.X. Records [track page for *l'espoir*](https://fixrecords.com/kiga12/) lists the performer, lyricist and composer of *Yasashii Uso* and identifies it as a CC ending song. Its assignment to the three completed routes appears in this [PS3 credits transcription](https://w.atwiki.jp/ercr/pages/4256.html) and the route record cited above. Setsuna's route uses *Aisuru Kokoro*. Setsuna's cover appears on the [TV Animation Vocal Collection](https://fixrecords.com/kiga23/); Kazusa's appears on AQUAPLUS's [Original Soundtrack ～encore～](https://blog.aquaplus.jp/archives/7142).

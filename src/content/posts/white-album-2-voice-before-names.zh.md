@@ -1,5 +1,5 @@
 ---
-title: '声音先于名字：IC如何从三人合奏走到排他承诺'
+title: '《白色相簿2》三人关系考（一）｜声音先于名字：IC如何从三人合奏走到排他承诺'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
 updated: 2026-08-24

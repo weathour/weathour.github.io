@@ -1,5 +1,5 @@
 ---
-title: 'Voices Before Names: How Introductory Chapter Moves from a Trio to an Exclusive Commitment'
+title: 'WHITE ALBUM 2: Relational Readings (I) | Voices Before Names: How Introductory Chapter Moves from a Trio to an Exclusive Commitment'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
 updated: 2026-08-24
