@@ -196,7 +196,7 @@ The opening of *Introductory Chapter* had already written this collapse in numbe
 
 Back in the music room after the performance, Haruki's question, "Can't it be the three of us?", expresses his wish. Across the rest of the chapter, Setsuna repeatedly extends the stage into a shared future, while Kazusa eventually says that she cannot promise even the following year. The three rehearsed and performed together and made a history none of them can undo; they never jointly wrote one future. The confession turns Haruki and Setsuna's future into a lovers' relationship that can be betrayed, and Kazusa later acknowledges it. The old desires remain, but the three now occupy different places and bear different obligations.
 
-At the end, the script moves from the snow at the airport back to the school festival, where Setsuna announces the title *届かない恋* once more. The names of lover, friend and beloved person survive the separation, but the three have lost the shared life that once sustained those names. *Closing Chapter* begins here.
+At the end, the script moves from the snow at the airport back to the school festival, where Setsuna announces the title *届かない恋* once more. The names of lover, friend and beloved person survive the separation, but the three have lost the shared life that once sustained those names. [The next essay, "Three Years Without a Piano"](/en/posts/white-album-2-three-years-without-piano/) picks up *Closing Chapter* here.
 
 All the names remain. The light music club will never play as a trio again.
 
