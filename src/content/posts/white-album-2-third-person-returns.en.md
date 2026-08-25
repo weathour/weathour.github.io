@@ -188,7 +188,7 @@ The person who speaks first does not always finish the act. The person who bears
 
 It is easy, then, to wish for a route that combines Haruki's public responsibility in Kazusa True with the direct conflict between Kazusa and Setsuna in Setsuna True. That wish is a reader's question for the routes that exist, not a fourth ending hidden in the game. The four endings settle the immediate choice. None can erase the history the three already share.
 
-[The next essay, "History Remains After the Endings"](/en/posts/white-album-2-history-after-endings/) starts after the final choice and follows these arrangements into the characters' lives one and two years later.
+[The next essay, "History Remains After the Endings"](/en/posts/white-album-2-history-after-endings/) picks up after the credits and follows the responsibilities that have changed hands: who ends a relationship, who gives an answer, and who handles the aftermath. It then asks what happens when those responsibilities enter daily life—how they are carried out, fail, and are redistributed.
 
 [^source]: For game information and production credits, see the [AQUAPLUS official site for *WHITE ALBUM2 幸せの向こう側*](https://aquaplus.jp/wa2/). Japanese dialogue was checked line by line against the game script; the [MAO Translations Script Browser](https://mao-tls.github.io/white-album-2/script/) provides a public search interface. All English quotations in this essay have been translated from the Japanese.
 [^report]: Script locator for the feature, the removed landmarks, and Setsuna's discovery of the concealed meeting through the magazine: `wa2:coda:3006:259–299`. Setsuna explicitly distinguishes "Do not see Kazusa" from "Do not see Kazusa without telling me."

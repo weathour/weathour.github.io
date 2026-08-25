@@ -190,7 +190,7 @@ Coda 因而有四个结局，却没有一张四选一菜单。“放开手”会
 
 于是人很容易希望：把冬马 True 里春希的公开担责，与雪菜 True 里冬雪的正面冲突合到一条线上。但那是读者对现有路线的追问，并非游戏藏着的第四结局。四个结局只安排了眼前的选择，没有谁能替三个人把共同历史清零。
 
-[下一篇《结局以后，历史仍在场》](/posts/white-album-2-history-after-endings/)从按钮以后开始，看这些安排怎样进入一年、两年后的生活。
+[下一篇《结局以后，历史仍在场》](/posts/white-album-2-history-after-endings/)将从片尾落下处继续追踪这些已经换过手的责任：谁来终止，谁作回答，谁接过善后；它们进入日常以后，又会怎样履行、失败和重新分配。
 
 [^source]: 游戏资料与制作名单见 [AQUAPLUS《WHITE ALBUM2 幸せの向こう側》官网](https://aquaplus.jp/wa2/)。日文台词按游戏脚本逐行复核，公开检索入口见 [MAO Translations Script Browser](https://mao-tls.github.io/white-album-2/script/)；本文中文引述均为据日文重译。
 [^report]: 报道、删去地标与雪菜由刊物确认隐瞒会面的脚本定位：`wa2:coda:3006:259–299`。雪菜明确区分“不要见和纱”与“不要瞒着我见和纱”。
