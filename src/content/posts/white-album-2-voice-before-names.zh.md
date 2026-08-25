@@ -2,8 +2,9 @@
 title: '《白色相簿2》三人关系考（一）｜声音先于名字：IC如何从三人合奏走到排他承诺'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-25
 description: '从隔墙合奏、冬雪相识和学园祭舞台一路读到告白与机场：三人早已彼此相连，雪菜与春希的告白又为这些联系加上了恋人承诺。'
+image: './white-album-2-voice-before-names/white-album-2-voice-before-names-cover.webp'
 tags: [白色相簿2, 视觉小说, 叙事形式, 亲密关系, 承诺, 责任]
 category: '文艺作品评论'
 draft: false
@@ -11,6 +12,8 @@ lang: zh_CN
 ---
 
 > **剧透说明**：本文涉及《白色相簿2》Introductory Chapter 的完整剧情，并引用《雪が解け、そして雪が降るまで》《祭りの後～雪菜の三十分～》两篇官方数字小说补足人物视角。[^source]
+>
+> **封面说明**：封面为本站原创概念图，以隔墙、钢琴、吉他与麦克风表示三人先由声音相连；它不是游戏画面，也不复原某个具体场景。
 >
 > **配图说明**：本文节选三张低分辨率游戏 CG，用于非商业剧情评论；著作权归 AQUAPLUS，图片经 4Gamer.net 取得。配图不属于开放许可素材，也未取得转载授权。
 

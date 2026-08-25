@@ -4,6 +4,7 @@ postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
 updated: 2026-08-25
 description: '曜子音乐会的灰色选项把和纱留在空席旁。小春、千晶与麻理从三个层面把春希送回自己面前；《温柔的谎言》保存被留下者，无钢琴合奏则拒绝用替代物填满旧三角。'
+image: './white-album-2-three-years-without-piano/white-album-2-three-years-without-piano-cover.webp'
 tags: [白色相簿2, 视觉小说, 叙事形式, 亲密关系, 谎言, 缺席, 责任]
 category: '文艺作品评论'
 draft: false
@@ -11,6 +12,8 @@ lang: zh_CN
 ---
 
 > **剧透说明**：本文涉及《白色相簿2》Closing Chapter 全路线，并写到 Coda 开场和纱在斯特拉斯堡叫出春希名字为止。[^source]
+>
+> **封面说明**：封面为本站原创概念图，以空席、钢琴形的缺口与留在台上的吉他和麦克风表现和纱的缺席；它不是游戏画面，也不复原某个具体场景。
 >
 > **配图说明**：本文节选四张低分辨率 PS3 版实机画面，用于非商业剧情评论；画面著作权归 AQUAPLUS，实机录像由 xueyinhualuo 发布于 Bilibili。配图不属于开放许可素材，也未取得转载授权。
 

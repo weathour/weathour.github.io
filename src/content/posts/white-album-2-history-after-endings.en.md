@@ -4,6 +4,7 @@ postSlug: white-album-2-history-after-endings
 published: 2026-08-25
 updated: 2026-08-25
 description: "Three after stories put Coda's handoffs of decisions and responsibility to the test of time: To You, My Sworn Enemy reopens the repair work left by the Affair route, while the two True-route after stories test how responsibility is shared through homes, work, family, and broken promises."
+image: './white-album-2-history-after-endings/white-album-2-history-after-endings-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, after stories, intimacy, promises, repair, responsibility]
 category: 'Arts and Literature Criticism'
 draft: false
@@ -11,6 +12,8 @@ lang: en
 ---
 
 > **Spoiler warning:** This essay discusses all four endings of *WHITE ALBUM 2: Coda* and the complete plots of *不倶戴天の君へ*, *幸せへと戻る道*, and *幸せへと進む道*.[^source]
+>
+> **Cover note:** The original conceptual cover uses an unfastened door chain, keys, a blank postcard, and tracks in snow to figure the history that remains open after an ending. It is neither a game image nor a reconstruction of a specific scene.
 >
 > **Image note:** This essay reproduces four low-resolution gameplay frames from the additional stories for noncommercial plot criticism. Copyright remains with AQUAPLUS; the footage was uploaded to Bilibili by 次郎JIRO and 糖炒小熊clover. The images are not open-licensed, and no republication permission has been obtained.
 

@@ -4,6 +4,7 @@ postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
 updated: 2026-08-25
 description: "A disabled choice for Youko's concert leaves Kazusa beside an empty seat. Koharu, Chiaki and Mari confront Haruki with himself at three different levels; *Yasashii Uso* preserves the person left behind, while the ensemble without a piano refuses to fill the old triangle with a substitute."
+image: './white-album-2-three-years-without-piano/white-album-2-three-years-without-piano-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, lies, absence, responsibility]
 category: 'Arts and Literature Criticism'
 draft: false
@@ -11,6 +12,8 @@ lang: en
 ---
 
 > **Spoiler warning:** This essay discusses every route in *WHITE ALBUM 2: Closing Chapter* and continues into the opening of Coda, ending when Kazusa calls Haruki's name in Strasbourg.[^source]
+>
+> **Cover note:** The original conceptual cover uses an empty seat, a piano-shaped absence, and the guitar and microphone left onstage to figure Kazusa's absence. It is neither a game image nor a reconstruction of a specific scene.
 >
 > **Image note:** This essay reproduces four low-resolution frames from PS3 gameplay for noncommercial plot criticism. Copyright remains with AQUAPLUS; the footage was uploaded to Bilibili by xueyinhualuo. The images are not open-licensed, and no republication permission has been obtained.
 

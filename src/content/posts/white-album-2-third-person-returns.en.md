@@ -4,6 +4,7 @@ postSlug: white-album-2-third-person-returns
 published: 2026-08-25
 updated: 2026-08-25
 description: "Kazusa returns to Haruki's adult life through an interview. Coda's four endings divide a decision among several people: one initiates it, one ends it, one repairs the damage, and one may never receive enough of the story to answer."
+image: './white-album-2-third-person-returns/white-album-2-third-person-returns-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, choice, responsibility, lies]
 category: 'Arts and Literature Criticism'
 draft: false
@@ -11,6 +12,8 @@ lang: en
 ---
 
 > **Spoiler warning:** This essay discusses the complete plot of *WHITE ALBUM 2: Coda* and all four in-game endings, with a limited comparison to the opening of Yasunari Kawabata's *Snow Country*. *不倶戴天の君へ* and the two True after stories are reserved for the next essay.[^source]
+>
+> **Cover note:** The original conceptual cover uses an interview table, a recorder, three empty chairs, and branching proofs to figure the third person's return and the four routes. It is neither a game image nor a reconstruction of a specific scene.
 >
 > **Image note:** This essay reproduces five low-resolution frames from PS3 gameplay for noncommercial plot criticism. Copyright remains with AQUAPLUS; the footage was uploaded to Bilibili by xueyinhualuo. The images are not open-licensed, and no republication permission has been obtained.
 

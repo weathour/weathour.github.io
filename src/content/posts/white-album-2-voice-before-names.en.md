@@ -2,8 +2,9 @@
 title: 'WHITE ALBUM 2: Relational Readings (I) | Voices Before Names: How Introductory Chapter Moves from a Trio to an Exclusive Commitment'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-25
 description: "Introductory Chapter binds Haruki, Setsuna and Kazusa through music and friendship before Setsuna's confession adds an exclusive promise. That promise gives later betrayal a definite recipient and leaves each of the three with a different responsibility."
+image: './white-album-2-voice-before-names/white-album-2-voice-before-names-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, commitment, responsibility]
 category: 'Arts and Literature Criticism'
 draft: false
@@ -11,6 +12,8 @@ lang: en
 ---
 
 > **Spoiler warning:** This essay discusses the complete plot of *WHITE ALBUM 2: Introductory Chapter* and draws on the two official digital novels *雪が解け、そして雪が降るまで* and *祭りの後～雪菜の三十分～* to supplement the characters' perspectives.[^source]
+>
+> **Cover note:** The original conceptual cover uses walls, piano, guitar, and microphone to show the three first connected by sound. It is neither a game image nor a reconstruction of a specific scene.
 >
 > **Image note:** This essay reproduces three low-resolution game CGs for noncommercial criticism. Copyright remains with AQUAPLUS; the images were obtained via 4Gamer.net. They are not open-licensed, and no republication permission has been obtained.
 

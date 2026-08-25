@@ -4,6 +4,7 @@ postSlug: white-album-2-third-person-returns
 published: 2026-08-25
 updated: 2026-08-25
 description: '和纱经采访回到春希的成年生活。Coda 的四个结局把决定拆给不同的人：有人发动，有人终止，有人善后，也有人来不及回答。'
+image: './white-album-2-third-person-returns/white-album-2-third-person-returns-cover.webp'
 tags: [白色相簿2, 视觉小说, 叙事形式, 亲密关系, 选择, 责任, 谎言]
 category: '文艺作品评论'
 draft: false
@@ -11,6 +12,8 @@ lang: zh_CN
 ---
 
 > **剧透说明**：本文涉及《白色相簿2》Coda 的完整剧情与四个游戏内结局，并局部比较川端康成《雪国》开篇；《不倶戴天の君へ》与两篇 True 后日谈留给下一篇。[^source]
+>
+> **封面说明**：封面为本站原创概念图，以采访桌、录音笔、三把空椅与分岔稿纸表现第三人的归来和四条路线；它不是游戏画面，也不复原某个具体场景。
 >
 > **配图说明**：本文节选五张低分辨率 PS3 版实机画面，用于非商业剧情评论；画面著作权归 AQUAPLUS，实机录像由 xueyinhualuo 发布于 Bilibili。配图不属于开放许可素材，也未取得转载授权。
 

@@ -4,6 +4,7 @@ postSlug: white-album-2-history-after-endings
 published: 2026-08-25
 updated: 2026-08-25
 description: '三篇后日谈把 Coda 中已经换手的决定交给时间：《不倶戴天》重开浮气线的善后，两个 True 结局则在房屋、工作、家人与失约中检验责任如何重新分担。'
+image: './white-album-2-history-after-endings/white-album-2-history-after-endings-cover.webp'
 tags: [白色相簿2, 视觉小说, 后日谈, 亲密关系, 承诺, 修复, 责任]
 category: '文艺作品评论'
 draft: false
@@ -11,6 +12,8 @@ lang: zh_CN
 ---
 
 > **剧透说明**：本文涉及《白色相簿2》Coda 四个结局，以及《不倶戴天の君へ》《幸せへと戻る道》《幸せへと進む道》的完整剧情。[^source]
+>
+> **封面说明**：封面为本站原创概念图，以未扣上的门链、钥匙、空白明信片与雪地足迹表现结局以后仍未闭合的历史；它不是游戏画面，也不复原某个具体场景。
 >
 > **配图说明**：本文节选四张低分辨率追加故事实机画面，用于非商业剧情评论；画面著作权归 AQUAPLUS，实机录像由次郎JIRO、糖炒小熊clover 发布于 Bilibili。配图不属于开放许可素材，也未取得转载授权。
 
