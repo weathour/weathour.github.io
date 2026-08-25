@@ -210,6 +210,8 @@ lang: zh_CN
 
 “和纱？”
 
+[下一篇《第三人从工作现场归来》](/posts/white-album-2-third-person-returns/)从这声招呼开始，看 Coda 怎样把三个人重新带进同一段现实。
+
 [^source]: 游戏资料与制作名单见 [AQUAPLUS《WHITE ALBUM2 幸せの向こう側》官网](https://aquaplus.jp/wa2/)。日文台词按游戏脚本逐行复核，公开检索入口见 [MAO Translations Script Browser](https://mao-tls.github.io/white-album-2/script/)；本文中文引述均为据日文重译。
 [^menu]: 脚本定位：`wa2:cc:2024:24–57`。目标主机版菜单状态另见 [PS3／Vita 路线记录](https://nmm.blog.jp/archives/21904551.html)与 [PS3 全流程实机录像](https://www.bilibili.com/video/BV14y4y167aW/)。
 [^promise]: IC 承诺定位：`wa2:ic:1006:1491–1519`。CC 三年距离定位：`wa2:cc:2002:365–460`；`wa2:cc:2009:1110–1149`。

@@ -210,6 +210,8 @@ Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna o
 
 "Kazusa?"
 
+[The next essay, "The Third Person Returns Through Work"](/en/posts/white-album-2-third-person-returns/) begins with that greeting and follows Coda as it brings all three back into the same reality.
+
 [^source]: For game information and production credits, see the [AQUAPLUS official site for *WHITE ALBUM2 幸せの向こう側*](https://aquaplus.jp/wa2/). Japanese dialogue was checked line by line against the game script; the [MAO Translations Script Browser](https://mao-tls.github.io/white-album-2/script/) provides a public search interface. All English quotations in this essay have been translated from the Japanese.
 [^menu]: Script locator: `wa2:cc:2024:24–57`. The menu state in the console release can also be seen in this [PS3/Vita route record](https://nmm.blog.jp/archives/21904551.html) and the [complete PS3 gameplay recording](https://www.bilibili.com/video/BV14y4y167aW/).
 [^promise]: IC promise: `wa2:ic:1006:1491–1519`. The three years of distance in CC: `wa2:cc:2002:365–460`; `wa2:cc:2009:1110–1149`.
