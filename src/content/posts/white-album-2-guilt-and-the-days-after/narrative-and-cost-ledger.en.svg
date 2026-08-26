@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">One confession, two ledgers</title>
+  <desc id="desc">A comparison of narrative authority in No Longer Human, material costs in Villon’s Wife, and the later days distributed across several people in WHITE ALBUM 2.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#728188"/>
+    </marker>
+    <style>
+      .t{font-family:"Inter","Noto Sans",sans-serif;fill:#172832}
+      .title{font-size:48px;font-weight:700;letter-spacing:1px}
+      .sub{font-size:26px;fill:#59686e}
+      .head{font-size:32px;font-weight:700}
+      .node{font-size:27px;font-weight:600}
+      .small{font-size:23px;fill:#47575e}
+      .note{font-size:25px;fill:#3f5058}
+      .foot{font-size:20px;fill:#69767b}
+      .light{fill:#f4f0e8}
+      .bottom-node{font-size:25px;font-weight:600}
+      .bottom-small{font-size:19px;fill:#47575e}
+      .center-node{font-size:22px;font-weight:600}
+      .center-small{font-size:18px;fill:#47575e}
+      .line{stroke:#728188;stroke-width:4;fill:none}
+      .arrow{marker-end:url(#arrow)}
+      .dash{stroke-dasharray:10 9}
+    </style>
+  </defs>
+  <rect width="1200" height="1500" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="77" text-anchor="middle" class="t title">ONE CONFESSION, TWO LEDGERS</text>
+  <text x="600" y="121" text-anchor="middle" class="t sub">How self-narration gathers a life / how consequences enter other lives</text>
+
+  <rect x="55" y="160" width="1090" height="405" rx="24" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="92" y="210" class="t head">NO LONGER HUMAN: WHO GETS THE LAST WORD?</text>
+  <rect x="95" y="255" width="245" height="82" rx="15" fill="#fbfcfa"/>
+  <rect x="475" y="255" width="245" height="82" rx="15" fill="#fbfcfa"/>
+  <rect x="855" y="255" width="245" height="82" rx="15" fill="#d5dee0"/>
+  <text x="218" y="306" text-anchor="middle" class="t node">Three photos</text>
+  <text x="598" y="306" text-anchor="middle" class="t node">Three notebooks</text>
+  <text x="978" y="289" text-anchor="middle" class="t node">“Disqualified”</text>
+  <text x="978" y="322" text-anchor="middle" class="t small">a total verdict</text>
+  <path d="M340 296H475" class="line arrow"/>
+  <path d="M720 296H855" class="line arrow"/>
+  <rect x="475" y="385" width="245" height="82" rx="15" fill="#f8faf8" stroke="#728188" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="598" y="418" text-anchor="middle" class="t node">Postscript</text>
+  <text x="598" y="452" text-anchor="middle" class="t small">conflicting testimony</text>
+  <path d="M720 426C815 426 827 354 875 324" class="line dash arrow"/>
+  <text x="600" y="510" text-anchor="middle" class="t note">Self-condemnation gathers unlike events into one life.</text>
+  <text x="600" y="541" text-anchor="middle" class="t note">The postscript breaks final authority without replacing it.</text>
+
+  <rect x="55" y="600" width="1090" height="465" rx="24" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+  <text x="92" y="650" class="t head">VILLON’S WIFE: ONE DEBT, TWO LINES OF ACTION</text>
+  <rect x="460" y="685" width="280" height="82" rx="15" fill="#e4d0ae"/>
+  <text x="600" y="718" text-anchor="middle" class="t node">Debt, knife, flight</text>
+  <text x="600" y="752" text-anchor="middle" class="t small">the husband’s acts</text>
+  <path d="M600 767V790H318V810" class="line arrow"/>
+  <path d="M600 790H883V810" class="line arrow"/>
+  <rect x="80" y="810" width="475" height="88" rx="15" fill="#fffaf0"/>
+  <rect x="645" y="810" width="475" height="88" rx="15" fill="#fffaf0"/>
+  <text x="318" y="845" text-anchor="middle" class="t node">She first lies and works</text>
+  <text x="318" y="880" text-anchor="middle" class="t small">leaving herself at the shop as security</text>
+  <text x="883" y="845" text-anchor="middle" class="t node">He confesses later</text>
+  <text x="883" y="880" text-anchor="middle" class="t small">the Kyobashi woman advances ¥5,000</text>
+  <path d="M318 898V918H195V930M318 918H600V930M883 898V918H1005V930" class="line"/>
+  <rect x="85" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <rect x="490" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <rect x="895" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <text x="195" y="960" text-anchor="middle" class="t bottom-node">¥20,000 old debt</text>
+  <text x="195" y="991" text-anchor="middle" class="t bottom-small">enters the wife’s labor</text>
+  <text x="600" y="960" text-anchor="middle" class="t bottom-node">Wife and child</text>
+  <text x="600" y="991" text-anchor="middle" class="t bottom-small">keep going to work</text>
+  <text x="1005" y="960" text-anchor="middle" class="t bottom-node">¥5,000</text>
+  <text x="1005" y="991" text-anchor="middle" class="t bottom-small">the Kyobashi woman pays</text>
+  <text x="600" y="1022" text-anchor="middle" class="t note">Her labor begins before his confession.</text>
+  <text x="600" y="1050" text-anchor="middle" class="t note">The advance clears ¥5,000 from that night; old debt still enters her days.</text>
+
+  <rect x="55" y="1100" width="1090" height="325" rx="24" fill="#183440"/>
+  <text x="92" y="1152" class="t head light">WHITE ALBUM 2: LATER DAYS ARE NOT ONE PERSON’S LEDGER</text>
+  <circle cx="600" cy="1280" r="69" fill="#d7b982"/>
+  <text x="600" y="1274" text-anchor="middle" class="t center-node">THE DAYS</text>
+  <text x="600" y="1303" text-anchor="middle" class="t center-small">THAT FOLLOW</text>
+  <rect x="75" y="1202" width="290" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="835" y="1202" width="290" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="75" y="1320" width="290" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="835" y="1320" width="290" height="82" rx="15" fill="#f2ece0"/>
+  <text x="220" y="1237" text-anchor="middle" class="t bottom-node">Haruki</text>
+  <text x="220" y="1270" text-anchor="middle" class="t bottom-small">disclose / self-sentence</text>
+  <text x="980" y="1237" text-anchor="middle" class="t bottom-node">Kazusa</text>
+  <text x="980" y="1270" text-anchor="middle" class="t bottom-small">end one winter</text>
+  <text x="220" y="1355" text-anchor="middle" class="t bottom-node">Setsuna</text>
+  <text x="220" y="1388" text-anchor="middle" class="t bottom-small">question / refuse closure</text>
+  <text x="980" y="1350" text-anchor="middle" class="t bottom-node">Medication / treatment</text>
+  <text x="980" y="1385" text-anchor="middle" class="t bottom-node">people around him</text>
+  <path d="M365 1243L531 1270M835 1243L669 1270M365 1361L542 1309M835 1361L658 1309" class="line"/>
+  <text x="600" y="1471" text-anchor="middle" class="t foot">Original analytical figure. Lines mark distributed consequences, not one-way causation or direct literary influence.</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">同一句认罪，落在两种账上</title>
+  <desc id="desc">比较《人间失格》的叙述权、《维庸之妻》的生活成本，并把问题带回《白色相簿2》中由多人接手的后日。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#728188"/>
+    </marker>
+    <style>
+      .t{font-family:"Noto Sans CJK SC","Source Han Sans SC",sans-serif;fill:#172832}
+      .title{font-size:48px;font-weight:700;letter-spacing:2px}
+      .sub{font-size:27px;fill:#59686e}
+      .head{font-size:34px;font-weight:700}
+      .node{font-size:29px;font-weight:600}
+      .small{font-size:25px;fill:#47575e}
+      .note{font-size:27px;fill:#3f5058}
+      .foot{font-size:21px;fill:#69767b}
+      .light{fill:#f4f0e8}
+      .line{stroke:#728188;stroke-width:4;fill:none}
+      .arrow{marker-end:url(#arrow)}
+      .dash{stroke-dasharray:10 9}
+    </style>
+  </defs>
+  <rect width="1200" height="1500" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="77" text-anchor="middle" class="t title">同一句认罪，落在两种账上</text>
+  <text x="600" y="121" text-anchor="middle" class="t sub">自我叙述怎样收拢一生　／　后果怎样散入旁人的日子</text>
+
+  <rect x="55" y="160" width="1090" height="405" rx="24" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="92" y="210" class="t head">《人间失格》：谁替一生落下最后一句</text>
+  <rect x="95" y="255" width="245" height="82" rx="15" fill="#fbfcfa"/>
+  <rect x="475" y="255" width="245" height="82" rx="15" fill="#fbfcfa"/>
+  <rect x="855" y="255" width="245" height="82" rx="15" fill="#d5dee0"/>
+  <text x="218" y="306" text-anchor="middle" class="t node">三张照片</text>
+  <text x="598" y="306" text-anchor="middle" class="t node">三册手记</text>
+  <text x="978" y="289" text-anchor="middle" class="t node">“人间失格”</text>
+  <text x="978" y="322" text-anchor="middle" class="t small">一生的总判决</text>
+  <path d="M340 296H475" class="line arrow"/>
+  <path d="M720 296H855" class="line arrow"/>
+  <rect x="475" y="385" width="245" height="82" rx="15" fill="#f8faf8" stroke="#728188" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="598" y="418" text-anchor="middle" class="t node">后记</text>
+  <text x="598" y="452" text-anchor="middle" class="t small">彼此冲突的证言</text>
+  <path d="M720 426C815 426 827 354 875 324" class="line dash arrow"/>
+  <text x="600" y="520" text-anchor="middle" class="t note">自罪把异质的往事收成一生；后记打破终审，却不另立一个全知裁判。</text>
+
+  <rect x="55" y="600" width="1090" height="465" rx="24" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+  <text x="92" y="650" class="t head">《维庸之妻》：同一笔债，分进两条行动线</text>
+  <rect x="460" y="685" width="280" height="82" rx="15" fill="#e4d0ae"/>
+  <text x="600" y="718" text-anchor="middle" class="t node">追债、持刀、逃走</text>
+  <text x="600" y="752" text-anchor="middle" class="t small">丈夫惹出的事</text>
+  <path d="M600 767V790H318V810" class="line arrow"/>
+  <path d="M600 790H883V810" class="line arrow"/>
+  <rect x="80" y="810" width="475" height="88" rx="15" fill="#fffaf0"/>
+  <rect x="645" y="810" width="475" height="88" rx="15" fill="#fffaf0"/>
+  <text x="318" y="845" text-anchor="middle" class="t node">妻子先说谎、上工</text>
+  <text x="318" y="880" text-anchor="middle" class="t small">以自己留在店里抵债</text>
+  <text x="883" y="845" text-anchor="middle" class="t node">丈夫后来坦白</text>
+  <text x="883" y="880" text-anchor="middle" class="t small">京桥女人垫回当夜被盗的五千元</text>
+  <path d="M318 898V918H195V930M318 918H600V930M883 898V918H1005V930" class="line"/>
+  <rect x="85" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <rect x="490" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <rect x="895" y="930" width="220" height="76" rx="15" fill="#fffaf0"/>
+  <text x="195" y="960" text-anchor="middle" class="t node">20,000円旧债</text>
+  <text x="195" y="991" text-anchor="middle" class="t small">进入妻子的劳动</text>
+  <text x="600" y="960" text-anchor="middle" class="t node">妻子带着孩子</text>
+  <text x="600" y="991" text-anchor="middle" class="t small">继续上工</text>
+  <text x="1005" y="960" text-anchor="middle" class="t node">5,000円</text>
+  <text x="1005" y="991" text-anchor="middle" class="t small">京桥女人垫付</text>
+  <text x="600" y="1045" text-anchor="middle" class="t note">妻子的劳动早于丈夫坦白；垫款只结清当夜五千，旧债仍进入她的日常。</text>
+
+  <rect x="55" y="1100" width="1090" height="325" rx="24" fill="#183440"/>
+  <text x="92" y="1152" class="t head light">带回《白色相簿2》：后日不是一个人的账</text>
+  <circle cx="600" cy="1280" r="69" fill="#d7b982"/>
+  <text x="600" y="1291" text-anchor="middle" class="t node">往后的日子</text>
+  <rect x="90" y="1202" width="245" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="865" y="1202" width="245" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="90" y="1320" width="245" height="82" rx="15" fill="#f2ece0"/>
+  <rect x="865" y="1320" width="245" height="82" rx="15" fill="#f2ece0"/>
+  <text x="213" y="1237" text-anchor="middle" class="t node">春希</text>
+  <text x="213" y="1270" text-anchor="middle" class="t small">披露／自定惩罚</text>
+  <text x="988" y="1237" text-anchor="middle" class="t node">和纱</text>
+  <text x="988" y="1270" text-anchor="middle" class="t small">终止一冬</text>
+  <text x="213" y="1355" text-anchor="middle" class="t node">雪菜</text>
+  <text x="213" y="1388" text-anchor="middle" class="t small">追问／拒绝结案</text>
+  <text x="988" y="1350" text-anchor="middle" class="t node">药物、诊疗</text>
+  <text x="988" y="1385" text-anchor="middle" class="t node">周围人</text>
+  <path d="M335 1243L531 1270M865 1243L669 1270M335 1361L542 1309M865 1361L658 1309" class="line"/>
+  <text x="600" y="1471" text-anchor="middle" class="t foot">本文原创分析图。连线表示后果分布，不表示人物间的单向因果，也不主张作品存在直接影响。</text>
+</svg>

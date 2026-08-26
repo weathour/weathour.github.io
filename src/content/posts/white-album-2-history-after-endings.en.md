@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (IV) | History Remains After the Endings: After Stories, Direct Conflict, and Routes That Cannot Be Merged'
 postSlug: white-album-2-history-after-endings
 published: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-26
 description: "Three after stories put Coda's handoffs of decisions and responsibility to the test of time: To You, My Sworn Enemy reopens the repair work left by the Affair route, while the two True-route after stories test how responsibility is shared through homes, work, family, and broken promises."
 image: './white-album-2-history-after-endings/white-album-2-history-after-endings-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, after stories, intimacy, promises, repair, responsibility]
@@ -183,7 +183,7 @@ A fourth kind of relationship would require all three to hear the facts that cou
 
 Even if they separate, each of them should decide after hearing the facts that could change their judgment. Silence, anonymous reports, and a single caregiver can no longer close the matter for everyone. The three after stories never bring all three characters into that conversation.
 
-The first essay showed how three relationships jointly formed the triangle. The second traced how Kazusa's absence continued to organize it, while the three heroines of CC reflected Haruki from different positions. The third asked who initiates, enacts, ends, and repairs each route. The fourth follows those handoffs through time, asking how people carry the responsibilities, where the arrangements break down, and who takes them up next. The next volume turns to Japanese literature, where similar triangular structures will show how these conditions appear and how they fail.
+The first essay showed how three relationships jointly formed the triangle. The second traced how Kazusa's absence continued to organize it, while the three heroines of CC reflected Haruki from different positions. The third asked who initiates, enacts, ends, and repairs each route. The fourth follows those handoffs through time, asking how people carry the responsibilities, where the arrangements break down, and who takes them up next. Volume Two begins with [*The Sinner's Guilt, Other People's Lives*](/en/posts/white-album-2-guilt-and-the-days-after/), turning to Japanese literature to ask how a person's sentence can hide the people who pay, care, work, and live through the aftermath.
 
 The chain on the door remains unlatched. The old house has been repaired. The two people who broke their promise meet outside the office, and Kazusa's postcard reaches the apartment next door. The ending has passed, but the past remains present in their daily lives.
 
