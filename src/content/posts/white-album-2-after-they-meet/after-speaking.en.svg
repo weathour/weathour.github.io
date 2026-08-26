@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">What Is Still Missing After They Speak Directly?</title>
+  <desc id="desc">Kazusa Touma and Setsuna Ogiso can interrupt, ask, and refuse in real time on the phone, and the call changes Setsuna’s next-day action. Haruki Kitahara is outside the call, so the three still lack shared facts, individual answers, and revisable material arrangements.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#89999d"/></marker>
+    <marker id="gold-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#a5844f"/></marker>
+    <style>
+      .t{font-family:Inter,"Noto Sans",Arial,sans-serif;fill:#172832}.title{font-size:45px;font-weight:700}.sub{font-size:24px;fill:#59686e}.name{font-size:30px;font-weight:700}.body{font-size:24px;fill:#405158}.small{font-size:22px;fill:#59686e}.head{font-size:27px;font-weight:700}.result{font-size:36px;font-weight:700;fill:#f4f0e8}.result-sub{font-size:23px;fill:#d7e0e1}.foot{font-size:21px;fill:#69767b}.inverse{fill:#f4f0e8}.line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}.bi{stroke:#a5844f;stroke-width:5;fill:none;marker-end:url(#gold-arrow)}.dash{stroke:#aab5b7;stroke-width:4;fill:none;stroke-dasharray:11 9}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/><rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">What Is Still Missing After They Speak Directly?</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">The call lets two people answer each other; it does not become a three-person arrangement</text>
+  <g aria-label="The two people answering on the phone">
+    <circle cx="255" cy="345" r="118" fill="#e5eae8" stroke="#607b80" stroke-width="4"/>
+    <text x="255" y="337" text-anchor="middle" class="t name">Kazusa Touma</text><text x="255" y="382" text-anchor="middle" class="t body">calls first</text>
+    <circle cx="945" cy="345" r="118" fill="#eee4d2" stroke="#a5844f" stroke-width="4"/>
+    <text x="945" y="337" text-anchor="middle" class="t name">Setsuna Ogiso</text><text x="945" y="382" text-anchor="middle" class="t body">answers</text>
+    <path d="M382 306H808" class="bi"/><path d="M818 384H392" class="bi"/>
+    <text x="600" y="277" text-anchor="middle" class="t body">stop / interrupt / ask for help</text>
+    <text x="600" y="431" text-anchor="middle" class="t body">accuse / refuse / revise</text>
+    <rect x="430" y="466" width="340" height="62" rx="16" fill="#183440"/><text x="600" y="507" text-anchor="middle" class="t body inverse">4–5 hours, live both ways</text>
+  </g>
+  <g aria-label="Haruki is outside the call">
+    <circle cx="600" cy="690" r="95" fill="#fbfaf6" stroke="#aab5b7" stroke-width="4" stroke-dasharray="12 9"/>
+    <text x="600" y="683" text-anchor="middle" class="t name">Haruki Kitahara</text><text x="600" y="725" text-anchor="middle" class="t small">not on the call</text>
+    <path d="M319 455C390 555 447 617 505 661" class="dash"/><path d="M881 455C810 555 753 617 695 661" class="dash"/>
+    <text x="600" y="835" text-anchor="middle" class="t body">They speak about him, but he does not share or answer what is said.</text>
+  </g>
+  <path d="M600 862V916" class="line"/>
+  <g aria-label="Three lines of action after the call">
+    <rect x="55" y="930" width="1090" height="72" rx="18" fill="#607b80"/><text x="600" y="977" text-anchor="middle" class="t head inverse">Next day: the call changes action; it does not produce recovery alone</text>
+    <rect x="55" y="1035" width="340" height="230" rx="22" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <text x="225" y="1088" text-anchor="middle" class="t head">Setsuna</text><text x="225" y="1136" text-anchor="middle" class="t body">returns to the kitchen</text><text x="225" y="1176" text-anchor="middle" class="t body">and decides to see Haruki</text><text x="225" y="1222" text-anchor="middle" class="t small">the call changes what she does</text>
+    <rect x="430" y="1035" width="340" height="230" rx="22" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="1088" text-anchor="middle" class="t head">Haruki</text><text x="600" y="1136" text-anchor="middle" class="t body">medicine / treatment / help</text><text x="600" y="1176" text-anchor="middle" class="t body">and time are already at work</text><text x="600" y="1222" text-anchor="middle" class="t small">Kazusa remains off-limits</text>
+    <rect x="805" y="1035" width="340" height="230" rx="22" fill="#e5eae8" stroke="#607b80" stroke-width="2"/>
+    <text x="975" y="1088" text-anchor="middle" class="t head">Kazusa</text><text x="975" y="1136" text-anchor="middle" class="t body">faces the concert</text><text x="975" y="1176" text-anchor="middle" class="t body">and her mother’s illness</text><text x="975" y="1222" text-anchor="middle" class="t small">no shared plan is agreed</text>
+  </g>
+  <g aria-label="Conditions still missing">
+    <rect x="55" y="1310" width="1090" height="210" rx="26" fill="#183440"/>
+    <text x="600" y="1370" text-anchor="middle" class="t result">Mutual reply is not yet shared decision</text>
+    <text x="225" y="1432" text-anchor="middle" class="t result-sub">the same usable facts</text><text x="600" y="1432" text-anchor="middle" class="t result-sub">each person answers</text><text x="975" y="1432" text-anchor="middle" class="t result-sub">money, housing, work, later</text>
+    <line x1="395" y1="1400" x2="395" y2="1460" stroke="#607b80" stroke-width="2"/><line x1="805" y1="1400" x2="805" y2="1460" stroke="#607b80" stroke-width="2"/>
+    <text x="600" y="1484" text-anchor="middle" class="t small inverse">These must still enter the next talk and the next day’s actions.</text>
+  </g>
+  <text x="600" y="1570" text-anchor="middle" class="t foot">Original analytical figure. Solid arrows mark a return channel; dashed lines mark the person discussed but absent.</text>
+</svg>

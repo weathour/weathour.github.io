@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Three Kinds of Time: Call, Video, Studio</title>
+  <desc id="desc">The call allows live reply but has only two ends. The video can be retaken during filming and reaches Europe two years later, with no return reply shown. The studio lets the three and the production staff revise a work. Once recording ends, the relationship returns to Kazusa yielding, Haruki pressing for an answer, and Setsuna handling the aftermath.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#89999d"/></marker>
+    <style>
+      .t{font-family:Inter,"Noto Sans",Arial,sans-serif;fill:#172832}.title{font-size:47px;font-weight:700}.sub{font-size:24px;fill:#59686e}.lane{font-size:30px;font-weight:700}.tag{font-size:18px;font-weight:700}.head{font-size:26px;font-weight:700}.body{font-size:22px;fill:#405158}.small{font-size:20px;fill:#59686e}.result{font-size:35px;font-weight:700;fill:#f4f0e8}.foot{font-size:21px;fill:#69767b}.inverse{fill:#f4f0e8}.line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}.bi{stroke:#a5844f;stroke-width:4;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.dash{stroke:#aab5b7;stroke-width:4;fill:none;stroke-dasharray:10 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/><rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">Three Kinds of Time: Call, Video, Studio</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">Preserving a voice and letting answers change the work are different capacities</text>
+  <g aria-label="Phone call">
+    <rect x="40" y="165" width="350" height="835" rx="24" fill="#eef1ef" stroke="#607b80" stroke-width="3"/><rect x="40" y="165" width="350" height="80" rx="24" fill="#607b80"/><rect x="40" y="218" width="350" height="27" fill="#607b80"/><text x="215" y="216" text-anchor="middle" class="t lane inverse">CALL</text>
+    <rect x="80" y="282" width="120" height="56" rx="16" fill="#e5eae8" stroke="#607b80" stroke-width="2"/><text x="140" y="318" text-anchor="middle" class="t tag">Kazusa</text><rect x="230" y="282" width="120" height="56" rx="16" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/><text x="290" y="318" text-anchor="middle" class="t tag">Setsuna</text><path d="M95 383H335" class="bi"/>
+    <text x="215" y="430" text-anchor="middle" class="t head">Live; each can revise</text><text x="215" y="480" text-anchor="middle" class="t body">interrupt / ask / refuse</text><line x1="75" y1="515" x2="355" y2="515" stroke="#c0c8c8" stroke-width="2"/>
+    <text x="215" y="565" text-anchor="middle" class="t head">Only two ends</text><text x="215" y="612" text-anchor="middle" class="t body">Haruki is not on the call</text><text x="215" y="652" text-anchor="middle" class="t body">no three-way shared account</text><line x1="75" y1="690" x2="355" y2="690" stroke="#c0c8c8" stroke-width="2"/>
+    <text x="215" y="740" text-anchor="middle" class="t head">No recording stated</text><text x="215" y="787" text-anchor="middle" class="t body">changes Setsuna’s next step</text><text x="215" y="827" text-anchor="middle" class="t body">not jointly reviewable by three</text><rect x="80" y="882" width="270" height="72" rx="16" fill="#183440"/><text x="215" y="927" text-anchor="middle" class="t tag inverse">REPLY / NOT SHARED</text>
+  </g>
+  <g aria-label="Video">
+    <rect x="425" y="165" width="350" height="835" rx="24" fill="#eee4d2" stroke="#a5844f" stroke-width="3"/><rect x="425" y="165" width="350" height="80" rx="24" fill="#a5844f"/><rect x="425" y="218" width="350" height="27" fill="#a5844f"/><text x="600" y="216" text-anchor="middle" class="t lane inverse">VIDEO</text>
+    <rect x="465" y="282" width="270" height="92" rx="18" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/><text x="600" y="319" text-anchor="middle" class="t head">At filming</text><text x="600" y="353" text-anchor="middle" class="t body">retakes are possible</text><path d="M600 374V430" class="dash"/>
+    <rect x="465" y="430" width="270" height="102" rx="18" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/><text x="600" y="471" text-anchor="middle" class="t head">Two years later</text><text x="600" y="510" text-anchor="middle" class="t body">Youko sends it to Europe</text><path d="M600 532V588" class="dash"/>
+    <rect x="465" y="588" width="270" height="102" rx="18" fill="#e5eae8" stroke="#607b80" stroke-width="2"/><text x="600" y="629" text-anchor="middle" class="t head">Opened and watched</text><text x="600" y="668" text-anchor="middle" class="t body">no return reply is shown</text><line x1="460" y1="727" x2="740" y2="727" stroke="#c9b894" stroke-width="2"/>
+    <text x="600" y="775" text-anchor="middle" class="t body">“Still singing” arrives</text><text x="600" y="815" text-anchor="middle" class="t body">editing / transfer unstated</text><text x="600" y="855" text-anchor="middle" class="t small">filmed ≠ cleared to forward</text><rect x="465" y="882" width="270" height="72" rx="16" fill="#183440"/><text x="600" y="927" text-anchor="middle" class="t tag inverse">PRESERVED / NO LIVE REPLY</text>
+  </g>
+  <g aria-label="Recording studio">
+    <rect x="810" y="165" width="350" height="835" rx="24" fill="#e5eae8" stroke="#183440" stroke-width="3"/><rect x="810" y="165" width="350" height="80" rx="24" fill="#183440"/><rect x="810" y="218" width="350" height="27" fill="#183440"/><text x="985" y="216" text-anchor="middle" class="t lane inverse">STUDIO</text>
+    <text x="985" y="305" text-anchor="middle" class="t head">A new song is produced</text>
+    <rect x="850" y="342" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="393" text-anchor="middle" class="t body">proposal / three credits</text><path d="M985 424V462" class="line"/>
+    <rect x="850" y="462" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="513" text-anchor="middle" class="t body">discussion / rehearsal</text><path d="M985 544V582" class="line"/>
+    <rect x="850" y="582" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="633" text-anchor="middle" class="t body">director’s feedback</text><path d="M985 664V702" class="line"/>
+    <rect x="850" y="702" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="753" text-anchor="middle" class="t body">record / edit / release</text><text x="985" y="831" text-anchor="middle" class="t small">staff, firms, schedules</text><rect x="850" y="882" width="270" height="72" rx="16" fill="#a5844f"/><text x="985" y="927" text-anchor="middle" class="t tag inverse">SHARED REVISION PROCESS</text>
+  </g>
+  <path d="M215 1000V1050H985V1092" class="line"/><path d="M600 1000V1050" class="line"/>
+  <g aria-label="The relationship after recording">
+    <rect x="55" y="1095" width="1090" height="104" rx="22" fill="#607b80"/><text x="600" y="1142" text-anchor="middle" class="t head inverse"><tspan x="600" dy="0">The work has a shared revision process;</tspan><tspan x="600" dy="34">the relationship does not inherit it</tspan></text>
+    <rect x="55" y="1240" width="340" height="150" rx="20" fill="#e5eae8" stroke="#607b80" stroke-width="2"/><text x="225" y="1295" text-anchor="middle" class="t head">Kazusa yields</text><text x="225" y="1340" text-anchor="middle" class="t body">friend and collaborator</text>
+    <rect x="430" y="1240" width="340" height="150" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/><text x="600" y="1295" text-anchor="middle" class="t head">Haruki presses</text><text x="600" y="1340" text-anchor="middle" class="t body">refuses more time to talk</text>
+    <rect x="805" y="1240" width="340" height="150" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/><text x="975" y="1295" text-anchor="middle" class="t head">Setsuna handles</text><text x="975" y="1340" text-anchor="middle" class="t body">further talks with Kazusa</text>
+    <rect x="55" y="1430" width="1090" height="100" rx="22" fill="#183440"/><text x="600" y="1475" text-anchor="middle" class="t result"><tspan x="600" dy="0">The work has a shared revision process;</tspan><tspan x="600" dy="38">the relationship lacks shared time to talk.</tspan></text>
+  </g>
+  <text x="600" y="1572" text-anchor="middle" class="t foot">Original analytical figure. The columns compare return paths; the bottom shows the post-production gap.</text>
+</svg>

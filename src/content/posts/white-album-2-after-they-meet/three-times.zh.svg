@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">电话、录像、录音室的三种时间</title>
+  <desc id="desc">电话能够同步回话但只有两端；录像在拍摄时可重来、两年后传到欧洲，结尾没有展示答复返回；录音室让三人和工作人员共同排练、反馈、录制和剪辑。录音结束以后，关系仍回到和纱让位、春希催答、雪菜处理善后的次序。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#89999d"/></marker>
+    <style>
+      .t{font-family:"Noto Sans CJK SC","Source Han Sans SC",sans-serif;fill:#172832}
+      .title{font-size:48px;font-weight:700;letter-spacing:1px}.sub{font-size:25px;fill:#59686e}.lane{font-size:31px;font-weight:700}.tag{font-size:23px;font-weight:700}.head{font-size:28px;font-weight:700}.body{font-size:25px;fill:#405158}.small{font-size:22px;fill:#59686e}.result{font-size:42px;font-weight:700;fill:#f4f0e8}.result-sub{font-size:26px;fill:#d7e0e1}.foot{font-size:22px;fill:#69767b}.inverse{fill:#f4f0e8}.line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}.bi{stroke:#a5844f;stroke-width:4;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.dash{stroke:#aab5b7;stroke-width:4;fill:none;stroke-dasharray:10 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/><rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">电话、录像、录音室的三种时间</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">保存一段声音，与让回答改变制作过程，是两种不同的能力</text>
+
+  <g aria-label="电话">
+    <rect x="40" y="165" width="350" height="835" rx="24" fill="#eef1ef" stroke="#607b80" stroke-width="3"/>
+    <rect x="40" y="165" width="350" height="80" rx="24" fill="#607b80"/><rect x="40" y="218" width="350" height="27" fill="#607b80"/>
+    <text x="215" y="216" text-anchor="middle" class="t lane inverse">电话</text>
+    <rect x="80" y="282" width="120" height="56" rx="16" fill="#e5eae8" stroke="#607b80" stroke-width="2"/><text x="140" y="318" text-anchor="middle" class="t tag">和纱</text>
+    <rect x="230" y="282" width="120" height="56" rx="16" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/><text x="290" y="318" text-anchor="middle" class="t tag">雪菜</text>
+    <path d="M95 383H335" class="bi"/>
+    <text x="215" y="430" text-anchor="middle" class="t head">同步，可即时改口</text>
+    <text x="215" y="480" text-anchor="middle" class="t body">打断 ／ 求助 ／ 拒绝</text>
+    <line x1="75" y1="515" x2="355" y2="515" stroke="#c0c8c8" stroke-width="2"/>
+    <text x="215" y="565" text-anchor="middle" class="t head">只有两端</text>
+    <text x="215" y="612" text-anchor="middle" class="t body">春希不在通话中</text>
+    <text x="215" y="652" text-anchor="middle" class="t body">内容未成共同事实</text>
+    <line x1="75" y1="690" x2="355" y2="690" stroke="#c0c8c8" stroke-width="2"/>
+    <text x="215" y="740" text-anchor="middle" class="t head">没有录音证据</text>
+    <text x="215" y="787" text-anchor="middle" class="t body">能改变雪菜下一步</text>
+    <text x="215" y="827" text-anchor="middle" class="t body">不能供三人共同复查</text>
+    <rect x="80" y="882" width="270" height="72" rx="16" fill="#183440"/><text x="215" y="927" text-anchor="middle" class="t tag inverse">能回话 ／ 未共享</text>
+  </g>
+
+  <g aria-label="录像">
+    <rect x="425" y="165" width="350" height="835" rx="24" fill="#eee4d2" stroke="#a5844f" stroke-width="3"/>
+    <rect x="425" y="165" width="350" height="80" rx="24" fill="#a5844f"/><rect x="425" y="218" width="350" height="27" fill="#a5844f"/>
+    <text x="600" y="216" text-anchor="middle" class="t lane inverse">录像</text>
+    <rect x="465" y="282" width="270" height="92" rx="18" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="600" y="319" text-anchor="middle" class="t head">拍摄现场</text><text x="600" y="353" text-anchor="middle" class="t body">可以重拍</text>
+    <path d="M600 374V430" class="dash"/>
+    <rect x="465" y="430" width="270" height="102" rx="18" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="471" text-anchor="middle" class="t head">两年以后</text><text x="600" y="510" text-anchor="middle" class="t body">曜子转给欧洲二人</text>
+    <path d="M600 532V588" class="dash"/>
+    <rect x="465" y="588" width="270" height="102" rx="18" fill="#e5eae8" stroke="#607b80" stroke-width="2"/>
+    <text x="600" y="629" text-anchor="middle" class="t head">打开并观看</text><text x="600" y="668" text-anchor="middle" class="t body">未展示答复返回</text>
+    <line x1="460" y1="727" x2="740" y2="727" stroke="#c9b894" stroke-width="2"/>
+    <text x="600" y="775" text-anchor="middle" class="t body">“我仍在歌唱”抵达</text>
+    <text x="600" y="815" text-anchor="middle" class="t body">剪辑、上传与取得过程未写</text>
+    <text x="600" y="855" text-anchor="middle" class="t small">拍摄同意 ≠ 转发同意</text>
+    <rect x="465" y="882" width="270" height="72" rx="16" fill="#183440"/><text x="600" y="927" text-anchor="middle" class="t tag inverse">能保存 ／ 不能当场追问</text>
+  </g>
+
+  <g aria-label="录音室">
+    <rect x="810" y="165" width="350" height="835" rx="24" fill="#e5eae8" stroke="#183440" stroke-width="3"/>
+    <rect x="810" y="165" width="350" height="80" rx="24" fill="#183440"/><rect x="810" y="218" width="350" height="27" fill="#183440"/>
+    <text x="985" y="216" text-anchor="middle" class="t lane inverse">录音室</text>
+    <text x="985" y="305" text-anchor="middle" class="t head">新歌共同生产</text>
+    <rect x="850" y="342" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="393" text-anchor="middle" class="t body">提案 ／ 三人署名</text>
+    <path d="M985 424V462" class="line"/>
+    <rect x="850" y="462" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="513" text-anchor="middle" class="t body">讨论 ／ 排练</text>
+    <path d="M985 544V582" class="line"/>
+    <rect x="850" y="582" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="633" text-anchor="middle" class="t body">导演与现场反馈</text>
+    <path d="M985 664V702" class="line"/>
+    <rect x="850" y="702" width="270" height="82" rx="16" fill="#fbfaf6" stroke="#607b80" stroke-width="2"/><text x="985" y="753" text-anchor="middle" class="t body">录制 ／ 剪辑 ／ 发行</text>
+    <text x="985" y="831" text-anchor="middle" class="t small">工作人员、公司和时间表也在场</text>
+    <rect x="850" y="882" width="270" height="72" rx="16" fill="#a5844f"/><text x="985" y="927" text-anchor="middle" class="t tag inverse">共同排练、修改</text>
+  </g>
+
+  <path d="M215 1000V1050H985V1092" class="line"/><path d="M600 1000V1050" class="line"/>
+
+  <g aria-label="录音结束后的关系">
+    <rect x="55" y="1095" width="1090" height="104" rx="22" fill="#607b80"/>
+    <text x="600" y="1159" text-anchor="middle" class="t head inverse">作品有共同修订流程，关系没有自动继承</text>
+    <rect x="55" y="1240" width="340" height="150" rx="20" fill="#e5eae8" stroke="#607b80" stroke-width="2"/>
+    <text x="225" y="1295" text-anchor="middle" class="t head">和纱让位</text><text x="225" y="1340" text-anchor="middle" class="t body">退到朋友与伙伴位置</text>
+    <rect x="430" y="1240" width="340" height="150" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="1295" text-anchor="middle" class="t head">春希催答</text><text x="600" y="1340" text-anchor="middle" class="t body">拒绝等待更多商量</text>
+    <rect x="805" y="1240" width="340" height="150" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="1295" text-anchor="middle" class="t head">雪菜接手</text><text x="975" y="1340" text-anchor="middle" class="t body">承担同和纱继续商谈</text>
+    <rect x="55" y="1430" width="1090" height="100" rx="22" fill="#183440"/>
+    <text x="600" y="1492" text-anchor="middle" class="t result">作品有共同修订通道，关系没有同样的商量时间</text>
+  </g>
+  <text x="600" y="1572" text-anchor="middle" class="t foot">本文原创分析图。三栏比较信息怎样返回；底栏显示共同制作结束后的关系落差。</text>
+</svg>
