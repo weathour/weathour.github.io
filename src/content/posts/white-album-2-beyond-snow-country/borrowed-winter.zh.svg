@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">“一冬”怎样压缩成几天</title>
+  <desc id="desc">公开婚约、秘密采访与相邻房间、停工出走与私下婚约三条时间并行，随后汇入终止意向、施事省略的分手、春希披露，以及医疗、家人、朋友和有限复职构成的善后。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#89999d"/>
+    </marker>
+    <style>
+      .t{font-family:"Noto Sans CJK SC","Source Han Sans SC",sans-serif;fill:#172832}
+      .title{font-size:49px;font-weight:700;letter-spacing:2px}
+      .sub{font-size:27px;fill:#59686e}
+      .lane{font-size:29px;font-weight:700}
+      .item{font-size:28px;font-weight:650}
+      .body{font-size:25px;fill:#405158}
+      .note{font-size:24px;fill:#5b513f}
+      .stage{font-size:30px;font-weight:700}
+      .stage-sub{font-size:24px;fill:#516168}
+      .foot{font-size:24px;fill:#69767b}
+      .inverse{fill:#f4f0e8}
+      .inverse-soft{fill:#d7e0e1}
+      .line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .track{stroke:#aab5b7;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .gold{stroke:#a5844f;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">“一冬”怎样压缩成几天</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">三条日程同时运行，直到例外结束，日常接手善后</text>
+
+  <g aria-label="公开日程">
+    <rect x="55" y="165" width="340" height="76" rx="20" fill="#183440"/>
+    <text x="225" y="214" text-anchor="middle" class="t lane inverse">公开日程</text>
+    <rect x="55" y="265" width="340" height="550" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <rect x="85" y="315" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="225" y="383" text-anchor="middle" class="t item">婚约公开</text>
+    <path d="M225 427V482" class="track"/>
+    <rect x="85" y="482" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="225" y="550" text-anchor="middle" class="t item">家庭晚餐</text>
+    <path d="M225 594V649" class="track"/>
+    <text x="225" y="698" text-anchor="middle" class="t body">亲友仍把婚约</text>
+    <text x="225" y="736" text-anchor="middle" class="t body">当作将来的事实</text>
+  </g>
+
+  <g aria-label="秘密设施">
+    <rect x="430" y="165" width="340" height="76" rx="20" fill="#607b80"/>
+    <text x="600" y="214" text-anchor="middle" class="t lane" fill="#f4f0e8">秘密设施</text>
+    <rect x="430" y="265" width="340" height="550" rx="22" fill="#eef1ef" stroke="#89999d" stroke-width="2"/>
+    <rect x="460" y="300" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="361" text-anchor="middle" class="t item">工作采访</text>
+    <path d="M600 398V438" class="track"/>
+    <rect x="460" y="438" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="487" text-anchor="middle" class="t item">暗号</text>
+    <text x="600" y="528" text-anchor="middle" class="t body">0 ／ 1 ／ 2 ／ 4</text>
+    <path d="M600 550V590" class="track"/>
+    <rect x="460" y="590" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="651" text-anchor="middle" class="t item">相邻房间</text>
+    <rect x="460" y="720" width="280" height="66" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <text x="600" y="762" text-anchor="middle" class="t note">4 是暗号，不是房号</text>
+  </g>
+
+  <g aria-label="例外时间">
+    <rect x="805" y="165" width="340" height="76" rx="20" fill="#a5844f"/>
+    <text x="975" y="214" text-anchor="middle" class="t lane" fill="#f4f0e8">例外时间</text>
+    <rect x="805" y="265" width="340" height="550" rx="22" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <rect x="835" y="300" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="361" text-anchor="middle" class="t item">停工</text>
+    <path d="M975 398V438" class="gold"/>
+    <rect x="835" y="438" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="499" text-anchor="middle" class="t item">出走</text>
+    <path d="M975 536V576" class="gold"/>
+    <rect x="835" y="576" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="637" text-anchor="middle" class="t item">私下婚约</text>
+    <text x="975" y="720" text-anchor="middle" class="t note">“一冬”是拟议期限</text>
+    <text x="975" y="758" text-anchor="middle" class="t note">实际集中在数日内</text>
+  </g>
+
+  <path d="M225 815V885H560V925" class="line"/>
+  <path d="M600 815V925" class="line"/>
+  <path d="M975 815V885H640V925" class="line"/>
+  <circle cx="600" cy="940" r="15" fill="#183440"/>
+
+  <rect x="110" y="975" width="980" height="94" rx="20" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="600" y="1034" text-anchor="middle" class="t stage">终止意向</text>
+  <path d="M600 1069V1100" class="line"/>
+
+  <rect x="110" y="1100" width="980" height="112" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+  <text x="600" y="1148" text-anchor="middle" class="t stage">手分开</text>
+  <text x="600" y="1186" text-anchor="middle" class="t stage-sub">最终施事省略：图中不替文本补出“谁放开谁”</text>
+  <path d="M600 1212V1243" class="line"/>
+
+  <rect x="110" y="1243" width="980" height="94" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+  <text x="600" y="1302" text-anchor="middle" class="t stage">春希向雪菜披露此事</text>
+  <path d="M600 1337V1368" class="line"/>
+
+  <rect x="110" y="1368" width="980" height="132" rx="20" fill="#183440"/>
+  <text x="600" y="1417" text-anchor="middle" class="t stage inverse">善后回到多人手中</text>
+  <text x="600" y="1464" text-anchor="middle" class="t body inverse-soft">医疗 ／ 家人 ／ 朋友 ／ 有限复职</text>
+
+  <text x="600" y="1550" text-anchor="middle" class="t foot">本文原创分析图。三条并行日程在终止处汇流；箭头不表示单一施事。</text>
+</svg>

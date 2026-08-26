@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Who Took Them into “Snow Country”?</title>
+  <desc id="desc">Separates actions already taken by Kazusa and Haruki from their wish for the blizzard to close the roads. The first-train plan and their return to Tokyo show that the snow made no decision for them.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#89999d"/>
+    </marker>
+    <style>
+      .t{font-family:Inter,"Noto Sans",Arial,sans-serif;fill:#172832}
+      .title{font-size:47px;font-weight:700;letter-spacing:.5px}
+      .sub{font-size:26px;fill:#59686e}
+      .lane{font-size:28px;font-weight:700;letter-spacing:1px}
+      .num{font-size:27px;font-weight:700;fill:#f4f0e8}
+      .head{font-size:30px;font-weight:700}
+      .body{font-size:25px;fill:#405158}
+      .wish{font-size:25px;fill:#5b513f}
+      .result{font-size:42px;font-weight:700;fill:#f4f0e8}
+      .result-sub{font-size:25px;fill:#d7e0e1}
+      .foot{font-size:24px;fill:#69767b}
+      .inverse{fill:#f4f0e8}
+      .line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .wish-line{stroke:#a5844f;stroke-width:4;fill:none;stroke-dasharray:10 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">Who Took Them into “Snow Country”?</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">Actions already taken, set apart from what they asked the weather to do</text>
+
+  <rect x="55" y="165" width="520" height="76" rx="20" fill="#183440"/>
+  <text x="315" y="214" text-anchor="middle" class="t lane inverse">ACTIONS ALREADY TAKEN</text>
+  <rect x="625" y="165" width="520" height="76" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+  <text x="885" y="214" text-anchor="middle" class="t lane">LEFT TO A WISH</text>
+
+  <g aria-label="Actions already taken">
+    <rect x="55" y="275" width="520" height="134" rx="20" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="105" cy="342" r="29" fill="#183440"/>
+    <text x="105" y="352" text-anchor="middle" class="t num">1</text>
+    <text x="150" y="334" class="t head">Kazusa proposes</text>
+    <text x="150" y="374" class="t body">a snowy destination</text>
+
+    <path d="M315 409V449" class="line"/>
+    <rect x="55" y="449" width="520" height="134" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <circle cx="105" cy="516" r="29" fill="#183440"/>
+    <text x="105" y="526" text-anchor="middle" class="t num">2</text>
+    <text x="150" y="508" class="t head">Haruki agrees</text>
+    <text x="150" y="548" class="t body">and they set out</text>
+
+    <path d="M315 583V623" class="line"/>
+    <rect x="55" y="623" width="520" height="178" rx="20" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="105" cy="712" r="29" fill="#183440"/>
+    <text x="105" y="722" text-anchor="middle" class="t num">3</text>
+    <text x="150" y="673" class="t head">Haruki wakes Kazusa</text>
+    <text x="150" y="716" class="t body">names <tspan font-style="italic">Snow Country</tspan></text>
+    <text x="150" y="755" class="t body">and counts “three, two, one”</text>
+
+    <path d="M315 801V841" class="line"/>
+    <rect x="55" y="841" width="520" height="178" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <circle cx="105" cy="930" r="29" fill="#183440"/>
+    <text x="105" y="940" text-anchor="middle" class="t num">4</text>
+    <text x="150" y="899" class="t head">The old inn</text>
+    <text x="150" y="942" class="t body">booked by Setsuna</text>
+    <text x="150" y="981" class="t body">five years earlier</text>
+  </g>
+
+  <g aria-label="What they asked the weather to do">
+    <rect x="625" y="275" width="520" height="188" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <text x="670" y="326" class="t head">The wish</text>
+    <text x="670" y="369" class="t wish">Let the blizzard keep falling;</text>
+    <text x="670" y="408" class="t wish">let the roads close so that</text>
+    <text x="670" y="447" class="t wish">no one can go back</text>
+
+    <path d="M885 463V521" class="wish-line"/>
+    <rect x="625" y="521" width="520" height="166" rx="20" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="670" y="572" class="t head">Next morning’s plan</text>
+    <text x="670" y="621" class="t wish">leave the snow</text>
+    <text x="670" y="660" class="t wish">on the first train</text>
+
+    <path d="M885 687V745" class="wish-line"/>
+    <rect x="625" y="745" width="520" height="166" rx="20" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <text x="670" y="796" class="t head">What happens</text>
+    <text x="670" y="845" class="t body">they return to Tokyo</text>
+    <text x="670" y="884" class="t body">and rejoin the timetable</text>
+  </g>
+
+  <text x="315" y="1090" text-anchor="middle" class="t foot">Destination, departure, waking, countdown, inn:</text>
+  <text x="315" y="1126" text-anchor="middle" class="t foot">each begins with a person or an earlier arrangement.</text>
+  <text x="885" y="1090" text-anchor="middle" class="t foot">The closed road remains a wish.</text>
+  <text x="885" y="1126" text-anchor="middle" class="t foot">People still enact the train plan and return.</text>
+
+  <rect x="55" y="1190" width="1090" height="270" rx="26" fill="#183440"/>
+  <text x="600" y="1284" text-anchor="middle" class="t result">The snow made no decision for them.</text>
+  <text x="600" y="1345" text-anchor="middle" class="t result-sub">It colors actions people had already taken;</text>
+  <text x="600" y="1385" text-anchor="middle" class="t result-sub">it neither starts the escape nor removes the way back.</text>
+
+  <text x="600" y="1530" text-anchor="middle" class="t foot">Original analytical figure. Solid arrows show actions; dashed arrows mark wish, plan, and result.</text>
+</svg>

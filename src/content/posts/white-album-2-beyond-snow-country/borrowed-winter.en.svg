@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">How “One Winter” Contracts into a Few Days</title>
+  <desc id="desc">Three timelines run together: public engagement and family dinner; interview, codes, and adjacent rooms; stopped work, flight, and a private engagement. They converge on an intention to end the exception, hands parting with the final agent omitted, Haruki’s disclosure, and care distributed across medicine, family, friends, and limited return to work.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#89999d"/>
+    </marker>
+    <style>
+      .t{font-family:Inter,"Noto Sans",Arial,sans-serif;fill:#172832}
+      .title{font-size:46px;font-weight:700;letter-spacing:.4px}
+      .sub{font-size:25px;fill:#59686e}
+      .lane{font-size:27px;font-weight:700}
+      .item{font-size:27px;font-weight:650}
+      .body{font-size:24px;fill:#405158}
+      .note{font-size:24px;fill:#5b513f}
+      .stage{font-size:29px;font-weight:700}
+      .stage-sub{font-size:24px;fill:#516168}
+      .foot{font-size:24px;fill:#69767b}
+      .inverse{fill:#f4f0e8}
+      .inverse-soft{fill:#d7e0e1}
+      .line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .track{stroke:#aab5b7;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .gold{stroke:#a5844f;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">How “One Winter” Contracts into a Few Days</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">Three timetables run together until ordinary life takes over the aftermath</text>
+
+  <g aria-label="Public timetable">
+    <rect x="55" y="165" width="340" height="76" rx="20" fill="#183440"/>
+    <text x="225" y="214" text-anchor="middle" class="t lane inverse">PUBLIC TIMETABLE</text>
+    <rect x="55" y="265" width="340" height="550" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <rect x="85" y="315" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="225" y="365" text-anchor="middle" class="t item">Engagement</text>
+    <text x="225" y="402" text-anchor="middle" class="t body">made public</text>
+    <path d="M225 427V482" class="track"/>
+    <rect x="85" y="482" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="225" y="532" text-anchor="middle" class="t item">Family</text>
+    <text x="225" y="569" text-anchor="middle" class="t body">dinner</text>
+    <path d="M225 594V649" class="track"/>
+    <text x="225" y="686" text-anchor="middle" class="t body">Others still treat</text>
+    <text x="225" y="722" text-anchor="middle" class="t body">the engagement as</text>
+    <text x="225" y="758" text-anchor="middle" class="t body">a future fact</text>
+  </g>
+
+  <g aria-label="Secret infrastructure">
+    <rect x="430" y="165" width="340" height="76" rx="20" fill="#607b80"/>
+    <text x="600" y="214" text-anchor="middle" class="t lane" fill="#f4f0e8">SECRET ACCESS</text>
+    <rect x="430" y="265" width="340" height="550" rx="22" fill="#eef1ef" stroke="#89999d" stroke-width="2"/>
+    <rect x="460" y="300" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="342" text-anchor="middle" class="t item">Work</text>
+    <text x="600" y="378" text-anchor="middle" class="t body">interview</text>
+    <path d="M600 398V438" class="track"/>
+    <rect x="460" y="438" width="280" height="112" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="481" text-anchor="middle" class="t item">Codes</text>
+    <text x="600" y="526" text-anchor="middle" class="t body">0 / 1 / 2 / 4</text>
+    <path d="M600 550V590" class="track"/>
+    <rect x="460" y="590" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+    <text x="600" y="632" text-anchor="middle" class="t item">Adjacent</text>
+    <text x="600" y="668" text-anchor="middle" class="t body">rooms</text>
+    <rect x="460" y="720" width="280" height="66" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <text x="600" y="762" text-anchor="middle" class="t note">4 is a code, not a room</text>
+  </g>
+
+  <g aria-label="Exceptional time">
+    <rect x="805" y="165" width="340" height="76" rx="20" fill="#a5844f"/>
+    <text x="975" y="214" text-anchor="middle" class="t lane" fill="#f4f0e8">EXCEPTIONAL TIME</text>
+    <rect x="805" y="265" width="340" height="550" rx="22" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+    <rect x="835" y="300" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="342" text-anchor="middle" class="t item">Work</text>
+    <text x="975" y="378" text-anchor="middle" class="t body">stops</text>
+    <path d="M975 398V438" class="gold"/>
+    <rect x="835" y="438" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="499" text-anchor="middle" class="t item">Northward escape</text>
+    <path d="M975 536V576" class="gold"/>
+    <rect x="835" y="576" width="280" height="98" rx="16" fill="#fbfaf6" stroke="#a5844f" stroke-width="2"/>
+    <text x="975" y="619" text-anchor="middle" class="t item">Private</text>
+    <text x="975" y="655" text-anchor="middle" class="t body">engagement</text>
+    <text x="975" y="714" text-anchor="middle" class="t note">“One winter” is</text>
+    <text x="975" y="750" text-anchor="middle" class="t note">a proposed duration;</text>
+    <text x="975" y="786" text-anchor="middle" class="t note">events cluster in a few days</text>
+  </g>
+
+  <path d="M225 815V885H560V925" class="line"/>
+  <path d="M600 815V925" class="line"/>
+  <path d="M975 815V885H640V925" class="line"/>
+  <circle cx="600" cy="940" r="15" fill="#183440"/>
+
+  <rect x="110" y="975" width="980" height="94" rx="20" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="600" y="1034" text-anchor="middle" class="t stage">Intention to end the exception</text>
+  <path d="M600 1069V1100" class="line"/>
+
+  <rect x="110" y="1100" width="980" height="112" rx="20" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+  <text x="600" y="1148" text-anchor="middle" class="t stage">Hands part</text>
+  <text x="600" y="1186" text-anchor="middle" class="t stage-sub">Final agent omitted: the figure does not invent who lets go of whom</text>
+  <path d="M600 1212V1243" class="line"/>
+
+  <rect x="110" y="1243" width="980" height="94" rx="20" fill="#eee4d2" stroke="#a5844f" stroke-width="2"/>
+  <text x="600" y="1302" text-anchor="middle" class="t stage">Haruki tells Setsuna what happened</text>
+  <path d="M600 1337V1368" class="line"/>
+
+  <rect x="110" y="1368" width="980" height="132" rx="20" fill="#183440"/>
+  <text x="600" y="1417" text-anchor="middle" class="t stage inverse">Aftercare returns to many hands</text>
+  <text x="600" y="1464" text-anchor="middle" class="t body inverse-soft">medical care / family / friends / limited return to work</text>
+
+  <text x="600" y="1550" text-anchor="middle" class="t foot">Original analytical figure. Timelines converge at termination; arrows do not imply one agent.</text>
+</svg>
