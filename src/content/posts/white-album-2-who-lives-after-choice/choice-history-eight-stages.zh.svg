@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">把选择还原为八段历史</title>
+  <desc id="desc">以知情、发起、答复、交涉、落实、终止、善后与重谈八个问题，追踪一项关系选择如何在多人之间换手。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#89999d"/>
+    </marker>
+    <style>
+      .t{font-family:"Noto Sans CJK SC","Source Han Sans SC",sans-serif;fill:#172832}
+      .title{font-size:50px;font-weight:700;letter-spacing:2px}
+      .sub{font-size:27px;fill:#59686e}
+      .num{font-size:29px;font-weight:700;fill:#f4f0e8}
+      .head{font-size:34px;font-weight:700}
+      .q{font-size:27px;fill:#405158}
+      .bottom{font-size:29px;font-weight:650;fill:#f4f0e8}
+      .foot{font-size:24px;fill:#d7e0e1}
+      .line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">把选择还原为八段历史</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">不只问“最后选了谁”，还要追踪动作怎样在多人之间换手</text>
+
+  <path d="M105 243V1383" class="line"/>
+
+  <g transform="translate(55 175)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">1</text>
+    <text x="105" y="52" class="t head">知情</text>
+    <text x="105" y="94" class="t q">谁先知道欲望与事实，谁仍被排除在外？</text>
+  </g>
+  <g transform="translate(55 318)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">2</text>
+    <text x="105" y="52" class="t head">发起</text>
+    <text x="105" y="94" class="t q">谁先告白、求婚、离开，或把关系推向下一步？</text>
+  </g>
+  <g transform="translate(55 461)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">3</text>
+    <text x="105" y="52" class="t head">答复</text>
+    <text x="105" y="94" class="t q">受影响者何时能说愿意、不愿意或尚未决定？</text>
+  </g>
+  <g transform="translate(55 604)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">4</text>
+    <text x="105" y="52" class="t head">交涉</text>
+    <text x="105" y="94" class="t q">谁能改动条件与边界；家庭、婚姻、舆论怎样施压？</text>
+  </g>
+  <g transform="translate(55 747)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">5</text>
+    <text x="105" y="52" class="t head">落实</text>
+    <text x="105" y="94" class="t q">收入、住处、照护与手续由谁落实，制度后果落到谁身上？</text>
+  </g>
+  <g transform="translate(55 890)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">6</text>
+    <text x="105" y="52" class="t head">终止</text>
+    <text x="105" y="94" class="t q">谁结束旧关系、联系或共同生活；对方是否知情？</text>
+  </g>
+  <g transform="translate(55 1033)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">7</text>
+    <text x="105" y="52" class="t head">善后</text>
+    <text x="105" y="94" class="t q">伤病、债务、亲友与日常成本由谁接手？</text>
+  </g>
+  <g transform="translate(55 1176)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">8</text>
+    <text x="105" y="52" class="t head">重谈</text>
+    <text x="105" y="94" class="t q">当事人以后还能重问、拒绝并改写结果吗？</text>
+  </g>
+
+  <rect x="55" y="1335" width="1090" height="202" rx="24" fill="#183440"/>
+  <text x="600" y="1392" text-anchor="middle" class="t bottom">必要处同时记录：已经做成　／　仍留给以后</text>
+  <text x="600" y="1442" text-anchor="middle" class="t foot">家庭、工作与制度压力记入“交涉”和“落实”。</text>
+  <text x="600" y="1480" text-anchor="middle" class="t foot">这张图只帮助辨认动作换手，不是充分的伦理模型。</text>
+  <text x="600" y="1518" text-anchor="middle" class="t foot">本文原创分析图。</text>
+</svg>

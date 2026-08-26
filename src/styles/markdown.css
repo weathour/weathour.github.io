@@ -112,6 +112,12 @@
 
     }
 
+    table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
     .katex-display-container {
         max-width: 100%;
         overflow-x: auto;

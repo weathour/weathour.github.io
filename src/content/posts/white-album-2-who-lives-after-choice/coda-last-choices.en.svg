@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Two evidentiary layers in Coda’s last choices</title>
+  <desc id="desc">Separates the script text and immediate actions of menus XII through XIV from route qualifications reconstructed by cross-checking guides.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#728188"/>
+    </marker>
+    <style>
+      .t{font-family:"Inter","Noto Sans",sans-serif;fill:#172832}
+      .title{font-size:46px;font-weight:700;letter-spacing:1px}
+      .sub{font-size:27px;fill:#59686e}
+      .head{font-size:33px;font-weight:700}
+      .label{font-size:25px;font-weight:700;letter-spacing:1px}
+      .choice{font-size:28px;font-weight:700;fill:#f7f3ea}
+      .loc{font-size:22px;fill:#cbd5d7}
+      .action{font-size:26px;font-weight:600}
+      .guide{font-size:26px;font-weight:650}
+      .small{font-size:23px;fill:#4d5d63}
+      .foot{font-size:24px;fill:#69767b}
+      .line{stroke:#728188;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .guide-line{stroke:#a5844f;stroke-width:4;fill:none;stroke-dasharray:11 9;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="77" text-anchor="middle" class="t title">TWO LAYERS IN CODA’S LAST CHOICES</text>
+  <text x="600" y="120" text-anchor="middle" class="t sub">Words and acts before the player / qualifications built by prior choices</text>
+
+  <g aria-label="Legend">
+    <rect x="90" y="150" width="40" height="28" rx="5" fill="#183440"/>
+    <text x="145" y="174" class="t small">Script menu</text>
+    <rect x="420" y="150" width="40" height="28" rx="5" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <text x="475" y="174" class="t small">Immediate act</text>
+    <rect x="760" y="150" width="40" height="28" rx="5" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="815" y="174" class="t small">Guide reconstruction</text>
+  </g>
+
+  <rect x="55" y="205" width="1090" height="410" rx="24" fill="#fbfaf6" stroke="#89999d" stroke-width="2"/>
+  <text x="90" y="256" class="t head">XII　WHAT TO TELL SETSUNA</text>
+  <text x="1110" y="256" text-anchor="end" class="t small">3014:227–228</text>
+
+  <rect x="90" y="290" width="470" height="90" rx="16" fill="#183440"/>
+  <text x="325" y="328" text-anchor="middle" class="t choice">“I only wanted to see Setsuna”</text>
+  <text x="325" y="360" text-anchor="middle" class="t loc">choice text in the script</text>
+  <rect x="640" y="290" width="470" height="90" rx="16" fill="#183440"/>
+  <text x="875" y="328" text-anchor="middle" class="t choice">Tell her the truth about Kazusa</text>
+  <text x="875" y="360" text-anchor="middle" class="t loc">choice text in the script</text>
+
+  <path d="M325 380V408" class="line"/>
+  <path d="M875 380V408" class="line"/>
+  <rect x="90" y="408" width="470" height="72" rx="14" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="325" y="438" text-anchor="middle" class="t action">Give Setsuna an exclusive reason</text>
+  <text x="325" y="468" text-anchor="middle" class="t action">for the visit</text>
+  <rect x="640" y="408" width="470" height="72" rx="14" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="875" y="438" text-anchor="middle" class="t action">Disclose the matter of Kazusa</text>
+  <text x="875" y="468" text-anchor="middle" class="t action">to Setsuna</text>
+
+  <path d="M325 480V508" class="guide-line"/>
+  <path d="M875 480V508" class="guide-line"/>
+  <rect x="90" y="508" width="470" height="76" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="325" y="540" text-anchor="middle" class="t guide">Necessary condition not met</text>
+  <text x="325" y="570" text-anchor="middle" class="t small">for Setsuna True</text>
+  <rect x="640" y="508" width="470" height="76" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="875" y="540" text-anchor="middle" class="t guide">Necessary condition met</text>
+  <text x="875" y="570" text-anchor="middle" class="t small">for Setsuna True; closes Kazusa True</text>
+
+  <rect x="55" y="650" width="1090" height="810" rx="24" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+  <text x="90" y="702" class="t head">XIII → XIV　THE LAST QUESTION IS NOT FREE-STANDING</text>
+
+  <text x="90" y="748" class="t label">XIII</text>
+  <text x="1110" y="748" text-anchor="end" class="t small">3016:566–567</text>
+  <rect x="90" y="770" width="470" height="84" rx="16" fill="#183440"/>
+  <text x="325" y="821" text-anchor="middle" class="t choice">Let go of her hands</text>
+  <rect x="640" y="770" width="470" height="84" rx="16" fill="#183440"/>
+  <text x="875" y="821" text-anchor="middle" class="t choice">Turn his face away</text>
+
+  <path d="M325 854V880" class="line"/>
+  <path d="M875 854V880" class="line"/>
+  <rect x="90" y="880" width="470" height="66" rx="14" fill="#f8faf8" stroke="#89999d" stroke-width="2"/>
+  <text x="325" y="908" text-anchor="middle" class="t action">3901: Kazusa approaches first;</text>
+  <text x="325" y="936" text-anchor="middle" class="t action">Haruki kisses and embraces her</text>
+  <rect x="640" y="880" width="470" height="66" rx="14" fill="#f8faf8" stroke="#89999d" stroke-width="2"/>
+  <text x="875" y="908" text-anchor="middle" class="t action">Haruki turns away;</text>
+  <text x="875" y="936" text-anchor="middle" class="t action">the next question follows</text>
+
+  <path d="M325 946V986" class="guide-line"/>
+  <rect x="115" y="986" width="420" height="72" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="325" y="1031" text-anchor="middle" class="t guide">Affair route</text>
+
+  <path d="M875 946V1000" class="line"/>
+  <text x="90" y="1080" class="t label">XIV</text>
+  <text x="1110" y="1080" text-anchor="end" class="t small">3016:591–592</text>
+  <rect x="90" y="1100" width="470" height="84" rx="16" fill="#183440"/>
+  <text x="325" y="1151" text-anchor="middle" class="t choice">“I can’t lie to Kazusa”</text>
+  <rect x="640" y="1100" width="470" height="84" rx="16" fill="#183440"/>
+  <text x="875" y="1151" text-anchor="middle" class="t choice">“I love Setsuna”</text>
+
+  <path d="M325 1184V1210" class="line"/>
+  <path d="M875 1184V1210" class="line"/>
+  <rect x="90" y="1210" width="470" height="66" rx="14" fill="#f8faf8" stroke="#89999d" stroke-width="2"/>
+  <text x="325" y="1253" text-anchor="middle" class="t action">Say these words to Kazusa</text>
+  <rect x="640" y="1210" width="470" height="66" rx="14" fill="#f8faf8" stroke="#89999d" stroke-width="2"/>
+  <text x="875" y="1253" text-anchor="middle" class="t action">Say these words to Kazusa</text>
+
+  <path d="M325 1276V1310" class="guide-line"/>
+  <path d="M875 1276V1310H760V1332" class="guide-line"/>
+  <path d="M875 1310H1010V1332" class="guide-line"/>
+  <rect x="90" y="1310" width="470" height="82" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="325" y="1344" text-anchor="middle" class="t guide">Kazusa True</text>
+  <text x="325" y="1376" text-anchor="middle" class="t small">requires its prior qualification</text>
+  <rect x="610" y="1332" width="300" height="82" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="760" y="1366" text-anchor="middle" class="t guide">Setsuna True</text>
+  <text x="760" y="1398" text-anchor="middle" class="t small">high affinity + XII disclosure</text>
+  <rect x="930" y="1332" width="180" height="82" rx="14" fill="#eee4d2" stroke="#a5844f" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="1020" y="1366" text-anchor="middle" class="t guide" style="font-size:22px">Coda Normal</text>
+  <text x="1020" y="1398" text-anchor="middle" class="t small">otherwise</text>
+
+  <text x="600" y="1512" text-anchor="middle" class="t foot">Script: menu wording and immediate acts. Guides: route qualifications.</text>
+  <text x="600" y="1546" text-anchor="middle" class="t foot">Original analytical figure. Solid = script order; dashed = reconstructed conditions.</text>
+</svg>

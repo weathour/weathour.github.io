@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Restore a choice to its eight-stage history</title>
+  <desc id="desc">Eight questions—knowledge, initiation, answer, negotiation, implementation, ending, aftermath, and renegotiation—trace how action changes hands across a relationship choice.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#89999d"/>
+    </marker>
+    <style>
+      .t{font-family:"Inter","Noto Sans",sans-serif;fill:#172832}
+      .title{font-size:46px;font-weight:700;letter-spacing:1px}
+      .sub{font-size:27px;fill:#59686e}
+      .num{font-size:29px;font-weight:700;fill:#f4f0e8}
+      .head{font-size:33px;font-weight:700}
+      .q{font-size:26px;fill:#405158}
+      .bottom{font-size:28px;font-weight:650;fill:#f4f0e8}
+      .foot{font-size:23px;fill:#d7e0e1}
+      .line{stroke:#89999d;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#f4f0e8"/>
+  <rect width="1200" height="18" fill="#183440"/>
+  <text x="600" y="78" text-anchor="middle" class="t title">CHOICE AS AN EIGHT-STAGE HISTORY</text>
+  <text x="600" y="122" text-anchor="middle" class="t sub">Ask not only “who was chosen,” but how action changes hands</text>
+
+  <path d="M105 243V1383" class="line"/>
+
+  <g transform="translate(55 175)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">1</text>
+    <text x="105" y="52" class="t head">KNOWLEDGE</text>
+    <text x="105" y="94" class="t q">Who first knows the desire and facts—and who remains excluded?</text>
+  </g>
+  <g transform="translate(55 318)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">2</text>
+    <text x="105" y="52" class="t head">INITIATION</text>
+    <text x="105" y="94" class="t q">Who first confesses, proposes, leaves, or pushes the relation onward?</text>
+  </g>
+  <g transform="translate(55 461)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">3</text>
+    <text x="105" y="52" class="t head">ANSWER</text>
+    <text x="105" y="94" class="t q">When can those affected say yes, no, or not yet?</text>
+  </g>
+  <g transform="translate(55 604)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">4</text>
+    <text x="105" y="42" class="t head">NEGOTIATION</text>
+    <text x="105" y="79" class="t q">Who can change terms and boundaries?</text>
+    <text x="105" y="109" class="t q">How do family, marriage, and public opinion exert pressure?</text>
+  </g>
+  <g transform="translate(55 747)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">5</text>
+    <text x="105" y="42" class="t head">IMPLEMENTATION</text>
+    <text x="105" y="79" class="t q">Who arranges income, housing, care, and papers?</text>
+    <text x="105" y="109" class="t q">Who bears the institutional costs?</text>
+  </g>
+  <g transform="translate(55 890)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">6</text>
+    <text x="105" y="52" class="t head">ENDING</text>
+    <text x="105" y="94" class="t q">Who ends an old tie, contact, or shared life; does the other person know?</text>
+  </g>
+  <g transform="translate(55 1033)">
+    <rect width="1090" height="128" rx="22" fill="#e5eae8" stroke="#89999d" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">7</text>
+    <text x="105" y="42" class="t head">AFTERMATH</text>
+    <text x="105" y="79" class="t q">Who handles illness and debt, maintains family and friendships,</text>
+    <text x="105" y="109" class="t q">and pays the costs of daily life?</text>
+  </g>
+  <g transform="translate(55 1176)">
+    <rect width="1090" height="128" rx="22" fill="#eee4d2" stroke="#aa9675" stroke-width="2"/>
+    <circle cx="50" cy="64" r="31" fill="#183440"/>
+    <text x="50" y="74" text-anchor="middle" class="t num">8</text>
+    <text x="105" y="52" class="t head">RENEGOTIATION</text>
+    <text x="105" y="94" class="t q">Can people later reopen the question, refuse, and revise the result?</text>
+  </g>
+
+  <rect x="55" y="1335" width="1090" height="202" rx="24" fill="#183440"/>
+  <text x="600" y="1392" text-anchor="middle" class="t bottom">Where needed, record both: achieved / left for later</text>
+  <text x="600" y="1442" text-anchor="middle" class="t foot">Family, work, and institutional pressure belong under negotiation and implementation.</text>
+  <text x="600" y="1480" text-anchor="middle" class="t foot">A reading aid for changes of hands—not a sufficient ethical model.</text>
+  <text x="600" y="1518" text-anchor="middle" class="t foot">Original analytical figure.</text>
+</svg>
