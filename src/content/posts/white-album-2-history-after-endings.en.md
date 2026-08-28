@@ -1,8 +1,8 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (IV) | History Remains After the Endings: After Stories, Direct Conflict, and Routes That Cannot Be Merged'
+title: 'WHITE ALBUM 2: Relational Readings (IV) | History Remains After the Endings: After Stories, the Kazusa–Setsuna Confrontation, and Routes That Cannot Be Merged'
 postSlug: white-album-2-history-after-endings
 published: 2026-08-25
-updated: 2026-08-26
+updated: 2026-08-29
 description: "Three after stories put Coda's handoffs of decisions and responsibility to the test of time: To You, My Sworn Enemy reopens the repair work left by the Affair route, while the two True-route after stories test how responsibility is shared through homes, work, family, and broken promises."
 image: './white-album-2-history-after-endings/white-album-2-history-after-endings-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, after stories, intimacy, promises, repair, responsibility]
@@ -11,23 +11,19 @@ draft: false
 lang: en
 ---
 
-> **Spoiler warning:** This essay discusses all four endings of *WHITE ALBUM 2: Coda* and the complete plots of *不倶戴天の君へ*, *幸せへと戻る道*, and *幸せへと進む道*.[^source]
->
-> **Cover note:** The original conceptual cover uses an unfastened door chain, keys, a blank postcard, and tracks in snow to figure the history that remains open after an ending. It is neither a game image nor a reconstruction of a specific scene.
->
-> **Image note:** This essay reproduces four low-resolution gameplay frames from the additional stories for noncommercial plot criticism. Copyright remains with AQUAPLUS; the footage was uploaded to Bilibili by 次郎JIRO and 糖炒小熊clover. The images are not open-licensed, and no republication permission has been obtained.
-
 The chain on the door was still unlatched.
 
 After the Affair / Kazusa Normal route, Setsuna continued to enter Haruki's apartment with her own key. Haruki was on leave from work and visited a psychosomatic medicine clinic once a week. He told Setsuna to stop coming and leave him alone, then admitted that he was lying. If she stopped appearing altogether, he would not know what to do.
 
 Haruki pointed out the contradiction himself. He could have fastened the chain or taken back the key if he had meant to keep her out. He had done neither. His words sent her away while his actions kept the entrance open.
 
-[The previous essay, "The Third Person Returns Through Work"](/en/posts/white-album-2-third-person-returns/) followed Coda's decisions as they changed hands. In Coda Normal, Haruki makes an inward choice; engagement, family, and work carry it into daily life, while disclosure remains unwritten. In the Affair route, Kazusa proposes the winter together, Haruki acts on it, Kazusa ends it, and Setsuna inherits the work of repair. Haruki initiates the public rupture of Kazusa True, and Kazusa forces him to confirm it. Setsuna True begins with Haruki asking for help; Setsuna rebuilds the relationship, Kazusa yields, Haruki proposes marriage, and Setsuna still closes the sequence. The endings settle each relationship for the moment. Daily life does not end with them.
+[The previous essay, "The Third Person Returns Through Work"](/en/posts/white-album-2-third-person-returns/) followed Coda's decisions as they changed hands. In Coda Normal, Haruki makes an inward choice; engagement, family, and work carry it into daily life, while disclosure remains unwritten. In the Affair route, Kazusa defines the form and deadline, and Haruki makes the secret into a life. Kazusa announces the endpoint; neither partner will bear the final separation alone, and the narration does not say who pulls away first. Setsuna inherits the work of bringing Haruki back. Haruki initiates the public rupture of Kazusa True, and Kazusa forces him to confirm it. Setsuna True begins with Haruki asking for help; Setsuna rebuilds the relationship, Kazusa withdraws her equal romantic claim, Haruki proposes marriage, and Setsuna still gives the final answer. The endings settle each relationship for the moment. Daily life does not end with them.
 
 The three additional stories give three of those endings different futures. *不倶戴天の君へ* (working translation: *To You, My Sworn Enemy*) follows the Affair route, also called Kazusa Normal. *幸せへと戻る道* (*The Road Back to Happiness*) follows Kazusa True, while *幸せへと進む道* (*The Road Toward Happiness*) follows Setsuna True. Coda Normal already reaches a point one year later in the game, but it received no independent after story of comparable scale. The three stories belong to mutually exclusive timelines. A quarrel, homecoming, wedding, or pregnancy in one route cannot fill the blank left by another.[^versions]
 
 The stories keep testing that division of labor. Work goes wrong; people who left Japan return to the old house; Setsuna, having taken charge of repair, can no longer sustain the care it requires. What happens next depends on who speaks first, who acts, and who can answer or alter the arrangement already in place.
+
+*This essay contains full spoilers for Coda's four endings and for 不倶戴天の君へ, 幸せへと戻る道, and 幸せへと進む道. The cover is an original conceptual image. Four gameplay frames from the additional stories appear solely for noncommercial criticism; copyright remains with AQUAPLUS, and the source footage was uploaded to Bilibili by 次郎JIRO and 糖炒小熊clover.*[^source]
 
 ## The Door Chain Remains Unlatched, and Staying Put Is Already a Choice
 
@@ -53,7 +49,7 @@ When neither Haruki nor Setsuna can move their relationship further, Kazusa is t
 
 ## Once the Call Connects, Why Speaking Plainly Is Still Not Enough
 
-The previous essay discussed the conflict between Kazusa and Setsuna in Setsuna True. Setsuna has heard facts from Haruki that can change her judgment. At his request, she goes to Kazusa and then directs the rescue and the rebuilding that follow. The telephone call in *To You, My Sworn Enemy* belongs to another history. Kazusa has ended their winter together and left Haruki with Setsuna; Setsuna, having inherited the work of repair, is the first to admit that she cannot carry it.
+The previous essay discussed the conflict between Kazusa and Setsuna in Setsuna True. Setsuna has heard facts from Haruki that can change her judgment. At his request, she goes to Kazusa and then directs the rescue and the rebuilding that follow. The telephone call in *To You, My Sworn Enemy* belongs to another history. Kazusa has announced the end of their winter together. Their hands part, but the narration does not identify who pulls away first. She then entrusts Haruki's rehabilitation to Setsuna, who is the first to admit that she cannot carry it.
 
 Setsuna prepares to contact the European agency. Kazusa calls her instead, dialing from memory after deleting the number from her phone.
 
@@ -67,7 +63,7 @@ Kazusa says good night and almost ends the call. Then she stops Setsuna and gets
 
 Setsuna first places her failure before Kazusa. After pressing her for an explanation, Kazusa invokes the way she once cried and withdrew, then begins attacking her. Setsuna only then says outright that she wants Kazusa's help. Kazusa must face another fact as well. Entrusting Haruki to the person she trusted and envied most did not end her own responsibility. That night, neither woman can keep citing that earlier handoff as proof that she has already done her part.
 
-The quarrel soon turns ugly. Kazusa demands that Setsuna give Haruki back. Setsuna refuses. She is willing to help Kazusa in other matters, even to go to Paris or Vienna to care for Youko, but she will not "return" Haruki. Words such as "take back" and "hand over" still turn him into someone the women can transfer between them. Kazusa understands that Setsuna wants her to share a burden that has crushed Setsuna, while Setsuna still intends to stay with Haruki.
+The quarrel soon turns ugly. Kazusa demands that Setsuna give Haruki back. Setsuna refuses. She is willing to help Kazusa in other matters, even to go to Paris or Vienna to care for Youko, but she will not "return" Haruki. Words such as "take back" and "hand over" still turn him into someone the women can transfer between them. Setsuna also makes her own condition clear: she wants Kazusa to share the burden that has crushed her, but she does not intend to leave Haruki.
 
 The narration does not polish this direct speech into a victory for honesty. The women insult each other, sob, pretend not to hear, defend themselves, and push responsibility onto the other. They can say what they want and still use "for Haruki's sake" as a weapon against each other.
 
@@ -75,7 +71,7 @@ Kazusa finally says that Haruki must decide. The sentence cuts across the idea t
 
 The next day, Setsuna says that she is hungry. She starts cooking, packs the food into a lunchbox, and prepares to eat it with Haruki. She tells her mother that she spent the night fighting with a friend on the phone, then states openly that she still loves Haruki as he was, as he is, and as he will be. She resumes her visits and is prepared to move out if her family continues to stand in their way. Returning to Haruki is now a desire she acknowledges, not only a duty that "no one else can perform."
 
-The call changes Setsuna directly: she leaves home again. Haruki continues to recover through medication, treatment, time, and help from the people around him. Only after Setsuna comes through the door does he admit that his notes have been waiting for her.[^aftermath]
+After the call, Setsuna is the first to act again: she leaves home. Haruki continues to recover through medication, treatment, time, and help from the people around him. Only after Setsuna comes through the door does he admit that his notes have been waiting for her.[^aftermath]
 
 Neither of them calls the day a cure. Setsuna is prepared to spend her life on what follows, and Haruki knows that his symptoms may return. They have only begun to act again.
 
@@ -95,7 +91,7 @@ Haruki initiates the public rupture in Kazusa True; after Kazusa forces him to c
 
 Three years of marriage have not dissolved Kazusa's fear of being left. During their first night back in Japan, the two still bring up divorce in an argument. After they sleep in separate rooms for a short time, Kazusa fears that Haruki may truly abandon her. She depends on the same person as husband, manager, and caregiver.
 
-Continued treatment has left Youko's leukemia stable for the time being. She draws on the agency and her personal connections to restore the Touma house, negotiate with the school, and visit another family again and again. On the fifth visit, the family finally lets her through the door. "That family's daughter" then begins helping her persuade them; the script never gives the daughter a name.[^kazusaafter]
+Continued treatment has left Youko's condition stable for the time being. She draws on the agency and her personal connections to restore the Touma house, negotiate with the school, and visit another family again and again. On the fifth visit, the family finally lets her through the door. "That family's daughter" then begins helping her persuade them; the script never gives the daughter a name.[^kazusaafter]
 
 The old house is restored to match their memories, though important objects do not return to their former places. Kazusa's original piano remains in Vienna, and the Japanese house receives a new one. Haruki picks up a guitar, then replaces it on the stand when Kazusa enters. He believes that she understands why he no longer plays in front of her. The couple can return to the house and school. The IC relationship formed by piano, guitar, and voice does not reappear with the setting.
 
@@ -121,9 +117,9 @@ In Kazusa's route, Haruki and Kazusa can return only after Youko restores the ol
 
 Time has not removed lies and concealment from either marriage.
 
-Kazusa does not want to discuss Youko's illness in detail, while Haruki insists on knowing her condition. He privately plans Kazusa's life after Youko dies, including when Kazusa should have a child and who will care for her afterward. He also assumes that Youko understands he is preparing for that handover. Youko has discussed her treatment in Kazusa's presence, and the script never says that she and Haruki falsify a diagnosis. Kazusa has given no answer to Haruki's plan.
+Kazusa does not want to discuss Youko's illness in detail, while Haruki insists on knowing her condition. He privately plans Kazusa's life after Youko dies, including when Kazusa would have a child and who will care for her afterward. He also assumes that Youko understands he is preparing for that handover. Youko has discussed her treatment in Kazusa's presence, and the script never says that she and Haruki falsify a diagnosis. Kazusa has given no answer to Haruki's plan.
 
-The surprise wedding is also kept from Kazusa. The marriage already exists; the surprise changes its ceremony. Kazusa objects first, then states that she will answer the vow. Only then does Haruki contact the friends waiting outside. She can still protest and answer in her own voice. When Haruki privately decides when she should have a child and how care will pass from Youko to him, the script gives Kazusa no such answer.
+The surprise wedding is also kept from Kazusa. The marriage already exists; the surprise changes its ceremony. Kazusa objects first, then states that she will answer the vow. Only then does Haruki contact the friends waiting outside. She can still protest and answer in her own voice. When Haruki privately plans the timing of having a child and the handover of care after Youko's death, the script gives Kazusa no such answer.
 
 Setsuna's route has its secrets too. Her mother has already begun spending time with Haruki's mother. Setsuna says that she knows nothing about it, while Haruki reads her mischievous expression as evidence that she has known all along. Haruki also keeps matters he believes will not alter their life at present to himself.
 
@@ -137,7 +133,7 @@ Setsuna's after story lets a promise fail once. Haruki and Setsuna solemnly agre
 
 On the midnight phone call, Haruki apologizes and explains how much work remains. Only then does Setsuna tell him that she has failed to get home too. She has not simply been waiting for him alone, and her own emergency has made her abandon the morning demand that he hand even an exclusive story to his superior. They agree to meet after work, with Haruki to call again when he finishes.
 
-Setsuna eventually waits outside Haruki's office. They talk again about the considerate lies and absolute vows of their past. They still say that they will keep the next promise, knowing that they may fail again. This time they explain what happened, set another time to meet, and keep that appointment.[^setsunaafter]
+Setsuna eventually waits outside Haruki's office. They talk again about the considerate lies and absolute vows of their past. They still say that they will keep the next promise, knowing that they may fail again. This time they explain what happened, set another time to meet, and meet outside his office.[^setsunaafter]
 
 Both take part in the repair, though the burden is uneven. Setsuna travels to Haruki's office and does most of the waiting. After they meet, the two go to a nearby hotel they have already booked and spend the night awake. The repair work that Setsuna largely carried in Coda is only beginning to be shared.
 
@@ -175,15 +171,15 @@ Read side by side, the routes tempt players to assemble another history from the
 
 Players have read all three routes. Each character has lived through only one. Anything they learn later bears the history they cannot erase.
 
-The Affair route leaves repair to Setsuna. *To You, My Sworn Enemy* reopens the repair work that Kazusa entrusted to Setsuna, while Haruki waits until Setsuna returns before admitting that he needs her. Kazusa's after story continues the marriage produced by Haruki's public rupture, but Youko, the agency, and the school must prepare the couple's return. Any response from those in Japan appears only through reports, anonymous figures, and voices. Setsuna's after story begins to divide one act of repair between the spouses, though Setsuna still does most of the traveling and waiting, while Kazusa remains outside the home.
+The Affair route leaves repair to Setsuna. *To You, My Sworn Enemy* reopens the repair work that Kazusa entrusted to Setsuna, while Haruki waits until Setsuna returns before admitting that he needs her. Kazusa's after story continues the marriage produced by Haruki's public rupture, but Youko, the agency, and the school must prepare the couple's return. The text leaves the response from those in Japan uncertain: it gives us only reports, anonymous figures, and voices. Setsuna's after story begins to divide one act of repair between the spouses, though Setsuna still does most of the traveling and waiting, while Kazusa remains outside the home.
 
 Coda Normal gives us only the in-game life one year later; the official text catalog checked for this essay contains no independent after story of comparable scale. Haruki and Setsuna are preparing for a wedding six months away and tell each other "I love you" every day. His feeling for Kazusa, which he believes may last for life, remains in his internal monologue. The text stops there. It never tells us whether the feeling later enters their conversation.
 
-A fourth kind of relationship would require all three to hear the facts that could change their judgment before a decision is made. Each would need the chance to answer or refuse in person. Haruki would have to state his own decision. Kazusa could make demands of Setsuna and be angry with her to her face; Setsuna could refuse without always becoming the person who cleans up last. No one could make private arrangements for the other two about medical care, housing, or who looks after whom. They might build another relationship after that conversation, or they might separate.
+The previous essay's position "between the two True endings" names a set of conditions that have never appeared together; it does not require putting all three people in the same room. Those affected must hear enough of the facts to judge before the arrangement closes. Their answers must be able to alter the result and cannot be written for them by someone else. Haruki would have to state his own decision. Kazusa could make demands of Setsuna and be angry with her; Setsuna could refuse without always becoming the person who cleans up last. No one could make private arrangements for the other two about medical care, housing, or who looks after whom. They might build another relationship afterward, or they might separate.
 
-Even if they separate, each of them should decide after hearing the facts that could change their judgment. Silence, anonymous reports, and a single caregiver can no longer close the matter for everyone. The three after stories never bring all three characters into that conversation.
+Even if they separate, each of them should decide after hearing the facts that could change their judgment. Silence, anonymous reports, and a single caregiver can no longer close the matter for everyone. The three after stories each reach some of these conditions, but none gives all of them to the three at once.
 
-The first essay showed how three relationships jointly formed the triangle. The second traced how Kazusa's absence continued to organize it, while the three heroines of CC reflected Haruki from different positions. The third asked who initiates, enacts, ends, and repairs each route. The fourth follows those handoffs through time, asking how people carry the responsibilities, where the arrangements break down, and who takes them up next. Volume Two begins with [*The Sinner's Guilt, Other People's Lives*](/en/posts/white-album-2-guilt-and-the-days-after/), turning to Japanese literature to ask how a person's sentence can hide the people who pay, care, work, and live through the aftermath.
+The first essay showed how three relationships jointly formed the triangle. The second traced how Kazusa's absence continued to organize it, while the three heroines of CC reflected Haruki from different positions. The third asked who acts on desire in each route, whether those affected can know and answer, and who inherits the work of repair. The fourth follows those handoffs through time, asking how people carry the responsibilities, where the arrangements break down, and who takes them up next. [The next volume opens with *The Sinner's Guilt, Other People's Lives*](/en/posts/white-album-2-guilt-and-the-days-after/), turning to Japanese literature to see how these conditions emerge—and fail—within similar triangular structures.
 
 The chain on the door remains unlatched. The old house has been repaired. The two people who broke their promise meet outside the office, and Kazusa's postcard reaches the apartment next door. The ending has passed, but the past remains present in their daily lives.
 
