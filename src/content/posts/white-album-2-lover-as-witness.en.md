@@ -101,7 +101,7 @@ The confession in *Introductory Chapter* gives this kind of confirmation consequ
 
 We already acquire a workable self through other people's responses. Love then asks one person to witness whether childhood and the present, desire and choice, still belong together. If she is allowed to say only yes, we gain a proof and lose someone capable of answering.
 
-At what point does such an exchange gain the force of a commitment, and how does it alter the positions and obligations of everyone present? The next essay continues from Haruki and Setsuna's "conclusion" to ask how a third term enters a relation between two people.
+At what point does such an exchange gain the force of a commitment, and how does it alter the positions and obligations of everyone present? [The next essay, “Where the Third Term Between Two Comes From,”](/en/posts/white-album-2-the-third-between-two/) continues from Haruki and Setsuna's “conclusion.”
 
 ---
 
