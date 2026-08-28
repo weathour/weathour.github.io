@@ -1,7 +1,7 @@
 ---
 title: '《白色相簿2》三人关系考·情与世间（五）｜失格者的罪，旁人的日子'
 postSlug: white-album-2-guilt-and-the-days-after
-published: 2026-08-26
+published: 2026-08-26T12:54:52Z
 updated: 2026-08-27
 description: '从浮气线的坦白与自罚，读到叶藏的道化、两次实施的求死、一次具体计划与《维庸之妻》的坏账：一个人把罪全收进自己名下以后，谁仍在付钱、照病、工作，把后来的日子过下去。'
 image: './white-album-2-guilt-and-the-days-after/white-album-2-guilt-and-the-days-after-cover.webp'

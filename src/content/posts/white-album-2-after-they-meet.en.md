@@ -245,6 +245,8 @@ The second volume has followed confession into choice, then choice into the days
 
 The unfinished work is to give the three that time as well. Can a recorded voice later be supplemented, revised, or withdrawn by its speaker? When someone says "no," will the next action truly change?
 
+[Volume Three begins with *Why We Ask a Lover to Tell Us Who We Are*](/en/posts/white-album-2-lover-as-witness/). It asks what happens when a lover is asked to certify who I am: her answer can pull me out of a monologue, yet she can also be reduced to a certificate of authenticity.
+
 They have met. They have only begun to settle what lies between them.
 
 ---

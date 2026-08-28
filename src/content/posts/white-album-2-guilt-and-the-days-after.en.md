@@ -1,7 +1,7 @@
 ---
 title: "WHITE ALBUM 2: Relational Readings · Love and the Social World (V) | The Sinner's Guilt, Other People's Lives"
 postSlug: white-album-2-guilt-and-the-days-after
-published: 2026-08-26
+published: 2026-08-26T12:54:52Z
 updated: 2026-08-27
 description: "From the Affair route's confession and self-punishment to Yozo's clowning, two suicide attempts, one concrete but interrupted plan, and the bad debts of Villon's Wife: once someone gathers every wrong under his own name, who keeps paying, tending the sick, working, and living through the days that follow?"
 image: './white-album-2-guilt-and-the-days-after/white-album-2-guilt-and-the-days-after-cover.webp'

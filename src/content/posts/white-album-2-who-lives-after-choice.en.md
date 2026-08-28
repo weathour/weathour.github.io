@@ -1,7 +1,7 @@
 ---
 title: "WHITE ALBUM 2: Relational Readings · Love and the Social World (VI) | After the Choice, Who Lives the Days That Follow?"
 postSlug: white-album-2-who-lives-after-choice
-published: 2026-08-26
+published: 2026-08-26T15:51:11Z
 updated: 2026-08-27
 description: "From the last three sets of choices in Coda to Natsume Soseki's Kokoro, Sorekara, and The Gate: how a choice can take away, return, or defer another person's chance to know and answer, and who turns it into the life that follows."
 image: './white-album-2-who-lives-after-choice/white-album-2-who-lives-after-choice-cover.webp'

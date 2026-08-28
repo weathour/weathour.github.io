@@ -1,7 +1,7 @@
 ---
 title: '《白色相簿2》三人关系考·情与世间（六）｜选择以后，日子由谁来过'
 postSlug: white-album-2-who-lives-after-choice
-published: 2026-08-26
+published: 2026-08-26T15:51:11Z
 updated: 2026-08-27
 description: '从 Coda 最后三组选项读到夏目漱石《心》《其后》《门》：一次选择怎样抢走、交还或拖延别人的知情与答复，又由谁把它过成往后的生活。'
 image: './white-album-2-who-lives-after-choice/white-album-2-who-lives-after-choice-cover.webp'
