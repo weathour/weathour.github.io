@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">关系场与阅读路径</title>
+  <desc id="desc">灰色节点与细线构成同时可见的关系场，一条深蓝路径选择部分节点，在中段回返一次后继续向右；未被选中的节点仍然保留。</desc>
+  <rect width="1200" height="720" rx="28" fill="#f4efe5"/>
+  <g fill="none" stroke="#a9a79f" stroke-width="2.5" opacity=".65">
+    <path d="M95 500 235 410 335 525 455 330 590 430 710 275 850 405 990 255 1100 345"/>
+    <path d="M150 205 285 290 410 170 535 260 650 145 780 235 920 135 1065 205"/>
+    <path d="M235 410 285 290M335 525 535 260M455 330 410 170M590 430 780 235M710 275 650 145M850 405 920 135M990 255 1065 205"/>
+    <path d="M95 500 150 205M335 525 410 170M590 430 650 145M850 405 1065 205" stroke-dasharray="9 10"/>
+  </g>
+  <g fill="#d2cec3" stroke="#8f8d86" stroke-width="2">
+    <circle cx="95" cy="500" r="13"/><circle cx="150" cy="205" r="10"/>
+    <circle cx="235" cy="410" r="17"/><circle cx="285" cy="290" r="11"/>
+    <circle cx="335" cy="525" r="12"/><circle cx="410" cy="170" r="15"/>
+    <circle cx="455" cy="330" r="18"/><circle cx="535" cy="260" r="10"/>
+    <circle cx="590" cy="430" r="14"/><circle cx="650" cy="145" r="12"/>
+    <circle cx="710" cy="275" r="18"/><circle cx="780" cy="235" r="11"/>
+    <circle cx="850" cy="405" r="15"/><circle cx="920" cy="135" r="13"/>
+    <circle cx="990" cy="255" r="17"/><circle cx="1065" cy="205" r="10"/>
+    <circle cx="1100" cy="345" r="14"/>
+  </g>
+  <path d="M35 610 C105 585 165 530 235 410 S375 365 455 330 C535 295 625 335 590 430 C555 515 680 495 710 275 S890 350 850 405 C815 455 935 345 990 255 S1090 285 1160 190" fill="none" stroke="#263f5d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f4efe5" stroke="#263f5d" stroke-width="7">
+    <circle cx="235" cy="410" r="17"/><circle cx="455" cy="330" r="18"/>
+    <circle cx="590" cy="430" r="16"/><circle cx="710" cy="275" r="18"/>
+    <circle cx="850" cy="405" r="16"/><circle cx="990" cy="255" r="18"/>
+  </g>
+</svg>
