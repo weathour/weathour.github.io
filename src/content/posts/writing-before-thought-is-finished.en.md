@@ -11,10 +11,6 @@ draft: false
 lang: en
 ---
 
-> **Scope note:** Here, “analytical long-form prose” means writing in which an author draws on several kinds of material and answers for a contestable claim. When a rule, a governing brief, or an established result fixes the conclusion in advance, writing may reorganize the explanation without changing its content. Fragmentary, montage-based, and polyphonic work remains within scope when it bears the same argumentative responsibility.
->
-> **Cover note:** This is original conceptual artwork for the site. Scattered marks gradually take shape through selection, sequence, and return while branches remain open. It is not a scientific model of the writing process.
-
 Writing is saying clearly what you want to say.
 
 The sentence sounds right. It assumes that the author already has complete content in mind and asks language to deliver it accurately to a reader. When the prose stalls, expression appears to be the problem. Revision becomes the search for better words for a meaning already settled.
@@ -42,7 +38,7 @@ Authors do not begin from nothing. They have read, gathered experience, and may 
 
 Taken to its strongest form, the claim would be: “The content of an article is produced by the writing process.” A closely related case defeats it. When a completed and checked mathematical proof is rewritten as a long explanation for undergraduates, the writer still studies readers’ difficulties and rearranges definitions, examples, and derivations. The theorem and the proof’s core relations may remain unchanged. Writing has altered the route of arrival without altering the result.
 
-The counterexample narrows the claim. I am concerned with situations in which the author must still form a claim from heterogeneous materials and take responsibility for it. The six notes placed content first, as though the other five merely executed its instructions. Yet the content changes as soon as the intended reader changes. For a novice, the article must first make visible why a collection of notes is not yet an article. For a reader familiar with argument theory, the difficult point may instead be how relations among materials become a reading sequence. Before the reader has entered the prose, the anticipated reader has already changed what the author must explain.
+The counterexample narrows the claim. I am concerned with situations in which the author must still form a contestable claim from heterogeneous materials and take responsibility for it. When a rule, a governing brief, or an established result fixes the conclusion in advance, writing may reorganize the route of explanation without taking part in forming that conclusion. The six notes placed content first, as though the other five merely executed its instructions. Yet the content changes as soon as the intended reader changes. For a novice, the article must first make visible why a collection of notes is not yet an article. For a reader familiar with argument theory, the difficult point may instead be how relations among materials become a reading sequence. Before the reader has entered the prose, the anticipated reader has already changed what the author must explain.
 
 A working title does the same work. “Six Dimensions of Writing” preserves the parallel list. “How to Write an Article Clearly” reduces the problem to expressive technique. “Writing Happens While Thought Is Unfinished” directs attention to the mutual alteration of thought and composition. A title does not merely label finished content. It marks a boundary around the material and leaves some of it outside.
 
@@ -140,6 +136,8 @@ The title also imposes a burden of proof. “Happens” and “while thought is 
 
 Gérard Genette described titles, covers, prefaces, and notes as thresholds that arrange how a work enters public reading, including who speaks, from where, and to whom. A site title, cover, and footnote can be treated as digital analogues of such thresholds; Genette was not writing a theory of the modern web.[^genette] On the article page, a cover remains attached to the body. When a platform crops the same image into a social card, it changes the audience, removes context, and shares responsibility for how the article first appears.
 
+This article's cover is original conceptual artwork for the site. Scattered marks take shape through selection, sequence, and return while some branches remain open. The image provides an entrance to the argument; it is not a scientific model of writing.
+
 The conceptual figure has a limited job. It makes the difference between a simultaneously visible relation field and a sequential path apparent at a glance. It cannot identify the gray nodes or prove that one route is best. The body and caption must name the objects and the limit. If a load-bearing inference is hidden in color, arrows, or small labels, a mobile crop can remove it from the argument.
 
 Notes divide work differently. If the page references and method of Flower and Hayes occupied the body in full, every step would detour into bibliography. If sources disappeared completely, borrowed claims would pose as common sense. A footnote can open a route for verification; the body must still say what the source changes here. A premise without which the central argument cannot be understood belongs in the body.
@@ -152,7 +150,9 @@ I therefore add a publication check: inspect the title, caption, footnote return
 
 The first structural review of this article changed no sentence. The reviewer observed that the six notes would naturally become a tour through six disciplines. Every section could be rich while the whole merely displayed research in sequence. The failure occurred before the first paragraph.
 
-The first revision did not add a seventh “integrative dimension.” It made the six notes work on one central claim. After the complete first draft, two fresh readings exposed breaks that began earlier. One reader found the scope note circular: the article had defined its object as prose that changes its claim in writing, so writing was guaranteed to change it. Another first encountered “judgment” and “sequence” without knowing whether they meant the central claim or a local opinion, section order or word order. The supposedly controlled comparison of two sequences had in fact added counterexample, causation, and feedback to the preferred version. Section 4 finished its account of sentences; Section 5 opened a separate media topic, and a small change in transitions could have reversed them.
+The first revision did not add a seventh “integrative dimension.” It made the six notes work on one central claim. After the complete first draft, two readers who had not taken part in the writing exposed breaks that began earlier. One reader found the scope note circular: the article had defined its object as prose that changes its claim in writing, so writing was guaranteed to change it. Another first encountered “judgment” and “sequence” without knowing whether they meant the central claim or a local opinion, section order or word order.
+
+The supposedly controlled comparison of two sequences had in fact added counterexample, causation, and feedback to the preferred version. Section 4 finished its account of sentences; Section 5 opened a separate media topic, and a small change in transitions could have reversed them.
 
 The revision that followed changed the content now before you. Scope now depends on whether the author must answer for a contestable claim, without assuming that writing will change it; the mathematical exposition supplies the neighboring counterexample. Section 3 fixes five sentences and changes only their order, then explains why I choose the problem-first route. Section 4 leaves open what act the opening sentence performs, and Section 5 answers through the title and page. The media discussion can no longer detach from the argument that precedes it.
 
