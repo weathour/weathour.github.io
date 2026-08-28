@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (II) | Three Years Without a Piano: How Closing Chapter Repairs and Restages Introductory Chapter Through Absence'
 postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
-updated: 2026-08-25
+updated: 2026-08-29
 description: "A disabled choice for Youko's concert leaves Kazusa beside an empty seat. Koharu, Chiaki and Mari confront Haruki with himself at three different levels; *Yasashii Uso* preserves the person left behind, while the ensemble without a piano refuses to fill the old triangle with a substitute."
 image: './white-album-2-three-years-without-piano/white-album-2-three-years-without-piano-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, lies, absence, responsibility]
@@ -10,12 +10,6 @@ category: 'Arts and Literature Criticism'
 draft: false
 lang: en
 ---
-
-> **Spoiler warning:** This essay discusses every route in *WHITE ALBUM 2: Closing Chapter* and continues into the opening of Coda, ending when Kazusa calls Haruki's name in Strasbourg.[^source]
->
-> **Cover note:** The original conceptual cover uses an empty seat, a piano-shaped absence, and the guitar and microphone left onstage to figure Kazusa's absence. It is neither a game image nor a reconstruction of a specific scene.
->
-> **Image note:** This essay reproduces four low-resolution frames from PS3 gameplay for noncommercial plot criticism. Copyright remains with AQUAPLUS; the footage was uploaded to Bilibili by xueyinhualuo. The images are not open-licensed, and no republication permission has been obtained.
 
 On December 31, a ticket to Youko Touma's New Year's concert lies on Haruki's desk. He knows the hall is nearby, and that Youko could put him in touch with Kazusa again. His mind runs ahead: attend the concert, ask Youko how her daughter is doing, and perhaps restore contact after that. He finally admits that any claim of having no interest would be a lie.
 
@@ -29,7 +23,11 @@ That night's argument keeps Haruki, Takeya and Io occupied until 11:55 p.m. They
 
 The empty chair is harsher than the disabled text. Haruki knows only that he has a ticket and a chance. The player also knows that Kazusa has returned to Japan, and that taking the seat would reduce three years of distance to the width of a chair. More knowledge still cannot carry his body through the doors.
 
+Here, "absence" does not mean that Kazusa is nowhere in the scene. She is in the same concert hall, embodied, audible and visible to the player. What she lacks is a position from which she and Haruki can answer each other and alter what either does next.
+
 [The previous essay, "Voices Before Names"](/en/posts/white-album-2-voice-before-names/) argued that the confession in *Introductory Chapter* had already placed desire inside a history of promises. Haruki may continue to love Kazusa while his relationship with Setsuna remains a fact; the airport separation erases neither. *Closing Chapter* takes up the next question. The person, time, place and ticket are all present. Why can Haruki still not act?
+
+*This essay discusses every CC route and continues through Coda's opening.[^source] The cover is original conceptual art. Four low-resolution PS3 gameplay frames appear only as limited quotations for noncommercial criticism; copyright remains with AQUAPLUS, the footage comes from xueyinhualuo on Bilibili, and republication permission has not been obtained.*
 
 ## A Ticket Still Cannot Get Him Inside
 
@@ -41,7 +39,7 @@ Setsuna cannot open the exit with one clean truth either. She once urged Haruki 
 
 If Haruki treated the first statement as permission, he would use Setsuna's pain to accomplish the breakup he could not choose himself. If he accepted only the retraction, he would erase the part of her that had asked for release. He decides to wait for Setsuna to choose. The posture seems respectful, but it preserves the original asymmetry: Setsuna must end the relationship, while Haruki can remain still without limit.
 
-On Christmas Eve, they try a tidier arrangement. Haruki says that he has forgotten Kazusa and asks Setsuna to forget with him. If they erase the history they shared three years earlier, perhaps they can begin a romance that belongs only to them. Setsuna hears something else: "Your words are so cruel. Why is the hand you hold out to me so gentle?"[^christmas]
+On Christmas Eve, Haruki proposes a tidier arrangement. He says that he has forgotten Kazusa and asks Setsuna to forget with him. If they erase the history they shared three years earlier, perhaps they can begin a romance that belongs only to them. Setsuna hears something else: "Your words are so cruel. Why is the hand you hold out to me so gentle?"[^christmas]
 
 Haruki reaches for her because he wants their mutual torment to stop and wants to embrace Setsuna again. Yet the article he has just written about Kazusa has already exposed the claim of forgetting. He never writes that he loves her, but his attention, his choice of words and the way he watches her all retain a preference. Setsuna reads the article as speech still addressed to Kazusa in the distance, and refuses his approach. A name can be struck from the contract while habits of attention and the direction of desire remain in the prose.
 
@@ -63,11 +61,11 @@ The console release also invites players to expect a route unlocked on a later p
 
 This arrangement first conceals Coda behind a *Closing Chapter* that appears to have ended. It also makes the player see Haruki's wish to enter the hall alongside everything he must face first: Setsuna, his friends, work or Mari. The menu will not let the player delete one item on his behalf. Meeting Kazusa would change who possesses what information, who still counts as a lover and who bears the effects of that meeting. Haruki has settled none of these questions.
 
-Kazusa has a body and a voice, and she is sitting beside the empty seat. She still cannot exchange words with Haruki. The events of three years earlier can enter his life only through recordings, roles and the people before him.
+Kazusa cannot correct other people's accounts of her in the moment. What the old relationship leaves around Haruki is the school-festival recording, his own account, and the schedules and working habits through which he avoids the old injury. Koharu, Chiaki and Mari each encounter part of that residue and return one of Haruki's old practices to him.
 
 ## Haruki Meets Himself in Koharu, Chiaki and Mari
 
-Koharu, Chiaki and Mari enter the old triangle by different routes. Koharu reflects Haruki's temperament and way of acting. Chiaki turns his gaze, and the stories he tells about Setsuna and Kazusa, into characters. Mari first shares his habit of hiding in work, then confronts him with another departure overseas. These likenesses operate at different levels. Treating them as a one-to-one scheme in which Koharu equals Haruki, Chiaki equals Setsuna and Mari equals Kazusa would narrow each relationship. Together, they change Haruki's position: *Closing Chapter* makes him receive the same interventions, explanations and arrangements that he once imposed on others.[^mirrors]
+None of the three speaks for Kazusa or simply fills a place in the old triangle. Koharu reflects Haruki's temperament and way of acting. Chiaki turns his gaze, and the stories he tells about Setsuna and Kazusa, into characters. Mari shares his habit of hiding in work. These likenesses operate at different levels. Treating them as a one-to-one scheme in which Koharu equals Haruki, Chiaki equals Setsuna and Mari equals Kazusa would narrow each relationship. *Closing Chapter* makes Haruki receive the same interventions, explanations and arrangements that he once imposed on others.[^mirrors]
 
 Koharu offers the clearest likeness. In the common route, Haruki calls her earnest, responsible and competitive, much like the person he was three years ago. On her route, he remembers that he used to be "the kind of person Koharu is now." Takeya lists their shared habits: meddling, insisting on the correct answer, and becoming so forceful while thinking of others that both can lose sight of the other person's situation. Setsuna recognizes the same impulse to take every fault upon themselves. The script does not leave the likeness as a vague resemblance. Three characters name it from different positions.
 
@@ -81,19 +79,11 @@ Chiaki is a moving mirror. She reflects neither Setsuna nor Kazusa alone. She al
 
 Haruki thought he was explaining Setsuna and Kazusa. By the end, he sees that Chiaki has been studying his account, his corrections and his bodily responses. He moves from narrator to source material, and from judging the two women to being written into someone else's role. Chiaki returns his gaze to him: judgments about who is more fragile, how each woman loves, and which quarrel would complete the story are pressed into one body and one script.
 
-The more accurately Chiaki understands him, the more tightly care and seduction become entangled with her gathering of material. She knows how Haruki was hurt and uses that knowledge to finish her work. The plot she has written stalls as soon as Setsuna answers back. Chiaki has assigned her the role of hating and attacking the woman who took Haruki. Setsuna asks instead, "Why can't it work if we're willing to forgive you?" One participant's answer is enough to overturn the whole interpretation.
-
-After Setsuna leaves, she calls her composure a "perfect performance." Here Chiaki reflects her as well. Performance does not belong to Chiaki alone. Setsuna also uses a role to preserve her dignity and protect someone else, postponing the sight of her wound until she is alone. The play later lets the conflict between Setsuna and Kazusa speak more fully, but one limit remains. Chiaki can cycle one body through Yukine, Haruna and herself. She cannot let Setsuna and Kazusa each revise her own lines, then live through what follows after the curtain falls.
-
 Mari never studies the festival recording. She recognizes herself in Haruki's working life: classes by day, writing at night, more shifts on holidays. If he uses every hour, he never has to face the old injury. Mari sees the pattern so quickly because she has followed it herself. A painful long-distance relationship once drove her into work. The more she worked, the harder it became for them to meet, until the method she used to escape the pain hastened their separation.
 
 Haruki faces an older, more accomplished version of himself, someone better able to describe avoidance as a professional requirement. This makes Mari's care for him precise and makes her later claim that "the company decided" harder to trust. She already knows that work can shelter a private decision. When New York becomes her own choice, she still presents a costly but negotiable transfer as an order she cannot disobey.
 
 The route contains a second reenactment. Haruki says outright that Mari resembles Kazusa: she speaks bluntly, her talent and confidence can overwhelm others, and an appearance of strength covers a fragile interior. Mari immediately asks whether she is only a substitute. Haruki knows what she means and first pretends not to. A forceful career woman then leaves Japan and makes him answer whether he will follow. The form of the departure in *Introductory Chapter* returns.
-
-Mari's route is not the first time Haruki chases someone. At the end of *Introductory Chapter*, he already runs all the way to the airport. What changes here is the national border. He secures a visa in advance and uses methods learned through editorial work to find another route, traveling through Nagoya and Detroit before reaching New York. His narration says that watching Mari's back taught him how to grasp a real deadline. He uses the working methods she taught him to pursue her.
-
-Reaching New York changes the outcome of the departure without reducing Mari to Kazusa's substitute. Mari has her own career decision, concealments and demands; together they still have to arrange Haruki's studies, income and housing. He has carried the chase beyond the border. Their unequal disclosure before he left, and the life after he arrives, remain matters for both of them to negotiate.
 
 The three women dismantle three stories Haruki tells about himself: that he is the good man who fixes other people's problems, the narrator who understands Setsuna and Kazusa best, and the adult who meets life's demands through dependable work. When another person directs these same practices at him, he feels both the care and the coercion inside them. Koharu, Chiaki and Mari do not remain reflections. Each develops desires, withholds information and makes choices that bring new consequences to people outside the old triangle.
 
@@ -163,7 +153,7 @@ Seeing himself in all three women does not mean Haruki has changed. In Koharu's 
 
 *Yasashii Uso* does not declare the three routes failures. It keeps audible what their endings leave outside the frame. The protective arrangement in Koharu's route, the gentleness that leaves a passage open in Chiaki's, and the cruel consolation in Mari's all help the characters complete farewells they cannot yet speak in full. Each also postpones some jealousy, anger or knowledge. These lies preserve conflicting desires: the characters want to protect the person before them without surrendering their own love.
 
-In all three routes, Setsuna performs the final relational act herself. She sees Koharu off to Haruki, closes Haruki's gentle route back in Chiaki's ending, and parts their joined hands in Mari's. Her own route must therefore return the questions of approach, singing and continued life to her.
+In all three routes, Setsuna performs the final relational act herself. She brings Koharu to Haruki, refuses to leave Haruki a gentle passage back to her in Chiaki's ending, and parts their joined hands in Mari's. Her own route must therefore return the questions of approach, singing and continued life to her.
 
 ## The Ensemble Without a Piano Returns the Decision to Setsuna
 
@@ -173,7 +163,7 @@ He then tells Setsuna that he still loves her very much. The two statements need
 
 A few days later, she says she can chase Haruki when he runs from her, but cannot face him when he approaches of his own will. Takeya and Io can create an opportunity to talk; they cannot turn fear into consent for her. Haruki does not ask them to answer in her place. He calls each day and arrives with his guitar, giving contact a repeatable place in time.
 
-Drunk on one of those evenings, Setsuna says, "I love you more than anyone, and I hate you more than anyone." Haruki neither selects one statement as the truth loosened by alcohol nor cancels the other. He keeps playing until she falls asleep. Love sustains the attachment; hatred protects the self he injured. The guitar holds both demands for a while without forcing either to prevail.
+Drunk on one of those evenings, Setsuna says, "I love you more than anyone, and I hate you more than anyone." Haruki neither selects one statement as the truth loosened by alcohol nor cancels the other. He keeps playing until she falls asleep. Neither love nor hatred is expelled that night.
 
 Once Setsuna is sober, Haruki refuses to erase what she said. She also stops treating the guitar as a chance consolation and, in front of their friends, asks to hear it every day. Private care becomes a routine both people recognize. She states a need, Haruki rearranges his time to answer it, and their friends can see how the relationship moves.[^guitar]
 
@@ -181,19 +171,19 @@ The routine soon produces another stalemate. Haruki is prepared to wait forever,
 
 Tomo's radio program and invitation to sing live upset the balance. The old label "school idol" suddenly returns to Setsuna. She does not seize the chance for a comeback; she retreats to the stage from three years earlier. Haruki hears her explain there why she stopped singing: "So that I could keep loving you, I made myself hate singing."[^singing]
 
-Singing recalls the happiness of the school festival together with the secret rehearsals, jealousy, betrayal and airport. To preserve her love for Haruki, Setsuna cut off the voice that summoned the entire history. She came to hate singing over those three years. Her silence is more than a disguise waiting to be exposed; sustained self-formation has become part of her life.
+Singing recalls the happiness of the school festival together with the secret rehearsals, jealousy, betrayal and airport. To preserve her love for Haruki, Setsuna cut off the voice that summoned the entire history. After three years, her aversion to singing has become part of her life; it cannot be dismissed as a disguise waiting to be exposed.
 
 After saying this, Setsuna repeatedly insists that she is "fine" and offers Haruki her body, hoping to restore their relationship as lovers at once. That would leave her to swallow the love, hatred and fear she has finally spoken. Haruki stops and picks up the guitar again.
 
 With the guitar in hand, he keeps talking about the "real Setsuna." He treats the girl who sings, acts selfishly and gets angry as her original self. While preparing the performance, he even invokes the audience and her responsibility to them to press her back toward the stage, and realizes that he increasingly sounds like Tomo. He is helping Setsuna recover a means of expression while prescribing the person she ought to become.
 
-Haruki changes the arrangement only when he states that he wants to perform and leaves the final decision with Setsuna: "If Setsuna says we can't take part, then we can't." If she refuses, they will apologize to the organizers together and share the consequences of withdrawing.[^decision]
+Haruki then states clearly that he wants to perform and leaves whether they do so to Setsuna: "If Setsuna says we can't take part, then we can't." If she refuses, they will apologize to the organizers together and share the consequences of withdrawing.[^decision]
 
 This statement changes how the old promise is carried out. Three years earlier, Setsuna had to pronounce the end while Haruki waited where he was. Now each states a desire and Setsuna can refuse. Her refusal would not make her solely responsible for destroying the relationship; whether they perform or withdraw, both will deal with what follows.
 
-Setsuna is not persuaded at once. She stays to watch Haruki rehearse and reconsiders the listeners, the old songs and her own wish. At last she walks into rehearsal herself. Two days cannot restore Haruki's guitar technique or a voice that has not sung for three years. Setsuna knows that singing may revive her hatred of Haruki, and chooses the stage anyway. Her arrival completes the turn.
+Setsuna is not persuaded at once. She stays to watch Haruki rehearse and reconsiders the listeners, the old songs and her own wish. At last she walks into rehearsal herself. Two days cannot restore Haruki's guitar technique or a voice that has not sung for three years. Setsuna knows that singing may revive her hatred of Haruki, and chooses the stage anyway.
 
-She waits outside the venue for Haruki rather than entering first and handing herself over to the organizers. For two days they have rehearsed wherever one guitar would fit, including a karaoke room and Haruki's apartment, then separated only four hours before the performance. Haruki is afraid of oversleeping and keeps practising. Setsuna sets three alarms and still has to be awakened by her mother.
+She waits outside the venue for Haruki instead of going in alone.
 
 The performance addresses more than the couple. Koharu and her friends, Chiaki, Takeya, Io and Tomo all sit in the audience. Setsuna keeps the private details private. She admits only that her three years without singing were a form of escape and says that she will continue to sing. Their attempt at repair now enters a public life in which other people can hear it, answer it and remember.
 
@@ -203,21 +193,21 @@ The performance addresses more than the couple. Koharu and her friends, Chiaki, 
 
 *Setsuna publicly acknowledges the original trio and the member now missing. Haruki and the absent piano both lie outside this frame. PS3 gameplay frame: ©2012 AQUAPLUS / via xueyinhualuo, Bilibili.*
 
-Each side route lets a later arrival restage *Introductory Chapter* inside her own life. On the stage of Setsuna's route, no one comes to occupy the third position. The school festival three years earlier had a vocalist, guitar and piano. This time Haruki has only a rusty guitar, while Setsuna is a singer who has forgotten how to sing. "We no longer have a piano," Haruki says in narration. They hire no actress to replace Kazusa and use no recording to fill her part. They begin to play with the loss still audible and visible.[^concert]
+Each side route lets a later arrival restage *Introductory Chapter* inside her own life. On the stage of Setsuna's route, no one comes to occupy the third position. The school festival three years earlier had a vocalist, guitar and piano. This time Haruki has only a rusty guitar, while Setsuna is a singer who has forgotten how to sing. "We no longer have a piano," Haruki says in narration. They bring in no one to replace Kazusa and use no recording to fill her part. They begin to play with the loss still audible and visible.[^concert]
 
 On New Year's Eve, the hall and ticket had been ready, yet Haruki could not enter. On Valentine's Day, the piano is missing, yet he and Setsuna can state what they want and bear the consequences of refusal, performance or withdrawal.
 
-Haruki and Setsuna finally send *Todokanai Koi* to Kazusa far away. Setsuna tells the audience that the band once had three members and that they have re-formed it with one member missing. Haruki then understands their performance as a message telling Kazusa that they have managed to go on living. She belongs to their shared history and can only receive this message from a distance.
+Haruki and Setsuna finally send *Todokanai Koi* to Kazusa far away. Setsuna tells the audience that the band once had three members and that they have re-formed it with one member missing. Haruki then understands their performance as a message telling Kazusa that they have managed to go on living. She belongs to their shared history and, at this point, can receive the message only from a distance.
 
 Setsuna speaks with restraint onstage. She reduces the breakup of the trio to "many things happened." She does not disclose the betrayal to the audience or explain on Kazusa's behalf why Kazusa left. Setsuna takes responsibility for her own silence, admits that it hurt many people, and says that she will keep singing. Public action does not require turning every private truth into material for spectators. It requires enough truth to sustain the song that follows and to expose her future singing to the listeners' response.
 
-Setsuna's route uses *Aisuru Kokoro* as its ending song and does not return to the voice of separation shared by the other three routes. It organizes a common future that Haruki and Setsuna have already begun. Setsuna re-enters her relationships with family and friends, while Haruki places his proposal on a concrete schedule. The future still has one limit: they can send a song to Kazusa, but cannot yet hear her answer, much less let her participate in their plans.
+Setsuna's route closes with *Aisuru Kokoro* instead of the voice of separation shared by the other three routes. The ending shifts its emphasis to the life Haruki and Setsuna are beginning to arrange together. Setsuna re-enters her relationships with family and friends, while Haruki begins planning when and how to propose. The future still has one limit: they can send a song to Kazusa, but cannot yet hear her answer, much less let her participate in their plans.
 
 The epilogue changes the old promise one last time. Haruki travels to Strasbourg for work, and the couple agree to meet within a week. Setsuna does not wait in Japan; she follows him to Europe. On the phone, she says that she came there to chase him. Haruki once promised never to leave while Setsuna guarded the place he had left. Now both are in motion, fitting the promise into train times, hotels and the schedule of Christmas Mass.[^strasbourg]
 
 Setsuna is still aboard the shuttle into the city when Haruki walks alone through Strasbourg. He does not know that Kazusa comes here on holiday at this time every year. A voice behind him calls "Haruki" first. He turns and sees her. They happen to meet because Kazusa is here on holiday; the work email he opens next gives the two a formal reason to speak again, since she is his interview subject the following day.
 
-Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna once played a message to her in the distance. Neither message received an answer on the spot. Now the person who for three years could only be watched, performed, compared and addressed speaks first. Haruki already has an engagement ring, and Setsuna is on her way. The empty chair had confined communication among the three to one-way greetings; now Kazusa has stopped Haruki face to face.
+Kazusa once greeted the empty seat in the concert hall, and Haruki and Setsuna once played a message to her in the distance. Neither message received an answer on the spot. Now the person who for three years could only be watched, performed, compared and addressed speaks first. Haruki is carrying the ring for a proposal he has not yet made, and Setsuna is on her way. The empty chair had confined communication among the three to one-way greetings; now Kazusa has stopped Haruki face to face.
 
 "Haruki."
 
