@@ -109,7 +109,7 @@ A shared past need not wait until everyone accepts the same complete story. When
 
 The missing dagger in *In a Grove* is a useful warning. In Takehiro's account, he kills himself with it and an unknown hand pulls it from his chest. In the woodcutter's statement, the weapon is absent from the beginning. We can preserve that gap and keep searching for evidence. We cannot close the story by assigning the hand to someone Akutagawa never identifies.
 
-The empty seat of inquiry does not say that everyone owns an equal truth. Seven voices remain, and fact must still be separated from attribution. Akutagawa does not tell us how an objection might change the distribution of responsibility or the actions that follow. The next essay asks what happens when no common interpretation emerges and a relationship may no longer be repaired: how people can still refuse, leave, and continue to live. *In a Grove* stops sooner. The dagger is gone, and the seat remains empty.
+The empty seat of inquiry does not say that everyone owns an equal truth. Seven voices remain, and fact must still be separated from attribution. Akutagawa does not tell us how an objection might change the distribution of responsibility or the actions that follow. [The next essay, “After Reconciliation Fails, How Can ‘No’ Take Effect?”](/en/posts/white-album-2-common-world-without-reconciliation/), asks what happens when no common interpretation emerges and a relationship may no longer be repaired: how people can still refuse, leave, and continue to live. *In a Grove* stops sooner. The dagger is gone, and the seat remains empty.
 
 ---
 
