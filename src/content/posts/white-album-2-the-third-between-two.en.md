@@ -105,7 +105,7 @@ Shizu's room for action is narrower. She can ask questions, but she never receiv
 
 Return to Kazusa's opening sentence. Setsuna's proposal and Haruki's acceptance first establish their relationship. Kazusa's knowledge and acknowledgment then make it a fact all three can invoke. A conclusion reached by two can therefore constrain action even when one person is absent. Accountability is only the beginning. If the arrangement is to involve all three, those who bear its consequences must know the decisive facts, have a chance to question them, and be able to change the next step through their own response. Someone may be living under a conclusion while still having to guess why it was reached.
 
-Once one version is written down, preserved, and carried into the years ahead, who gets to decide what kind of common past it becomes? The next essay begins there.
+Once one version is written down, preserved, and carried into the years ahead, who gets to decide what kind of common past it becomes? [The next essay, “Who Makes a Shared Past Count?”](/en/posts/white-album-2-who-writes-the-past/) begins there.
 
 ---
 
