@@ -28,7 +28,7 @@
   <!-- A: white-box composition -->
   <g>
     <rect x="30" y="122" width="660" height="390" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="160">A　白箱：局部行为必须同时满足接线约束</text>
+    <text class="panel-title" x="52" y="160">A　白箱：交集筛选与接线相容的局部历史</text>
 
     <rect x="82" y="190" width="556" height="196" rx="22" fill="#f3f1ee" stroke="#817a72" stroke-width="2" stroke-dasharray="8 6"/>
     <text class="small" x="102" y="220">内部边界 I<tspan baseline-shift="sub" font-size="18">int</tspan></text>
@@ -73,7 +73,7 @@
     <text class="formula-large" x="360" y="669" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">∂</tspan> = proj<tspan baseline-shift="sub" font-size="18">Iext</tspan>(B<tspan baseline-shift="sub" font-size="18">full</tspan>)</text>
     <text class="formula" x="360" y="713" text-anchor="middle">= { w<tspan baseline-shift="sub" font-size="18">ext</tspan> | ∃ w<tspan baseline-shift="sub" font-size="18">int</tspan> : (w<tspan baseline-shift="sub" font-size="18">ext</tspan>, w<tspan baseline-shift="sub" font-size="18">int</tspan>) ∈ B<tspan baseline-shift="sub" font-size="18">full</tspan> }</text>
     <text class="body" x="360" y="754" text-anchor="middle">外部只问：是否存在某个内部历史支持这段边界历史？</text>
-    <text class="small" x="360" y="810" text-anchor="middle">“看不见”不是“没有”；它是选定边界后的主动隐藏</text>
+    <text class="small" x="360" y="810" text-anchor="middle">主动隐藏保留约束，删去内部见证的可见性</text>
   </g>
 
   <!-- C: equal black boxes -->

@@ -73,7 +73,7 @@
     <text class="formula-large" x="360" y="669" text-anchor="middle">B<tspan baseline-shift="sub" font-size="18">∂</tspan> = proj<tspan baseline-shift="sub" font-size="18">Iext</tspan>(B<tspan baseline-shift="sub" font-size="18">full</tspan>)</text>
     <text class="formula" x="360" y="713" text-anchor="middle">= { w<tspan baseline-shift="sub" font-size="18">ext</tspan> | ∃ w<tspan baseline-shift="sub" font-size="18">int</tspan> : (w<tspan baseline-shift="sub" font-size="18">ext</tspan>, w<tspan baseline-shift="sub" font-size="18">int</tspan>) ∈ B<tspan baseline-shift="sub" font-size="18">full</tspan> }</text>
     <text class="body" x="360" y="749" text-anchor="middle">Does some internal history support this boundary history?</text>
-    <text class="small" x="360" y="810" text-anchor="middle">Invisible is not absent: hiding follows a chosen boundary</text>
+    <text class="small" x="360" y="810" text-anchor="middle">Hiding preserves constraints and removes the witness from view</text>
   </g>
 
   <!-- C: equal black boxes -->

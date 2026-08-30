@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1500" viewBox="0 0 720 1500" role="img" aria-labelledby="title desc">
   <title id="title">Local refinement supports replacement only when admissible contexts preserve it</title>
-  <desc id="desc">The top panel places an old controlled-vehicle component c in an admissible platoon context and records that the original composition is well-defined and satisfies every required property in Ψ_req. The middle panel first gives a strong sufficient check: the candidate accepts at least the old environment and permits no more behavior under the old guarantee. It then requires local refinement to be a precongruence of admissible wiring and explicitly checks well-definedness and required-property preservation. The bottom panel shows why a same-port candidate can still fail by adding boundary behavior, narrowing its environment assumption, or making feedback ill-posed.</desc>
+  <desc id="desc">The top panel places an old controlled-vehicle component c in an admissible platoon context and records that the original composition is well-defined and satisfies every required property in Ψ_req. The middle panel checks whether the candidate covers the old environment and narrows admitted behavior to the old guarantee, then checks monotonicity under wiring, candidate well-posedness, and the target properties. The bottom panel lists three failure paths for a same-port candidate: new boundary behavior, extra environmental conditions, and ill-posed feedback.</desc>
   <defs>
     <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
@@ -62,11 +62,11 @@
     <text class="panel-title" x="52" y="516">B  Strong sufficient check, then a compositional proof</text>
 
     <rect x="54" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
-    <text class="card-title" x="200" y="579" text-anchor="middle">No narrower assumption</text>
+    <text class="card-title" x="200" y="579" text-anchor="middle">Covers the old environment</text>
     <text class="formula-large" x="200" y="620" text-anchor="middle">A<tspan baseline-shift="sub" font-size="18">old</tspan> ⊆ A<tspan baseline-shift="sub" font-size="18">new</tspan></text>
 
     <rect x="374" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
-    <text class="card-title" x="520" y="579" text-anchor="middle">No wider guarantee</text>
+    <text class="card-title" x="520" y="579" text-anchor="middle">Narrows admitted behavior</text>
     <text class="formula-large" x="520" y="620" text-anchor="middle">G<tspan baseline-shift="sub" font-size="18">new</tspan> ⊆ G<tspan baseline-shift="sub" font-size="18">old</tspan></text>
 
     <rect x="66" y="670" width="588" height="106" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2.5"/>
@@ -82,13 +82,13 @@
     <rect x="72" y="916" width="268" height="30" rx="15" fill="#e2f4f1"/>
     <text x="206" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#0d6f67">✓ Contextually replaceable</text>
     <rect x="352" y="916" width="296" height="30" rx="15" fill="#edf0f2"/>
-    <text x="500" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#45515d">also: well-posedness + scope</text>
+    <text x="500" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#45515d">well-posed + property scope</text>
   </g>
 
   <!-- C: same ports, failed substitution -->
   <g>
     <rect x="30" y="970" width="660" height="452" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="1008">C  Same-port c″ can still invalidate the system claim</text>
+    <text class="panel-title" x="52" y="1008">C  Three failure paths for same-port c″</text>
 
     <rect x="190" y="1034" width="340" height="58" rx="18" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
     <text class="formula-large" x="360" y="1071" text-anchor="middle">✓  I(c″) = I(c)  —  it can be connected</text>
@@ -112,7 +112,6 @@
     <text x="360" y="1397" text-anchor="middle" font-size="21" font-weight="700" fill="#a94236">E[c] ⊨ ψ  ⇏  E[c″] ⊨ ψ</text>
   </g>
 
-  <text class="small" x="360" y="1448" text-anchor="middle">Substitution preserves declared contexts and properties,</text>
-  <text class="small" x="360" y="1468" text-anchor="middle">not an application-free “better” score</text>
-  <text class="small" x="360" y="1488" text-anchor="middle">Artifact and deployment evidence still need separate impact analysis</text>
+  <text class="small" x="360" y="1462" text-anchor="middle">Substitution preserves declared contexts and properties</text>
+  <text class="small" x="360" y="1487" text-anchor="middle">Artifact and deployment evidence keep their own addresses</text>
 </svg>

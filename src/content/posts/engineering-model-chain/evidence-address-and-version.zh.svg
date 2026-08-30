@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1760" viewBox="0 0 720 1760" role="img" aria-labelledby="title desc">
   <title id="title">证据有地址，也有版本</title>
-  <desc id="desc">交通闭环中的控制器说明、接口说明与道路试验证据分别附着于不同关系；TMR 从同一标准 SA 模型版本分出网格和代码验证、以及与实验比较的确认路径；版本变化后，证据只有经过影响分析才能继承。</desc>
+  <desc id="desc">交通系统的运行闭环为 W–Z–C–O–W，模型 M 作为 C 的语义依赖；控制器说明、接口说明与道路试验证据分别附着于不同关系。TMR 从同一标准 SA 模型版本分出网格和代码验证、以及与实验比较的确认路径；版本变化后，证据只有经过影响分析才能继承。</desc>
   <defs>
     <marker id="arrow-dark" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
       <path d="M0,0 L9,4.5 L0,9 Z" fill="#34424f"/>
@@ -29,7 +29,7 @@
   <!-- A: Traffic closed loop -->
   <g>
     <rect x="30" y="124" width="660" height="466" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="164">A　交通闭环：证据附着在具体转换上</text>
+    <text class="panel-title" x="52" y="164">A　交通系统：运行闭环与语义依赖</text>
 
     <rect class="card" x="48" y="202" width="178" height="108" rx="17" fill="#e8efff" stroke="#3b6fd8"/>
     <text class="symbol" x="68" y="234" fill="#285dbb">M</text>
@@ -49,7 +49,7 @@
     <text class="body" x="514" y="269">PC104、CAN</text>
     <text class="body" x="514" y="295">原厂 ACC 接口</text>
 
-    <line x1="226" y1="256" x2="263" y2="256" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
+    <line x1="226" y1="256" x2="263" y2="256" stroke="#34424f" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow-dark)"/>
     <line x1="449" y1="256" x2="486" y2="256" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
 
     <rect class="q" x="202" y="177" width="94" height="31" rx="15"/>
@@ -66,7 +66,7 @@
     <path d="M583 310 L583 357" fill="none" stroke="#34424f" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
     <path d="M289 365 C220 346 210 315 270 286" fill="none" stroke="#16877d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#arrow-dark)"/>
     <text class="small" x="601" y="342">动作</text>
-    <text class="small" x="184" y="336">观测</text>
+    <text class="small" x="184" y="336">观测记录 Z</text>
     <rect class="q" x="498" y="344" width="148" height="31" rx="15"/>
     <text x="572" y="366" text-anchor="middle" font-size="16" font-weight="700" fill="#285dbb">Q 闭环试验</text>
 
@@ -83,8 +83,8 @@
 
     <rect class="card" x="220" y="686" width="280" height="84" rx="18" fill="#e8efff" stroke="#3b6fd8"/>
     <text class="symbol" x="244" y="719" fill="#285dbb">M<tspan baseline-shift="sub" font-size="14">v</tspan></text>
-    <text class="label" x="290" y="719">标准 SA 模型版本</text>
-    <text class="body" x="360" y="751" text-anchor="middle">固定方程、边界条件与案例定义</text>
+    <text class="label" x="290" y="719">标准 SA 方程与模型版本</text>
+    <text class="body" x="360" y="751" text-anchor="middle">共享数学定义</text>
 
     <path d="M360 770 C360 797 190 797 190 828" fill="none" stroke="#3567c8" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
     <path d="M360 770 C360 797 530 797 530 828" fill="none" stroke="#3567c8" stroke-width="2.5" marker-end="url(#arrow-blue)"/>

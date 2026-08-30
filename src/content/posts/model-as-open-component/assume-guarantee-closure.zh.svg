@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1260" viewBox="0 0 720 1260" role="img" aria-labelledby="title desc">
-  <title id="title">保证只有在假设被兑现时才能进入系统推论</title>
-  <desc id="desc">上部用单组件说明，环境满足假设 A，且组件在 A 下保证 G，才能对组合结果推出 G。中部显示两个组件组合时，外部假设、接线关系和伙伴保证必须分别推出每个局部假设，所有局部保证才可能推出系统保证。下部用未闭合的假设显示，端口相容和局部契约各自一致仍不足以得到系统保证。</desc>
+  <title id="title">保证进入系统推论的条件</title>
+  <desc id="desc">上部列出单组件推理的两个前提：环境满足假设 A，组件在 A 下保证 G。中部把外部假设、接线关系和伙伴保证写成每个局部假设的来源，再由局部保证推出系统保证。下部显示一个没有来源的假设如何中断系统推论。</desc>
   <defs>
     <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
@@ -26,12 +26,12 @@
 
   <rect width="720" height="1260" rx="28" fill="#f7f5f0"/>
   <text class="title" x="44" y="60">保证带着假设才能进入系统</text>
-  <text class="subtitle" x="44" y="94">契约不是组件的无条件能力，而是一条条件性承诺</text>
+  <text class="subtitle" x="44" y="94">契约把组件承诺绑定到环境条件</text>
 
   <!-- A: one component -->
   <g>
     <rect x="30" y="122" width="660" height="350" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="160">A　单组件：两条前提缺一不可</text>
+    <text class="panel-title" x="52" y="160">A　单组件：E ⊨ A 与 m ⊨ (A ⇒ G)</text>
 
     <rect x="58" y="194" width="198" height="104" rx="20" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
     <text class="card-title" x="157" y="232" text-anchor="middle">环境 E</text>
@@ -49,7 +49,7 @@
     <text class="formula-large" x="360" y="361" text-anchor="middle">E ⊨ A 　∧　 m ⊨ (A ⇒ G)</text>
     <text class="formula-large" x="360" y="397" text-anchor="middle">⇒　 E ∥ m ⊨ G</text>
 
-    <text class="small" x="360" y="448" text-anchor="middle">只有环境历史落在 A 内，G 才是可用的局部结论</text>
+    <text class="small" x="360" y="448" text-anchor="middle">G 的适用域是 A 内的环境历史</text>
   </g>
 
   <!-- B: assumption closure in composition -->

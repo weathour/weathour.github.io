@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1260" viewBox="0 0 720 1260" role="img" aria-labelledby="title desc">
   <title id="title">Guarantees enter the system conditionally</title>
-  <desc id="desc">For one component, the environment must satisfy assumption A and the component must guarantee G under A before G follows for their composition. For two components, the external assumption, wiring relation, and established peer guarantees must discharge every local assumption before the local guarantees can support the system guarantee. These entailments are proof obligations, not a circular proof rule. The bottom panel shows that compatible ports and individually consistent local contracts still do not imply a system guarantee when an assumption remains open.</desc>
+  <desc id="desc">The top panel lists the two premises for one component: the environment satisfies assumption A, and the component guarantees G under A. The middle panel assigns every local assumption a source in the external assumption, wiring relation, or established peer guarantees, then derives the system guarantee from local guarantees. The bottom panel shows how one open assumption interrupts the system inference.</desc>
   <defs>
     <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
@@ -26,12 +26,12 @@
 
   <rect width="720" height="1260" rx="28" fill="#f7f5f0"/>
   <text class="title" x="44" y="60">Guarantees enter the system conditionally</text>
-  <text class="subtitle" x="44" y="94">A contract states a conditional commitment, not an unconditional capability</text>
+  <text class="subtitle" x="44" y="94">A contract binds a component commitment to environmental conditions</text>
 
   <!-- A: one component -->
   <g>
     <rect x="30" y="122" width="660" height="350" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="160">A  One component: both premises are required</text>
+    <text class="panel-title" x="52" y="160">A  One component: E ⊨ A and m ⊨ (A ⇒ G)</text>
 
     <rect x="58" y="194" width="198" height="104" rx="20" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
     <text class="card-title" x="157" y="232" text-anchor="middle">Environment E</text>
@@ -49,13 +49,13 @@
     <text class="formula-large" x="360" y="361" text-anchor="middle">E ⊨ A  ∧  m ⊨ (A ⇒ G)</text>
     <text class="formula-large" x="360" y="397" text-anchor="middle">⇒  E ∥ m ⊨ G</text>
 
-    <text class="small" x="360" y="448" text-anchor="middle">G is usable only for environmental histories inside A</text>
+    <text class="small" x="360" y="448" text-anchor="middle">G applies to environmental histories inside A</text>
   </g>
 
   <!-- B: assumption closure in composition -->
   <g>
     <rect x="30" y="496" width="660" height="526" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="534">B  Environment and peers must close local assumptions</text>
+    <text class="panel-title" x="52" y="534">B  Environment and peer guarantees close local assumptions</text>
 
     <rect x="236" y="562" width="248" height="66" rx="19" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
     <text class="card-title" x="360" y="590" text-anchor="middle">External environment</text>

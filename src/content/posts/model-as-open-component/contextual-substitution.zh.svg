@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1500" viewBox="0 0 720 1500" role="img" aria-labelledby="title desc">
   <title id="title">局部精化只有在允许上下文中保持才能支持系统替换</title>
-  <desc id="desc">上部把旧的受控车辆组件 c 放进允许的车队上下文，记录原系统良定并满足性质。中部先给出接受不更窄环境、承诺不更宽保证这一组强充分检查，再要求局部精化由布线保持，并显式检查候选组合良定和目标性质保持。下部显示同端口候选仍可因新增边界行为、收窄环境假设或反馈不良定而失败。</desc>
+  <desc id="desc">上部把旧的受控车辆组件 c 放进允许的车队上下文，记录原系统良定并满足性质。中部检查候选是否覆盖旧组件的环境，并把允许行为收紧到旧保证以内；随后检查布线单调性、候选组合的良定性和目标性质。下部列出同端口候选的三条失败路径：新增边界行为、额外环境条件和非良定反馈。</desc>
   <defs>
     <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 Z" fill="#34424f"/>
@@ -62,11 +62,11 @@
     <text class="panel-title" x="52" y="516">B　候选路径：先做强充分检查，再证明组合保持</text>
 
     <rect x="54" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
-    <text class="card-title" x="200" y="579" text-anchor="middle">接受不更窄的环境</text>
+    <text class="card-title" x="200" y="579" text-anchor="middle">覆盖旧组件的环境</text>
     <text class="formula-large" x="200" y="620" text-anchor="middle">A<tspan baseline-shift="sub" font-size="18">old</tspan> ⊆ A<tspan baseline-shift="sub" font-size="18">new</tspan></text>
 
     <rect x="374" y="546" width="292" height="96" rx="20" fill="#fff0d7" stroke="#c27919" stroke-width="2"/>
-    <text class="card-title" x="520" y="579" text-anchor="middle">给出不更宽的保证</text>
+    <text class="card-title" x="520" y="579" text-anchor="middle">收紧允许行为</text>
     <text class="formula-large" x="520" y="620" text-anchor="middle">G<tspan baseline-shift="sub" font-size="18">new</tspan> ⊆ G<tspan baseline-shift="sub" font-size="18">old</tspan></text>
 
     <rect x="66" y="670" width="588" height="106" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2.5"/>
@@ -82,13 +82,13 @@
     <rect x="72" y="916" width="244" height="30" rx="15" fill="#e2f4f1"/>
     <text x="194" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#0d6f67">✓ 允许上下文内可替换</text>
     <rect x="336" y="916" width="312" height="30" rx="15" fill="#edf0f2"/>
-    <text x="492" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#45515d">仍需另查：反馈良定 + 性质适用</text>
+    <text x="492" y="937" text-anchor="middle" font-size="18" font-weight="700" fill="#45515d">系统检查：反馈良定 + 性质适用</text>
   </g>
 
   <!-- C: same ports, failed substitution -->
   <g>
     <rect x="30" y="970" width="660" height="452" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
-    <text class="panel-title" x="52" y="1008">C　同端口候选 c″ 仍然可能破坏原系统主张</text>
+    <text class="panel-title" x="52" y="1008">C　同端口候选 c″ 的三条失败路径</text>
 
     <rect x="190" y="1034" width="340" height="58" rx="18" fill="#e2f4f1" stroke="#16877d" stroke-width="2"/>
     <text class="formula-large" x="360" y="1071" text-anchor="middle">✓　I(c″) = I(c)　—　可以接入</text>
@@ -112,6 +112,6 @@
     <text x="360" y="1397" text-anchor="middle" font-size="21" font-weight="700" fill="#a94236">E[c] ⊨ ψ　⇏　E[c″] ⊨ ψ</text>
   </g>
 
-  <text class="small" x="360" y="1462" text-anchor="middle">可替换性保存的是已声明的上下文与性质，不是一个脱离用途的“更好”分数</text>
-  <text class="small" x="360" y="1487" text-anchor="middle">形式替换成立后，计算制品和部署实例的证据仍要分别做影响分析</text>
+  <text class="small" x="360" y="1462" text-anchor="middle">可替换性保存已声明的上下文与性质</text>
+  <text class="small" x="360" y="1487" text-anchor="middle">计算制品和部署证据按各自地址分析</text>
 </svg>

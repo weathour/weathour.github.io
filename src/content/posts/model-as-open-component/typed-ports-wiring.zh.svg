@@ -23,7 +23,7 @@
 
   <rect width="720" height="980" rx="28" fill="#f7f5f0"/>
   <text class="title" x="44" y="60">类型端口只规定哪些线可以接</text>
-  <text class="subtitle" x="44" y="94">同一插头、API 或输出维数，还不是可替换性证明</text>
+  <text class="subtitle" x="44" y="94">同一插头、API 或输出维数只建立语法兼容</text>
 
   <!-- A: typed open boundary -->
   <g>
@@ -31,7 +31,7 @@
     <text class="panel-title" x="52" y="160">A　先给开放边界配型</text>
 
     <rect x="72" y="180" width="576" height="56" rx="18" fill="#edf0f2" stroke="#7b858e" stroke-width="2"/>
-    <text class="formula-large" x="360" y="217" text-anchor="middle">I = (P, type, role, clock)</text>
+    <text class="formula-large" x="360" y="217" text-anchor="middle">I = (Ports, type, role, clock)</text>
 
     <rect x="244" y="258" width="232" height="116" rx="22" fill="#f0e9fb" stroke="#7b4ab5" stroke-width="2.5"/>
     <text class="card-title" x="360" y="301" text-anchor="middle">受控车辆组件 c</text>
