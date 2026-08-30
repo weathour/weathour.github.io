@@ -1,8 +1,8 @@
 ---
 title: "WHITE ALBUM 2: Relational Readings · Love and a Common World (XI) | Who Makes a Shared Past Count?"
 postSlug: white-album-2-who-writes-the-past
-published: 2026-08-29
-updated: 2026-08-29
+published: 2026-08-29T00:16:57Z
+updated: 2026-08-29T00:16:57Z
 description: "From the unheard questions, three accounts of Takehiro's death, and the missing dagger in Ryunosuke Akutagawa's In a Grove to Chiaki's staging of the trio's past: how an account can succeed as testimony, a work, or a message without becoming the final version of a shared history."
 image: './white-album-2-who-writes-the-past/white-album-2-who-writes-the-past-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Ryunosuke Akutagawa, In a Grove, Chiaki Izumi, narrative, testimony, shared history]

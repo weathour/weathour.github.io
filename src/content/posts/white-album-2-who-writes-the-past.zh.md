@@ -1,8 +1,8 @@
 ---
 title: '《白色相簿2》三人关系考·爱与共同世界（十一）｜共同的过去，谁让它算数'
 postSlug: white-album-2-who-writes-the-past
-published: 2026-08-29
-updated: 2026-08-29
+published: 2026-08-29T00:16:57Z
+updated: 2026-08-29T00:16:57Z
 description: '从芥川龙之介《竹林中》未被写出的问话、三种死法与失踪短刀，读到千晶把三人旧事搬上舞台：一份说法怎样作为证言、作品或关系讯息成立，又为何仍不足以成为共同历史的定本。'
 image: './white-album-2-who-writes-the-past/white-album-2-who-writes-the-past-cover.webp'
 tags: [白色相簿2, 日本文学, 芥川龙之介, 竹林中, 千晶, 叙事, 证言, 共同历史]

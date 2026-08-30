@@ -1,8 +1,8 @@
 ---
 title: 'WHITE ALBUM 2: Relational Readings · Love and a Common World (XII) | After Reconciliation Fails, How Can “No” Take Effect?'
 postSlug: white-album-2-common-world-without-reconciliation
-published: 2026-08-29
-updated: 2026-08-29
+published: 2026-08-29T01:47:03Z
+updated: 2026-08-29T01:47:03Z
 description: 'From the two doors successively blocked and locked in The Sting of Death, through The Love Suicides at Amijima, Quicksand, and Setsuna True in WHITE ALBUM 2: when accounts cannot be reconciled and the people in a relationship no longer cooperate, how refusal and departure acquire practical force.'
 image: './white-album-2-common-world-without-reconciliation/white-album-2-common-world-without-reconciliation-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Toshio Shimao, Chikamatsu Monzaemon, Junichiro Tanizaki, relationships, refusal, common world]

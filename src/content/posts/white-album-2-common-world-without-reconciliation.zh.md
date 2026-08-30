@@ -1,8 +1,8 @@
 ---
 title: '《白色相簿2》三人关系考·爱与共同世界（十二）｜不能和解以后，怎样让“不要”生效'
 postSlug: white-album-2-common-world-without-reconciliation
-published: 2026-08-29
-updated: 2026-08-29
+published: 2026-08-29T01:47:03Z
+updated: 2026-08-29T01:47:03Z
 description: '从《死之棘》中先后被堵住和锁上的两扇门，读到《心中天网岛》《卍》与《白色相簿2》雪菜 True：当解释无法合并、关系也不再合作，拒绝与离开怎样取得现实后果。'
 image: './white-album-2-common-world-without-reconciliation/white-album-2-common-world-without-reconciliation-cover.webp'
 tags: [白色相簿2, 日本文学, 岛尾敏雄, 近松门左卫门, 谷崎润一郎, 关系, 拒绝, 共同世界]
