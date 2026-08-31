@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
+  <title id="title">The same frequency component produces different merge peaks under two relative delays</title>
+  <desc id="desc">In the upper panel, localized disturbances arrive in phase and reinforce at the merge. In the lower panel, one branch is delayed by half a period, so the arrivals oppose each other and the merge response weakens.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#46515c"/></marker>
+    <marker id="tealArrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#16877d"/></marker>
+    <marker id="amberArrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#c27919"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1b2733" flood-opacity=".09"/></filter>
+  </defs>
+  <style>
+    text { font-family: Inter, "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 30px; font-weight: 750; }
+    .subtitle { font-size: 17px; fill: #66717b; }
+    .panel-title { font-size: 23px; font-weight: 720; }
+    .label { font-size: 17px; font-weight: 650; }
+    .small { font-size: 16px; fill: #5d6872; }
+    .formula { font-family: "STIX Two Math", "Times New Roman", serif; font-size: 23px; font-weight: 600; }
+    .road { fill: none; stroke: #e5e1da; stroke-width: 54; stroke-linecap: round; }
+    .road-line { fill: none; stroke: #7f8992; stroke-width: 2; stroke-dasharray: 9 8; }
+    .guide { fill: none; stroke: #46515c; stroke-width: 2.5; marker-end: url(#arrow); }
+  </style>
+  <rect width="720" height="980" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="40" y="58">Same Frequency, Two Merge Responses</text>
+  <text class="subtitle" x="40" y="88">Equal amplitudes; relative delay changes the total phase</text>
+
+  <g id="in-phase" filter="url(#shadow)">
+    <rect x="28" y="118" width="664" height="338" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <rect x="48" y="140" width="66" height="40" rx="20" fill="#e2f4f1"/>
+    <text class="label" x="81" y="167" text-anchor="middle" fill="#0d6f67">A</text>
+    <text class="panel-title" x="132" y="169">In-phase arrival</text>
+    <text class="small" x="132" y="196">Both branches point to the same phase at the merge</text>
+    <path class="road" d="M78 270H438L526 316H638"/><path class="road-line" d="M78 270H438L526 316H638"/>
+    <path class="road" d="M78 362H438L526 316"/><path class="road-line" d="M78 362H438L526 316"/>
+    <rect x="110" y="230" width="238" height="80" rx="40" fill="#d9f2ef" opacity=".72"/>
+    <path d="M122 270C140 270 145 244 164 244S188 296 211 296S235 244 258 244S282 296 305 296S329 270 342 270" fill="none" stroke="#16877d" stroke-width="5" stroke-linecap="round"/>
+    <rect x="110" y="322" width="238" height="80" rx="40" fill="#fff0d7" opacity=".78"/>
+    <path d="M122 362C140 362 145 336 164 336S188 388 211 388S235 336 258 336S282 388 305 388S329 362 342 362" fill="none" stroke="#c27919" stroke-width="5" stroke-linecap="round"/>
+    <text class="small" x="82" y="232">Branch 1</text><text class="small" x="82" y="324">Branch 2</text>
+    <circle cx="430" cy="270" r="29" fill="#f8fffe" stroke="#16877d" stroke-width="3"/><path d="M430 270H452" stroke="#16877d" stroke-width="4" marker-end="url(#tealArrow)"/>
+    <circle cx="430" cy="362" r="29" fill="#fffaf1" stroke="#c27919" stroke-width="3"/><path d="M430 362H452" stroke="#c27919" stroke-width="4" marker-end="url(#amberArrow)"/>
+    <circle cx="526" cy="316" r="11" fill="#6f55a5" stroke="#ffffff" stroke-width="4"/>
+    <path class="guide" d="M548 316H620"/>
+    <rect x="573" y="244" width="90" height="42" rx="21" fill="#efe8f8" stroke="#8b6ab7"/><text class="label" x="618" y="272" text-anchor="middle" fill="#684596">Reinforce</text>
+    <text class="formula" x="618" y="365" text-anchor="middle" fill="#684596">large |Y|</text>
+  </g>
+
+  <g id="out-of-phase" filter="url(#shadow)">
+    <rect x="28" y="482" width="664" height="338" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <rect x="48" y="504" width="66" height="40" rx="20" fill="#fff0d7"/>
+    <text class="label" x="81" y="531" text-anchor="middle" fill="#a85f0b">B</text>
+    <text class="panel-title" x="132" y="533">Half-period offset</text>
+    <text class="small" x="132" y="560">The second branch carries an extra half-period delay</text>
+    <path class="road" d="M78 634H438L526 680H638"/><path class="road-line" d="M78 634H438L526 680H638"/>
+    <path class="road" d="M78 726H438L526 680"/><path class="road-line" d="M78 726H438L526 680"/>
+    <rect x="110" y="594" width="238" height="80" rx="40" fill="#d9f2ef" opacity=".72"/>
+    <path d="M122 634C140 634 145 608 164 608S188 660 211 660S235 608 258 608S282 660 305 660S329 634 342 634" fill="none" stroke="#16877d" stroke-width="5" stroke-linecap="round"/>
+    <rect x="110" y="686" width="238" height="80" rx="40" fill="#fff0d7" opacity=".78"/>
+    <path d="M122 726C140 726 145 752 164 752S188 700 211 700S235 752 258 752S282 700 305 700S329 726 342 726" fill="none" stroke="#c27919" stroke-width="5" stroke-linecap="round"/>
+    <text class="small" x="82" y="596">Branch 1</text><text class="small" x="82" y="688">Branch 2</text>
+    <circle cx="430" cy="634" r="29" fill="#f8fffe" stroke="#16877d" stroke-width="3"/><path d="M430 634H452" stroke="#16877d" stroke-width="4" marker-end="url(#tealArrow)"/>
+    <circle cx="430" cy="726" r="29" fill="#fffaf1" stroke="#c27919" stroke-width="3"/><path d="M430 726H408" stroke="#c27919" stroke-width="4" marker-end="url(#amberArrow)"/>
+    <circle cx="526" cy="680" r="11" fill="#6f55a5" stroke="#ffffff" stroke-width="4"/>
+    <path d="M548 680H586" stroke="#46515c" stroke-width="2.5"/>
+    <rect x="573" y="608" width="90" height="42" rx="21" fill="#f3f1ee" stroke="#817a72"/><text class="label" x="618" y="636" text-anchor="middle" fill="#625d57">Cancel</text>
+    <text class="formula" x="618" y="729" text-anchor="middle" fill="#625d57">small |Y|</text>
+  </g>
+
+  <g id="legend">
+    <rect x="56" y="856" width="270" height="76" rx="20" fill="#eaf6f4" stroke="#acd7d1"/>
+    <text class="formula" x="191" y="887" text-anchor="middle" fill="#0d6f67">Δφ = 0</text><text class="small" x="191" y="916" text-anchor="middle">cross terms reinforce</text>
+    <rect x="394" y="856" width="270" height="76" rx="20" fill="#fff5e5" stroke="#e6c08a"/>
+    <text class="formula" x="529" y="887" text-anchor="middle" fill="#a85f0b">Δφ ≈ π</text><text class="small" x="529" y="916" text-anchor="middle">cross terms cancel</text>
+  </g>
+</svg>

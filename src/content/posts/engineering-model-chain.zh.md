@@ -2,7 +2,7 @@
 title: '从模型到工程系统：现实、要求、计算、部署与证据之间的工程链'
 postSlug: engineering-model-chain
 published: 2026-08-21
-updated: 2026-08-30
+updated: 2026-08-31
 description: '以车队控制为主线，追踪工程团队怎样从现实问题建立语义模型、形成计算制品并接入部署系统，以及证据和版本怎样限定工程结论。'
 image: './engineering-model-chain/engineering-model-chain-cover.webp'
 tags: [工程模型, 数学模型, 交通控制, 控制理论, 模型验证, VVUQ]
@@ -421,6 +421,8 @@ $$
 $$
 
 概率、优化与因果组件保留各自的语义对象，不被压进这条迹公式。边界 $I$ 的选择、布线、契约和替换义务都在第三篇处理。三篇改变的是观察尺度，彼此不争夺同一层定义。
+
+若继续追问扰动进入一个已经定型并接线的系统后，怎样按频率、位置和方向传播，可读[《一个扰动怎样穿过交通系统》](/posts/traffic-disturbance-local-propagation/)。它与这组三篇相邻，但开启的是传播分析方向。
 
 ---
 

@@ -2,7 +2,7 @@
 title: 'From Model to Engineering System: The Chain Linking Reality, Requirements, Computation, Deployment, and Evidence'
 postSlug: engineering-model-chain
 published: 2026-08-21
-updated: 2026-08-30
+updated: 2026-08-31
 description: 'Using vehicle platoon control as its running case, this essay traces how engineers build a semantic model from a real problem, realize it as a computational artifact, integrate it into a deployed system, and bound engineering claims by evidence and version.'
 image: './engineering-model-chain/engineering-model-chain-cover.webp'
 tags: [engineering models, mathematical models, traffic control, control theory, model validation, VVUQ]
@@ -419,6 +419,8 @@ $$
 $$
 
 Probabilistic, optimization, and causal components retain their own semantic objects rather than being forced into this trace formula. The third essay owns the choice of $I$, wiring, contracts, and replacement obligations. The three essays change observational scale without competing for the same definition.
+
+To continue with what happens after a disturbance enters a specified and connected system—how it propagates by frequency, position, and direction—see [*How a Disturbance Travels Through a Traffic System*](/en/posts/traffic-disturbance-local-propagation/). It sits beside this trilogy but opens a new line of propagation analysis.
 
 ---
 

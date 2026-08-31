@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1320" viewBox="0 0 720 1320" role="img" aria-labelledby="title desc">
+  <title id="title">A method-admissibility ladder from global frequency response to Kakeya-type incidence questions</title>
+  <desc id="desc">Four levels move from transfer functions and semigroups through localized time-frequency representations and operator-adapted wave packets to decoupling and Kakeya-type incidence geometry. Each level states its object, question, and upgrade condition.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#69747e"/></marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#17212b" flood-opacity=".08"/></filter>
+  </defs>
+  <style>
+    text { font-family: Inter, "Segoe UI", Arial, sans-serif; fill: #17212b; }
+    .title { font-size: 32px; font-weight: 760; }
+    .subtitle { font-size: 17px; fill: #65707a; }
+    .level { font-size: 27px; font-weight: 800; }
+    .card-title { font-size: 24px; font-weight: 740; }
+    .label { font-size: 15px; font-weight: 760; letter-spacing: .7px; }
+    .body { font-size: 17px; fill: #303b45; }
+    .small { font-size: 15px; fill: #65707a; }
+    .gate { font-size: 15px; font-weight: 650; fill: #53606b; }
+  </style>
+  <rect width="720" height="1320" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="40" y="58">The Method-Admissibility Ladder</text>
+  <text class="subtitle" x="40" y="88">A method moves up only when the question requires another structure</text>
+
+  <g id="h0" filter="url(#shadow)">
+    <rect x="36" y="120" width="648" height="218" rx="24" fill="#eef3fb" stroke="#b6c8e5" stroke-width="2"/>
+    <circle cx="92" cy="174" r="34" fill="#3567c8"/><text class="level" x="92" y="184" text-anchor="middle" fill="#ffffff">H0</text>
+    <text class="card-title" x="146" y="166">Global response</text>
+    <text class="label" x="146" y="198" fill="#285dbb">OBJECTS</text><text class="body" x="235" y="198">transfer function · semigroup · resolvent</text>
+    <text class="label" x="64" y="250" fill="#285dbb">QUERY</text><text class="body" x="135" y="250">gain, phase, decay, or string stability between fixed ports</text>
+    <text class="small" x="64" y="297">The opening linear merge example is already solved at this level.</text>
+  </g>
+  <g id="gate01">
+    <path d="M360 342V382" stroke="#69747e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="176" y="350" width="368" height="42" rx="21" fill="#ffffff" stroke="#d7d3cd"/>
+    <text class="gate" x="360" y="378" text-anchor="middle">UPGRADE: the question requires location and transience</text>
+  </g>
+
+  <g id="h1" filter="url(#shadow)">
+    <rect x="36" y="402" width="648" height="218" rx="24" fill="#eaf6f4" stroke="#acd7d1" stroke-width="2"/>
+    <circle cx="92" cy="456" r="34" fill="#16877d"/><text class="level" x="92" y="466" text-anchor="middle" fill="#ffffff">H1</text>
+    <text class="card-title" x="146" y="448">Localized time-frequency</text>
+    <text class="label" x="146" y="480" fill="#0d6f67">OBJECTS</text><text class="body" x="235" y="480">windows · wavelets · Green function · path sums</text>
+    <text class="label" x="64" y="532" fill="#0d6f67">QUERY</text><text class="body" x="135" y="532">where, when, and at what scale a disturbance appears</text>
+    <text class="small" x="64" y="579">Location is visible; dynamics must still supply a propagation direction.</text>
+  </g>
+  <g id="gate12">
+    <path d="M360 624V664" stroke="#69747e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="140" y="632" width="440" height="42" rx="21" fill="#ffffff" stroke="#d7d3cd"/>
+    <text class="gate" x="360" y="660" text-anchor="middle">UPGRADE: the operator explains how localized modes move</text>
+  </g>
+
+  <g id="h2" filter="url(#shadow)">
+    <rect x="36" y="684" width="648" height="218" rx="24" fill="#fff5e5" stroke="#e6c08a" stroke-width="2"/>
+    <circle cx="92" cy="738" r="34" fill="#c27919"/><text class="level" x="92" y="748" text-anchor="middle" fill="#ffffff">H2</text>
+    <text class="card-title" x="146" y="730">Operator-adapted packets</text>
+    <text class="label" x="146" y="762" fill="#a85f0b">OBJECTS</text><text class="body" x="235" y="762">symbol · dispersion · phase space · wave packets</text>
+    <text class="label" x="64" y="814" fill="#a85f0b">QUERY</text><text class="body" x="135" y="814">which channel carries a packet, and with what leakage error</text>
+    <text class="small" x="64" y="861">Flat LWR dispersion shows that packet tracking alone supplies no curvature.</text>
+  </g>
+  <g id="gate23">
+    <path d="M360 906V946" stroke="#69747e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="92" y="914" width="536" height="42" rx="21" fill="#ffffff" stroke="#d7d3cd"/>
+    <text class="gate" x="360" y="942" text-anchor="middle">UPGRADE: separation, transversality, and multiscale non-concentration hold</text>
+  </g>
+
+  <g id="h3" filter="url(#shadow)">
+    <rect x="36" y="966" width="648" height="218" rx="24" fill="#f1ebf8" stroke="#c5b2dd" stroke-width="2"/>
+    <circle cx="92" cy="1020" r="34" fill="#7653a6"/><text class="level" x="92" y="1030" text-anchor="middle" fill="#ffffff">H3</text>
+    <text class="card-title" x="146" y="1012">Multiscale incidence geometry</text>
+    <text class="label" x="146" y="1044" fill="#684596">OBJECTS</text><text class="body" x="235" y="1044">decoupling · Furstenberg · Kakeya</text>
+    <text class="label" x="64" y="1096" fill="#684596">QUERY</text><text class="body" x="135" y="1096">can many directional packets occupy a very small union?</text>
+    <text class="small" x="64" y="1143">Traffic must define its own tubes, directions, scales, and measured quantity.</text>
+  </g>
+
+  <rect x="70" y="1222" width="580" height="58" rx="20" fill="#ffffff" stroke="#d8d5cf"/>
+  <text class="body" x="360" y="1258" text-anchor="middle">The levels rank proof obligations, not methodological prestige.</text>
+</svg>

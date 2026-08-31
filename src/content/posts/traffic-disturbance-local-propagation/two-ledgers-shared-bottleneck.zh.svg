@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1320" viewBox="0 0 720 1320" role="img" aria-labelledby="title desc">
+  <title id="title">传播管的几何重叠与相位相干是两本账，路径标签数也不等于方向数</title>
+  <desc id="desc">上半部左侧显示三根传播管穿过同一观测区域，右侧显示同样的三项可以同相增强或错相抵消。下半部显示五条标签不同的路径进入同一瓶颈，但在瓶颈内只剩一个主方向。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#46515c"/></marker>
+    <marker id="arrowPurple" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#7653a6"/></marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#17212b" flood-opacity=".08"/></filter>
+  </defs>
+  <style>
+    text { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+    .title { font-size: 32px; font-weight: 760; }
+    .subtitle { font-size: 17px; fill: #65707a; }
+    .panel-title { font-size: 24px; font-weight: 740; }
+    .label { font-size: 18px; font-weight: 690; }
+    .small { font-size: 16px; fill: #65707a; }
+    .formula { font-family: "STIX Two Math", "Times New Roman", serif; font-size: 22px; font-weight: 650; }
+  </style>
+  <rect width="720" height="1320" rx="28" fill="#f7f5f0"/>
+  <text class="title" x="40" y="58">相遇以后，先分开两本账</text>
+  <text class="subtitle" x="40" y="88">支撑重叠、相位叠加和路径标签回答不同问题</text>
+
+  <g id="two-ledgers" filter="url(#shadow)">
+    <rect x="28" y="120" width="664" height="540" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="164">A　同一处重叠，不同的总响应</text>
+
+    <rect x="52" y="194" width="284" height="416" rx="20" fill="#eef6f7" stroke="#b7d8d4"/>
+    <text class="label" x="76" y="232" fill="#0d6f67">几何账：支撑重数</text>
+    <text class="small" x="76" y="260">只数有多少根管经过 z</text>
+    <path d="M78 350L305 278" stroke="#16877d" stroke-width="32" stroke-linecap="round" opacity=".34"/>
+    <path d="M78 408L308 408" stroke="#3567c8" stroke-width="32" stroke-linecap="round" opacity=".30"/>
+    <path d="M82 480L300 544" stroke="#c27919" stroke-width="32" stroke-linecap="round" opacity=".34"/>
+    <path d="M78 350L305 278" stroke="#16877d" stroke-width="3"/>
+    <path d="M78 408L308 408" stroke="#3567c8" stroke-width="3"/>
+    <path d="M82 480L300 544" stroke="#c27919" stroke-width="3"/>
+    <circle cx="214" cy="408" r="60" fill="#ffffff" opacity=".78" stroke="#7653a6" stroke-width="3" stroke-dasharray="8 6"/>
+    <circle cx="214" cy="408" r="9" fill="#7653a6"/>
+    <text class="formula" x="214" y="507" text-anchor="middle" fill="#684596">m<tspan baseline-shift="sub" font-size="15">r</tspan>(z) = 3</text>
+    <text class="small" x="214" y="572" text-anchor="middle">重数不记录交叉项的符号</text>
+
+    <rect x="384" y="194" width="284" height="416" rx="20" fill="#f6f1fa" stroke="#cbb9df"/>
+    <text class="label" x="408" y="232" fill="#684596">振荡账：相位交叉项</text>
+    <text class="small" x="408" y="260">同样的三项可以增强，也可以抵消</text>
+
+    <text class="small" x="414" y="310">同相</text>
+    <circle cx="446" cy="356" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M446 356H474" stroke="#16877d" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <circle cx="526" cy="356" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M526 356H554" stroke="#3567c8" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <circle cx="606" cy="356" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M606 356H634" stroke="#c27919" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <rect x="414" y="408" width="220" height="18" rx="9" fill="#d8caea"/>
+    <rect x="414" y="408" width="206" height="18" rx="9" fill="#7653a6"/>
+    <text class="formula" x="640" y="426" fill="#684596">大</text>
+
+    <text class="small" x="414" y="470">错相</text>
+    <circle cx="446" cy="516" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M446 516H474" stroke="#16877d" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <circle cx="526" cy="516" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M526 516L512 540" stroke="#3567c8" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <circle cx="606" cy="516" r="34" fill="#ffffff" stroke="#d4c9e1"/>
+    <path d="M606 516L592 492" stroke="#c27919" stroke-width="4" marker-end="url(#arrowPurple)"/>
+    <rect x="414" y="568" width="220" height="18" rx="9" fill="#d8caea"/>
+    <rect x="414" y="568" width="54" height="18" rx="9" fill="#7653a6"/>
+    <text class="formula" x="640" y="586" fill="#684596">小</text>
+  </g>
+
+  <g id="bottleneck" filter="url(#shadow)">
+    <rect x="28" y="690" width="664" height="522" rx="24" fill="#ffffff" stroke="#d8d5cf" stroke-width="2"/>
+    <text class="panel-title" x="52" y="734">B　路径标签多，物理方向仍可能只有一个</text>
+    <text class="small" x="52" y="766">五个起点的路线在桥前收缩到同一条窄走廊</text>
+
+    <rect x="444" y="826" width="204" height="112" rx="18" fill="#e5e1da"/>
+    <rect x="444" y="854" width="204" height="56" rx="10" fill="#46515c"/>
+    <path d="M462 882H624" stroke="#ffffff" stroke-width="3" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
+    <text class="label" x="546" y="812" text-anchor="middle">共享瓶颈</text>
+
+    <g class="paths" fill="none" stroke-width="10" stroke-linecap="round">
+      <path d="M86 824C210 824 286 842 444 878" stroke="#16877d" opacity=".82"/>
+      <path d="M86 872C228 872 304 872 444 882" stroke="#3567c8" opacity=".78"/>
+      <path d="M86 920C218 920 314 902 444 884" stroke="#c27919" opacity=".82"/>
+      <path d="M86 968C214 968 290 922 444 886" stroke="#7653a6" opacity=".74"/>
+      <path d="M86 1016C220 1016 300 950 444 888" stroke="#7e8c5b" opacity=".74"/>
+    </g>
+    <g class="label">
+      <circle cx="78" cy="824" r="22" fill="#e2f4f1" stroke="#16877d"/><text x="78" y="831" text-anchor="middle">P1</text>
+      <circle cx="78" cy="872" r="22" fill="#e8efff" stroke="#3567c8"/><text x="78" y="879" text-anchor="middle">P2</text>
+      <circle cx="78" cy="920" r="22" fill="#fff0d7" stroke="#c27919"/><text x="78" y="927" text-anchor="middle">P3</text>
+      <circle cx="78" cy="968" r="22" fill="#efe8f8" stroke="#7653a6"/><text x="78" y="975" text-anchor="middle">P4</text>
+      <circle cx="78" cy="1016" r="22" fill="#eef2e6" stroke="#7e8c5b"/><text x="78" y="1023" text-anchor="middle">P5</text>
+    </g>
+    <rect x="70" y="1080" width="580" height="76" rx="20" fill="#f3f1ee" stroke="#d2cec7"/>
+    <text class="formula" x="215" y="1124" text-anchor="middle">路径标签 = 5</text>
+    <text class="formula" x="360" y="1124" text-anchor="middle" fill="#8a9299">≠</text>
+    <text class="formula" x="510" y="1124" text-anchor="middle">主方向 = 1</text>
+  </g>
+
+  <text class="small" x="360" y="1262" text-anchor="middle">几何重叠不决定相干；路径命名也不决定 Kakeya 方向。</text>
+</svg>
