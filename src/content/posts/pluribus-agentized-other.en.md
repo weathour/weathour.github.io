@@ -1,5 +1,5 @@
 ---
-title: "When Relationships Become Services: Pluribus and the Agentized Other"
+title: "A Song in a Golden Cage Cannot Rival Singing Free in the Woods: Pluribus and the Agentized Other"
 postSlug: pluribus-agentized-other
 published: 2026-08-17
 updated: 2026-09-08

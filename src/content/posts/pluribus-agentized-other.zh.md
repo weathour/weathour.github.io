@@ -1,5 +1,5 @@
 ---
-title: "当关系成为服务：《Pluribus》与 Agent 化的他者"
+title: "始知锁向金笼听，不及林间自在啼：《Pluribus》与 Agent 化的他者"
 postSlug: pluribus-agentized-other
 published: 2026-08-17
 updated: 2026-09-08
