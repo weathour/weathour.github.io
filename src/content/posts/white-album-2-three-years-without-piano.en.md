@@ -25,7 +25,7 @@ The empty chair is harsher than the disabled text. Haruki knows only that he has
 
 Here, "absence" does not mean that Kazusa is nowhere in the scene. She is in the same concert hall, embodied, audible and visible to the player. What she lacks is a position from which she and Haruki can answer each other and alter what either does next.
 
-[The previous essay, "Voices Before Names"](/en/posts/white-album-2-voice-before-names/) argued that the confession in *Introductory Chapter* had already placed desire inside a history of promises. Haruki may continue to love Kazusa while his relationship with Setsuna remains a fact; the airport separation erases neither. *Closing Chapter* takes up the next question. The person, time, place and ticket are all present. Why can Haruki still not act?
+[The previous essay, "Feeling Before the Tune Takes Shape"](/en/posts/white-album-2-voice-before-names/) argued that the confession in *Introductory Chapter* had already placed desire inside a history of promises. Haruki may continue to love Kazusa while his relationship with Setsuna remains a fact; the airport separation erases neither. *Closing Chapter* takes up the next question. The person, time, place and ticket are all present. Why can Haruki still not act?
 
 *This essay discusses every CC route and continues through Coda's opening.[^source] The cover is original conceptual art. Four low-resolution PS3 gameplay frames appear only as limited quotations for noncommercial criticism; copyright remains with AQUAPLUS, the footage comes from xueyinhualuo on Bilibili, and republication permission has not been obtained.*
 
