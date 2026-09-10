@@ -1,26 +1,12 @@
 # About Me
 
-Hi, I'm **Weathour**, a PhD student based in **Xi'an, Shaanxi, China**.  
-I am a **student, researcher, and developer**.
+Hi, I'm **Weathour**, a PhD student in Xi'an working on autonomous driving. I also write code, read, and write essays.
 
-My current work is mainly related to **autonomous driving**, while my broader interests include:
+My research tends to go something like this: make a big thing of a small question, do a whole lot of work, then sift out a few useful things. Sometimes it takes that whole detour to work out how to ask the original question.
 
-- research notes and experiments
-- writing and knowledge-management workflows
-- tool building and automation
-- films, notebooks, and reflections
+Here I write about engineering and mathematical models, as well as novels, films, games, and social life. How an equation describes reality, why a character answers as they do, how a familiar arrangement shapes people's choices—each deserves a closer look. Reading, running experiments, and writing often change my initial ideas. I share the parts that gradually become clearer and seem worth discussing.
 
-I also enjoy doing **ideological analysis of films and social phenomena**,  
-and I am trying to build **communities around new modes of distribution and collaboration**.
-
-## What I write here
-
-This blog may include:
-
-- autonomous driving and research-related posts
-- development tools and workflows
-- study notes and methodological reflections
-- films, social observations, and personal insights
+If an essay, a question, or something I'm working on here feels meaningful to you, and you'd like to take part, please get in touch. We could talk it through, contribute more material, or work together to move it a little further along.
 
 ## Contact
 

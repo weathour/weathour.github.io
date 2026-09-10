@@ -9,8 +9,8 @@ const config = profileConfig;
 const locale: SiteLocale = Astro.props.locale || "zh_CN";
 const profileBio =
 	locale === "en"
-		? "PhD student in Xi'an, working on autonomous driving, research writing, tool building, films, and reflections."
-		: "西安在读博士，关注无人驾驶、研究写作、工具开发，也写电影、笔记与思考。";
+		? "PhD student in Xi'an researching autonomous driving. Writing about models, the arts, and social life; making much of small questions and slowly sifting out what's useful."
+		: config.bio;
 ---
 <div class="card-base p-3">
     <a aria-label="Go to About Page" href={url('/about/', locale)}
