@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (I) - Feeling Before the Tune Takes Shape: The Relationship Begins Before Confession'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
-updated: 2026-09-09
+updated: 2026-09-10
 description: 'Lessons through a wall, a song made together, a confession after the show: how three people create a life worth missing, while expecting different futures from the same happiness.'
 image: './white-album-2-voice-before-names/white-album-2-voice-before-names-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, commitment, responsibility]
@@ -59,7 +59,7 @@ He has answered what she asked about. He has not yet heard how she is asking.
 
 Setsuna soon seeks Kazusa out herself. She accompanies her shopping, sees her making a dinner of hamburgers, and advises her to add a salad. Kazusa complains that she sounds exactly like Haruki. When men approach them in the street, each says it is the other they are interested in. Setsuna even compares how often they have been approached, leaving Kazusa momentarily speechless. Through these small quarrels, they gradually become people who can speak directly to one another, beyond being someone the other knows through Haruki.[^women]
 
-Naturally, they also talk about him. Setsuna notices how thoroughly Kazusa knows the club's situation and takes the opportunity to invite her to join. By now Setsuna can say that there is one more person working hard—herself—and that she wants to add another. She makes the invitation in her own right, placing herself within the activity already underway. While Haruki is still planning his next attempt at persuasion, Kazusa and Setsuna have agreed on a condition: if he can persuade Setsuna's family, Kazusa will join.[^women]
+Naturally, they also talk about him. Setsuna notices how thoroughly Kazusa knows the club's situation and takes the opportunity to invite her to join. By now Setsuna can say that there is one more person working hard—herself—and that she wants to add another. She makes the invitation in her own right, placing herself within the activity already underway. While Haruki is still planning his next attempt at persuasion, Kazusa and Setsuna have agreed on a condition: if Setsuna can persuade her parents, Kazusa is willing to join too.[^women]
 
 Haruki brought things together, but not everything begins with him. The two women can change each other's decisions in his absence. Their later care, probing, jealousy and acknowledgment of friendship all have this direct bond behind them. Their pain, too, comes from more than loving the same person.
 
@@ -197,7 +197,7 @@ At first, Haruki meant “WHITE ALBUM” to be the last song, and a voice called
 [^teaching]: Fumiaki Maruto, *雪が解け、そして雪が降るまで*, `wa2mas:digital_novel_5000:5002:49–67`. Face-to-face teaching and the subsequent teaching through the wall are distinct; the equipment comes from the Touma household. For the work's inclusion, see [AQUAPLUS's special-content page](https://aquaplus.jp/wa2/special_early.html).
 [^zhiyin]: Liu Xie, *The Literary Mind and the Carving of Dragons*, “Zhiyin,” [fixed Wikisource revision](https://zh.wikisource.org/w/index.php?oldid=2325691). The essay draws on its distinction between preference and cultivated discernment, and discusses its confidence in reaching the author's feelings through the work. The comparison with the game is this essay's interpretation.
 [^joy]: *雪が解け、そして雪が降るまで*, `wa2mas:digital_novel_5000:5003:97–104`. Haruki's improvement is heard and judged by Kazusa. The essay does not attribute his improvement to a single cause.
-[^women]: IC, `wa2:ic:1005:565–640,680–735,1380–1420`. The final segment gives Kazusa's condition for joining, her assessment of Setsuna and the point at which Haruki learns of their agreement.
+[^women]: IC, `wa2:ic:1005:565–640,680–735,1380–1420`. The final segment gives Kazusa's condition for joining, her assessment of Setsuna and the point at which Haruki learns of their agreement. Line 1391 reports the condition she previously stated to Setsuna; its ‘you’ refers to Setsuna.
 [^rehearsal]: IC, `wa2:ic:1006:176–220,300–346`.
 [^studio]: IC, `wa2:ic:1006:420–493`.
 [^phone]: IC, `wa2:ic:1006:1373–1415,1444–1519`. Setsuna recounts the middle-school experience herself; Haruki explains “not leaving” as continued friendship.
