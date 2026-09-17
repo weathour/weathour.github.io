@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (V) - Both Wanderers at the World’s Edge: Can ‘Disqualified’ Define a Person?'
+title: '《WA2》(5) - Both Wanderers at the World’s Edge: Can ‘Disqualified’ Define a Person?'
 postSlug: white-album-2-guilt-and-the-days-after
 published: 2026-08-26T12:54:52Z
 updated: 2026-09-17

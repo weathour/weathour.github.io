@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (IV) - Life Finds Its Flavor in Quiet Joy: Why Ordinary Days Are Worth Sharing'
+title: '《WA2》(4) - Life Finds Its Flavor in Quiet Joy: Why Ordinary Days Are Worth Sharing'
 postSlug: white-album-2-history-after-endings
 published: 2026-08-25
 updated: 2026-09-17

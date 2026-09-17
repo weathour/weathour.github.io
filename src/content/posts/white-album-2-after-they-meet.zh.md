@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（八）-相逢何必曾相识：相见以后，她们能共同做什么'
+title: '《WA2》(8)-相逢何必曾相识：相见以后，她们能共同做什么'
 postSlug: white-album-2-after-they-meet
 published: 2026-08-27
 updated: 2026-09-17

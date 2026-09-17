@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (I) - Feeling Before the Tune Takes Shape: The Relationship Begins Before Confession'
+title: '《WA2》(1) - Feeling Before the Tune Takes Shape: The Relationship Begins Before Confession'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
 updated: 2026-09-17

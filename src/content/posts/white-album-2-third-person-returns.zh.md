@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（三）-回首向来萧瑟处：决定以后，何谓忠于自己'
+title: '《WA2》(3)-回首向来萧瑟处：决定以后，何谓忠于自己'
 postSlug: white-album-2-third-person-returns
 published: 2026-08-25
 updated: 2026-09-17

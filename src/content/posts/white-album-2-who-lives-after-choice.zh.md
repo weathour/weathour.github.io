@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（六）-衣沾不足惜：愿意相爱以后，还须能够生活'
+title: '《WA2》(6)-衣沾不足惜：愿意相爱以后，还须能够生活'
 postSlug: white-album-2-who-lives-after-choice
 published: 2026-08-26T15:51:11Z
 updated: 2026-09-17

@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（十）-与子同袍：一句“我们”，怎样约束了彼此'
+title: '《WA2》(10)-与子同袍：一句“我们”，怎样约束了彼此'
 postSlug: white-album-2-the-third-between-two
 published: 2026-08-29
 updated: 2026-09-17

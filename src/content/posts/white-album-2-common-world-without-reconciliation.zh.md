@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（十二）-且共欢此饮：未能和解，还能共同做什么'
+title: '《WA2》(12)-且共欢此饮：未能和解，还能共同做什么'
 postSlug: white-album-2-common-world-without-reconciliation
 published: 2026-08-29T01:47:03Z
 updated: 2026-09-17

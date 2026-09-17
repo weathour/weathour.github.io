@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（九）-知我者谓我心忧：为何偏要爱人证明自己'
+title: '《WA2》(9)-知我者谓我心忧：为何偏要爱人证明自己'
 postSlug: white-album-2-lover-as-witness
 published: 2026-08-28
 updated: 2026-09-17

@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（七）-此心安处是吾乡：何处才算真正的生活'
+title: '《WA2》(7)-此心安处是吾乡：何处才算真正的生活'
 postSlug: white-album-2-beyond-snow-country
 published: 2026-08-27
 updated: 2026-09-17

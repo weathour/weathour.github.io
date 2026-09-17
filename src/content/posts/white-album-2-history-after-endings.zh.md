@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（四）-人间有味是清欢：平常日子为何值得相守'
+title: '《WA2》(4)-人间有味是清欢：平常日子为何值得相守'
 postSlug: white-album-2-history-after-endings
 published: 2026-08-25
 updated: 2026-09-17

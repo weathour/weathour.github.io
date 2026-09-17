@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（十一）-此情可待成追忆：回忆怎样改变了眼前的我们'
+title: '《WA2》(11)-此情可待成追忆：回忆怎样改变了眼前的我们'
 postSlug: white-album-2-who-writes-the-past
 published: 2026-08-29T00:16:57Z
 updated: 2026-09-17

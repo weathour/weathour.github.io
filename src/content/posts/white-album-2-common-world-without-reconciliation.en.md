@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (XII) - Let Us Share the Joy of This Cup: What Can We Do Together Without Reconciliation?'
+title: '《WA2》(12) - Let Us Share the Joy of This Cup: What Can We Do Together Without Reconciliation?'
 postSlug: white-album-2-common-world-without-reconciliation
 published: 2026-08-29T01:47:03Z
 updated: 2026-09-17

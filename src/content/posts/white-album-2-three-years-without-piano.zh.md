@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（二）-旧时天气旧时衣：重逢以前，日子已经变了'
+title: '《WA2》(2)-旧时天气旧时衣：重逢以前，日子已经变了'
 postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
 updated: 2026-09-17

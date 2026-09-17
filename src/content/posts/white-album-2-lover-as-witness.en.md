@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (IX) - Those Who Know Me Know My Sorrow: Why Must a Lover Prove Who We Are?'
+title: '《WA2》(9) - Those Who Know Me Know My Sorrow: Why Must a Lover Prove Who We Are?'
 postSlug: white-album-2-lover-as-witness
 published: 2026-08-28
 updated: 2026-09-17

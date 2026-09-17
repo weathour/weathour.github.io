@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (VIII) - We Need Not Have Met Before: What Can They Do Together After Meeting?'
+title: '《WA2》(8) - We Need Not Have Met Before: What Can They Do Together After Meeting?'
 postSlug: white-album-2-after-they-meet
 published: 2026-08-27
 updated: 2026-09-17

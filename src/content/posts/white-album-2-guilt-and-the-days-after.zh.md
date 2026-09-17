@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（五）-同是天涯沦落人：失格之名，能否说尽一个人'
+title: '《WA2》(5)-同是天涯沦落人：失格之名，能否说尽一个人'
 postSlug: white-album-2-guilt-and-the-days-after
 published: 2026-08-26T12:54:52Z
 updated: 2026-09-17

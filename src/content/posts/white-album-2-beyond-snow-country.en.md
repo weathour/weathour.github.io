@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (VII) - Where This Heart Finds Peace Is Home: Where Does Real Life Begin?'
+title: '《WA2》(7) - Where This Heart Finds Peace Is Home: Where Does Real Life Begin?'
 postSlug: white-album-2-beyond-snow-country
 published: 2026-08-27
 updated: 2026-09-17

@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (X) - Sharing One Robe: How Saying “We” Binds Us'
+title: '《WA2》(10) - Sharing One Robe: How Saying “We” Binds Us'
 postSlug: white-album-2-the-third-between-two
 published: 2026-08-29
 updated: 2026-09-17

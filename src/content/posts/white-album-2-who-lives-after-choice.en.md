@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (VI) - No Regret for Wet Clothes: Wanting Love Also Means Learning to Live'
+title: '《WA2》(6) - No Regret for Wet Clothes: Wanting Love Also Means Learning to Live'
 postSlug: white-album-2-who-lives-after-choice
 published: 2026-08-26T15:51:11Z
 updated: 2026-09-17

@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (III) - Looking Back Where the Wind and Rain Passed: Being True to Ourselves After Choosing'
+title: '《WA2》(3) - Looking Back Where the Wind and Rain Passed: Being True to Ourselves After Choosing'
 postSlug: white-album-2-third-person-returns
 published: 2026-08-25
 updated: 2026-09-17

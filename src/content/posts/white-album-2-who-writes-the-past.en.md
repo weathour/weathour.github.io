@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (XI) - Could This Feeling Wait for Recollection: How Memory Changes the People We Are Now'
+title: '《WA2》(11) - Could This Feeling Wait for Recollection: How Memory Changes the People We Are Now'
 postSlug: white-album-2-who-writes-the-past
 published: 2026-08-29T00:16:57Z
 updated: 2026-09-17

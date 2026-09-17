@@ -1,5 +1,5 @@
 ---
-title: '《白色相簿2》三人关系考（一）-未成曲调先有情：告白以前，关系已经发生'
+title: '《WA2》(1)-未成曲调先有情：告白以前，关系已经发生'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
 updated: 2026-09-17

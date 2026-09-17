@@ -1,5 +1,5 @@
 ---
-title: 'WHITE ALBUM 2: Relational Readings (II) - The Old Weather, the Old Clothes: Life Changes Before We Meet Again'
+title: '《WA2》(2) - The Old Weather, the Old Clothes: Life Changes Before We Meet Again'
 postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
 updated: 2026-09-17
