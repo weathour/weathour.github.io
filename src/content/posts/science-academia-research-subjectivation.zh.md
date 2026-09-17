@@ -16,7 +16,7 @@ lang: zh_CN
 
 许多关于科研的争执，就挤在这几句话之间。一方强调科学不能迁就个人感受，另一方指出人的尊严不能交给导师裁定。两种关切都有真实对象；争论若只在严厉与温和之间摆动，那些使一句专业意见取得生活支配力的中介，便会从眼前滑过去。
 
-本文的起点，是普罗之火《我说学阀吃人，你们耳朵聋吗？》所引出的追问：为什么对学术权力的批评，会被接回“科研本来就难”的解释？[^video] 但要回答这个问题，须把目光放得更远。研究确实困难，专业训练确实存在能力差异，许多可靠知识也确实来自有组织的长期劳动。正因为这些根据真实存在，附着其上的权力才需要辨得更细。
+为什么对学术权力的批评，会被接回“科研本来就难”的解释？要回答这个问题，须把目光放得更远。研究确实困难，专业训练确实存在能力差异，许多可靠知识也确实来自有组织的长期劳动。正因为这些根据真实存在，附着其上的权力才需要辨得更细。
 
 一篇足以承接这个问题的文章，须同时进入实验台、经费表、作者名单、答辩委员会，也进入人对自己的说法：我为什么愿意做这件事？我凭什么觉得自己有用？一次失败为什么会长成对整个人的判决？又为什么明知某些安排不合理，仍然舍不得离开？
 
@@ -485,8 +485,6 @@ Morgan等人对美国八个学科的7204名终身教职序列教师所作调查�
 ---
 
 *封面为本文原创AI概念插画，表现共享研究劳动与个人判断；不对应真实机构、人物或历史场景。*
-
-[^video]: 普罗之火：[《我说学阀吃人，你们耳朵聋吗？》](https://www.bilibili.com/video/BV1bXew65EGM/)，2026年9月16日。开头对话为作者设置的分析情境。
 
 [^classics-title]: “君子不器”见[《论语·为政》第二之十二](https://zh.wikisource.org/w/index.php?oldid=2058121)。本文标题及各节引句采用简体与通行标点。各节出处直接标于标题；《论语》其余引句核于[《子路》](https://zh.wikisource.org/w/index.php?oldid=1956460)、[《宪问》](https://zh.wikisource.org/w/index.php?oldid=2058125)、[《雍也》](https://zh.wikisource.org/w/index.php?oldid=1512528)、[《述而》](https://zh.wikisource.org/w/index.php?oldid=2177439)、[《卫灵公》](https://zh.wikisource.org/w/index.php?oldid=2058122)；另见[《荀子·劝学》](https://zh.wikisource.org/w/index.php?oldid=2525786)、[《孟子·滕文公上》](https://zh.wikisource.org/w/index.php?oldid=2636984)、[《礼记·学记》](https://zh.wikisource.org/w/index.php?oldid=2346497)、[《礼记·礼运》](https://zh.wikisource.org/w/index.php?oldid=2626644)、[《礼记·杂记下》](https://zh.wikisource.org/w/index.php?oldid=2346526)。
 

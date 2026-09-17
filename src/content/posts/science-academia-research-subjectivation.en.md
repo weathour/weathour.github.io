@@ -16,7 +16,7 @@ This imagined exchange moves through four different judgments: whether the data 
 
 Many disputes about research are compressed into those few sentences. One side insists that science cannot accommodate personal feelings; another insists that human dignity cannot be left to a supervisor's verdict. Both concerns have real objects. Yet a debate confined to severity and kindness can lose sight of the intermediate arrangements through which professional advice acquires power over a person's life.
 
-This essay begins with a question prompted by Puluozhihuo's video *When I Say Academic Power Devours People, Are You Deaf?*: why does criticism of academic power so readily become an explanation that research is inherently difficult?[^video] Answering requires a wider view. Research is difficult; professional training involves differences in ability; reliable knowledge often comes from organized, sustained labour. Precisely because those grounds are real, the power attached to them needs more careful distinctions.
+Why is criticism of academic power so readily answered with the explanation that research is inherently difficult? Answering requires a wider view. Research is difficult; professional training involves differences in ability; reliable knowledge often comes from organized, sustained labour. Precisely because those grounds are real, the power attached to them needs more careful distinctions.
 
 An adequate discussion must enter the laboratory, the budget, the author list, and the degree committee. It must also enter the ways people speak about themselves. Why do I want to do this? What makes me feel useful? How does one failure become a verdict on my whole person? Why can I recognize that an arrangement is unreasonable and still find it hard to leave?
 
@@ -485,8 +485,6 @@ When a researcher can explain that the evidence is insufficient and also give re
 ---
 
 *The cover is an original AI conceptual illustration of shared research labour and individual judgment. It depicts no real institution, person, or historical scene.*
-
-[^video]: Puluozhihuo, [《我说学阀吃人，你们耳朵聋吗？》](https://www.bilibili.com/video/BV1bXew65EGM/), 16 September 2026. The opening dialogue is an analytical scenario devised for this essay.
 
 [^classics-title]: “君子不器” appears in the [*Analects*, “On Governing,” 2.12](https://zh.wikisource.org/w/index.php?oldid=2058121). Classical quotations are translated here for this essay; the Chinese version uses simplified characters and conventional punctuation. Other *Analects* passages were checked against [“Zi Lu”](https://zh.wikisource.org/w/index.php?oldid=1956460), [“Xian Wen”](https://zh.wikisource.org/w/index.php?oldid=2058125), [“Yong Ye”](https://zh.wikisource.org/w/index.php?oldid=1512528), [“Transmitting”](https://zh.wikisource.org/w/index.php?oldid=2177439), and [“Duke Ling of Wei”](https://zh.wikisource.org/w/index.php?oldid=2058122). Other sources are [*Xunzi*, “Encouraging Learning”](https://zh.wikisource.org/w/index.php?oldid=2525786), [*Mencius*, “Teng Wen Gong I”](https://zh.wikisource.org/w/index.php?oldid=2636984), and the *Book of Rites*: [“Record of Learning”](https://zh.wikisource.org/w/index.php?oldid=2346497), [“The Evolution of Rites”](https://zh.wikisource.org/w/index.php?oldid=2626644), and [“Miscellaneous Records II”](https://zh.wikisource.org/w/index.php?oldid=2346526).
 
