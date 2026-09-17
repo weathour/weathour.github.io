@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (V) - Both Wanderers at the World’s Edge: Can ‘Disqualified’ Define a Person?'
 postSlug: white-album-2-guilt-and-the-days-after
 published: 2026-08-26T12:54:52Z
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'A wife says she is happy; her husband says women have neither happiness nor unhappiness. Reading Dazai and Lu Xun alongside Setsuna’s questions, this essay distinguishes actual harm, imposed stigma and total self-condemnation—and asks how life with others resumes beyond confession.'
 image: './white-album-2-guilt-and-the-days-after/white-album-2-guilt-and-the-days-after-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Osamu Dazai, Lu Xun, No Longer Human, Villon’s Wife, identification, responsibility]
@@ -27,7 +27,7 @@ She does not deny the business. That is part of it, she says, but not all.[^wife
 
 From this “not all,” I want to return to *WHITE ALBUM 2*. What does Haruki identify when he calls himself unforgivable, and what does he conceal? When Yōzō's notebooks expel their author from humanity, might readers accepting the verdict also push events that happened and people still speaking into the dark? [The previous essay, “Life Finds Its Flavor in Quiet Joy,”](/en/posts/white-album-2-history-after-endings/) examined care entering everyday life. Here the question is whether people in that life can live beyond the portions allotted by a guilty person's verdict.
 
-## Learning to See Oneself Through Other People's Eyes
+## As Though at a Deep Abyss, as Though Treading Thin Ice — Book of Songs, “Lesser Heaven”
 
 When Yōzō is a child, his father is going to Tokyo and asks what gifts the children want. At his turn, he cannot answer. It is not that he likes nothing: he would prefer books to the toy his father later suggests. But being asked makes his wish unavailable. His father proposes a lion head children wear in play; he still gives no answer. Seeing his father's disappointment, he becomes desperately uneasy. At night he opens the notebook in secret and writes “lion dance” where the gifts are listed.[^gift]
 
@@ -51,7 +51,7 @@ The names Yōzō gives himself can represent his self-understanding without cont
 
 Finding a few good deeds in a bad person to raise his total score would leave the character a report card awaiting calculation. More pressing is whether his explanation of himself can be changed by what he does. If every new action is permitted only as fresh proof of the old essence, supposed depth no longer needs to hear his words or watch his acts.
 
-## Whose Suffering Becomes Someone Else's Story?
+## For You I Make This Song of the Pipa — Bai Juyi, “Song of the Pipa”
 
 The notebooks also contain moments of life beginning again. Living with Yoshiko, Yōzō stops drinking for a time and works as a cartoonist. After dinner they visit a cinema or café and bring flowers home. Looking at his wife, he sometimes feels he might gradually become human. The Kyōbashi bar proprietress also supports these days. Becoming human again has practical content here: work, other people's help, walks and companionship.[^yoshiko-life]
 
@@ -73,7 +73,7 @@ Asking here whether Xianglin's Wife uses atonement in place of real responsibili
 
 This changes the force of “Both wanderers at the world's edge.” In Bai Juyi's “Song of the Pipa,” the woman tells her history first. The poet then speaks of what they share and recounts his exile. Their meeting does not turn two lives into one. Misfortune may make someone hear another; it cannot prescribe the reason for that other's misfortune, much less classify being harmed and harming as the same moral failure.[^pipa]
 
-## Judging Oneself Still Requires a Listener
+## Those Who Know Me Say My Heart Is Troubled — Book of Songs, “The Millet Hangs Heavy”
 
 *No Longer Human* does not give its final word to the notebooks.
 
@@ -93,7 +93,7 @@ Discussing the superego, Žižek observes that renunciation itself can become a 
 
 Applied to self-condemnation, the question is less its sincerity than whether it permits change. If no concrete correction can bring punishment to an end, no response from the injured person can alter the sentence, and later good actions prove only that one is living with guilt, self-condemnation has begun sustaining itself. A person may sincerely demand judgment while refusing to return an undecided future to the relationship.
 
-## Setsuna Asks Precisely What Has “No Meaning”
+## Do I Not Think of You? Yet You Do Not Come to Me — Book of Songs, “The Clearing by the East Gate”
 
 In the concert hall on the affair route, Haruki tells Setsuna he traveled north with Kazusa, that they had a sexual relationship and that Kazusa has decided never to see him again. He explicitly acknowledges the transgression himself. His subsequent wish to punish himself does not justify reclassifying the entire confession as a false performance.[^confess]
 
@@ -119,7 +119,7 @@ Setsuna stops the conversation and asks him to hear Kazusa's final piece first. 
 
 The exchange changes one thing: Haruki's self-judgment fails to become the conversation's endpoint. The injured person still has questions, concerns and the right to answer outside his account.
 
-## What Hurts Most May Not Be the Compensation Wanted
+## Seeking to Stand, Help Others Stand — Analects, “Yong Ye”
 
 Kazusa True makes the disagreement more direct. Haruki visits the Ogiso household to withdraw his proposal; Setsuna is absent from the conversation. He is willing to face her parents' disappointment and explain the altered relationship himself. At the same time, he urges the trial to hurry along in his thoughts, hoping confession and punishment will release him sooner. Real explanation and an urgent wish for closure can coexist.[^family]
 
@@ -137,7 +137,7 @@ Piano temporarily changes from an instrument of punishment back into an activity
 
 “What else should I lose?” and “How must your injury be addressed?” can therefore lead in opposite directions. I can continually raise the stakes of the first and appear increasingly solemn. The second must let you say that this is not what you want, or that you cannot answer yet. Responsibility entails active work to change things. It confers no unilateral right to declare equivalence or recovery.
 
-## The Wife's Days Are More Than Her Husband's Cost
+## Food and Clothing Need Care; Hard Work Will Not Fail Me — Tao Yuanming, “Moving House,” II
 
 Return to *Villon's Wife*. The woman who says she is happy initially goes to clear up her husband's wreckage.
 
@@ -163,7 +163,7 @@ A loved person is as finite as oneself. The wife need not eternally care for Ōt
 
 The caregiver's pleasure acquires its own weight too. It need not establish that suffering was worthwhile before receiving acknowledgment. If she later no longer wants to continue, past happiness does not incur a debt she cannot leave. When the wife says she is happy, she has already named an experience others should hear. Her husband's grand theory can neither prove it nonexistent nor fix it forever.
 
-## A Person Need Not First Become Innocent to Be Allowed to Act
+## Knowing What Lies Ahead Can Still Be Pursued — Tao Yuanming, “Homeward”
 
 In *Fugutaiten no Kimi e*, Haruki returns to the editorial office. He still solemnly promises future repayment, while his colleagues have articles to deliver and trips to make. A welcome party is arranged. Suzuki forbids pressure to drink: oolong tea from the opening toast is fine. Kizaki says he should be allowed to leave when he wants. Haruki feels this is probably still his home ground. Hamada removes the “probably.”[^return]
 

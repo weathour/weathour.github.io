@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (XII) - Let Us Share the Joy of This Cup: What Can We Do Together Without Reconciliation?'
 postSlug: white-album-2-common-world-without-reconciliation
 published: 2026-08-29T01:47:03Z
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Recording a song together cannot answer every question of love, but it can make three people collaborators again. WHITE ALBUM 2, The Sting of Death, My Old Home and What Happens After Nora Leaves reveal how people can create new substance for life without first achieving reconciliation.'
 image: './white-album-2-common-world-without-reconciliation/white-album-2-common-world-without-reconciliation-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Lu Xun, Lacan, Žižek, common world, practice]
@@ -25,7 +25,7 @@ That same night, however, Kazusa declines to return to the hotel with the other 
 
 This series began with music before confession. Reaching this point, it should look carefully at something they have actually made. How has it changed their relationship? Why does a real achievement still fail to guarantee happiness? And when even playing together is impossible, when intimacy becomes dangerous, who can carry life forward, and with what means?
 
-## Several kinds of “good” in one song
+## One Sound Makes No Music; One Element Makes No Pattern — Discourses of the States, “Discourses of Zheng”
 
 The rehearsal passes, and the director says they can record. Haruki relaxes, Kazusa exhales, and Setsuna cheers. The narration distinguishes their experiences: the guitar has drawn much criticism; the faultless piano has repeated everything alongside it; the singer has been happy throughout. All three can be said to have worked for the song. The time they have borne differs.[^rehearsal]
 
@@ -41,7 +41,7 @@ Because people record, edit and distribute the sound, it acquires a life beyond 
 
 This achievement deserves happiness. Happiness need not first obtain a certificate declaring every problem solved.
 
-## “Afterward” is more than one wish
+## Each Is Simply Speaking of Their Own Aspiration — Analects, “Xian Jin”
 
 Yet Haruki often hears more in “afterward” than the other two have said.
 
@@ -65,7 +65,7 @@ Setsuna finally asks for five minutes in which to be jealous, suspicious and ang
 
 She wins a moment to speak and confines her anger within it. Love, consideration, irritation and self-suppression coexist. She chooses love and takes on the task of finishing things for several people. Having won time for anger, she hurries to promise him the self that can understand everything.
 
-## Who must carry a commitment through?
+## Knowing Is Not the Hard Part; Acting Is — Book of Documents, “The Charge to Yue,” II
 
 In the last session of Seminar XX, Lacan places love’s encounter between contingency and the wish for duration. Two people meet through signs of symptoms, affects and unconscious knowledge. A relation seems to write itself for a moment; love wishes it never to stop being written. This movement from contingency toward necessity is both love’s fate and its drama.[^love]
 
@@ -87,7 +87,7 @@ This also clarifies the object of psychoanalytic attention. We are concerned wit
 
 Such coordination also matters because, for a while, another person can appear as a singer, companion, someone who laughs and tires, without continuously sitting in the witness’s seat to prove that I deserve love.
 
-## Who carries life onward?
+## If Only There Were Countless Rooms of Shelter — Du Fu, “My Thatched Roof Torn by the Autumn Wind”
 
 How should we judge an achievement if shared activity depends on someone continually bearing pain? Erasing the achievement would slight what the person has given. Praising only the result would make the burden grounds for the next demand.
 
@@ -105,7 +105,7 @@ The point shared with recording is only that life needs people to undertake conc
 
 A common world is therefore larger than an intimate relationship. When some people can no longer live together, others can help carry children’s lives, work and care. Someone formerly enclosed within “This is between the two of us” should also have somewhere to stand outside that relationship. Separation can make room for these connections.
 
-## When water is needed, let there be water
+## A Little Water Is All I Need to Stay Alive — Zhuangzi, “External Things”
 
 Discussing what happens after Nora leaves, Lu Xun brings the beautiful gesture of departure back to an unbeautiful question: how to eat.
 
@@ -127,7 +127,7 @@ Lu Xun also says we cannot require everyone to be a warrior. He refuses lightly 
 
 Setsuna deserves the same consideration. We may love how she makes the music sound again and should also let her happiness, anger and plans have futures of their own. She has already done much. Doing it well cannot oblige her forever to perform the same work of settling everyone’s feelings.
 
-## Let us share the joy of this cup
+## Let Us Share the Joy of This Cup — Tao Yuanming, “Drinking Wine,” IX
 
 In the ninth of Tao Yuanming’s “Drinking Wine” poems, an old farmer visits with a jug and urges the poet to follow convention. The poet thanks him for his goodwill and plainly refuses to change direction. The final two lines invite shared pleasure in the drink while insisting that his carriage cannot turn back.[^title]
 

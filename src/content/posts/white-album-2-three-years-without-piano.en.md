@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (II) - The Old Weather, the Old Clothes: Life Changes Before We Meet Again'
 postSlug: white-album-2-three-years-without-piano
 published: 2026-08-24
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Three years of work and waiting keep both life and an old relationship going. Koharu, Chiaki and Mari each bring another way of living; through daily guitar practice, Setsuna and Haruki begin learning how to answer each other again.'
 image: './white-album-2-three-years-without-piano/white-album-2-three-years-without-piano-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, time, absence, responsibility]
@@ -23,7 +23,7 @@ Li Qingzhao writes: “The old weather, the old clothes; only my feelings are un
 
 *Spoilers follow for the CC routes and Coda's opening. The three side routes are mutually exclusive possibilities, not three successive relationships in Haruki's life. Japanese script passages are translated for this essay. The cover is original conceptual artwork made for this site. Four low-resolution PS3 gameplay frames are used for noncommercial narrative criticism; copyright belongs to AQUAPLUS, the footage is by xueyinhualuo, and permission to reproduce it has not been obtained.[^source]*
 
-## Busy People Have Their Ways
+## I Have Let My Heart Be Servant to My Body — Tao Yuanming, “Homeward”
 
 The most useful thing about being busy is that the work really does need doing.
 
@@ -45,7 +45,7 @@ Gui Youguang's Xiangji Studio is a small room with no shortage of time inside it
 
 CC's schedules work similarly. Each day still has twenty-four hours, but time has settled into which hours can be given to whom, which name makes someone turn away, which call cannot be carried on naturally once answered. Three years change not just the contents of memory but the ways a person can now approach the world. Haruki has not lost his ability to live in every respect. Some things grow easier with practice; others become harder and harder. Later changes in his relationships must be examined here too: what has he actually begun to be able to do?
 
-## “I Haven't Changed”: Whose Three Years?
+## Only the Heart Is Unlike the Days of Old — Li Qingzhao, “Nan Ge Zi”
 
 When Setsuna calls, Haruki's tenderness leads her toward his voice and the prospect of meeting. On hearing that another woman may be with him, she asks him to abandon her so that she can be free. When he retreats, she immediately takes it back: do not count that; everything she just said was a lie.[^phone]
 
@@ -69,7 +69,7 @@ Something further happens in his thoughts. For a moment, he imagines Kazusa appr
 
 This is also where change remains possible. An undeletable past need not issue the same command forever. What must change is whether the person before him still has to pass through the old story to receive an answer.
 
-## A Ticket in Hand, an Empty Seat Beside Her
+## A Clear Stream Between Them, Yet No Words Can Pass — Nineteen Old Poems, “The Distant Cowherd Star”
 
 On New Year's Eve, Haruki has a ticket to Youko's concert and enough time to attend. It is initially a reward for work that has won recognition, and only then a possible way toward Kazusa: he could meet her mother and ask how she is. He does not yet know that Kazusa herself is in Japan.[^menu]
 
@@ -93,7 +93,7 @@ Our comparison with *An Account of Xiangji Studio* must pause here. The dead can
 
 She has not yet entered his daily life again. Other people already have. They come with histories, friends, work and wishes of their own. His well-known past does not automatically reduce them to supporting parts in its sequel.
 
-## Koharu: You Cannot Always Judge Your Own Case Alone
+## Friends Urge and Counsel One Another — Analects, “Zi Lu”
 
 The resemblance between Koharu and Haruki is easy to see. Both intervene in other people's affairs, trust that explaining the right reasons should make things clear, and take responsibility back onto themselves after running about on others' behalf. But resemblance is only a beginning. Once Koharu's friendships are damaged, Haruki, watching her, cannot reach a conclusion as easily as he does about his own wrongdoing by saying, “It's all my fault.”
 
@@ -113,7 +113,7 @@ Setsuna does something harder on this route. She messages Haruki and sends Kohar
 
 The life opened by Koharu's route thus has real warmth and real other people in it. A new relationship can make it possible to speak of the past and repair a friendship without certifying that an old relationship has been settled. If Koharu is a mirror in which Haruki sees himself, that mirror has already walked away to write her own letter.
 
-## Chiaki: After Understanding Someone
+## When the False Is Taken for True, the True Turns False — Dream of the Red Chamber, Chapter 1
 
 Chiaki knows still more about mirrors. She listens to Haruki describe Setsuna and Kazusa, organizes their images and adjusts herself into someone he can more readily accept. She does not deceive through invention alone: parts of her family experience are real, as is her work onstage. How she presents these genuine materials serves a performative purpose.[^chiaki-making]
 
@@ -137,7 +137,7 @@ At their farewell, she also makes a very specific refusal: no more lending her a
 
 If Chiaki and Haruki continue, they too will depend on relations outside the stage. Her admission that she holds a knife that can wound, and her promise not to use it again, do not mean she will never hurt him. Her understanding must be tested in her next action.[^chiaki-knife] Haruki loves someone who performs and works, who has manipulated him and who can make promises. The relationship must accommodate what remains opaque in her if it is not to become the story of his finally acquiring a controllable Setsuna or Kazusa.
 
-## Mari: Work Can Be Let Down Too
+## To Know It Fully, One Must Put It into Practice — Lu You, “Reading on a Winter Night, for Ziyu”
 
 Mari initially speaks for work when she reprimands Haruki. A past that has factually ended and feelings that have not ended are different things. Neither warrants neglecting his emotional life or treating work as a refuge. If work could speak, it might complain: why am I always called upon to conceal what you owe someone else?[^work]
 
@@ -155,7 +155,7 @@ The three routes have now acquired distinct directions. Friendship requires answ
 
 A player who reads all three routes can acquire three kinds of understanding. The Haruki in any one route has not completed preliminary lessons with the other two women. He changes in that particular relationship and carries what the change cannot resolve into its ending. We need not cancel these moments of happiness to acknowledge Setsuna's continuing pain. Happiness happened; hurt happened too. They belong to particular people and cannot be offset on one balance sheet.
 
-## Three More Years of Waiting Would Make Six for Setsuna
+## One Day Apart Is Like Three Autumns — Book of Songs, “Gathering Kudzu”
 
 Returning along Setsuna's route, the New Year's Eve call already makes a difference. Haruki acknowledges that he has not forgotten Kazusa and cannot forget her, while saying that he still loves Setsuna. This time he does not first obtain a clean past as his qualification for closeness. Setsuna cannot yet answer, and the call ends.[^newyear]
 
@@ -171,7 +171,7 @@ Michiyo's question in *And Then* finds another echo here. My three years may exp
 
 Respecting Setsuna's decision is therefore not everything. If Haruki merely stands where he is, saying he accepts any length of waiting, she must still work everything out, say it clearly and cross the distance alone. To distinguish waiting from the old delay, he has to give her something to respond to within that waiting. The guitar later heard over the telephone gives this requirement a sound.
 
-## First, Hear Where Today's Playing Goes Wrong
+## Hear Their Words and Watch Their Deeds — Analects, “Gongye Chang”
 
 Setsuna calls drunk, telling Haruki not to run away and not to come closer. She reproaches him and asks him to reproach her as he used to. He agrees to stay with her, then hangs up to switch to a landline with a speakerphone. During that break she panics, believing he has left again. Once reconnected, she hears that he will play the guitar.[^guitar]
 
@@ -193,7 +193,7 @@ His willingness to play now does not automatically make her able to sing. Nor ca
 
 This advance remains imperfect precisely because it must be repeated across many small events. One speakerphone call cannot redeem three years; one act of respect cannot guarantee freedom from pressure next time. But as the things they can do together increase, their answers depend less entirely on one decisive conversation. Through wrong notes, another try, answering and making arrangements, they can slowly become people able to keep talking.
 
-## One Piano Fewer Today
+## Why Not Sing and Walk On Slowly? — Su Shi, “Calming the Waves”
 
 The Valentine's Day performance is modest. Setsuna wears her own clothes rather than reproducing the old stage costume; Haruki has not been practicing guitar again for long. Before going on, she still says singing may revive the past and make her hate him. He accepts the risk and then lets her hear his guitar.[^duet]
 

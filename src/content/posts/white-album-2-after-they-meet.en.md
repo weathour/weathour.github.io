@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (VIII) - We Need Not Have Met Before: What Can They Do Together After Meeting?'
 postSlug: white-album-2-after-they-meet
 published: 2026-08-27
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'A pawn ticket, a letter, different paintings of tea fields, a call and a song: how women help, envy, constrain and create with one another, changing their positions while retaining different wishes.'
 image: './white-album-2-after-they-meet/white-album-2-after-they-meet-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Dream of the Red Chamber, Autumn, The Love Suicides at Amijima, Quicksand, Beauty and Sadness, relationships between women, psychoanalysis, joint creation]
@@ -27,7 +27,7 @@ Helping someone has no set of words that remain right however long one goes on s
 
 [The previous essay, “Where This Heart Finds Peace Is Home,”](/en/posts/white-album-2-beyond-snow-country/) asked how a lover's answer changes the scene. Here attention stays with relations between women. Meeting, calling, writing letters, painting and singing together do more than exchange information about a man. Care, envy, desire and rivalry can have their own origins. We need to read what these exchanges accomplish and how they change the possibilities of the next exchange.
 
-## She Has Difficulties Too: It Was Not Only Me
+## Both Wanderers at the World's Edge — Bai Juyi, “Song of the Pipa”
 
 Before the long call in *Fugutaiten*, Setsuna and Kazusa envy each other.
 
@@ -49,7 +49,7 @@ Near the end, Kazusa finally calls Setsuna back, but Setsuna speaks first, cryin
 
 She immediately cries and asks why Kazusa is not beside her mother. Her mother wants to hear the concerto, Kazusa answers. Even the idea most evidently shaped by concern has not included all the cared-for person's situation. Care must hear this refusal to understand what actually troubles her.
 
-## Can a Sister's Kindness Bear a Refusal of Gratitude?
+## My Heart Is Not a Stone That Can Be Turned — Book of Songs, “The Cypress Boat”
 
 In Akutagawa's “Autumn,” two sisters once accompanied the same young man to exhibitions and concerts. Discussing literature with Shunkichi, Nobuko forgets Teruko, then changes the subject to bring her younger sister back. The first to neglect her is also the first to care for her.[^aki-first]
 
@@ -69,7 +69,7 @@ It moves the grateful person out of the position assigned by her sister. Teruko 
 
 They cry and reconcile again, but on departure Nobuko feels they have become strangers. The novel leaves this estrangement in her experience. We can read a sister who remembers her kindness and observes her hesitation and desire. Closeness offers support and a person capable of questioning her.
 
-## A Promise Already Has Force: How Will Life Be Arranged?
+## Faithful, Yet Suspected; Loyal, Yet Slandered — Sima Qian, “Biographies of Qu Yuan and Jia Yi”
 
 Influence need not wait for face-to-face contact. In *The Love Suicides at Amijima*, Osan writes to the courtesan Koharu, asking her to preserve her husband Jihei's life. Koharu promises to break with him and protects the wife's secret. Hearing her say she does not want to die, Jihei takes it as betrayal. His brother discovers the letter, keeps it and promises to read and handle it himself. Koharu then says she can stand by her position.[^amijima-letter]
 
@@ -87,7 +87,7 @@ Secrecy first connects two women beyond the husband's knowledge. Later, it preve
 
 Koharu's seriousness prevents Osan's request being dismissed as a rival's words; Osan's plan makes Koharu's life her responsibility. They have changed each other's weight in their lives. But fidelity alone supplies no route through which that weight can enter the arrangements of family and business.
 
-## Once She Is Called Sister, Who Defines Intimacy?
+## A Name Is the Guest of What Is Real — Zhuangzi, “Free and Easy Wandering”
 
 “Sister” acquires another power in *Quicksand*. Sonoko retells her history with Mitsuko to the “teacher” listening to her account.
 
@@ -107,7 +107,7 @@ In Seminar XVII, Lacan discusses a demand for knowledge in which the other must 
 
 Love needs responses. A visit promised, a greeting during illness, time spent waiting cannot all be dismissed as demands for guarantees. But when any finite response merely admits someone to the next trial, intimacy becomes a course from which nobody graduates. New forms of address can open old relations or give that course a prettier name.
 
-## The Same Tea Fields Can Produce Different Paintings
+## A Ridge Seen Across, a Peak Seen from the Side — Su Shi, “Inscribed on the Wall at Xilin Temple”
 
 In Kawabata's *Beauty and Sadness*, Otoko and her pupil Keiko, who lives with her, also look at paintings, discuss them and sketch in tea fields.
 
@@ -131,7 +131,7 @@ Changed positions do not themselves constitute improvement. *Quicksand* changes 
 
 The tea fields consequently exceed an allegorical picture. They contain looking and experiment, a teacher's judgment and a pupil's new approaches. Capacity and closeness can grow together before romantic history is reduced to one account. Because this growth really occurs, later overriding another's wishes cannot be intimacy's only imaginable destination.
 
-## Do Not Leave Me Out, and Do Not Finish My Words for Me
+## The Bird Calls, Seeking a Friend's Voice — Book of Songs, “Felling Trees”
 
 In Setsuna True, Kazusa is not finally persuaded by one correct answer.
 
@@ -153,7 +153,7 @@ Setsuna speaks too: she wants to help those important to Haruki and those import
 
 Each brings a wish she cannot relinquish before the other, and they accomplish a responsive performance. Kazusa agrees to the concert and record, to play for people she loves and who love her. Commitment gains addressees and a next task.
 
-## A Common Achievement Cannot Hurry the Answer to Something Else
+## Harmony Brings Things Forth; Sameness Cannot Sustain Them — Discourses of the States, “Discourses of Zheng”
 
 The music really becomes a record. In the recollection of the formal session, Setsuna has cried and recovers her composure; Kazusa reminds them of the time left and leads them when recording begins. The released object reaches Setsuna's household. Takahiro finds the vocal track. Sounds once belonging only to three are available to others.[^record]
 

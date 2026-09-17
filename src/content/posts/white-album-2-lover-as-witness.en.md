@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (IX) - Those Who Know Me Know My Sorrow: Why Must a Lover Prove Who We Are?'
 postSlug: white-album-2-lover-as-witness
 published: 2026-08-28
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Baoyu and Daiyu both seek closeness, yet demand opposite reactions as proof. Yōzō’s laughter, Shimamoto’s recognition, Kazusa’s piano and the dancing girl’s kindness show why a lover’s recognition matters—and how it can change us.'
 image: './white-album-2-lover-as-witness/white-album-2-lover-as-witness-cover.webp'
 tags: [WHITE ALBUM 2, Dream of the Red Chamber, Japanese literature, No Longer Human, South of the Border West of the Sun, The Izu Dancer, Lu Xun, Lacan, Žižek, identification]
@@ -21,7 +21,7 @@ Here *Dream of the Red Chamber* lets the reader into both their minds. They both
 
 [The previous essay, “We Need Not Have Met Before,”](/en/posts/white-album-2-after-they-meet/) considered what meeting and working together allow the women to do. This essay asks why an answer can carry such weight that a person feels all the years already lived have been waiting for a lover to recognize them.
 
-## The more distressed he is, the less reassured she feels
+## The Heart Is a Mesh of Paired Threads, Tied in Countless Knots — Zhang Xian, “A Thousand Autumns”
 
 Daiyu’s inference has its reasons. If Baoyu really does not believe in a match between gold and jade, why does his face change whenever she mentions it? For Baoyu, however, his face changes precisely because she is the one saying it. When the person closest to him speaks in the same terms as everyone else, it is as though his feelings have never reached her.
 
@@ -39,7 +39,7 @@ Both hear their own sincerity in someone else’s words, then use those words to
 
 The jade’s tassel is cut apart too. Xiren means to persuade Baoyu to cherish something Daiyu has made with her own hands. Her reminder instead draws Daiyu’s labor into the trial of sincerity. When the matter reaches their elders, the two maids who tried to mediate receive the scolding. Love was supposed to concern two people. The work of proving it, and the consequences, are soon handed out to others.[^honglou-tassel]
 
-## Whose wish is written in the notebook?
+## For Whom Should I Adorn Myself? — Book of Songs, “Bo Xi”
 
 Sometimes the proof succeeds remarkably well.
 
@@ -65,7 +65,7 @@ Takeichi has recognized one action. Yōzō elevates him into someone who can dis
 
 “Find someone who understands you completely” is therefore no ready solution. Seeing something can begin an approach. If being seen means only that one has finally been convicted or finally been acquitted, the person who understands best comes to resemble the keeper of the final verdict.
 
-## Why must it be her?
+## Life's Joy Lies in Hearts That Know One Another — Wang Anshi, “Song of Lady Ming,” II
 
 Yet “dependence on approval” cannot dispose of a lover’s importance. Praise is not all alike. A few words from some people can bring an entire past to life.
 
@@ -93,7 +93,7 @@ The proof must come from her own heart, or it counts as mere compliance. I need 
 
 An important conversion has occurred. At first, she shared my life and knows things others do not. Later, she alone must guarantee that I have not lived wrongly. A concrete history gives her testimony weight; the demand for a guarantee tries to seal that history shut. If she changes her interpretation, she seems to do more than disagree with me. She seems to revoke who I once was.
 
-## The piano does not sign a guarantee
+## Knowing the Tune, Hearing What Is True in It — Nineteen Old Poems, “A Fine Banquet Today”
 
 WHITE ALBUM 2’s duet through a wall offers a smaller and very precious recognition: someone takes up the sound you make.
 
@@ -113,7 +113,7 @@ Koharu is doing more than holding up a mirror to his past. She brings a new dema
 
 The limits of recognition do not diminish a lover’s importance. Hearing someone’s practice, being happy together and naming a particular retreat can all change a person. The difficulty comes when these things, which could continue to happen, are exchanged for a lifelong certificate: “This is who you are.”
 
-## His wife has a past of her own
+## My Heart Is Not a Mirror That Takes In All — Book of Songs, “The Cypress Boat”
 
 After Shimamoto leaves, a conversation between Hajime and Yukiko brings this difficulty home.
 
@@ -135,7 +135,7 @@ The distinction separates an encounter from knowledge about another person. We c
 
 Their future remains unwritten. An answer can allow it to begin without guaranteeing every result in advance. How a promise will stand up to later scrutiny must acquire its substance in living.
 
-## A good person can have unattractive teeth
+## A Foot Can Fall Short; an Inch Can Suffice — Songs of Chu, “Divining a Dwelling”
 
 In *The Izu Dancer*, the student hears the dancing girl and Chiyoko talking behind him, apparently about his uneven teeth. The girl says he could have them pulled and replaced with gold teeth. In another mood, overhearing such a conversation might provoke shame and anger. At this moment he feels so close to them that he does not mind, or even want to strain to hear.
 

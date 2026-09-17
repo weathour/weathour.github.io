@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (X) - Sharing One Robe: How Saying “We” Binds Us'
 postSlug: white-album-2-the-third-between-two
 published: 2026-08-29
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'From the answers withheld from the wife in Kokoro to Kazusa’s acknowledgment of a promise and Runtu’s unchangeable form of address: names organize shared lives, but can also let one person decide for another. Force, authority and legitimacy require separate questions.'
 image: './white-album-2-the-third-between-two/white-album-2-the-third-between-two-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Natsume Sōseki, Lu Xun, From the Soil, Lacan, promises, shared life]
@@ -23,7 +23,7 @@ She has heard kind words. Having heard them, she finds the difficulty still hard
 
 “Married” is both her ground for asking and the young man’s reason for supposing she must already know. One name connects two people without placing them in the same position of knowledge.
 
-## There are still people behind the names
+## Names Have No Inborn Fitness — Xunzi, “Rectifying Names”
 
 After Haruki and Setsuna begin dating in WHITE ALBUM 2, Kazusa tells Setsuna that this is the conclusion Kitahara and Ogiso have reached together. She acknowledges her two friends’ agreement and will wish them well. Then she corrects how they address each other: stop calling her Touma; call her Kazusa, and she will call the other girl Setsuna.[^naming]
 
@@ -41,7 +41,7 @@ The same form of address falls into a concrete relationship each time it is spok
 
 At the beginning of Seminar XVII, Lacan says that relations of discourse can persist without actual speech, while remaining constituted through language.[^discourse] Haruki need not be constantly present for the position of a lover to enter the two girls’ conversation. An agreement thereby acquires a duration beyond present feeling. Today need not prove everything again; yesterday’s assent can still ground tomorrow’s expectation. That same durability allows an uncorrected account to make many decisions for someone absent.
 
-## “Master” does not wait for approval
+## A Grievous Thick Barrier — Lu Xun, “My Old Home”
 
 In Lu Xun’s “My Old Home,” the narrator calls out to “Brother Runtu.” Runtu moves his lips, but the word he finally produces is “Master.” The narrator’s mother urges him to keep their old brotherly address and call him Brother Xun. Runtu says they were children then and knew no better. What sort of manners would that be now?[^guxiang-name]
 
@@ -59,7 +59,7 @@ At least three questions therefore need to be separated. Whether a convention ac
 
 This distinction keeps criticism from failing in two directions. In one, it supplies reasons for powerful conventions: if everyone complies, there must be good reason. In the other, it pronounces unreasonable conventions dead: since we have seen through them, we are free. Runtu is still standing there. His inability to change his address does not arise from having heard too little about equality.
 
-## What actually changes after a promise?
+## Let Words Attend to Deeds, and Deeds to Words — Book of Rites, “The Mean”
 
 WHITE ALBUM 2’s light music club gradually takes shape through exchanges among people with purposes of their own.
 
@@ -81,7 +81,7 @@ Haruki gives an affirmative answer in the confession scene. The scene does not s
 
 Still less can the frequent presence of implication turn an explicit refusal into permission. Then “I know better than you what you mean” replaces the other person’s words, and interpretation becomes a convenient way of deciding for them.
 
-## Truth also chooses its audience
+## To Withhold Words from One You Could Speak With Is to Lose That Person — Analects, “Wei Ling Gong”
 
 K tells Sensei that he has fallen in love with the young woman living under the same roof. Sensei subsequently asks her mother for marriage while concealing K’s confession. The young woman becomes his wife.[^past] By the time Sensei writes his long letter to the younger man, he plans to kill himself. His wife’s aunt is gravely ill and needs care. He uses that need to encourage his wife to go, and writes secretly while she is away. He is willing to offer his past for others to learn from, with one exception: his wife. The final request is clear. As long as she lives, she must not be told.[^last-letter]
 
@@ -99,7 +99,7 @@ He first leaves in response to a dying person’s call, then acquires the past i
 
 A letter can try to tell the truth while trying equally hard to keep one person from hearing it. Sincerity concerns the speaker’s relation to his own account. Shared life also asks through whom the words pass, to whom they are given and who thereby gains a chance to change their circumstances. Sincerity cannot perform that second task alone.
 
-## Two visits to a grave, a door that remains
+## Hear Widely for Clarity; Trust One Side and Remain in the Dark — Comprehensive Mirror for Aid in Government, Volume 192
 
 *Kokoro* does not even make the confession an unbroken record of final judgment.
 
@@ -117,7 +117,7 @@ Names show their force through these different treatments too. The young man has
 
 Sensei’s death cannot finally guarantee this distribution. Willingness to answer for wrongdoing with one’s life does not confer the right to decide forever for someone else. There is no proportional rule converting how much one pays into how much one may decide for another.
 
-## Without a final guarantee, an answer is still owed
+## People Can Enlarge the Way; the Way Does Not Enlarge People — Analects, “Wei Ling Gong”
 
 Lacan’s statement that there is no Other of the Other helps take the question further. The names and authorities on which relationships draw have no final guarantor outside language who can never be wrong. A person’s claim to embody that guarantee does not make their demands naturally legitimate. In the same passage, Lacan distinguishes this from saying that law itself is all imposture or that everyone acting under law is a fraud.[^other]
 

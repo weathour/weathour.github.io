@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (VI) - No Regret for Wet Clothes: Wanting Love Also Means Learning to Live'
 postSlug: white-album-2-who-lives-after-choice
 published: 2026-08-26T15:51:11Z
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Taking lifelong responsibility can be a sincere purpose. How does it become a fact of life? Sōseki, Lu Xun and the two True routes reveal how love develops capacities for living together—and whether another person’s answers can change the happiness arranged for them.'
 image: './white-album-2-who-lives-after-choice/white-album-2-who-lives-after-choice-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Natsume Sōseki, Lu Xun, shared life, freedom, responsibility, practice]
@@ -25,7 +25,7 @@ Nor should this become an injunction to prepare a lifetime's conditions before p
 
 [The previous essay, “Both Wanderers at the World's Edge,”](/en/posts/white-album-2-guilt-and-the-days-after/) distinguished self-condemnation from actual responsibility. Here we ask a further question: how does a decision become days one can inhabit, and once inside them, can both people still alter the original arrangement?
 
-## Whose Strength Is Borrowed by “I'll Take Care of You”?
+## Skilled at Drawing on What Is Available — Xunzi, “Encouraging Learning”
 
 Before confessing to Michiyo, Daisuke encounters a difficulty in helping someone. A friend needs money; wanting to assist, he approaches his sister-in-law Umeko. She first asks when he will repay it. He had not expected her to take “borrow” literally.
 
@@ -41,7 +41,7 @@ Willingness, action and capacity can now be distinguished. Willingness acknowled
 
 An ideal need not be furthest from reality when it becomes most distorted. Sometimes it has traveled far on reality's strength and refuses to recognize where that strength came from. Naming support, employment, divided labor and care does not debase love. It makes “I am willing” capable of joining “We can.”
 
-## Living Together Changes the People Who Live Together
+## Where One Lives Shapes Bearing; Nurture Shapes the Body — Mencius, “Exhausting the Heart,” I
 
 Juansheng in “Regret for the Past” once cooked with Zijun too.
 
@@ -63,7 +63,7 @@ Yet the Juansheng who claims life alone will be easier still does not know how t
 
 Conditions of life therefore mean more than sufficient money. They include time to learn, somewhere to work, energy to hear someone else and the ability to rejoin valued activities after fatigue. Such capacities develop and can be depleted. If the arrangements sustaining love continually restore one person's power to choose while eroding the other's, the original declaration of freedom changes character in its realization.
 
-## She Answers, but Not with the Words You Prepared for Her
+## Why Not Each Speak of Your Own Wishes? — Analects, “Gongye Chang”
 
 Michiyo does not merely assent when Daisuke confesses.
 
@@ -85,7 +85,7 @@ This admission matters. He acknowledges a desire hidden beneath protection and r
 
 Acknowledging desire clarifies an action's reasons without guaranteeing its justification and feasibility together. Setsuna will still be hurt; Haruki must still address the engagement and his work. A changed relation to one's desire and an achievable new life are questions requiring separate evidence.
 
-## Knowing Much Can Make It Harder for Others to Speak
+## Nourishing a Bird as One Would Nourish Oneself — Zhuangzi, “Perfect Joy”
 
 Sensei in *Kokoro* leaves the young man an exceptionally long letter. He says much about his past and strictly limits who may know.
 
@@ -103,7 +103,7 @@ Carefully attending to feedback may amount to checking whether someone understoo
 
 These forms of feedback cannot be conflated. Finally understanding and executing more competently does not mean participating in the decision about the purpose. Sensei and his wife have assets that spare them immediate struggle for subsistence; he also arranges how the secret will pass on. Her answer to this happiness alone remains outside the arrangement. Stability can make that absence harder to notice.
 
-## Can Long Companionship Develop New Ways of Living?
+## Beyond Winding Hills and Streams, Another Village Appears — Lu You, “Visiting a Mountain Village”
 
 Sōsuke and Oyone in *The Gate* have lived intimately for six years. Social exclusion narrows the breadth of their lives while intimacy deepens. They warm themselves through each other; that warmth is not false. They buy cloth for clothes and rice from a shop, and need contact with surrounding people to maintain a home that seems to require only two.[^mon-life]
 
@@ -121,7 +121,7 @@ Participating in his brother's future does not mean Sōsuke can face all the pas
 
 Relational capacities do not advance along one line. A household can improve at arranging tuition and receiving friends while maintaining the same silence on a particular subject. Judge change where it occurs. Life continuing is one fact; what can consequently be discussed anew is another.
 
-## From Saving Her to Something She Wants to Join
+## Teaching and Learning Help Each Other Grow — Book of Rites, “On Learning”
 
 Setsuna True offers a more hopeful, less straightforward response to this gap.
 
@@ -143,7 +143,7 @@ Joint discussion does not require everyone to decide everything with identical w
 
 Being able to direct a recording does not confer equal room in romance. Completing one collaboration does not mean every subsequent disagreement can change the arrangements. Music supplies a particular advance, not a guarantee covering engagements, families and every future day.
 
-## Persisting in a Life Means Leaving Its People Inside It
+## So Long as My Wish Is Not Betrayed — Tao Yuanming, “Returning to Farm and Garden,” III
 
 Willingness and ability change each other throughout these stories.
 

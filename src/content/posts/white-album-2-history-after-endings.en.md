@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (IV) - Life Finds Its Flavor in Quiet Joy: Why Ordinary Days Are Worth Sharing'
 postSlug: white-album-2-history-after-endings
 published: 2026-08-25
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Walks by the river, a belated wedding, a meeting at three in the morning and conversation while packing: three after-stories let hurt people regain a life, changing the shape of care and commitment along the way.'
 image: './white-album-2-history-after-endings/white-album-2-history-after-endings-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, after-stories, intimacy, everyday life, commitment, Japanese literature]
@@ -29,7 +29,7 @@ Yet these separate futures all give weight to a question: after what happened, c
 
 *Full spoilers follow for the three after-stories and Coda endings. Short Japanese quotations are translated anew from the works. The cover is original conceptual artwork made for this site. Four game images support narrative criticism; copyright belongs to AQUAPLUS, and video sources appear in the captions.*[^source]
 
-## Helping Someone Until He Needs a Little Less Help
+## Nurture without Ruling — Laozi, Chapter 51
 
 At the beginning of *Fugutaiten*, Haruki is far from the riverbank.
 
@@ -59,7 +59,7 @@ When Takeya tells Haruki to decide for himself, the text supplies a crucial cont
 
 Help can therefore have another endpoint. The recipient gradually becomes able to act; the caregiver gradually becomes able to rest. Closeness sustained by crisis can become ordinary contact. Both must be willing to change, and someone must take up what is temporarily put down. Haruki's treatment, his friends' visits and the home where Setsuna can rest cannot be wished away by saying “Let go.”
 
-## They Quarrel for a Long Time, and Still Need to Eat Tomorrow
+## What Night Is This, Sharing the Candlelight Again? — Du Fu, “For Wei Ba, Living in Retirement”
 
 Kazusa makes the call.
 
@@ -93,7 +93,7 @@ Recovering a life thus means more than coming to terms with things mentally. Kno
 
 The events remain small. Life is already extending from them.
 
-## Returning to an Old Place to Live Differently
+## The Paths Are Overgrown; Pine and Chrysanthemum Remain — Tao Yuanming, “Homeward”
 
 In another route, Haruki and Kazusa return to Japan from Vienna.
 
@@ -127,7 +127,7 @@ The ceremony matters for what it actually accomplishes. Someone burdened by guil
 
 Kazusa says she has already vowed eternal companionship a million times; a million and one will do no harm. Repetition has acquired time. Those making the first promise had not lived these three years. Those saying it again now know something of what traveling together is like and still want to say it.[^vow]
 
-## Both of Them Are Late
+## Wind and Rain Darken the Sky; the Cock Keeps Crowing — Book of Songs, “Wind and Rain”
 
 *The Road Forward to Happiness* lets a vow encounter something rather deflating: overtime.
 
@@ -149,7 +149,7 @@ This time Haruki and Setsuna speak by telephone, explain their respective emerge
 
 Old guilt often returned Haruki to a trial conducted alone. Now they can jointly discuss an evening already spoiled. With this room inside a promise, ordinary days need not pass daily through the end of the world.
 
-## A Home with People Can Have Idle Talk Too
+## Meeting, We Speak of Nothing but the Growing Crops — Tao Yuanming, “Returning to Farm and Garden,” II
 
 Another opening on the Setsuna True branch contains no goal as definite as getting home at ten. It is merely Sunday, and Setsuna wants to stay in bed.
 
@@ -191,7 +191,7 @@ The past has not left. It no longer monopolizes every subject.
 
 *The ending's mother-and-child image looks forward to family life. In the moving-day narrative, Setsuna has just told Haruki she is pregnant. Windows mini-after gameplay frame: ©AQUAPLUS / via [糖炒小熊clover, Bilibili](https://www.bilibili.com/video/BV1Lb4y1U7yP/?p=5&t=282).*
 
-## Life Is Worth Living Before Everything Is Settled
+## When Joy Comes, the Evening Feels Too Short — Tao Yuanming, “Returning to Farm and Garden,” V
 
 These warm passages still permit a strong objection: do the after-stories soften the light to make us forget everyone outside it?
 

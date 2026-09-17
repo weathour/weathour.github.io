@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (I) - Feeling Before the Tune Takes Shape: The Relationship Begins Before Confession'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Lessons through a wall, a song made together, a confession after the show: how three people create a life worth missing, while expecting different futures from the same happiness.'
 image: './white-album-2-voice-before-names/white-album-2-voice-before-names-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, narrative form, intimacy, commitment, responsibility]
@@ -29,7 +29,7 @@ In *WHITE ALBUM 2*'s *Introductory Chapter*, hereafter IC, Haruki Kitahara, Sets
 
 *This essay contains full spoilers for IC and draws on the official digital novels 雪が解け、そして雪が降るまで and 祭りの後 when revisiting the scenes. The cover is original conceptual art made for this site. The three low-resolution game images retain their use as limited quotations for criticism; sources and rights information appear in the captions and notes.*[^images]
 
-## Someone Through the Wall Who Will Wait
+## The Bird Calls, Seeking a Friend's Voice — Book of Songs, “Felling Trees”
 
 Haruki first noticed the accompaniment next door about two months earlier. The other members had gone, and he stayed to practise alone, stumbling along. Once something resembling a tune emerged, the piano would arrive. Sometimes it sounded like instruction, sometimes a challenge. Later came bass, drums and saxophone. What astonished him was that the other player never made a mistake. He concluded that this person must have plenty of spare time.[^voice]
 
@@ -51,7 +51,7 @@ Her pleasure has gone beyond teaching a student well. Someone she is accustomed 
 
 Kazusa's own days change as well. Someone who does not want to be seen playing has spent considerable time considering how another person might stand before an audience. Of course there is love, and a need she can hardly express. Here, however, that love takes the form of preparing equipment, devising ways to teach, hearing an improvement, and allowing herself to join him in making a mess of a good song. Call all of this concealment, and we erase the most living part of their relationship.
 
-## The Third Person Has a History of Her Own
+## Why Must Friends First Share the Same Tune? — Du Fu, “Walking Home”
 
 When Setsuna joins, she encounters a bond with a past that has yet to be clearly spoken of. Haruki enthusiastically tells her how Kazusa teaches him. Suddenly she asks: when he is with one girl, does he always talk about another? Haruki feels unfairly accused. She asked, and he answered.[^women]
 
@@ -67,7 +67,7 @@ Kazusa says that she and Setsuna will probably never share the same values: they
 
 The trio's connection thus has three histories. Haruki and Kazusa have teaching and responses through a wall; Haruki and Setsuna have an invitation, being heard and being encouraged; Setsuna and Kazusa have dealings they have established themselves. As these three bonds overlap, each person acquires a place they did not have before. Contact brings the prospect of meeting again. Rehearsal soon gives that prospect different meanings.
 
-## Making a Song Together
+## Cut and Filed, Carved and Polished — Book of Songs, “The Bend of the Qi”
 
 Once rehearsal begins in earnest, “the three of us together” does not always mean three people in the same room.
 
@@ -97,7 +97,7 @@ The people onstage have changed, and those below can see it. They have made happ
 
 *Setsuna and her microphone fill the foreground; Haruki and Kazusa are outside the frame. Game image: ©2012 AQUAPLUS / via 4Gamer.net.*
 
-## The Weight of Happiness
+## No Joy Surpasses Coming to Know One Another — Qu Yuan, “The Lesser Lord of Life”
 
 The opera in Lu Xun's “Village Opera” is not particularly satisfying. The roles the children want to see take forever to appear. Once the old-woman character sits down, she seems to have no intention of getting up again. The children wait and yawn, finally agreeing to leave. They launch the boat as eagerly as when they set out. Yet by the story's end, that night's opera remains something they will scarcely encounter again.[^shexi]
 
@@ -113,7 +113,7 @@ In the final session of *Seminar XX*, Lacan brings together the contingency of a
 
 The question after the stage is therefore severe: how can this life, which has already changed them, continue? They do not yet have the same answer.
 
-## “Together” Needs Asking Again
+## Hearts Differ as Faces Do — Zuo Commentary, Duke Xiang, Year 31
 
 During the phone call in the rehearsal period, Setsuna says she wants to remain with both of them after the festival. She does not want to return to her old routine, still less to be left behind. Haruki hastens to promise that he will not leave. When she asks what exactly he means, he explains that as long as she does not break off their friendship, he will always be her friend. She accepts that promise.[^phone]
 
@@ -149,7 +149,7 @@ Here lies the force of the confession. It gives a wish to another person, asks f
 
 A name can give some aspects of a life a settled form; it cannot settle every desire. It supplies a reason for a relationship to continue and makes its participants responsible for how they go on. What they have agreed to must be answered again in the next approach, concealment or departure.
 
-## When True Feelings Arrive
+## Hard to Meet, and Hard to Part — Li Shangyin, “Untitled”
 
 Setsuna later speaks directly to Kazusa about the romance. She even calls herself an intruder and says Haruki no longer belongs to Kazusa. These are Setsuna's words, carrying guilt and provocation; Haruki had made no prior romantic commitment to Kazusa. Kazusa acknowledges the promise between her two friends and asks Setsuna to call her by her given name.[^recognition]
 
@@ -169,7 +169,7 @@ Around graduation, Kazusa also says directly that she does want to go to Europe:
 
 The realization comes very late. Her earlier responses through the wall, her teaching at night, the repeated ease of finding her—all can become, through habit, “she will always be there.” Only when he cannot find her does each earlier presence reveal the time and choice another person gave.
 
-## After the Show
+## No Sorrow Surpasses Parting from the Living — Qu Yuan, “The Lesser Lord of Life”
 
 There are still three people at the airport.
 

@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (VII) - Where This Heart Finds Peace Is Home: Where Does Real Life Begin?'
 postSlug: white-album-2-beyond-snow-country
 published: 2026-08-27
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Knowing that travel and material conditions make a snowy refuge, why still feel that only there can one be oneself? Snow Country, South of the Border, West of the Sun, The Sting of Death and the affair route reveal how fantasy arranges desire—and how a lover’s answers change the scene.'
 image: './white-album-2-beyond-snow-country/white-album-2-beyond-snow-country-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Yasunari Kawabata, Haruki Murakami, Toshio Shimao, Zhang Dai, Su Shi, fantasy, love, everyday life]
@@ -25,7 +25,7 @@ This is a different problem from love blinding people to reality. Clear sight mi
 
 [The previous essay, “No Regret for Wet Clothes,”](/en/posts/white-album-2-who-lives-after-choice/) asked how love develops capacities for shared life. This essay asks about a less visible power: why is one part of life named an everyday burden while another is called the true self? When a lover says something that does not fit the scene, will we let her change the meaning of “true”?
 
-## The Person in the Snow Scene Is Looking Elsewhere Too
+## You Are Not a Fish: How Do You Know Its Joy? — Zhuangzi, “Autumn Floods”
 
 The train window in *Snow Country* begins as misted glass. Shimamura clears a line with his finger, and one of Yōko's eyes appears. Knowing it is the reflection of someone opposite, he pretends to admire the evening landscape and wipes more glass with his palm.
 
@@ -49,7 +49,7 @@ Does he understand her feelings? He says he does. Then explain them, she says. H
 
 She wants the man so deeply moved to do something in accordance with what she says.
 
-## Does Distance Keep Everything Agreeable?
+## The One I Seek Is Across the Water — Book of Songs, “Reeds”
 
 Shimamura studies Western dance without having seen Western dancers perform in person.
 
@@ -67,7 +67,7 @@ This is not a statement of sacrifice addressed to Shimamura. She cherishes her o
 
 A lover should remain a finite person facing difficulty alongside oneself, rather than embody the world's ultimate order, as though obtaining her completed everything. The distinction does not abolish irreplaceability. Being irreplaceable through shared years and having to guarantee an entire life's fulfillment are different claims.
 
-## One Person Can Make Two Kinds of “Real”
+## I Cannot See Mount Lu Whole, for I Am Within It — Su Shi, “Inscribed on the Wall at Xilin Temple”
 
 Hajime in *South of the Border, West of the Sun* is more practically capable than Shimamura.
 
@@ -95,7 +95,7 @@ Shimamoto is not merely something to look at. She explains that she cannot come 
 
 Her departure interrupts the possibility of shared life without explaining her motive sufficiently to settle it. Calling her disappearance an act that saves his family would assign an unknowable person the function most convenient for the narrator. She can have a life the story does not disclose. Nondisclosure is not nonexistence.
 
-## If the Snow Grew Heavier, We Would Not Have to Decide
+## They Knew Not of Han, Much Less Wei or Jin — Tao Yuanming, “The Peach Blossom Spring”
 
 On the affair route's train, Haruki too arranges how to see.
 
@@ -125,7 +125,7 @@ Observing that transport never really stops would still miss the point. Even if 
 
 Leaving an old place can certainly create new freedom and replace oppressive relations. Departure's value lies in what it opens. The problem here arises elsewhere: when lovers refuse to let new facts and the other's answers alter the direction of departure, and want the landscape to guarantee their original wish forever.
 
-## Even with the Outside Shut Out, Those Inside Must Be Able to Speak
+## Zhongzi, I Beg You: Do Not Cross into My Village — Book of Songs, “Zhongzi, I Beg You”
 
 Entering the relationship, Kazusa asks only for false love, leaving the real kind to Setsuna until she leaves Japan at winter's end. The limit appears to place an exception alongside normal life. Their later continuous cohabitation and flight last several days, not an entire winter.[^term]
 
@@ -149,7 +149,7 @@ In the morning, Kazusa first says she planned the ending from the beginning, the
 
 Through her current understanding, Kazusa imagines his future happiness for him. Haruki may question that understanding; he cannot preserve last night's decision for her. She has changed her mind and brought the change before him. “As long as two people who love each other are together” no longer describes enough. Lovers too can give different answers about continuing.
 
-## Ordinary Home Can Be Another World of Exception
+## Draw a Blade to Cut the Water: It Flows On — Li Bai, “Farewell to Uncle Yun at Xie Tiao Tower”
 
 It becomes easy to say that returning is better after all.
 
@@ -169,7 +169,7 @@ The hospital supplies new conditions and makes leaving difficult for her. This e
 
 A world of exception is therefore not confined to a distant inn. Fantasy may promise that complete confession and restored normal status will make home whole again. *The Sting of Death* tests that hope: the same house and marital titles do not suffice to restore hurt people's capacity to live.
 
-## When She Tells Her Old Dreams, Home Becomes More Than His Refuge
+## Yet She Says: Where This Heart Finds Peace Is Home — Su Shi, “Calming the Waves: For Yuniang”
 
 At the end of *South of the Border*, Yukiko does not merely welcome Hajime back.
 

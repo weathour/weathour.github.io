@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (XI) - Could This Feeling Wait for Recollection: How Memory Changes the People We Are Now'
 postSlug: white-album-2-who-writes-the-past
 published: 2026-08-29T00:16:57Z
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Setsuna says her stage counterpart is too strong, then borrows the play’s words to say goodbye. Chiaki’s performance, the three deaths recounted in In a Grove and Lu Xun’s remembrance of Liu Hezhen reveal how narration creates understanding—and why facts still resist its revisions.'
 image: './white-album-2-who-writes-the-past/white-album-2-who-writes-the-past-cover.webp'
 tags: [WHITE ALBUM 2, Japanese literature, Akutagawa Ryūnosuke, Lu Xun, Chiaki, Lacan, narration, shared history]
@@ -23,7 +23,7 @@ Later, saying goodbye, Setsuna says she hates Chiaki and hates Haruki too. Borro
 
 Here a shared past becomes complicated. What happened cannot be left to the needs of the present. What it means to people is not completely settled on the day events end. We tell the past sometimes to defend ourselves, sometimes to see someone previously unseen. Both can happen in one telling.
 
-## Why keep watching when the likeness is wrong?
+## Do Not Let the Words Obscure the Intention — Mencius, “Wan Zhang,” I
 
 This return to the past begins with Haruki’s invitation. He has put the school festival DVD Mari gave him on a shelf and tried to forget it. When Chiaki discovers it, he asks whether she wants to watch. She asks if that is all right. With Chiaki, he says, it is. Onscreen, Setsuna and Kazusa look toward the camera. Beside him, Chiaki draws close and listens to his account.[^dvd]
 
@@ -45,7 +45,7 @@ Chiaki plays the principal female roles herself. The two heroines cannot stand o
 
 Through the three friends’ past, Chiaki says what present she wants. Her desire enters the relationship, and the script carries an involved person’s voice. The past gains new meaning onstage, bearing the wishes of this later arrival.
 
-## Even in telling a death, one tells oneself
+## Words Do Not Exhaust Meaning — Book of Changes, “Appended Statements,” I
 
 The three central accounts in “In a Grove” seem eager to answer one question: who killed Kanazawa no Takehiro? Tajōmaru says, I did. His wife Masago says, I did. The dead man, speaking through a medium, says, I killed myself.
 
@@ -67,7 +67,7 @@ A man bound while watching his wife assaulted regains two positions in his story
 
 Admission of guilt and the bearing of pain deserve serious attention. Neither shares a single measure with narrative reliability. Someone can pay heavily in self-condemnation while defending an identity. Someone may also speak without being able to settle what kind of person they can still become.
 
-## What had not been settled at the time
+## Already, Even Then, Bewildered — Li Shangyin, “The Brocade Zither”
 
 Li Shangyin’s “The Inlaid Zither” asks whether this feeling could wait to become recollection, then turns immediately: even at the time, there was bewilderment.[^title] The turn folds back a familiar assumption—that the original experience was clear and whole, then gradually blurred with age. The poem’s bewilderment was already there.
 
@@ -83,7 +83,7 @@ Fictional characters are also more than codes waiting to be matched to originals
 
 Nor must art expose every hidden desire to qualify as truthful. Žižek objects to turning one fantasy fragment into a universal key to an entire work. Distance, displacement and gaps between work and fantasy can disclose fantasy’s own limitations.[^art] Chiaki’s direct confrontation brings the girls’ conflict closer. Setsuna’s insistence that she was not that strong reveals the difference within that approach. New understanding arises between them: conflict existed in their silences, but it was not simply waiting for a braver actor to speak its whole truth.
 
-## Seven voices do not mean seven equal seats
+## Better No Book Than Believing Every Word of It — Mencius, “Exhausting the Heart,” II
 
 “In a Grove” does not stage a trial in which seven people take turns from beginning to end.
 
@@ -101,7 +101,7 @@ Lacan’s discussion of truth as something that can only be half-said does not i
 
 Likewise, mutually exclusive game routes are not depositions in one case. “In a Grove” has several people narrate the same death. WHITE ALBUM 2’s branches let characters experience different futures under different conditions and choices. A player who reads several futures can compare a promise’s consequences across circumstances. A character in one route does not thereby remember days lived for him in another.[^routes] Combining every ending produces the reader’s construction. It gives no basis for reproaching a character for failing to learn from another route’s conclusion.
 
-## What can still be said after “I did not witness it”?
+## Know What You Know; Acknowledge What You Do Not — Analects, “On Governing”
 
 If limited facts required silence, forceful judgments would belong entirely to those willing to disregard facts. Lu Xun explicitly resists this outcome in “In Memory of Miss Liu Hezhen.”
 
@@ -117,7 +117,7 @@ His judgments do not harden into one undifferentiated block. He deeply doubts th
 
 Literary criticism gains a method here. Reading “In a Grove,” we can refuse an unsupported verdict about the killer while analyzing how accounts distribute humiliation and power. Reading Chiaki, we can identify changes to events that never happened while affirming the form of seeing relationships her play creates. Judgment need not be all or nothing. It needs to match what it actually explains.
 
-## The story ends; the answers begin
+## Words End, but Meaning Does Not — Yan Yu, “Canglang's Talks on Poetry: Discerning Poetry”
 
 Chiaki’s performance receives applause. It is late into the night, but there is no curtain call. She collapses again as the performance ends. Waking to learn that it is over, she asks whether someone unlike an ordinary audience member is waiting for her.[^curtain] The work has received one answer. She is waiting for another.
 

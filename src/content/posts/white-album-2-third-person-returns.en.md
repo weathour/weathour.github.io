@@ -2,7 +2,7 @@
 title: 'WHITE ALBUM 2: Relational Readings (III) - Looking Back Where the Wind and Rain Passed: Being True to Ourselves After Choosing'
 postSlug: white-album-2-third-person-returns
 published: 2026-08-25
-updated: 2026-09-10
+updated: 2026-09-17
 description: 'Choosing Setsuna or Kazusa, staying with ordinary life or escaping into one winter: Coda’s four endings also change how its characters understand themselves. How does sincerity enable a decision—and prescribe another person’s answer?'
 image: './white-album-2-third-person-returns/white-album-2-third-person-returns-cover.webp'
 tags: [WHITE ALBUM 2, visual novels, intimacy, choice, responsibility, psychoanalysis]
@@ -29,7 +29,7 @@ Four endings give four destinations. Once a destination exists, the people trave
 
 *Full spoilers follow for Coda's four in-game endings, alongside readings of Lu Xun's “Regret for the Past” and “What Happens After Nora Leaves Home?” and Natsume Sōseki's Kokoro. Supplementary after-stories belong to the next essay. Japanese dialogue is translated anew from the script. The cover is original conceptual art; five gameplay frames support criticism of adjacent scenes.*[^source]
 
-## Reliable People Leave Out a Few Words on Your Behalf
+## Nourishing a Bird as One Would Nourish Oneself — Zhuangzi, “Perfect Joy”
 
 By the time Kazusa returns, Haruki has a job.
 
@@ -53,7 +53,7 @@ Nor can all of Haruki's reliability be returned to the category of disguise. His
 
 The question is therefore not whether “reliable” is true enough. When Setsuna expresses a wish that does not fit his consideration, can this reliable man stop and listen again? Does responsibility mean settling your pain for you, or also hearing you say that I have handled it wrongly?
 
-## Life Can Continue Without Forging an Innocent Heart
+## Holding Your Hand, Growing Old Together — Book of Songs, “Beating the Drum”
 
 Coda Normal moves forward a year.
 
@@ -71,7 +71,7 @@ What we hear, however, is chiefly his inner voice. The ending does not equally d
 
 This gap gives stability both substance and a question. Staying together can begin before complete understanding, but must then make room for changes in understanding. Otherwise, when she says something new ten years later, he can answer with their happiness ten years earlier: hadn't she already agreed?
 
-## Tomorrow Morning, a Vow Meets Another Answer
+## Moving with the Times — Book of Changes, “Decrease,” Commentary on the Decision
 
 The affair route encloses that winter tightly.
 
@@ -103,7 +103,7 @@ The snow outside the train window has made Haruki think of *Snow Country*. He de
 
 These colleagues are not present simply to administer social punishment. They complain and protect him. If the world were nothing but constraint, the couple's freedom would seem beyond question. The script retains kinds of goodwill that refuse this tidiness. They do not condemn love, but make “We have left everything behind” difficult to say cleanly.
 
-## Once All the Guilt Is Confessed, What Can Others Still Say?
+## I Speak Earnestly; You Listen with Disdain — Book of Songs, “Restraint”
 
 After the separation, Haruki confesses to Setsuna.
 
@@ -129,7 +129,7 @@ Setsuna returns on the affair route. Still in her stage clothes, she catches up 
 
 Haruki thinks sentencing himself to the worst means assuming responsibility to the end. Setsuna still has to come to him, again and again. His guilt has not diminished. It reveals what naming guilt cannot do: feed a person, sustain work, make song audible again, or answer someone who continues to have a life of her own.
 
-## A Decision Has Power, and Places It Cannot Reach
+## The Road Is Hard, with Many Forks — Li Bai, “The Hard Road,” I
 
 Haruki really acts in Kazusa True.
 
@@ -165,7 +165,7 @@ This return is first a life someone else has already made. She can record a song
 
 Love lets Haruki and Kazusa leave their former life. The hand opening the file must still learn to receive something it had not anticipated. The decision loses no force. It finally need not prove itself by imagining another world dead.
 
-## They Do Not Become Good People Before Entering the Same Room
+## The Exemplary Person Finds Harmony without Sameness — Analects, “Zi Lu”
 
 Setsuna True begins with a request for help. Haruki asks Setsuna to save Kazusa: he can no longer do it. Setsuna agrees that Kazusa must come first for now. He wants to fall into her arms for consolation, yet asks her to save Kazusa first. She affirms that priority and admits her resentment: his doing the right thing hurts her too. Accepting the request has not made her free of jealousy.[^rescue]
 
@@ -199,7 +199,7 @@ Later, the three reach the recording studio. Setsuna has just been crying; Haruk
 
 They do not first wash away jealousy to qualify for working together. Working together gives wishes beyond jealousy room to grow. A situation that once seemed to permit only possession or withdrawal now contains other actions.
 
-## Beyond Five Minutes, There Must Still Be Tomorrow
+## Renew Yourself Today, Every Day, and Yet Again — Book of Rites, “Great Learning”
 
 The person most capable of keeping things going is also most readily asked to keep them going forever.
 
