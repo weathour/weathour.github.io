@@ -152,7 +152,7 @@ Cook Ding in “The Secret of Caring for Life” is not always fearless. At a di
 
 Speaking about freedom, the subject, and desire also requires that backward glance. What someone needs now may be help in bringing a repetition to an end, a chance to renegotiate a relationship, or a period of rest that need not immediately prove its value. Theory should help distinguish these needs, rather than hand over another emotional report card to complete.
 
-The door can be locked while the possibility of an oversight remains. An undertaking can receive one's best effort and still end in disappointment. Returning limited judgments to the matters they concern does not abolish responsibility; it makes responsibility bearable. One check need not underwrite an entire life. A person can then continue along the road with a mind that has not yet wholly settled.
+The door has been checked, yet an oversight remains possible. An undertaking can receive one's best effort and still end in disappointment. Returning limited judgments to the matters they concern does not abolish responsibility; it makes responsibility bearable. One check need not underwrite an entire life. A person can then continue along the road with a mind that has not yet wholly settled.
 
 [^cn-poems]: The title's allusion and the first section's heading come from [“Cypress Boat,” Airs of Bei, in the *Book of Songs*](https://zh.wikisource.org/w/index.php?oldid=8738160). The sixth section's heading comes from [“I Beg You, Zhongzi,” Airs of Zheng](https://zh.wikisource.org/w/index.php?oldid=8738247). The attached Mao prefaces offer political readings. The essay draws on the poems' expressions of distress and relationship, without treating the prefaces as establishing a unique historical speaker.
 
