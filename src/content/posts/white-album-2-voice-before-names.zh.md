@@ -1,5 +1,5 @@
 ---
-title: '《WA2》(1)-未成曲调先有情：告白以前，关系已经发生'
+title: '《WA2》(1)-未成曲调先有情：告白之前，三个人的生活早已交织在一起'
 postSlug: white-album-2-voice-before-names
 published: 2026-08-24
 updated: 2026-09-29
