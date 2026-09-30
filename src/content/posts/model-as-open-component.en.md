@@ -129,7 +129,7 @@ A model becomes a component through these relations for connection, comparison, 
 
 1. [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/)
 2. [How Models Refer to the World](/en/posts/from-observation-to-model/)
-3. [What a Model Retains](/en/posts/inside-the-model/)
+3. [What Is Inside a Model](/en/posts/inside-the-model/)
 4. [Which Conclusions Survive a Model Change?](/en/posts/model-transformations/)
 5. [How a Model Becomes a Component](/en/posts/model-as-open-component/)
 6. [From Models to Engineering Judgment](/en/posts/engineering-model-chain/)

@@ -109,7 +109,7 @@ PATH 原型的目标识别使用过激光雷达与通信速度信息间约半秒
 
 1. [数学怎样形成问题](/posts/mathematical-language-and-problems/)
 2. [模型怎样指向世界](/posts/from-observation-to-model/)
-3. [模型内部保存什么](/posts/inside-the-model/)
+3. [模型内部是什么](/posts/inside-the-model/)
 4. [模型改变后，哪些结论还能保留](/posts/model-transformations/)
 5. [模型怎样成为组件](/posts/model-as-open-component/)
 6. [从模型到工程判断](/posts/engineering-model-chain/)
