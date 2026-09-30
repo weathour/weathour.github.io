@@ -435,8 +435,6 @@ $y=u$、$u=y+r$，分别都能单向求值；接起来却要求 $r=0$。当 $r\n
 3. [模型内部是什么](/posts/inside-the-model/)
 4. [模型怎样改变](/posts/model-transformations/)
 5. [模型怎样进入整体](/posts/model-as-open-component/)
-6. [从模型到工程判断：运行、证据与更新](/posts/engineering-model-chain/)
-
-后续篇目将依次扩充为长文。
+6. [从模型到工程判断：用途、实现、证据与更新](/posts/engineering-model-chain/)
 
 延伸阅读：[一个扰动怎样穿过交通系统](/posts/traffic-disturbance-local-propagation/)。

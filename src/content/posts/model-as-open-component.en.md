@@ -500,4 +500,4 @@ Treating the composed whole as another component lets this work continue outward
 
 ---
 
-**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · [What Is Inside a Model](/en/posts/inside-the-model/) · [How Models Change](/en/posts/model-transformations/) · **How Models Enter a Whole** · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/). Essay VI is being expanded next; its link currently leads to the published edition.
+**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · [What Is Inside a Model](/en/posts/inside-the-model/) · [How Models Change](/en/posts/model-transformations/) · **How Models Enter a Whole** · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/).

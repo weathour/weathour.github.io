@@ -500,4 +500,4 @@ FMI3.0.2 在§2.2.7.4规定完整 FMU 状态的取得与恢复，并将相关操
 
 ---
 
-**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · [模型怎样指向世界](/posts/from-observation-to-model/) · [模型内部是什么](/posts/inside-the-model/) · [模型怎样改变](/posts/model-transformations/) · **模型怎样进入整体** · [从模型到工程判断](/posts/engineering-model-chain/)。第六篇接着扩写为长文，当前链接指向其已公开版本。
+**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · [模型怎样指向世界](/posts/from-observation-to-model/) · [模型内部是什么](/posts/inside-the-model/) · [模型怎样改变](/posts/model-transformations/) · **模型怎样进入整体** · [从模型到工程判断](/posts/engineering-model-chain/)。

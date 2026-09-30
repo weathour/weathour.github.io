@@ -721,4 +721,4 @@ The next essay brings these mathematical objects into a whole. When training or 
 
 ---
 
-**The six essays in Models and Engineering:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · [What Is Inside a Model](/en/posts/inside-the-model/) · **How Models Change** · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgments](/en/posts/engineering-model-chain/). The remaining installments will be expanded in sequence; links lead to the currently published versions.
+**The six essays in Models and Engineering:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · [What Is Inside a Model](/en/posts/inside-the-model/) · **How Models Change** · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/).

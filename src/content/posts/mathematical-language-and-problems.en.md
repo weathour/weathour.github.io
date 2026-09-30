@@ -416,8 +416,7 @@ We have moved from three tasks to graphs, feasible sets, observations, histories
 3. [What Is Inside a Model](/en/posts/inside-the-model/)
 4. [How Models Change](/en/posts/model-transformations/)
 5. [How Models Enter a Whole](/en/posts/model-as-open-component/)
-6. [From Models to Engineering Judgments: Operation, Evidence, and Updates](/en/posts/engineering-model-chain/)
+6. [From Models to Engineering Judgment: Purpose, Implementation, Evidence, and Updates](/en/posts/engineering-model-chain/)
 
-The subsequent essays will be expanded into long-form versions in sequence.
 
 Further reading: [How a Disturbance Travels Through a Traffic System](/en/posts/traffic-disturbance-local-propagation/).

@@ -414,4 +414,4 @@ The next essay first studies how objects change. Network parameters induce funct
 
 ---
 
-**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · **What Is Inside a Model** · [How Models Change](/en/posts/model-transformations/) · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgments](/en/posts/engineering-model-chain/). Subsequent installments are being expanded into long essays in sequence; links currently lead to each published version.
+**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · [How Models Refer to the World](/en/posts/from-observation-to-model/) · **What Is Inside a Model** · [How Models Change](/en/posts/model-transformations/) · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/).

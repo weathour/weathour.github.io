@@ -313,4 +313,4 @@ The falling curve at the beginning now supports more specific conclusions. Under
 
 ---
 
-**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · **How Models Refer to the World** · [What Is Inside a Model](/en/posts/inside-the-model/) · [How Models Change](/en/posts/model-transformations/) · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/). Later installments are being expanded sequentially; these links lead to their currently published versions.
+**The six essays in “Models and Engineering”:** [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/) · **How Models Refer to the World** · [What Is Inside a Model](/en/posts/inside-the-model/) · [How Models Change](/en/posts/model-transformations/) · [How Models Enter a Whole](/en/posts/model-as-open-component/) · [From Models to Engineering Judgment](/en/posts/engineering-model-chain/).
