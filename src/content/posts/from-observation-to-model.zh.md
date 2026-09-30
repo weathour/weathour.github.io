@@ -158,7 +158,7 @@ $z_i$ 是第 $i$ 次记录，$b$ 表示尚未消除的固定偏差，$\varepsilo
 
 **模型与工程：六篇核心阅读**
 
-1. [数学怎样把握问题](/posts/mathematical-language-and-problems/)
+1. [数学怎样形成问题](/posts/mathematical-language-and-problems/)
 2. [水箱怎样成为模型](/posts/from-observation-to-model/)
 3. [模型内部保存什么](/posts/inside-the-model/)
 4. [模型改变后，哪些结论还能保留](/posts/model-transformations/)

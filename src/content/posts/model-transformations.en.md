@@ -160,7 +160,7 @@ Transformation yields these relations for further use: preserved conclusions, ch
 
 **Models and Engineering: the six core essays**
 
-1. [How Mathematics Grasps a Problem](/en/posts/mathematical-language-and-problems/)
+1. [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/)
 2. [How a Tank Becomes a Model](/en/posts/from-observation-to-model/)
 3. [What a Model Retains](/en/posts/inside-the-model/)
 4. [Which Conclusions Survive a Model Change?](/en/posts/model-transformations/)
