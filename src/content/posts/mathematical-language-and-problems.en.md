@@ -414,7 +414,7 @@ We have moved from three tasks to graphs, feasible sets, observations, histories
 1. [How Mathematics Forms Problems: Objects, Structure, and Language](/en/posts/mathematical-language-and-problems/)
 2. [How Models Refer to the World: Representation, Measurement, and Empirical Validity](/en/posts/from-observation-to-model/)
 3. [What Is Inside a Model](/en/posts/inside-the-model/)
-4. [When a Model Changes, Which Conclusions Survive?](/en/posts/model-transformations/)
+4. [How Models Change](/en/posts/model-transformations/)
 5. [How a Model Becomes a Component: Wiring, Feedback, and Replacement](/en/posts/model-as-open-component/)
 6. [From Models to Engineering Judgments: Operation, Evidence, and Updates](/en/posts/engineering-model-chain/)
 

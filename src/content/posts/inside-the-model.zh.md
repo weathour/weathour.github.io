@@ -414,4 +414,4 @@ Yoneda 引理的一项精确陈述是：这些自然变换与 $F(c)$ 的元素�
 
 ---
 
-**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · [模型怎样指向世界](/posts/from-observation-to-model/) · **模型内部是什么** · [模型怎样经过变换](/posts/model-transformations/) · [模型作为开放组件](/posts/model-as-open-component/) · [从模型到工程判断](/posts/engineering-model-chain/)。后续篇次依次扩写为长文，当前链接指向各篇已公开版本。
+**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · [模型怎样指向世界](/posts/from-observation-to-model/) · **模型内部是什么** · [模型怎样改变](/posts/model-transformations/) · [模型作为开放组件](/posts/model-as-open-component/) · [从模型到工程判断](/posts/engineering-model-chain/)。后续篇次依次扩写为长文，当前链接指向各篇已公开版本。

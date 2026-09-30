@@ -433,7 +433,7 @@ $y=u$、$u=y+r$，分别都能单向求值；接起来却要求 $r=0$。当 $r\n
 1. [数学怎样形成问题：对象、结构与语言](/posts/mathematical-language-and-problems/)
 2. [模型怎样指向世界：表征、测量与经验有效性](/posts/from-observation-to-model/)
 3. [模型内部是什么](/posts/inside-the-model/)
-4. [模型改变后，哪些结论还能保留](/posts/model-transformations/)
+4. [模型怎样改变](/posts/model-transformations/)
 5. [模型怎样成为组件：接线、反馈与替换](/posts/model-as-open-component/)
 6. [从模型到工程判断：运行、证据与更新](/posts/engineering-model-chain/)
 
