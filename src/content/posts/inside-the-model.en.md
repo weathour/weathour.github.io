@@ -154,7 +154,7 @@ The [next essay](/en/posts/model-transformations/) turns comparison into a compu
 **Models and Engineering: the six core essays**
 
 1. [How Mathematics Forms Problems](/en/posts/mathematical-language-and-problems/)
-2. [How a Tank Becomes a Model](/en/posts/from-observation-to-model/)
+2. [How Models Refer to the World](/en/posts/from-observation-to-model/)
 3. [What a Model Retains](/en/posts/inside-the-model/)
 4. [Which Conclusions Survive a Model Change?](/en/posts/model-transformations/)
 5. [How a Model Becomes a Component](/en/posts/model-as-open-component/)

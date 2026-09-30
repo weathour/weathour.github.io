@@ -412,7 +412,7 @@ We have moved from three tasks to graphs, feasible sets, observations, histories
 **Models and Engineering: Six Core Essays**
 
 1. [How Mathematics Forms Problems: Objects, Structure, and Language](/en/posts/mathematical-language-and-problems/)
-2. [How a Tank Becomes a Model: Conservation, Measurement, and Identification](/en/posts/from-observation-to-model/)
+2. [How Models Refer to the World: Representation, Measurement, and Empirical Validity](/en/posts/from-observation-to-model/)
 3. [What a Model Retains: Presentation, Semantics, and Observation](/en/posts/inside-the-model/)
 4. [When a Model Changes, Which Conclusions Survive?](/en/posts/model-transformations/)
 5. [How a Model Becomes a Component: Wiring, Feedback, and Replacement](/en/posts/model-as-open-component/)

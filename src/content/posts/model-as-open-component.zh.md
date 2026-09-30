@@ -128,7 +128,7 @@ $$
 **模型与工程：六篇核心阅读**
 
 1. [数学怎样形成问题](/posts/mathematical-language-and-problems/)
-2. [水箱怎样成为模型](/posts/from-observation-to-model/)
+2. [模型怎样指向世界](/posts/from-observation-to-model/)
 3. [模型内部保存什么](/posts/inside-the-model/)
 4. [模型改变后，哪些结论还能保留](/posts/model-transformations/)
 5. [模型怎样成为组件](/posts/model-as-open-component/)
