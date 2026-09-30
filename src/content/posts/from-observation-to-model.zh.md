@@ -313,4 +313,4 @@ $$
 
 ---
 
-**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · **模型怎样指向世界** · [模型内部是什么](/posts/inside-the-model/) · [模型怎样改变](/posts/model-transformations/) · [模型作为开放组件](/posts/model-as-open-component/) · [从模型到工程判断](/posts/engineering-model-chain/)。后续篇次依次扩写为长文，当前链接仍指向各篇已公开版本。
+**「模型与工程」六篇：** [数学怎样形成问题](/posts/mathematical-language-and-problems/) · **模型怎样指向世界** · [模型内部是什么](/posts/inside-the-model/) · [模型怎样改变](/posts/model-transformations/) · [模型怎样进入整体](/posts/model-as-open-component/) · [从模型到工程判断](/posts/engineering-model-chain/)。后续篇次依次扩写为长文，当前链接仍指向各篇已公开版本。

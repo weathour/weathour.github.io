@@ -111,7 +111,7 @@ PATH 原型的目标识别使用过激光雷达与通信速度信息间约半秒
 2. [模型怎样指向世界](/posts/from-observation-to-model/)
 3. [模型内部是什么](/posts/inside-the-model/)
 4. [模型怎样改变](/posts/model-transformations/)
-5. [模型怎样成为组件](/posts/model-as-open-component/)
+5. [模型怎样进入整体](/posts/model-as-open-component/)
 6. [从模型到工程判断](/posts/engineering-model-chain/)
 
 延伸阅读：[一个扰动怎样穿过交通系统](/posts/traffic-disturbance-local-propagation/)，从已给定的动力系统继续追踪传播。

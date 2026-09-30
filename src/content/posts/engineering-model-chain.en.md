@@ -111,7 +111,7 @@ For PATH, reported connections and road behavior have specific objects. For our 
 2. [How Models Refer to the World](/en/posts/from-observation-to-model/)
 3. [What Is Inside a Model](/en/posts/inside-the-model/)
 4. [How Models Change](/en/posts/model-transformations/)
-5. [How a Model Becomes a Component](/en/posts/model-as-open-component/)
+5. [How Models Enter a Whole](/en/posts/model-as-open-component/)
 6. [From Models to Engineering Judgment](/en/posts/engineering-model-chain/)
 
 Further reading: [How a Disturbance Travels Through a Traffic System](/en/posts/traffic-disturbance-local-propagation/), following propagation from a specified dynamical system.
