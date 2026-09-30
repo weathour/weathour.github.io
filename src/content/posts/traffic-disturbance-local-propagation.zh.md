@@ -1,8 +1,9 @@
 ---
-title: '一个扰动怎样穿过交通系统：从频率响应到局域传播'
+title: '模型与工程·旁篇｜一个扰动怎样穿过交通系统：从频率响应到局域传播'
 postSlug: traffic-disturbance-local-propagation
 description: '从两条支路上的小扰动出发，判断传递函数何时已经足够，何时需要生成元、局域波包与多尺度传播几何，并说明 Kakeya 语言进入交通问题前还欠哪些条件。'
 published: 2026-08-31
+updated: 2026-09-30
 image: './traffic-disturbance-local-propagation/traffic-disturbance-local-propagation-cover.webp'
 tags: ['交通流', '队列控制', '调和分析', '谱分析', '波包', 'Kakeya']
 category: '工程实践'
@@ -292,7 +293,7 @@ Kakeya 型问题关心的是：在固定分辨率下，一族方向充分分离�
 
 对复杂交通流和队列控制，这条顺序给出一个可检查的研究入口。系统的生成元先确定可讨论的模式；只有在局域化误差、传播形状、方向分离与多尺度非聚集都可控时，波包与入射几何才开始工作。每一次方法升级，都要由系统自身的结构条件支付。
 
-若要回到这套分析之前的模型问题，可分别阅读[《从模型到工程系统》](/posts/engineering-model-chain/)、[《模型内部有什么》](/posts/inside-the-model/)和[《模型怎样成为组件》](/posts/model-as-open-component/)。它们说明模型如何取得工程地址、内部语义和开放边界；本文从一个已经定型并接线的动力系统继续追踪传播。
+「模型与工程」六篇核心文章分别讨论[数学表达](/posts/mathematical-language-and-problems/)、[经验建模](/posts/from-observation-to-model/)、[语义与观察](/posts/inside-the-model/)、[模型变换](/posts/model-transformations/)、[反馈中的替换](/posts/model-as-open-component/)和[工程证据](/posts/engineering-model-chain/)。本篇是传播分析的旁篇，从一个已经给定并接线的动力系统继续追踪扰动。
 
 ---
 

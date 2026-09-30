@@ -1,8 +1,9 @@
 ---
-title: 'How a Disturbance Travels Through a Traffic System: From Frequency Response to Localized Propagation'
+title: 'Models and Engineering · Companion Essay | How a Disturbance Travels Through a Traffic System: From Frequency Response to Localized Propagation'
 postSlug: traffic-disturbance-local-propagation
 description: 'Starting with small disturbances on two merging branches, this essay asks when transfer functions are enough, when generators, localized wave packets, and multiscale propagation geometry become necessary, and what a traffic problem must establish before invoking Kakeya theory.'
 published: 2026-08-31
+updated: 2026-09-30
 image: './traffic-disturbance-local-propagation/traffic-disturbance-local-propagation-cover.webp'
 tags: [traffic flow, queueing control, harmonic analysis, spectral analysis, wave packets, Kakeya]
 category: 'Engineering Practice'
@@ -292,7 +293,7 @@ Where the opening merge belongs in this hierarchy depends on whether we only est
 
 For complex traffic flow and queueing control, this sequence supplies a checkable point of entry. The system's generator first determines which modes can be discussed. Wave packets and incidence geometry begin to work only after localization error, propagation shape, directional separation, and multiscale nonconcentration are under control. The system's own structural conditions must pay for every methodological upgrade.
 
-To return to the modeling questions that precede this analysis, see [“From Model to Engineering System”](/en/posts/engineering-model-chain/), [“Inside the Model”](/en/posts/inside-the-model/), and [“How a Model Becomes a Component”](/en/posts/model-as-open-component/). They explain how a model acquires an engineering address, internal semantics, and an open boundary. This essay begins with a dynamical system that has already been specified and connected, and follows the disturbance from there.
+The six core essays in Models and Engineering discuss [mathematical formulation](/en/posts/mathematical-language-and-problems/), [empirical modeling](/en/posts/from-observation-to-model/), [semantics and observation](/en/posts/inside-the-model/), [model transformations](/en/posts/model-transformations/), [replacement in feedback](/en/posts/model-as-open-component/), and [engineering evidence](/en/posts/engineering-model-chain/). This companion essay develops propagation analysis from an already specified and connected dynamical system.
 
 ---
 
