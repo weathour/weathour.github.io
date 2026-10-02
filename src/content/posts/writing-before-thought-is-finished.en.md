@@ -2,7 +2,7 @@
 title: 'Knocking on Silence for Sound: How Thought Takes Shape in Writing'
 postSlug: writing-before-thought-is-finished
 published: 2026-08-28
-updated: 2026-09-10
+updated: 2026-10-02
 description: 'How experience takes shape in words, how materials change the criteria of judgment, and how a finished essay becomes a starting point for its writer and readers to think further.'
 image: './writing-before-thought-is-finished/writing-before-thought-is-finished-cover.webp'
 tags: [Writing, Thought, Reading, Lu Xun, Chinese Prose, Article Structure]
@@ -19,9 +19,9 @@ This essay was finished once before.
 
 At the time, it was called “Writing Happens While Thought Is Unfinished.” It began with six parallel notes and discussed how materials connect, how sections are ordered, how sentences clarify relations, and finally how a writer revises in response to a trial reading. Each part had its reasons and addressed a real difficulty in writing. Yet the question most worth asking in that title remained insufficiently developed: amid all these arrangements, what actually happens to thought?
 
-A set of materials is hard to understand; rearranging it makes it easier. A judgment is crude; in writing it out, the author discovers that the very thing they want to say has changed. These are two changes that may affect each other. The old essay spent considerable space explaining the first. The second often passed by in a phrase such as “content continues to emerge.”
+Rearranging the same materials can make them easier to understand. Writing out a rough judgment can also change the question itself. The first change makes an existing understanding easier to convey; the second reaches the understanding itself. The two can affect each other, but the old essay devoted much of its space to the first. When it reached the second, it often passed over it with a phrase such as “content continues to emerge.”
 
-The essay had taken shape, but the understanding had not been developed to match it. Patching its transitions would make it look more like a finished piece. Rereading its already fluent sentences called instead for a moment of hesitation: what did they make clear, and what did they allow to go unquestioned?
+The essay was complete, but it had not fully addressed the question in its title. Repairing a few transitions would make it read more smoothly. Yet the smoothest passages were precisely where it was worth pausing: what had these sentences explained, and which questions had they carried us past?
 
 ## The Mind Roams with Things — Wenxin Diaolong, “Imaginative Thought”
 
@@ -35,11 +35,11 @@ This shortfall may mean that expressive skill cannot keep up with an existing un
 
 Liu Xie attends to both the passage and the obstruction between intention, thought, and words. He also draws on the making of cloth from hemp, with loom and shuttle, to describe the work of giving writing form. The material is already there; what it becomes also depends on its making. In our own writing, choices of wording leave traces we can return to. An “always” that seemed entirely right yesterday may have to be reconsidered today in the light of another piece of evidence.
 
-The thing itself has not necessarily changed. What changes is how the writer understands it and how the reasons within that understanding relate to one another. A theorem already proved may keep its conclusion throughout an explanation. Yet explaining why a particular assumption is necessary may change the writer’s understanding of the proof’s structure. They knew the result before; now they can also explain why the argument fails without that condition. Established knowledge provides a basis for further understanding.
+Rereading these sentences, a writer may find that the thing itself remains as it was, while their understanding has changed. A previously overlooked condition now matters, and several reasons need to be compared again. A theorem already proved may keep its conclusion throughout an explanation. Yet explaining why a particular assumption is necessary may change the writer’s understanding of the proof’s structure. They knew the result before; now they can also explain why the argument fails without that condition. Established knowledge provides a basis for further understanding.
 
-Writing can therefore begin with different degrees of certainty. We may bring known facts, or a question worth clarifying. Words give some part of this material a shape that the next act of thought can encounter. Once a sentence is on the page, its author may notice a distinction: when I call this person “weak,” do I mean that they dare not act, or that they refuse to do what I expect? A single word had covered willingness, ability, and the expectations of the person passing judgment. Now those relations begin to separate.
+Writing can therefore begin with different degrees of certainty. We may bring known facts, or a question worth clarifying. Words give some part of this material a shape that the next act of thought can encounter. Once a sentence is on the page, its author may notice a distinction: when I call this person “weak,” do I mean that they dare not act, or that they refuse to do what I expect? The word “weak” may have mixed a description of someone’s actions with the expectations of the person judging them.
 
-Such distinctions can change the choice of materials. Actions previously placed in one category need to be compared again. An instance of persistence that was left out may start to matter. The word has supplied no facts on its own, but it has helped the writer see how they were organizing the facts. The new understanding must find support in the materials and then return to the sentence.
+Such distinctions can change the choice of materials. Actions previously placed in one category need to be compared again. An instance of persistence that was left out may start to matter. A word cannot supply facts for the writer, but it can reveal how they have grouped and judged those facts. If the materials support this new distinction, the sentence needs to change accordingly. If they do not, the writer must reconsider the understanding they have just reached.
 
 There is also pleasure in this movement. A metaphor lets two distant things illuminate each other. A way of naming gives scattered experiences something in common that can be discussed. A description gives a particular color to a feeling previously called only “sadness.” The discovery need not always be a refutation. Sometimes it is here that something worth writing about first appears.
 
@@ -57,21 +57,21 @@ So he says, “It’s nothing. Keep going!”
 
 The puller does not continue the journey. He lowers the rickshaw, helps the woman up, and asks what has happened. “I’ve hurt myself,” she answers. The narrator thinks she is putting on an act and that the puller is asking for trouble. The puller continues to support her as they walk toward the door of the police station.
 
-The story does not establish that the narrator was right about her being unhurt. Nor does it give the puller a moral speech. One person has reached a judgment; another continues to act according to a different set of relations. By asking the woman, the puller brings her own answer into the incident. The narrator’s judgment had seemed easy to close. The action before him prevents that closure.
+The story does not establish that the narrator was right about her being unhurt. Nor does it give the puller a moral speech. The narrator has already decided what to make of the incident, while the puller is still asking questions and helping the woman forward. Her own answer is heard. The narrator had thought the matter was clear and that he could continue his journey; the action before him makes that judgment less secure.
 
 Then the dust-covered back of the departing man seems to grow taller. The narrator has to look up at it. It becomes an oppressive presence, as if it would “squeeze out the ‘smallness’ hidden beneath my fur robe.”
 
-At the beginning there is a “small incident.” Here, “smallness” appears beneath the robe. The first concerns the incident’s weight among great affairs; the second concerns the person accustomed to judging others. The puller keeps walking, but the narrator’s way of looking at him has changed. The man who measured others by the needs of his own journey and decided their interests for them now feels that the incident has exposed something in himself.
+At the beginning there is a “small incident.” Here, “smallness” appears beneath the robe. The first “small” concerns the incident’s weight among great affairs; the second falls upon the narrator, who is accustomed to judging others. The puller keeps walking, but the narrator sees him differently. The man who measured others by the needs of his own journey and decided their interests for them now feels that the incident has exposed something in himself.
 
 If the story ended here, we could certainly say that the puller’s conduct had made the narrator ashamed. It goes a step further.
 
 A policeman comes out and tells him to hire another rickshaw: this puller cannot take him any farther. The narrator takes out a large handful of copper coins and asks the policeman to pass them on. After leaving, he asks himself what the money means. “Was I rewarding him? Could I still sit in judgment on the puller?”
 
-These two questions give further meaning to the earlier tallness and smallness. The narrator can praise the puller and give him money. Yet either gesture may leave him occupying the position of someone entitled to assess and reward another person. The puller has made him ashamed, but responding has not thereby become simple. His original judgment is in trouble; even the stance from which he might make his next judgment has become a question.
+These two questions give further meaning to the earlier tallness and smallness. The narrator can praise the puller and give him money. Yet either gesture may leave him occupying the position of someone entitled to assess and reward another person. The puller has made him ashamed, but responding has not thereby become simple. How he previously judged the puller has become a problem. As he now considers praising or rewarding him, he also has to ask what entitles him to make that judgment.
 
 The money’s meaning remains unsettled. It is handed to the policeman; the story does not say whether the puller eventually receives it or how he accepts it. The narrator has acted, but the action cannot easily settle his questions about himself. The reader encounters something beyond a reversal from disapproval to praise.
 
-At first, the narrator thinks he knows what the puller should do. Then he sees the puller do something else. Later, he begins to ask what made him so certain in the first place. What he is trying to understand comes to include his own position as the person who judges. Something has happened to him, changing how he looks back on what happened.
+From urging the puller to keep going, to watching him help the woman away, to handing over the coins, the narrator repeatedly confronts his own judgment. He had thought he knew what the puller should do. Looking back now, he must also examine that earlier certainty.
 
 The change continues into the present of the telling. The ending speaks of shame and self-renewal, but also of courage and hope. Unanswered questions have not deprived the incident of meaning. The very things that resist an easy answer keep it worth remembering.
 
@@ -109,7 +109,7 @@ Words and sentences make local relations visible. The whole work lets the same w
 
 The opening of “A Small Incident” already tells us that the incident changed the narrator and remains unforgettable. We know that a change is coming. Knowing the outcome, however, is not the same as understanding the change. We still need to read how he assumes the woman is unhurt, resents the puller’s interference, sees the departing figure, and takes out the coins without being able to answer himself.
 
-The story’s order therefore serves more than suspense. It gives readers enough relations to understand the effect announced at the beginning. The “small incident” first stands beside great national affairs, then enters the passenger’s calculation of what matters, later exposes the “smallness” beneath the robe, and finally endures in memory. These instances of large and small concern different things. They cannot be treated as repetitions of a single meaning; within the work, they illuminate one another.
+The story’s order therefore serves more than suspense. It gives readers enough relations to understand the effect announced at the beginning. The “small incident” first stands beside great national affairs, then enters the passenger’s calculation of what matters, later exposes the “smallness” beneath the robe, and finally endures in memory. The words for large and small recur, but what they refer to changes: first the incident’s importance, then the narrator’s regard for himself, and finally its lasting effect. The earlier and later passages answer one another, allowing the meaning to deepen.
 
 The time of the event also meets the time of its telling. The narrator then did not answer himself; the narrator telling the story later is still moved by it. The ending preserves a continuing relation: remembering may bring greater clarity and still requires him to think about himself. Without this dimension, the incident could easily become an education already completed. Without courage and hope, it would become a story of shame alone.
 
@@ -127,7 +127,7 @@ The reasons for an essay’s organization should be sought in its subject. How d
 
 ## Follow the Current to Its Source — Lu Ji, Wen Fu
 
-Once writing has established some relations, those relations influence how the writer looks for more material.
+By this point, wording and organization have helped the writer distinguish new questions. Returning to books and other materials with those questions, they may notice things they had previously overlooked.
 
 Someone preparing to argue that a person always gives way will readily notice scenes of yielding. The more they find, the more reliable the judgment appears. Yet a crucial scene may show that the person yields where others expect firmness while standing resolutely by something those others scarcely value. The writer must then distinguish a claim about the frequency of an action from a verdict on character already carried by the word “yielding.”
 
@@ -139,7 +139,7 @@ In his discussion of experience in the Introduction to the *Phenomenology of Spi
 
 The old version of this essay chiefly understood “writing well” as establishing relations among materials and enabling readers to acquire those relations in sequence. By that measure, revision naturally concentrated on supplying premises, adjusting order, and making each section take up what the previous one had left it. This preserved important demands, but it did not adequately explain how thought takes shape. The shortfall can be found between the essay’s own title and its body.
 
-If the difficulty continues to be called “poor transitions,” revision will keep working by the same measure. Trying harder to explain how thought forms may then produce only more instructions about what should come next. What needs to change includes the essay’s understanding of its object: writing also helps questions, concepts, and relations of judgment acquire content. Techniques of organization need a place within that account; they cannot supply the whole explanation.
+If the difficulty continues to be called “poor transitions,” revision will keep working by the same measure. Trying harder to explain how thought forms may then produce only more instructions about what should come next. To explain this fully, we must ask again how an essay makes a question clearer, gives a concept uses that can be compared, and changes the criteria by which something was previously judged. The arrangement of materials and sections participates in these changes; its role needs to be explained within that account.
 
 The new criterion must be tested too. If rewriting merely adds philosophical names while leaving the relations unexplained, a larger theoretical vocabulary cannot establish greater depth. If it helps us distinguish how materials change a concept, how a sentence anticipates a judgment, or how a reader’s objection reaches the way a question is framed, something has been gained. Accuracy and coherence, preserved by the old criterion, remain useful. They help these insights become a readable essay.
 
@@ -151,7 +151,7 @@ This contact with the materials gives imagination and abstraction somewhere to w
 
 ## Together We Examine Doubtful Meanings — Tao Yuanming, “Moving House,” I
 
-When we write for someone else, we have to consider where they will enter.
+Writers test their understanding against materials. Once an essay reaches someone else, it encounters another kind of test: how will that person understand it, and what questions will they bring?
 
 Some background must be explained; some terms can become intelligible through use. Sometimes an early conclusion tells readers why the essay is worth their time. Sometimes an experience needs room to unfold before a conclusion can avoid flattening it. The writer’s arrangements help readers acquire what they need to judge.
 
@@ -167,9 +167,9 @@ This calls for taking readers seriously. Accessible language can put complex rel
 
 There is also a responsibility in guiding understanding. The more powerful an explanation, the more it may affect how people understand themselves and others. If a writer calls a person’s difficulty a defect of character, readers may use that account to blame themselves. If the relations within the difficulty are explained, the range of possible actions may change. The essay must answer for the grounds and scope of these judgments and acknowledge that the people concerned may bring knowledge the author lacks.
 
-An essay that seeks agreement by giving reasons has already made its judgment available for examination. If a reader brings relevant material, the author needs to explain whether it changes the original judgment. If the reader advances a different demand about what ought to matter, both sides need to identify the reasons on which their disagreement rests. This gives the reader’s standing to respond a basis. The author may hold to a well-grounded conclusion; what they uphold should be able to withstand the same questioning.
+When an author offers reasons and asks readers to trust a judgment, readers have grounds for questioning those reasons. If a reader brings relevant material, the author needs to explain whether it changes the original judgment. If the reader advances a different demand about what ought to matter, both sides need to identify the reasons on which their disagreement rests. An essay that asks readers to examine its reasons should also take their reasons seriously. The author may maintain a well-grounded conclusion, while still explaining why it withstands those questions.
 
-Writers and readers need not have equal knowledge. In an explanation, the writer may know the key to a proof while the reader is learning it. In criticism, the writer may know more versions of a work and more of its details. The difference makes explanation necessary. Setting out the reasons also lets the reader gradually examine them, perhaps eventually taking a new question beyond the original explanation. Expertise can continue to matter through such use.
+Taking readers seriously does not require writers and readers to know equally much. In an explanation, the writer may know the key to a proof while the reader is learning it. In criticism, the writer may know more versions of a work and more of its details. The difference makes explanation necessary. Setting out the reasons also lets the reader gradually examine them, perhaps eventually taking a new question beyond the original explanation. Expertise can continue to matter through such use.
 
 What writing offers includes the possibility of judging further. Accurate restatement is one achievement. Recognizing the original relations in another situation and knowing where fresh evidence is needed takes the understanding further. If a long essay leaves its reader with only a few beautiful conclusions and no way of approaching what it explains, the power of its words has not been fully passed on.
 
@@ -187,7 +187,7 @@ These conditions have histories. One rule was devised for an essay whose structu
 
 Writing therefore includes rereading what it leaves behind. We return to a judgment to ask both whether its wording is accurate and what it originally answered, then what it was later used to do. A sentence describing a limited relation takes on a different task when excerpted as a universal conclusion. Writers can revise, explain, and supply its history; readers can ask them to do so.
 
-When writing with AI, this continuation deserves particular attention. If the same explanation enters the outline, draft, and subsequent evaluation, those texts can readily agree with one another. Their agreement shows that they have worked with similar assumptions and definitions. We still need to return to the works, sources, and actual questions to test those assumptions and definitions themselves. Collaboration can help find materials, compare formulations, and identify counterexamples. These activities need to keep the object’s relations entering the prose.
+When writing with AI, this continuation deserves particular attention. If the same explanation enters the outline, draft, and subsequent evaluation, those texts can readily agree with one another. Their agreement shows that they have worked with similar assumptions and definitions. We still need to return to the works, sources, and actual questions to test those assumptions and definitions themselves. Collaboration can help find materials, compare formulations, and identify counterexamples. The materials and counterexamples they bring should let the original explanation be tested, rather than merely furnish it with smoother sentences.
 
 For a writer, owning a passage matters too. “I think” takes responsibility for a judgment. “We all know” also invokes shared knowledge or a shared position. Who belongs to that “we,” and who can disagree, may become clearer only when other people take up the essay. The speaker’s position takes on content within these relations as well.
 
