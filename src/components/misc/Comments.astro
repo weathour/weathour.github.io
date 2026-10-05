@@ -1,0 +1,58 @@
+---
+import type { SiteLocale } from "@i18n/locale";
+import { commentsConfig } from "@/config";
+
+interface Props {
+	slug: string;
+	locale: SiteLocale;
+}
+
+const { slug, locale } = Astro.props;
+const english = locale === "en";
+const term = `posts/${slug}`;
+const discussionUrl = `https://github.com/${commentsConfig.repo}/discussions?discussions_q=${encodeURIComponent(term)}`;
+---
+
+<section id="comments" aria-labelledby="comments-heading" data-pagefind-ignore
+    class="card-base mb-4 px-6 md:px-9 py-6">
+    <h2 id="comments-heading" class="text-xl font-bold text-black/90 dark:text-white/90 mb-2">
+        {english ? "Comments" : "评论"}
+    </h2>
+    <p class="text-sm text-black/75 dark:text-white/75 mb-5">
+        {english ? "Sign in with GitHub to join the discussion." : "登录 GitHub 即可参与讨论。"}
+        <a href={discussionUrl} target="_blank" rel="noopener noreferrer" class="link ml-2">
+            {english ? "View on GitHub" : "在 GitHub 查看"}
+        </a>
+    </p>
+    <giscus-widget id="post-comments" repo={commentsConfig.repo} repoid={commentsConfig.repoId}
+        category={commentsConfig.category} categoryid={commentsConfig.categoryId}
+        mapping="specific" term={term} strict="1" reactionsenabled="1"
+        emitmetadata="0" inputposition="top" theme="light"
+        lang={english ? "en" : "zh-CN"} loading="lazy"></giscus-widget>
+    <noscript>{english ? "Use the GitHub link above to read and leave comments." : "请通过上方 GitHub 链接查看和发表评论。"}</noscript>
+</section>
+
+<script>
+import "giscus";
+
+function syncTheme() {
+	const widget = document.querySelector("giscus-widget");
+	widget?.setAttribute(
+		"theme",
+		document.documentElement.classList.contains("dark") ? "dark" : "light",
+	);
+}
+
+new MutationObserver(syncTheme).observe(document.documentElement, {
+	attributes: true,
+	attributeFilter: ["class"],
+});
+
+function setupNavigation() {
+	window.swup.hooks.on("page:view", syncTheme);
+}
+
+if (window.swup?.hooks) setupNavigation();
+else document.addEventListener("swup:enable", setupNavigation, { once: true });
+syncTheme();
+</script>

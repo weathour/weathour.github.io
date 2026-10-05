@@ -7,6 +7,13 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
+export const commentsConfig = {
+	repo: "weathour/weathour.github.io",
+	repoId: "R_kgDOR4gXAQ",
+	category: "Announcements",
+	categoryId: "DIC_kwDOR4gXAc4DHF5s",
+};
+
 export const siteConfig: SiteConfig = {
 	title: "Weathour",
 	subtitle: "博士生 · 研究者 · 开发者 | PhD Student · Researcher · Developer",

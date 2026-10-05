@@ -1,5 +1,6 @@
 ---
 import path from "node:path";
+import Comments from "@components/misc/Comments.astro";
 import License from "@components/misc/License.astro";
 import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "@i18n/i18nKey";
@@ -102,6 +103,8 @@ const jsonLd = {
             {licenseConfig.enable && <License title={entry.data.title} slug={entry.data.postSlug} pubDate={entry.data.published} locale={locale} class="mb-6 rounded-xl license-container onload-animation"></License>}
         </div>
     </div>
+
+    <Comments slug={entry.data.postSlug} locale={locale} />
 
     <div class="flex flex-col md:flex-row justify-between mb-4 gap-4 overflow-hidden w-full">
         <a href={entry.data.nextSlug ? getPostUrlBySlug(entry.data.nextSlug, locale) : "#"}
